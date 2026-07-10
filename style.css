@@ -175,10 +175,20 @@ a.pub-cited:hover{ background: var(--accent); color: #fff; }
 .pub-citation a:hover{ color: var(--accent); border-bottom-color: var(--accent); }
 
 .pub-actions{ display:flex; flex-wrap: wrap; gap: .5em; align-items: flex-start; }
-/* an open expandable panel takes the full row so it drops below the buttons
-   instead of squeezing between them (and stretching siblings vertically) */
+/* NO-JS fallback: an open expandable panel takes the full row so it drops below the
+   buttons instead of squeezing between them (and stretching siblings vertically) */
 .pub-actions > details.pub-details[open]{ flex-basis: 100%; }
 .pub-actions > details.pub-details[open] .pub-panel{ width: 100%; }
+
+/* JS-enhanced: panels are relocated into a full-width holder below the button row,
+   so every button stays put in one aligned row and the panel drops underneath.
+   The triggering button is painted maroon to show which panel is open. */
+.js-panels .pub-actions > details.pub-details[open]{ flex-basis: auto; }
+.js-panels .pub-details[open] > summary.pub-action-btn{
+  background: var(--accent); color: #fff; border-color: var(--accent);
+}
+.pub-panels{ width: 100%; }
+.pub-panels > .pub-panel{ margin-top: .5em; }
 
 .pub-action, .pub-action-btn{
   display:inline-block;

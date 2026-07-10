@@ -5,7 +5,9 @@
   if (!list) return;
   var items = Array.prototype.slice.call(list.querySelectorAll(".pub-item"));
   var searchInput = document.getElementById("pub-search");
-  var typeButtons = Array.prototype.slice.call(document.querySelectorAll(".type-filter"));
+  // only real type filters — NOT the ★ Highlighted toggle or the sort pills,
+  // which also carry .type-filter for styling but have no data-type-filter
+  var typeButtons = Array.prototype.slice.call(document.querySelectorAll(".type-filter[data-type-filter]"));
   var countEl = document.getElementById("results-count");
   var noResults = document.getElementById("no-results");
   var featuredBtn = document.querySelector("[data-featured-filter]");
@@ -286,14 +288,42 @@
     searchInput.focus();
   });
 
-  // Close other open <details> panels within the same item when one opens (keep UI tidy)
-  list.addEventListener("toggle", function (e) {
-    if (e.target.tagName !== "DETAILS") return;
-    if (!e.target.open) return;
-    var parent = e.target.closest(".pub-item");
-    if (!parent) return;
-    parent.querySelectorAll("details.pub-details").forEach(function (d) {
-      if (d !== e.target) d.open = false;
+  // --- Expandable panels: keep the button row aligned, drop the panel below it ---
+  // Progressive enhancement: move each panel out of its <details> into a full-width
+  // holder placed after the button row. The triggering button stays in place (and is
+  // highlighted via CSS on [open]); the panel appears below the whole row, clearly
+  // associated, without pushing the other buttons around. Works the same on mobile.
+  // With JS off, the native <details> still expand inline, so nothing is lost.
+  items.forEach(function (item) {
+    var actions = item.querySelector(".pub-actions");
+    if (!actions) return;
+    var holder = document.createElement("div");
+    holder.className = "pub-panels";
+    actions.parentNode.insertBefore(holder, actions.nextSibling);
+    Array.prototype.forEach.call(actions.querySelectorAll("details.pub-details"), function (d) {
+      var panel = d.querySelector(".pub-panel");
+      if (!panel) return;
+      d._panel = panel;
+      panel.hidden = !d.open;
+      holder.appendChild(panel);
     });
+  });
+  list.classList.add("js-panels");
+
+  // Drive the relocated panels from each <details>'s open/close state, and keep only
+  // one panel open per entry.
+  list.addEventListener("toggle", function (e) {
+    var d = e.target;
+    if (d.tagName !== "DETAILS" || !d.classList.contains("pub-details")) return;
+    var parent = d.closest(".pub-item");
+    if (!parent) return;
+    if (d.open) {
+      parent.querySelectorAll("details.pub-details").forEach(function (o) {
+        if (o !== d && o.open) o.open = false;
+      });
+      if (d._panel) d._panel.hidden = false;
+    } else if (d._panel) {
+      d._panel.hidden = true;
+    }
   }, true);
 })();
