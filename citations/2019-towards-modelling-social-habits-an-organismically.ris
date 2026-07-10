@@ -1,0 +1,22 @@
+TY  - CPAPER
+AU  - Bedia, Manuel G.
+AU  - Heras-Escribano, Manuel
+AU  - Cajal, Diego
+AU  - Aguilera, Miguel
+AU  - Barandiaran, Xabier E.
+ED  - Fellermann, H.
+ED  - Bacardit, Jaume
+ED  - Goñi-Moreno, Angel
+ED  - Füchslim, Rudolf H.
+PY  - 2019
+DA  - 2019-07-01
+TI  - Towards modelling social habits: an organismically inspired evolutionary robotics approach
+T2  - Proceedings of ALIFE 2019: The 2019 Conference on Artificial Life
+SP  - 341
+EP  - 348
+PB  - MIT Press
+SN  - 10.1162/isal_a_00185
+DO  - 10.1162/isal_a_00185
+UR  - https://direct.mit.edu/isal/proceedings-abstract/isal2019/31/341/99197
+AB  - Abstract. There has been a revival of the notion of habit in the embodied and situated cognitive sciences. A habit can be understood as ‘a self-sustaining pattern of sensorimotor coordination that is formed when the stability of a particular mode of sensorimotor engagement is dynamically coupled with the stability of the mechanisms generating it’ (Barandiaran, 2008, p. 281). This view has inspired models of biologically-inspired homeostatic agents capable of establishing their own habits (Di Paolo and Iizuka, 2008). Despite recent achievements in this field, there is little written about how social habits can be established from this modelling perspective. We hypothesize that, when the stability of internal behavioural mechanisms is coupled to the stability of a behaviour and other agents are present during this behaviour, a social interdependence of behaviour takes place: a social habit is established. We provide evidence for our hypothesis with an evolutionary robotics simulation model of homeostatic plasticity in a phototactic behaviour. Agents evolved to couple internal homeostasis to behavioural fitness display social interdependencies in their behaviour. The social habit of these agents was not interrupted when blindness to phototactic stimuli was introduced as long as social perception remained active. This did not happen when internal homeostasis was not coupled to the fitness of the agent. The results allow us to propose a possible conjecture about the character of social habits and to offer a potential theoretical framework to understand how habits develop from neurodynamics to the level of social interaction.
+ER  - 

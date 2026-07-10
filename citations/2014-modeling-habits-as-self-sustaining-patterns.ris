@@ -1,0 +1,21 @@
+TY  - JOUR
+AU  - Egbert, Matthew D.
+AU  - Barandiaran, Xabier E.
+PY  - 2014
+DA  - 2014
+TI  - Modeling habits as self-sustaining patterns of sensorimotor behavior
+T2  - Frontiers in Human Neuroscience
+VL  - 8
+SP  - 590
+DO  - 10.3389/fnhum.2014.00590
+UR  - http://journal.frontiersin.org/Journal/10.3389/fnhum.2014.00590/full
+AB  - In the recent history of psychology and cognitive neuroscience, the notion of habit has been reduced to a stimulus-triggered response probability correlation. In this paper we use a computational model to present an alternative theoretical view (with some philosophical implications), where habits are seen as self-maintaining patterns of behavior that share properties in common with self-maintaining biological processes, and that inhabit a complex ecological context, including the presence and influence of other habits. Far from mechanical automatisms, this organismic and self-organizing concept of habit can overcome the dominating atomistic and statistical conceptions, and the high temporal resolution effects of situatedness, embodiment and sensorimotor loops emerge as playing a more central, subtle and complex role in the organization of behavior. The model is based on a novel “iterant deformable sensorimotor medium (IDSM),” designed such that trajectories taken through sensorimotor-space increase the likelihood that in the future, similar trajectories will be taken. We couple the IDSM to sensors and motors of a simulated robot, and show that under certain conditions, the IDSM conditions, the IDSM forms self-maintaining patterns of activity that operate across the IDSM, the robot's body, and the environment. We present various environments and the resulting habits that form in them. The model acts as an abstraction of habits at a much needed sensorimotor “meso-scale” between microscopic neuron-based models and macroscopic descriptions of behavior. Finally, we discuss how this model and extensions of it can help us understand aspects of behavioral self-organization, historicity and autonomy that remain out of the scope of contemporary representationalist frameworks.
+KW  - Habits
+KW  - sensorimotor
+KW  - mental life
+KW  - mental-life
+KW  - meso-scale modeling
+KW  - meso-scale modelling
+KW  - self-maintaining patterns of behavior
+KW  - self-maintaining patterns-of-behavior
+ER  - 

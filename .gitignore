@@ -1,0 +1,10 @@
+# not part of the published site
+new-PDF/
+_backup-*/
+.DS_Store
+Thumbs.db
+
+# private project docs - keep out of the public repo
+SITE-SPEC.md
+DEPLOYMENT.md
+private/

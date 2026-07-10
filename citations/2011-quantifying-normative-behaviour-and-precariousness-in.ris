@@ -1,0 +1,19 @@
+TY  - CPAPER
+AU  - Egbert, Matthew D.
+AU  - Barandiaran, Xabier E.
+ED  - Lenaerts, T.
+ED  - Giacobini, M.
+ED  - Bersini, Hugues
+ED  - Bourgine, Paul
+ED  - Dorigo, M.
+ED  - Doursat, René
+PY  - 2011
+DA  - 2011
+TI  - Quantifying Normative Behaviour and Precariousness in Adaptive Agency
+T2  - Proceedings of the 11th European Conference on Artificial Life
+SP  - 210
+EP  - 218
+PB  - MIT Press
+SN  - 978-0-262-29714-1
+AB  - An essential feature of autonomous adaptive agency is that a system behaves according to an intrinsic norm. In this paper, we illustrate and clarify this notion of “behavior according to an intrinsic norm” with a minimalistic model of agency. We present a minimal metabolic system whose auto-catalytic dynamics define a viability region for different concentrations of available resource or ‘food’ molecules. We initially consider the availability of food as a control parameter for metabolic dynamics. A bifurcation diagram shows that for fixed values of available food, there exists a viability region. This region has an non-zero stable equilibrium and a lower boundary that takes the form of an unstable equilibrium—below which, the tendency of the system is towards “death”, a stable equilibrium with a zero concentration of metabolites. We define the viability region as that in which the system tends toward the “living” stable-equilibrium. Outside of this region, in the precarious region, the system may live for some time but will eventually die if the food concentration does not change. With a precise definition of system-determined death, living, precarious and viable regions we move on to reconsider the available concentration of resources ([F]), not as a free parameter of the system but as modulated by organismic behaviour. By coupling the metabolism to a behavioural mechanism, we simulate a stochastic, up-resource gradient climbing behaviour. As a result, the effect of behaviour on the viability space can be mapped and quantified. This lets us move closer to defining adaptive action more precisely as that course of behaviour whose effect is in accordance with an intrinsic normative field.
+ER  - 

@@ -1,0 +1,14 @@
+TY  - CPAPER
+AU  - Egbert, Matthew D.
+AU  - Di Paolo, Ezequiel A.
+AU  - Barandiaran, Xabier E.
+PY  - 2009
+DA  - 2009
+TI  - Chemo-ethology of an adaptive protocell: Sensor-less sensitivity to implicit viability conditions
+T2  - Proceedings of the Ninth European Conference on Artificial Life
+SP  - 242
+EP  - 249
+PB  - Springer Verlag
+CY  - Berlin
+AB  - The viability of a living system is a non-trivial concept, yet it is often highly simplified in models of adaptive behavior. What is lost in this abstraction? How do viability conditions appear in the first place? In order to address these questions we present a new model of an au- topoietic or protocellular system simulated at the molecular level. We propose a measurement for the viability of the system and analyze the ‘viability condition’ that becomes evident when using this measurement. We observe how the system behaves in relation to this condition, generating instances of chemotaxis, behavioural preferences and simple (yet not trivial) examples of action selection. The model permits the formulation of a number of conclusions regarding the nature of viability conditions and adaptive behaviour modulated by metabolic processes.
+ER  - 
