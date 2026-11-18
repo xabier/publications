@@ -195,13 +195,13 @@ def build_record(e, rec, node):
         authors = [{"literal": node["author"]}]
     doi = f(rec, "DOI") or e["doi"]
     url = f(rec, "Url") or (f"https://doi.org/{doi}" if doi else node.get("url", ""))
-    abstract = squash(strip_tags(e["abstract_html"])) or f(rec, "Abstract Note") \
+    abstract = e.get("abstract") or squash(strip_tags(e["abstract_html"])) or f(rec, "Abstract Note") \
         or node.get("description", "")
     date = f(rec, "Date") or e["year"]
     lang = LANG.get(f(rec, "Language").lower(), "")
     cit_plain, cit_md = citation_text(e["citation_html"])
     links = {"landing": page, "markdown": page + "index.md", "json": page + "index.json"}
-    for k in ("pdf", "html", "txt", "audio", "podcast"):
+    for k in ("pdf", "postprint", "html", "txt", "audio", "podcast"):
         if k in e["links"]:
             links[k] = f"{BASE}/{e['links'][k]}"
     for k, ext in (("bibtex", "bib"), ("ris", "ris")):
@@ -325,7 +325,7 @@ def jsonld(r):
     elif r["url"]:
         node["sameAs"] = r["url"]
     media = []
-    for k, fmt in (("pdf", "application/pdf"), ("html", "text/html"), ("txt", "text/plain"),
+    for k, fmt in (("pdf", "application/pdf"), ("postprint", "application/pdf"), ("html", "text/html"), ("txt", "text/plain"),
                    ("audio", "audio/mp4"), ("podcast", "audio/mp4")):
         if k in r["links"]:
             media.append({"@type": "MediaObject", "contentUrl": r["links"][k], "encodingFormat": fmt})
@@ -456,6 +456,10 @@ def resource_index(r):
         tiles.append(("Read", "Preprint PDF" if r["_is_preprint_pdf"] else "Full PDF",
                       " · ".join(x for x in ("Preprint" if r["_is_preprint_pdf"] else "Full text",
                                               fsize(L["pdf"])) if x), "../../" + L["pdf"], True))
+    if "postprint" in L:
+        tiles.append(("Read", "Improved postprint",
+                      " · ".join(x for x in ("Revised version", fsize(L["postprint"])) if x),
+                      "../../" + L["postprint"], True))
     if "html" in L:
         tiles.append(("Read", "Web version", "Full text as a web page", "../../" + L["html"], True))
     if "txt" in L:
@@ -676,7 +680,7 @@ def render_md(r, bibtex=None, full=True, heading="#"):
         L.append("- **Highlighted:** yes (one of the author’s featured publications)")
     L.append(f"- **Landing page:** {r['id']}")
     ft = [f"[{lab}]({r['links'][k]})" for k, lab in
-          (("pdf", "PDF"), ("html", "HTML"), ("txt", "plain text"))
+          (("pdf", "PDF"), ("postprint", "improved postprint (PDF)"), ("html", "HTML"), ("txt", "plain text"))
           if k in r["links"]]
     if ft:
         L.append(f"- **Open full text:** {' · '.join(ft)}")

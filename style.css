@@ -589,3 +589,12 @@ a.res:hover .res-name{ color: var(--accent); }
 /* jump-link anchors (decades, renamed slugs) take no space in the layout */
 .old-anchor{ position: absolute; width: 0; height: 0; overflow: hidden; }
 .year-group{ position: relative; }
+/* year column: heading + "↑ Top" */
+.year-side{ flex: 0 0 110px; }
+.year-side .year-head{ flex: none; }
+.to-top{ display: inline-block; margin-top: .9em; font-size: .75rem; color: var(--text-light); border-bottom: 1px dotted #c3bcbc; }
+.to-top:hover{ color: var(--accent); border-bottom-color: var(--accent); }
+@media (max-width: 600px){
+  .year-side{ flex-basis: 100%; display: flex; align-items: baseline; justify-content: space-between; }
+  .to-top{ margin-top: 0; }
+}

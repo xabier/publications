@@ -114,6 +114,9 @@
    "txt": "txt/barandiaran-2026-organizational-accounts-malfunction.txt",
    "audio": "audio/2026-organizational-accounts-of-malfunction-the-dual.m4b",
    "podcast": "podcasts/barandiaran-organizational-account-malfunction.m4a"
+  },
+  "62DGAE77": {
+   "postprint": "pdfs/2025-emergence-and-autonomous-agency-postprint.pdf"
   }
  },
  "talks": {
@@ -301,5 +304,6 @@
    ]
   }
  ],
- "_topics_about": "Topic shortcuts on the homepage. An item belongs to a topic when any term appears (lower-case substring) in its title, keywords, topics or abstract."
+ "_topics_about": "Topic shortcuts on the homepage. An item belongs to a topic when any term appears (lower-case substring) in its title, keywords, topics or abstract.",
+ "_abstracts_about": "An abstract in data/abstracts/{ZoteroKey}.txt replaces the one from Zotero (e.g. a revised postprint's abstract)."
 }

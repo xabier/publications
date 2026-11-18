@@ -47,6 +47,7 @@ ITALIC_TITLE = {"book", "report", "thesis", "preprint", "document"}
 MEDIA = [  # (kind, label, tooltip)
     ("html", "HTML", "Read the full text as a web page (new tab)"),
     ("pdf", "Full PDF", "Open the full PDF (new tab)"),
+    ("postprint", "Postprint", "Revised postprint: improved version of the published paper (PDF, new tab)"),
     ("txt", "Text", "Plain text adapted for text-to-speech / screen readers"),
     ("audio", "Audio", "Audio narration of the full paper (M4B)"),
     ("podcast", "Podcast", "Podcast summary (M4A)"),
@@ -189,6 +190,12 @@ def coins_row(r, kws):
     return row
 
 
+def override_abstract(key):
+    """data/abstracts/{ZoteroKey}.txt replaces Zotero's abstract (e.g. a revised postprint's)."""
+    p = os.path.join(DATA, "abstracts", f"{key}.txt")
+    return open(p, encoding="utf-8").read().strip() if os.path.exists(p) else ""
+
+
 def topic_id(label):
     return re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
 
@@ -254,7 +261,7 @@ def entry_html(r, e):
 
 
 def card_html(r, e):
-    bits = [lab for k, lab in (("pdf", "PDF"), ("html", "HTML")) if k in e["links"]]
+    bits = [lab for k, lab in (("pdf", "PDF"), ("postprint", "Postprint"), ("html", "HTML")) if k in e["links"]]
     if e["summary_html"]:
         bits.append("Summary")
     bits += [lab for k, lab in (("audio", "Audio"), ("podcast", "Podcast")) if k in e["links"]]
@@ -325,9 +332,10 @@ def main_html(entries, site):
         items = groups[y]
         anchor = f'<span id="d{first_of[y]}" class="old-anchor"></span>' if y in first_of else ""
         c = len(items)
+        top = '' if y == order[0] else '<a class="to-top" href="#top">↑ Top</a>'
         secs.append(f'<section class="year-group" id="y{y}" data-year="{y}">{anchor}\n'
-                    f'      <h2 class="year-head">{y} <span class="year-count" data-total="{c}">'
-                    f'{c} publication{"s" if c != 1 else ""}</span></h2>\n'
+                    f'      <div class="year-side"><h2 class="year-head">{y} <span class="year-count" data-total="{c}">'
+                    f'{c} publication{"s" if c != 1 else ""}</span></h2>{top}</div>\n'
                     '      <ol class="year-list">\n      ' + "\n      ".join(entry_html(r, e) for e, r in items)
                     + "\n      </ol>\n    </section>")
     out.append('<div id="pub-list" class="pub-years">\n    ' + "\n    ".join(secs) + '\n    </div>')
@@ -406,6 +414,8 @@ def main():
                 links[kind] = path
         sp = os.path.join(DATA, "summaries", f"{slug}.html")
         crow = coins_row(r, kws)
+        if override_abstract(k):
+            crow["Abstract Note"] = override_abstract(k)
         bib = citelib.build_bib(crow, slug)
         with open(os.path.join(ROOT, "citations", f"{slug}.bib"), "w", encoding="utf-8") as fh:
             fh.write(bib)
@@ -419,7 +429,7 @@ def main():
             "citation_html": apa_html(r, slug).replace(f'href="p/{slug}/"', f'href="{BASE}/p/{slug}/"'),
             "keywords": kws, "topics": topics,
             "keywords_note": (kwdb.get(k) or {}).get("note", ""),
-            "abstract": r["Abstract Note"].strip(),
+            "abstract": override_abstract(k) or r["Abstract Note"].strip(),
             "abstract_html": "",
             "summary_html": open(sp, encoding="utf-8").read().strip() if os.path.exists(sp) else "",
             "talks": talks.get(k, []),
