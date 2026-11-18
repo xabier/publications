@@ -362,21 +362,55 @@ def main():
         if r["DOI"] or r["Url"]:
             node["sameAs"] = f"https://doi.org/{r['DOI']}" if r["DOI"] else r["Url"]
         graph.append(node)
+    owner, profiles = site.get("owner", {}), site.get("profiles", [])
+    if owner:
+        person = {"@type": "Person", "@id": f"{BASE}/#author", "name": owner.get("name", ""),
+                  "url": owner.get("url", ""), "sameAs": [p["url"] for p in profiles]}
+        person["identifier"] = [{"@type": "PropertyValue", "propertyID": p["name"], "value": p["id"]}
+                                for p in profiles]
+        graph.insert(0, person)
     ld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=1)
     doc = re.sub(r'(<script type="application/ld\+json">\s*).*?(\s*</script>)',
                  lambda mo: mo.group(1) + ld + mo.group(2), doc, count=1, flags=re.S)
-    # 3. filter buttons with live counts
+    # 3. search / sort / filter panel, rebuilt every time (counts are live)
     counts = {t: sum(1 for e, _ in entries if e["type"] == t) for t in TYPE_ORDER}
     n = len(entries)
+    nfeat = sum(1 for e, _ in entries if e["featured"])
     btns = [f'<button type="button" class="type-filter" data-type-filter="all" aria-pressed="true">All ({n})</button>']
     btns += [f'<button type="button" class="type-filter" data-type-filter="{t}" aria-pressed="false">'
              f'{TYPE_PLURAL[t]} ({c})</button>' for t, c in counts.items() if c]
     btns.append('<button type="button" class="type-filter featured-toggle" data-featured-filter aria-pressed="false" '
-                f'title="Show only highlighted publications">★ Highlighted ({sum(1 for e, _ in entries if e["featured"])})</button>')
-    doc = re.sub(r'(<input type="search" id="pub-search"[^>]*>)\s*(?:<button[^>]*>.*?</button>\s*)+',
-                 lambda mo: mo.group(1) + "\n      " + "\n      ".join(btns) + "\n      ", doc, count=1, flags=re.S)
-    doc = re.sub(r'(<span class="results-count" id="results-count"[^>]*>)[^<]*', rf"\g<1>{n} of {n} publications", doc)
+                f'title="Show only highlighted publications">★ Highlighted ({nfeat})</button>')
+    panel = (
+        '<div class="controls" role="search" aria-label="Search, sort and filter publications">\n'
+        '      <div class="controls-row controls-top">\n'
+        '        <input type="search" id="pub-search" placeholder="Search titles, keywords, abstracts…" '
+        'aria-label="Search publications by title, keyword, abstract, author or year">\n'
+        '        <span class="sort-select"><label for="pub-sort">Sort by</label>\n'
+        '          <select id="pub-sort">\n'
+        '            <option value="newest">Newest first</option>\n'
+        '            <option value="oldest">Oldest first</option>\n'
+        '            <option value="cited">Most cited first</option>\n'
+        '          </select></span>\n'
+        '      </div>\n'
+        '      <div class="controls-row controls-filters" role="group" aria-label="Filter by type">\n'
+        '        <span class="controls-label">Show:</span>\n        ' + "\n        ".join(btns) + "\n"
+        '      </div>\n'
+        f'      <p class="results-count" id="results-count" aria-live="polite">{n} of {n} publications</p>\n'
+        '    </div>')
+    doc = re.sub(r'<div class="controls".*?</div>(?=\s*(?:<p class="sort-note"[^>]*>.*?</p>\s*)?<ol class="pub-list")',
+                 lambda mo: panel, doc, count=1, flags=re.S)
     doc = re.sub(r"\d+ items, reverse-chronological", f"{n} items, reverse-chronological", doc)
+    # 3b. researcher profiles in the header (data/site.json -> profiles)
+    doc = re.sub(r"\s*<!--PROFILES-START-->.*?<!--PROFILES-END-->", "", doc, flags=re.S)
+    if profiles:
+        rows = "\n".join(
+            f'          <li><a href="{esc(p["url"])}" rel="me" target="_blank">{esc(p["name"])}</a> '
+            f'<span class="pid">{esc(p["id"])}</span></li>' for p in profiles)
+        box = ('\n    <!--PROFILES-START--><aside class="site-profiles" aria-label="Researcher profiles">\n'
+               '        <p class="profiles-title">Researcher profiles</p>\n'
+               f'        <ul>\n{rows}\n        </ul>\n      </aside><!--PROFILES-END-->')
+        doc = doc.replace('<header class="site-header">', '<header class="site-header">' + box, 1)
     # 4. optional analytics (GoatCounter): off unless data/site.json has "goatcounter"
     doc = set_analytics(doc, site.get("goatcounter", ""), "")
     with open(INDEX, "w", encoding="utf-8") as f:
@@ -403,6 +437,8 @@ def main():
 
     import build_pages
     build_pages.ANALYTICS = site.get("goatcounter", "")
+    build_pages.OWNER_ID = {"family": site.get("owner", {}).get("family", ""),
+                            "sameAs": [p["url"] for p in site.get("profiles", [])]}
     build_pages.run(entries)
 
 

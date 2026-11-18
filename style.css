@@ -430,3 +430,59 @@ a.res:hover .res-name{ color: var(--accent); }
 .pub-action.pub-page-link{ color: var(--accent); border-color: var(--accent); font-weight: 700; }
 .pub-action.pub-page-link:hover{ background: var(--accent); color: #fff; }
 .site-machine-foot{ font-size: .8125rem; color: var(--text-light); }
+
+/* ---------------------------------------------------------------
+   Search / sort / filter panel (2026-11-18)
+   --------------------------------------------------------------- */
+.controls{ display: block; }
+.controls-row{ display: flex; flex-wrap: wrap; gap: .6em; align-items: center; }
+.controls-top{ margin-bottom: .9em; }
+.controls-top .search-wrap, .controls-top input[type="search"]{ flex: 1 1 280px; }
+.controls-top .search-wrap input[type="search"]{ width: 100%; }
+.sort-select{ display: inline-flex; align-items: center; gap: .5em; font-size: .9375rem; color: var(--text-light); }
+.sort-select select{
+  font-family: var(--serif); font-size: .9375rem; color: var(--text);
+  border: 1px solid var(--border); border-radius: 3px; background: #fff;
+  padding: .45em 2em .45em .7em; cursor: pointer;
+  appearance: none; -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--text-light) 50%),
+                    linear-gradient(135deg, var(--text-light) 50%, transparent 50%);
+  background-position: right 1em center, right .65em center;
+  background-size: .35em .35em; background-repeat: no-repeat;
+}
+.sort-select select:hover, .sort-select select:focus{ border-color: var(--accent); outline: none; }
+.controls-label{ font-size: .875rem; color: var(--text-light); font-style: italic; margin-right: .1em; }
+.controls .results-count{ display: block; margin: .9em 0 0; font-size: .875rem; color: var(--text-light); }
+@media (max-width: 600px){
+  .sort-select{ width: 100%; }
+  .sort-select select{ flex: 1; }
+}
+.sort-select select{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%236b6b6b' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-position: right .7em center; background-size: 10px 6px;
+}
+
+/* ---------------------------------------------------------------
+   Header: researcher profiles box (top right)
+   --------------------------------------------------------------- */
+.site-header{ display: grid; grid-template-columns: 1fr max-content; column-gap: 2.5em; }
+.site-header > *{ grid-column: 1; }
+.site-header > .site-profiles{ grid-column: 2; grid-row: 1 / span 4; align-self: start; }
+.site-profiles{ font-size: .8125rem; line-height: 1.55; color: var(--text-light);
+  border-left: 1px solid var(--border); padding-left: 1.25em; }
+.profiles-title{ margin: 0 0 .3em; font-size: .6875rem; text-transform: uppercase; letter-spacing: .08em; }
+.site-profiles ul{ list-style: none; margin: 0; padding: 0; }
+.site-profiles li{ white-space: nowrap; }
+.site-profiles a{ color: var(--text); }
+.site-profiles a:hover{ color: var(--accent); }
+.site-profiles .pid{ color: var(--text-light); font-size: .75rem; margin-left: .25em; }
+@media (max-width: 760px){
+  .site-header{ display: block; }
+  .site-profiles{ border-left: none; padding-left: 0; margin-top: 1.25em; }
+  .site-profiles ul{ display: flex; flex-wrap: wrap; gap: .1em 1em; }
+  .site-profiles .pid{ display: none; }
+}
+@media (max-width: 760px){
+  .site-header{ display: flex; flex-direction: column; }
+  .site-header > .site-profiles{ order: 99; }
+}

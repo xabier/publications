@@ -289,7 +289,11 @@ def jsonld(r):
     if r["authors"]:
         node["author"] = [{"@type": "Person", "name": person_name(a),
                            **({"familyName": a["family"], "givenName": a["given"]}
-                              if "family" in a else {})} for a in r["authors"]]
+                              if "family" in a else {}),
+                           # the site owner: link to his researcher profiles (ORCID etc.)
+                           **({"@id": f"{BASE}/#author", "sameAs": OWNER_ID["sameAs"]}
+                              if OWNER_ID.get("family") and a.get("family") == OWNER_ID["family"] else {})}
+                          for a in r["authors"]]
     if r["editors"] and r["type"] in ("book", "bookSection"):
         node["editor"] = [{"@type": "Person", "name": person_name(a)} for a in r["editors"]]
     node["datePublished"] = r["date"] or r["year"]
@@ -902,6 +906,7 @@ def slim_index(doc, records):
 # =================================================================== main
 
 COINS = {}
+OWNER_ID = {}    # {"family": ..., "sameAs": [...]}, set by build_site.py
 ANALYTICS = ""   # GoatCounter site code, set by build_site.py from data/site.json
 
 

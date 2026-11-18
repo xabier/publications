@@ -23,6 +23,52 @@
  "@context": "https://schema.org",
  "@graph": [
   {
+   "@type": "Person",
+   "@id": "https://publications.barandiaran.net/#author",
+   "name": "Xabier E. Barandiaran",
+   "url": "https://xabier.barandiaran.net/",
+   "sameAs": [
+    "https://orcid.org/0000-0002-4763-6845",
+    "https://scholar.google.com/citations?user=H4RGbI0AAAAJ",
+    "https://openalex.org/authors/A5001513750",
+    "https://www.scopus.com/authid/detail.url?authorId=6507085396",
+    "https://www.webofscience.com/wos/author/record/A-6172-2011",
+    "https://www.semanticscholar.org/author/1734288"
+   ],
+   "identifier": [
+    {
+     "@type": "PropertyValue",
+     "propertyID": "ORCID",
+     "value": "0000-0002-4763-6845"
+    },
+    {
+     "@type": "PropertyValue",
+     "propertyID": "Google Scholar",
+     "value": "H4RGbI0AAAAJ"
+    },
+    {
+     "@type": "PropertyValue",
+     "propertyID": "OpenAlex",
+     "value": "A5001513750"
+    },
+    {
+     "@type": "PropertyValue",
+     "propertyID": "Scopus",
+     "value": "6507085396"
+    },
+    {
+     "@type": "PropertyValue",
+     "propertyID": "Web of Science",
+     "value": "A-6172-2011"
+    },
+    {
+     "@type": "PropertyValue",
+     "propertyID": "Semantic Scholar",
+     "value": "1734288"
+    }
+   ]
+  },
+  {
    "@type": "ScholarlyArticle",
    "@id": "https://publications.barandiaran.net/#2026-sensorimotor-teleology-and-goal-directedness-an",
    "name": "Sensorimotor teleology and goal-directedness. An organismic framework for normative behaviour",
@@ -838,6 +884,17 @@
 <div class="site">
 
   <header class="site-header">
+    <!--PROFILES-START--><aside class="site-profiles" aria-label="Researcher profiles">
+        <p class="profiles-title">Researcher profiles</p>
+        <ul>
+          <li><a href="https://orcid.org/0000-0002-4763-6845" rel="me" target="_blank">ORCID</a> <span class="pid">0000-0002-4763-6845</span></li>
+          <li><a href="https://scholar.google.com/citations?user=H4RGbI0AAAAJ" rel="me" target="_blank">Google Scholar</a> <span class="pid">H4RGbI0AAAAJ</span></li>
+          <li><a href="https://openalex.org/authors/A5001513750" rel="me" target="_blank">OpenAlex</a> <span class="pid">A5001513750</span></li>
+          <li><a href="https://www.scopus.com/authid/detail.url?authorId=6507085396" rel="me" target="_blank">Scopus</a> <span class="pid">6507085396</span></li>
+          <li><a href="https://www.webofscience.com/wos/author/record/A-6172-2011" rel="me" target="_blank">Web of Science</a> <span class="pid">A-6172-2011</span></li>
+          <li><a href="https://www.semanticscholar.org/author/1734288" rel="me" target="_blank">Semantic Scholar</a> <span class="pid">1734288</span></li>
+        </ul>
+      </aside><!--PROFILES-END-->
     <div class="site-branding">
       <img class="site-logo" src="https://xabier.barandiaran.net/wp-content/uploads/2020/03/cropped-logo-rojo.png?w=192" alt="" width="64" height="64">
       <div>
@@ -851,19 +908,30 @@
   </header>
 
   <main id="content">
-    <div class="controls" role="group" aria-label="Filter publications">
-      <input type="search" id="pub-search" placeholder="Search title, author, year&#8230;" aria-label="Search publications">
-      <button type="button" class="type-filter" data-type-filter="all" aria-pressed="true">All (91)</button>
-      <button type="button" class="type-filter" data-type-filter="journalArticle" aria-pressed="false">Journal Articles (41)</button>
-      <button type="button" class="type-filter" data-type-filter="book" aria-pressed="false">Books (4)</button>
-      <button type="button" class="type-filter" data-type-filter="bookSection" aria-pressed="false">Book Chapters (15)</button>
-      <button type="button" class="type-filter" data-type-filter="conferencePaper" aria-pressed="false">Conference Papers (15)</button>
-      <button type="button" class="type-filter" data-type-filter="report" aria-pressed="false">Reports (8)</button>
-      <button type="button" class="type-filter" data-type-filter="thesis" aria-pressed="false">Theses (2)</button>
-      <button type="button" class="type-filter" data-type-filter="preprint" aria-pressed="false">Preprints (2)</button>
-      <button type="button" class="type-filter" data-type-filter="document" aria-pressed="false">Documents (4)</button>
-      <button type="button" class="type-filter featured-toggle" data-featured-filter aria-pressed="false" title="Show only highlighted publications">★ Highlighted (6)</button>
-      <span class="results-count" id="results-count" aria-live="polite">91 of 91 publications</span>
+    <div class="controls" role="search" aria-label="Search, sort and filter publications">
+      <div class="controls-row controls-top">
+        <input type="search" id="pub-search" placeholder="Search titles, keywords, abstracts…" aria-label="Search publications by title, keyword, abstract, author or year">
+        <span class="sort-select"><label for="pub-sort">Sort by</label>
+          <select id="pub-sort">
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="cited">Most cited first</option>
+          </select></span>
+      </div>
+      <div class="controls-row controls-filters" role="group" aria-label="Filter by type">
+        <span class="controls-label">Show:</span>
+        <button type="button" class="type-filter" data-type-filter="all" aria-pressed="true">All (91)</button>
+        <button type="button" class="type-filter" data-type-filter="journalArticle" aria-pressed="false">Journal Articles (41)</button>
+        <button type="button" class="type-filter" data-type-filter="book" aria-pressed="false">Books (4)</button>
+        <button type="button" class="type-filter" data-type-filter="bookSection" aria-pressed="false">Book Chapters (15)</button>
+        <button type="button" class="type-filter" data-type-filter="conferencePaper" aria-pressed="false">Conference Papers (15)</button>
+        <button type="button" class="type-filter" data-type-filter="report" aria-pressed="false">Reports (8)</button>
+        <button type="button" class="type-filter" data-type-filter="thesis" aria-pressed="false">Theses (2)</button>
+        <button type="button" class="type-filter" data-type-filter="preprint" aria-pressed="false">Preprints (2)</button>
+        <button type="button" class="type-filter" data-type-filter="document" aria-pressed="false">Documents (4)</button>
+        <button type="button" class="type-filter featured-toggle" data-featured-filter aria-pressed="false" title="Show only highlighted publications">★ Highlighted (6)</button>
+      </div>
+      <p class="results-count" id="results-count" aria-live="polite">91 of 91 publications</p>
     </div>
 
     <ol class="pub-list" id="pub-list" reversed>

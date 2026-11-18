@@ -103,6 +103,13 @@
         if (cb !== ca) return cb - ca;
         return a._order - b._order;  // tie-break: keep chronological
       });
+    } else if (currentSort === "oldest") {
+      ordered = items.slice().sort(function (a, b) {
+        var ya = parseInt((a.querySelector(".pub-year") || {}).textContent, 10) || 0;
+        var yb = parseInt((b.querySelector(".pub-year") || {}).textContent, 10) || 0;
+        if (ya !== yb) return ya - yb;
+        return b._order - a._order;
+      });
     } else {
       ordered = items.slice().sort(function (a, b) { return a._order - b._order; });
     }
@@ -214,44 +221,18 @@
     });
   }
 
-  // ---- Sort control (Newest / Most cited) ----
-  // Built in JS so it survives pipeline rebuilds of index.html.
-  var sortButtons = [];
+  // ---- Sort control: the "Sort by" <select> in the panel (built by build_site.py) ----
   var sortNote = null;
+  var sortSelect = document.getElementById("pub-sort");
   function setSort(mode) {
     currentSort = mode;
-    sortButtons.forEach(function (b) {
-      b.setAttribute("aria-pressed", b.getAttribute("data-sort") === mode ? "true" : "false");
-    });
+    if (sortSelect && sortSelect.value !== mode) sortSelect.value = mode;
     if (sortNote) sortNote.hidden = mode !== "cited";
     applySort();
   }
-  (function buildSortControl() {
+  if (sortSelect) {
+    sortSelect.addEventListener("change", function () { setSort(sortSelect.value); });
     var controls = document.querySelector(".controls");
-    if (!controls) return;
-    var wrap = document.createElement("span");
-    wrap.className = "sort-control";
-    wrap.setAttribute("role", "group");
-    wrap.setAttribute("aria-label", "Sort order");
-    var label = document.createElement("span");
-    label.className = "sort-label";
-    label.textContent = "Sort:";
-    wrap.appendChild(label);
-    [["newest", "Newest"], ["cited", "Most cited"]].forEach(function (pair) {
-      var b = document.createElement("button");
-      b.type = "button";
-      b.className = "type-filter sort-btn";
-      b.setAttribute("data-sort", pair[0]);
-      b.setAttribute("aria-pressed", pair[0] === currentSort ? "true" : "false");
-      b.textContent = pair[1];
-      b.addEventListener("click", function () { setSort(pair[0]); });
-      sortButtons.push(b);
-      wrap.appendChild(b);
-    });
-    // place just before the results counter (which is pushed to the right)
-    if (countEl && countEl.parentNode === controls) controls.insertBefore(wrap, countEl);
-    else controls.appendChild(wrap);
-
     // explanatory note, shown only in "Most cited" mode
     sortNote = document.createElement("p");
     sortNote.className = "sort-note";
@@ -259,8 +240,8 @@
     sortNote.textContent = "Ranked by open citation data (OpenAlex / Semantic Scholar), " +
       "which under-counts books and some older work. Entries with no available count — " +
       "including several books — are listed last.";
-    if (controls.parentNode) controls.parentNode.insertBefore(sortNote, controls.nextSibling);
-  })();
+    if (controls && controls.parentNode) controls.parentNode.insertBefore(sortNote, controls.nextSibling);
+  }
 
   // when live citation counts load (or update), re-sort if we're ranking by them
   document.addEventListener("citations:updated", function () {

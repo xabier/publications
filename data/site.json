@@ -158,5 +158,42 @@
    }
   ]
  },
- "goatcounter": "xabier"
+ "goatcounter": "xabier",
+ "owner": {
+  "name": "Xabier E. Barandiaran",
+  "family": "Barandiaran",
+  "url": "https://xabier.barandiaran.net/"
+ },
+ "profiles": [
+  {
+   "name": "ORCID",
+   "id": "0000-0002-4763-6845",
+   "url": "https://orcid.org/0000-0002-4763-6845"
+  },
+  {
+   "name": "Google Scholar",
+   "id": "H4RGbI0AAAAJ",
+   "url": "https://scholar.google.com/citations?user=H4RGbI0AAAAJ"
+  },
+  {
+   "name": "OpenAlex",
+   "id": "A5001513750",
+   "url": "https://openalex.org/authors/A5001513750"
+  },
+  {
+   "name": "Scopus",
+   "id": "6507085396",
+   "url": "https://www.scopus.com/authid/detail.url?authorId=6507085396"
+  },
+  {
+   "name": "Web of Science",
+   "id": "A-6172-2011",
+   "url": "https://www.webofscience.com/wos/author/record/A-6172-2011"
+  },
+  {
+   "name": "Semantic Scholar",
+   "id": "1734288",
+   "url": "https://www.semanticscholar.org/author/1734288"
+  }
+ ]
 }
