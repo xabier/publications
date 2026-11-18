@@ -586,3 +586,6 @@ a.res:hover .res-name{ color: var(--accent); }
   .ctl{ flex: 1 1 45%; } .ctl select{ flex: 1; max-width: none; }
 }
 .site-profiles{ max-width: 600px; }
+/* jump-link anchors (decades, renamed slugs) take no space in the layout */
+.old-anchor{ position: absolute; width: 0; height: 0; overflow: hidden; }
+.year-group{ position: relative; }

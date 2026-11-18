@@ -313,8 +313,8 @@ def main_html(entries, site):
             decades.setdefault(y[:3] + "0s", y)
     for y in order[:4]:
         jump.append(f'<a href="#y{y}">{y}</a>')
-    for d in decades:
-        jump.append(f'<a href="#d{d}">{d}</a>')
+    for d, y in decades.items():
+        jump.append(f'<a href="#y{y}">{d}</a>')   # the newest year of that decade
     out.append('<div class="list-meta">'
                f'<p class="results-count" id="results-count" aria-live="polite"><strong>{n} publications</strong> · {span}</p>'
                '<nav class="year-jump" aria-label="Jump to year"><span>Jump to:</span> ' + " ".join(jump) + '</nav></div>')
