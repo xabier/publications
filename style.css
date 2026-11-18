@@ -505,3 +505,84 @@ a.res:hover .res-name{ color: var(--accent); }
 .topic-filter{ background: var(--accent-light); border-color: transparent; }
 .topic-filter .tcount{ font-size: .8em; color: var(--text-light); margin-left: .15em; }
 .topic-filter[aria-pressed="true"] .tcount{ color: rgba(255,255,255,.8); }
+
+/* =================================================================
+   Homepage layout "B" (2026-11-18): highlighted cards, one toolbar,
+   list grouped by year. Overrides earlier list/panel rules above.
+   ================================================================= */
+.pub-years [hidden], .year-group[hidden], .flat-list[hidden]{ display: none !important; }
+
+/* header: profile links as a row on the right */
+.site-header > .site-profiles{ grid-row: 1 / span 3; align-self: end; }
+.site-profiles{ border-left: none; padding-left: 0; display: flex; flex-wrap: wrap; justify-content: flex-end;
+  gap: .15em 1.1em; max-width: 430px; font-size: .8125rem; line-height: 1.6; }
+.site-profiles a{ color: var(--accent); }
+@media (max-width: 760px){ .site-profiles{ justify-content: flex-start; max-width: none; } }
+
+/* highlighted work */
+.featured{ margin: .25em 0 2em; }
+.featured-head{ display: flex; justify-content: space-between; align-items: baseline; gap: 1em; margin-bottom: .75em; }
+.featured-head h2{ margin: 0; font-size: .8125rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.featured-toggle{ font-family: var(--serif); font-size: .8125rem; color: var(--accent); background: none;
+  border: 1px solid transparent; border-radius: 3px; padding: .3em .6em; cursor: pointer; }
+.featured-toggle:hover{ border-color: var(--accent); }
+.featured-toggle[aria-pressed="true"]{ background: var(--accent); color: #fff; }
+.feat-grid{ display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1em; }
+.feat-card{ display: flex; flex-direction: column; gap: .45em; padding: 1.1em 1.2em; border: 1px solid var(--border);
+  border-radius: 6px; color: var(--text); transition: border-color .15s, background .15s; }
+.feat-card:hover, .feat-card:focus{ border-color: var(--accent); background: var(--accent-light); }
+.feat-meta{ font-size: .6875rem; letter-spacing: .07em; text-transform: uppercase; color: var(--text-light); }
+.feat-title{ font-weight: 700; color: #222; font-size: 1rem; line-height: 1.4; }
+.feat-card:hover .feat-title{ color: var(--accent); }
+.feat-venue{ font-size: .8125rem; font-style: italic; color: var(--text-light); line-height: 1.4; }
+.feat-extras{ margin-top: auto; padding-top: .3em; font-size: .75rem; color: var(--accent); }
+
+/* toolbar */
+.controls{ display: flex; flex-wrap: wrap; gap: .6em .9em; align-items: center; padding: .85em 1em;
+  background: #faf8f8; border: 1px solid #eee8e8; border-radius: 6px; margin: 0; }
+.controls .search-wrap{ flex: 1 1 300px; }
+.controls .search-wrap input[type="search"]{ width: 100%; box-sizing: border-box; background: #fff; }
+.ctl{ display: inline-flex; align-items: center; gap: .45em; font-size: .8125rem; color: var(--text-light); }
+.ctl select{ font-family: var(--serif); font-size: .875rem; color: var(--text); border: 1px solid var(--border);
+  border-radius: 3px; background: #fff; padding: .45em 2em .45em .6em; cursor: pointer; max-width: 15em;
+  appearance: none; -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%236b6b6b' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right .6em center; background-size: 10px 6px; }
+.ctl select:hover, .ctl select:focus{ border-color: var(--accent); outline: none; }
+.list-meta{ display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .4em 1em;
+  margin: .7em 2px 0; font-size: .8125rem; color: var(--text-light); }
+.list-meta .results-count{ display: block; margin: 0; font-size: .8125rem; }
+.list-meta .results-count strong{ color: #2b2b2b; }
+.year-jump a{ margin-left: .55em; }
+.sort-note{ margin: .6em 2px 0; font-size: .75rem; font-style: italic; color: var(--text-light); }
+
+/* year groups */
+.year-group{ display: flex; flex-wrap: wrap; gap: .6em 1.5em; margin-top: 2em; padding-top: .9em; border-top: 2px solid #2b2b2b; }
+.year-head{ flex: 0 0 110px; margin: 0; font-size: 1.875rem; line-height: 1; color: #2b2b2b; }
+.year-count{ display: block; margin-top: .5em; font-size: .75rem; font-weight: 400; color: var(--text-light); }
+.year-list{ flex: 999 1 560px; min-width: 0; list-style: none; margin: 0; padding: 0; }
+.flat-list{ list-style: none; margin: 1.75em 0 0; padding: 0; border-top: 2px solid #2b2b2b; padding-top: 1em; }
+.pub-years .pub-item{ padding: 0 0 1em; margin: 0 0 1em; border-bottom: 1px solid #eee8e8; border-top: none; }
+.pub-years .pub-item:last-child{ border-bottom: none; margin-bottom: 0; }
+.pub-head{ margin: 0; font-size: 1rem; line-height: 1.45; font-weight: 400; }
+.pub-title-link{ font-weight: 700; color: #2b2b2b; border-bottom: 1px solid transparent; }
+.pub-title-link:hover, .pub-title-link:focus{ color: var(--accent); border-bottom-color: var(--accent); }
+.pub-byline{ margin: .2em 0 .45em; font-size: .875rem; line-height: 1.55; color: #555; }
+.pub-byline .pub-year{ color: var(--text-light); }
+.pub-years .pub-actions{ gap: .3em 1em; align-items: center; font-size: .8125rem; }
+.pub-years .pub-type{ border: none; padding: 0; font-size: .6875rem; letter-spacing: .06em; text-transform: uppercase; color: var(--text-light); }
+.pub-years .pub-featured{ font-size: .6875rem; }
+.pub-years .pub-action, .pub-years .pub-action-btn{ border: none; background: none; padding: .15em 0; color: var(--accent);
+  font-size: .8125rem; min-height: 0; }
+.pub-years .pub-action:hover, .pub-years .pub-action-btn:hover{ background: none; text-decoration: underline; }
+.pub-years .pub-action.pub-page-link{ font-weight: 700; border: none; }
+.pub-years .pub-action.pub-page-link:hover{ background: none; color: var(--accent); }
+.pub-years details.pub-details[open] > summary.pub-action-btn{ background: none; color: #2b2b2b; text-decoration: underline; }
+.pub-years .pub-cited{ font-size: .6875rem; }
+.pub-years .pub-panels .pub-panel{ margin-top: .6em; }
+@media (max-width: 600px){
+  .year-head{ flex-basis: 100%; display: flex; align-items: baseline; gap: .6em; }
+  .year-count{ display: inline; margin: 0; }
+  .ctl{ flex: 1 1 45%; } .ctl select{ flex: 1; max-width: none; }
+}
+.site-profiles{ max-width: 600px; }

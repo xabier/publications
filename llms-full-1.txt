@@ -2,6 +2,27 @@
 
 > Newest first. Generated 2026-11-18. Index of all publications: https://publications.barandiaran.net/llms.txt. Next: https://publications.barandiaran.net/llms-full-2.txt.
 
+## Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions
+
+- **Authors:** Elena C. Cuffari, Marta Pérez-Verdugo, Xabier E. Barandiaran
+- **Year:** 2026
+- **Type:** Preprint
+- **Publisher:** arXiv
+- **DOI:** [10.48550/arXiv.2610.39869](https://doi.org/10.48550/arXiv.2610.39869)
+- **Keywords:** Susceptive sense-making, Incorporation, Incarnation, Excorporation, Excarnation, Autonomy, Linguistic bodies, LLMs
+- **Landing page:** https://publications.barandiaran.net/p/2026-incorporating-machine-others-an-enactive-exploration/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2026-incorporating-machine-others-an-enactive-exploration.pdf)
+
+### Abstract
+
+New concepts based in interactional thinking are required to understand how humans are changed by relating to LLMs. Standard theories of technological impact upon users' autonomy are inadequate here, because this technology is capable of inducing linguistic interactions with humans in an unprecedented manner. Traditional theories of social cognition also fall short, because LLMs have neither autonomy nor minds nor sociality as such. And yet, humans interact, talk, and create with them. We base ourselves on enactive theory, particularly on the theory of Linguistic Bodies and recent developments of enactive accounts of AI, to explore how we make sense with machines. We argue that we incorporate machine-others in two ways: in the tool-like sense of incorporation as enabling particular skills, but also in the more linguistic and identity-tied sense of incorporating (and incarnating) LLMs' ways of languaging. However, LLMs are themselves excorporated and excarnated phantoms of our own languaging; we give a (machinic) body to our language. As such, we are not just incorporating machinic others; we are incorporating excorporated others. These conceptual advances draw a new map of our linguistic relation to LLMs, putting them in continuation with other forms of languaging involving other linguistic artifacts (e.g., religious books). We attend to some particular forms that this relation takes today, and how they may be impacting the autonomy and becoming of LLM-engaged humans. We introduce the idea of "susceptive sense-making" to characterize increased semiotic labour that is carried by the lack of friction that we sometimes encounter within these services.
+
+### Cite
+
+Cuffari, E. C., Pérez-Verdugo, M., & Barandiaran, X. E. (2026). *Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions* [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2610.39869
+
+---
+
 ## Sensorimotor teleology and goal-directedness. An organismic framework for normative behaviour
 
 - **Authors:** Xabier E. Barandiaran, Tiago Rama
@@ -108,65 +129,6 @@ Barandiaran, X. E. (2026). Organizational Accounts of Malfunction: The Dual-Orde
 
 ---
 
-## Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual
-
-- **Year:** 2026
-- **Type:** Book
-- **Publisher:** Springer Nature Switzerland, Cham
-- **DOI:** [10.1007/978-3-032-05501-9](https://doi.org/10.1007/978-3-032-05501-9)
-- **Keywords:** Outonomy, Autonomy, Human autonomy, Animal autonomy, Biology and politics, Contemporary philosophy of autonomy
-- **Highlighted:** yes (one of the author’s featured publications)
-- **Landing page:** https://publications.barandiaran.net/p/2026-outonomy-fleshing-out-the-concept-of/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2026-outonomy-fleshing-out-the-concept-of.pdf)
-
-### Cite
-
-Barandiaran, X. E., & Etxeberria, A. (Eds.) (2026). *Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual*. Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9
-
----
-
-## Socialecological affective arrangements: mapping with a small sea of many seas
-
-- **Authors:** Violeta Cabello, Xabier Barandiaran, Blanca Gonzalez-Mon, Juan Manuel Zaragoza, Jesús Mario Siqueiros, Marcela Brugnach
-- **Year:** 2026
-- **Type:** Preprint
-- **URL:** https://philsci-archive.pitt.edu/id/eprint/31699/
-- **Keywords:** Affective arrangements, Emotions, Affective knowing, Socialecological systems, Mixed methods, Eutrophication, Mar Menor
-- **Highlighted:** yes (one of the author’s featured publications)
-- **Landing page:** https://publications.barandiaran.net/p/2026-socialecological-affective-arrangements-mapping-with-a/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2026-socialecological-affective-arrangements-mapping-with-a.pdf)
-
-### Abstract
-
-Environmental degradation engenders deep affective experiences that shape how people explain its causes and respond to it, yet socialecological research lacks tools to analyse these affective relations alongside factual accounts. This article proposes the concept of socialecological affective arrangement (SEAA), a historically and geographically situated formation of entities and practices that affect, and are affected by, one another, together with a method to map it: the mapparatus. The mapparatus codes interview narratives into networks whose nodes are narrators, entities (from nitrogen and algae to laws) and practices, and whose links are affects and emotions. It distinguishes egoaffective relations, through which narrators are themselves affected, from alteraffective relations, through which they explain what affects others, and combines network analysis with close qualitative reading. The method is explored through eight interviews with farmers, biologists, a fisher and a researcher concerned with the eutrophication of the Mar Menor, a Spanish coastal lagoon and the first ecosystem in Europe granted legal personhood. Participants are divided yet connected. Farmers cohere around how new regulations and public blame affect them; non-farmers cohere in signalling agriculture as a direct cause of eutrophication. Shared attachments to the lagoon, such as bathing and sailing with family, a common frustration with its governance and a participant experiencing inner affective contradictions about the lagoon connect both groups. Mapping SEAAs foregrounds affective experience as a crucial source of socialecological information and helps explain why people know-feel different worlds in contested environmental problems, offering a tool for affective knowing in sustainability research.
-
-### Cite
-
-Cabello, V., Barandiaran, X., Gonzalez-Mon, B., Zaragoza, J. M., Siqueiros, J. M., & Brugnach, M. (2026). *Socialecological affective arrangements: mapping with a small sea of many seas* [Preprint]. https://philsci-archive.pitt.edu/id/eprint/31699/
-
----
-
-## Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions
-
-- **Authors:** Elena C. Cuffari, Marta Pérez-Verdugo, Xabier E. Barandiaran
-- **Year:** 2026
-- **Type:** Preprint
-- **Publisher:** arXiv
-- **DOI:** [10.48550/arXiv.2610.39869](https://doi.org/10.48550/arXiv.2610.39869)
-- **Keywords:** Susceptive sense-making, Incorporation, Incarnation, Excorporation, Excarnation, Autonomy, Linguistic bodies, LLMs
-- **Landing page:** https://publications.barandiaran.net/p/2026-incorporating-machine-others-an-enactive-exploration/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2026-incorporating-machine-others-an-enactive-exploration.pdf)
-
-### Abstract
-
-New concepts based in interactional thinking are required to understand how humans are changed by relating to LLMs. Standard theories of technological impact upon users' autonomy are inadequate here, because this technology is capable of inducing linguistic interactions with humans in an unprecedented manner. Traditional theories of social cognition also fall short, because LLMs have neither autonomy nor minds nor sociality as such. And yet, humans interact, talk, and create with them. We base ourselves on enactive theory, particularly on the theory of Linguistic Bodies and recent developments of enactive accounts of AI, to explore how we make sense with machines. We argue that we incorporate machine-others in two ways: in the tool-like sense of incorporation as enabling particular skills, but also in the more linguistic and identity-tied sense of incorporating (and incarnating) LLMs' ways of languaging. However, LLMs are themselves excorporated and excarnated phantoms of our own languaging; we give a (machinic) body to our language. As such, we are not just incorporating machinic others; we are incorporating excorporated others. These conceptual advances draw a new map of our linguistic relation to LLMs, putting them in continuation with other forms of languaging involving other linguistic artifacts (e.g., religious books). We attend to some particular forms that this relation takes today, and how they may be impacting the autonomy and becoming of LLM-engaged humans. We introduce the idea of "susceptive sense-making" to characterize increased semiotic labour that is carried by the lack of friction that we sometimes encounter within these services.
-
-### Cite
-
-Cuffari, E. C., Pérez-Verdugo, M., & Barandiaran, X. E. (2026). *Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions* [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2610.39869
-
----
-
 ## Sensorimotor Norms and Social Norms: A Pluralistic Proposal
 
 - **Authors:** Mirko Prokop, Xabier E. Barandiaran
@@ -185,6 +147,23 @@ The performance of complex motor and craft skills is a norm-governed process, re
 ### Cite
 
 Prokop, M., & Barandiaran, X. E. (2026). Sensorimotor Norms and Social Norms: A Pluralistic Proposal. *Review of Philosophy and Psychology*. https://doi.org/10.1007/s13164-026-00805-3
+
+---
+
+## Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual
+
+- **Year:** 2026
+- **Type:** Book
+- **Publisher:** Springer Nature Switzerland, Cham
+- **DOI:** [10.1007/978-3-032-05501-9](https://doi.org/10.1007/978-3-032-05501-9)
+- **Keywords:** Outonomy, Autonomy, Human autonomy, Animal autonomy, Biology and politics, Contemporary philosophy of autonomy
+- **Highlighted:** yes (one of the author’s featured publications)
+- **Landing page:** https://publications.barandiaran.net/p/2026-outonomy-fleshing-out-the-concept-of/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2026-outonomy-fleshing-out-the-concept-of.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Etxeberria, A. (Eds.) (2026). *Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual*. Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9
 
 ---
 
@@ -254,6 +233,48 @@ Calleja-López, A., Pérez-Verdugo, M., & Barandiaran, X. E. (2026). Autonomy an
 
 ---
 
+## Socialecological affective arrangements: mapping with a small sea of many seas
+
+- **Authors:** Violeta Cabello, Xabier Barandiaran, Blanca Gonzalez-Mon, Juan Manuel Zaragoza, Jesús Mario Siqueiros, Marcela Brugnach
+- **Year:** 2026
+- **Type:** Preprint
+- **URL:** https://philsci-archive.pitt.edu/id/eprint/31699/
+- **Keywords:** Affective arrangements, Emotions, Affective knowing, Socialecological systems, Mixed methods, Eutrophication, Mar Menor
+- **Highlighted:** yes (one of the author’s featured publications)
+- **Landing page:** https://publications.barandiaran.net/p/2026-socialecological-affective-arrangements-mapping-with-a/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2026-socialecological-affective-arrangements-mapping-with-a.pdf)
+
+### Abstract
+
+Environmental degradation engenders deep affective experiences that shape how people explain its causes and respond to it, yet socialecological research lacks tools to analyse these affective relations alongside factual accounts. This article proposes the concept of socialecological affective arrangement (SEAA), a historically and geographically situated formation of entities and practices that affect, and are affected by, one another, together with a method to map it: the mapparatus. The mapparatus codes interview narratives into networks whose nodes are narrators, entities (from nitrogen and algae to laws) and practices, and whose links are affects and emotions. It distinguishes egoaffective relations, through which narrators are themselves affected, from alteraffective relations, through which they explain what affects others, and combines network analysis with close qualitative reading. The method is explored through eight interviews with farmers, biologists, a fisher and a researcher concerned with the eutrophication of the Mar Menor, a Spanish coastal lagoon and the first ecosystem in Europe granted legal personhood. Participants are divided yet connected. Farmers cohere around how new regulations and public blame affect them; non-farmers cohere in signalling agriculture as a direct cause of eutrophication. Shared attachments to the lagoon, such as bathing and sailing with family, a common frustration with its governance and a participant experiencing inner affective contradictions about the lagoon connect both groups. Mapping SEAAs foregrounds affective experience as a crucial source of socialecological information and helps explain why people know-feel different worlds in contested environmental problems, offering a tool for affective knowing in sustainability research.
+
+### Cite
+
+Cabello, V., Barandiaran, X., Gonzalez-Mon, B., Zaragoza, J. M., Siqueiros, J. M., & Brugnach, M. (2026). *Socialecological affective arrangements: mapping with a small sea of many seas* [Preprint]. https://philsci-archive.pitt.edu/id/eprint/31699/
+
+---
+
+## The Equilibration of Technical Objects: Uncovering Normative Layers of Sensorimotor Engagement
+
+- **Authors:** Marta Pérez-Verdugo, Xabier E. Barandiaran
+- **Year:** 2025
+- **Type:** Journal Article
+- **Published in:** Topoi
+- **DOI:** [10.1007/s11245-025-10259-4](https://doi.org/10.1007/s11245-025-10259-4)
+- **Keywords:** Technology, Normativity, Sensorimotor scheme, Radical embodiment, Enactivism, Affordances
+- **Landing page:** https://publications.barandiaran.net/p/2025-the-equilibration-of-technical-objects-uncovering/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2025-the-equilibration-of-technical-objects-uncovering.pdf)
+
+### Abstract
+
+In this paper we argue that radically embodied approaches to cognition can be expanded to show that: (a) our sensorimotor engagements with technical objects can be normatively shaped in a direct manner (i.e. not necessarily involving symbolic processes), and that (b) this normativity is not only anchored in the agent but also partially supported by technical objects themselves. We depart from the enactive reinterpretation of Piagetian sensorimotor schemes and his theory of equilibration to establish how both agent-sided and environment-sided support structures (including artefacts) contribute to the autonomous self-maintenance of sensorimotor networks. We will then introduce technical behaviour as a regulatory transformation of the environment enacted to equilibrate certain sensorimotor structures. We will defend that technical objects, as products of technical behaviour, sediment these normative constraints in their material structure. Then, through the dynamics of assimilation and accommodation, we schematize how different scenarios give rise to canonical or alternative uses in the encounter of agents with artefacts. Finally, we will offer a complexification of the normative entanglement of objects and agents by introducing the sociohistorical notion of activity as developed within Activity Theory approaches as collectively articulating individual actions. Based on all of this, we will have offered a picture of technical objects as also radically embodying normative layers, without submitting to an overly-deterministic picture of artefacts as rigidly prescribing behaviour, or to the purely symbolic or culturalist interpretation of them.
+
+### Cite
+
+Pérez-Verdugo, M., & Barandiaran, X. E. (2025). The Equilibration of Technical Objects: Uncovering Normative Layers of Sensorimotor Engagement. *Topoi*. https://doi.org/10.1007/s11245-025-10259-4
+
+---
+
 ## Transforming agency: On the mode of existence of large language models
 
 - **Authors:** Xabier E. Barandiaran, Lola S. Almendros
@@ -282,6 +303,27 @@ Barandiaran, X. E., & Almendros, L. S. (2025). Transforming agency: On the mode 
 
 ---
 
+## Attention is all they need: cognitive science and the (techno)political economy of attention in humans and machines
+
+- **Authors:** Pablo G. de la Torre, Marta Pérez-Verdugo, Xabier E. Barandiaran
+- **Year:** 2025
+- **Type:** Journal Article
+- **Published in:** AI & SOCIETY
+- **DOI:** [10.1007/s00146-025-02400-z](https://doi.org/10.1007/s00146-025-02400-z)
+- **Keywords:** Attention economy, Engagement, Habit, Attention, Digital platforms, Enactive cognitive science, Dividual
+- **Landing page:** https://publications.barandiaran.net/p/2025-attention-is-all-they-need-cognitive/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2025-attention-is-all-they-need-cognitive.pdf)
+
+### Abstract
+
+This paper critically analyses the “attention economy” within the framework of cognitive science and techno-political economics, as applied to both human and machine interactions. We explore how current business models, particularly in digital platform capitalism, harness user engagement by strategically shaping attentional patterns. These platforms utilize advanced AI and massive data analytics to enhance user engagement, creating a cycle of attention capture and data extraction. We review contemporary (neuro)cognitive theories of attention and platform engagement design techniques and criticize classical cognitivist and behaviourist theories for their inadequacies in addressing the potential harms of such engagement on user autonomy and wellbeing. 4E approaches to cognitive science, instead, emphasizing the embodied, extended, enactive, and ecological aspects of cognition, offer us an intrinsic normative standpoint and a more integrated understanding of how attentional patterns are actively constituted by adaptive digital environments. By examining the precarious nature of habit formation in digital contexts, we reveal the techno-economic underpinnings that threaten personal autonomy by disaggregating habits away from the individual, into an AI managed collection of behavioural patterns. Our current predicament suggests the necessity of a paradigm shift towards an ecology of attention. This shift aims to foster environments that respect and preserve human cognitive and social capacities, countering the exploitative tendencies of cognitive capitalism.
+
+### Cite
+
+de la Torre, P. G., Pérez-Verdugo, M., & Barandiaran, X. E. (2025). Attention is all they need: cognitive science and the (techno)political economy of attention in humans and machines. *AI & SOCIETY*. https://doi.org/10.1007/s00146-025-02400-z
+
+---
+
 ## Generative midtended cognition and Artificial Intelligence: thinging with thinging things
 
 - **Authors:** Xabier E. Barandiaran, Marta Pérez-Verdugo
@@ -307,48 +349,6 @@ This paper introduces the concept of “generative midtended cognition”, that 
 ### Cite
 
 Barandiaran, X. E., & Pérez-Verdugo, M. (2025). Generative midtended cognition and Artificial Intelligence: thinging with thinging things. *Synthese*, *205*(4), 1-24. https://doi.org/10.1007/s11229-025-04961-4
-
----
-
-## The Equilibration of Technical Objects: Uncovering Normative Layers of Sensorimotor Engagement
-
-- **Authors:** Marta Pérez-Verdugo, Xabier E. Barandiaran
-- **Year:** 2025
-- **Type:** Journal Article
-- **Published in:** Topoi
-- **DOI:** [10.1007/s11245-025-10259-4](https://doi.org/10.1007/s11245-025-10259-4)
-- **Keywords:** Technology, Normativity, Sensorimotor scheme, Radical embodiment, Enactivism, Affordances
-- **Landing page:** https://publications.barandiaran.net/p/2025-the-equilibration-of-technical-objects-uncovering/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2025-the-equilibration-of-technical-objects-uncovering.pdf)
-
-### Abstract
-
-In this paper we argue that radically embodied approaches to cognition can be expanded to show that: (a) our sensorimotor engagements with technical objects can be normatively shaped in a direct manner (i.e. not necessarily involving symbolic processes), and that (b) this normativity is not only anchored in the agent but also partially supported by technical objects themselves. We depart from the enactive reinterpretation of Piagetian sensorimotor schemes and his theory of equilibration to establish how both agent-sided and environment-sided support structures (including artefacts) contribute to the autonomous self-maintenance of sensorimotor networks. We will then introduce technical behaviour as a regulatory transformation of the environment enacted to equilibrate certain sensorimotor structures. We will defend that technical objects, as products of technical behaviour, sediment these normative constraints in their material structure. Then, through the dynamics of assimilation and accommodation, we schematize how different scenarios give rise to canonical or alternative uses in the encounter of agents with artefacts. Finally, we will offer a complexification of the normative entanglement of objects and agents by introducing the sociohistorical notion of activity as developed within Activity Theory approaches as collectively articulating individual actions. Based on all of this, we will have offered a picture of technical objects as also radically embodying normative layers, without submitting to an overly-deterministic picture of artefacts as rigidly prescribing behaviour, or to the purely symbolic or culturalist interpretation of them.
-
-### Cite
-
-Pérez-Verdugo, M., & Barandiaran, X. E. (2025). The Equilibration of Technical Objects: Uncovering Normative Layers of Sensorimotor Engagement. *Topoi*. https://doi.org/10.1007/s11245-025-10259-4
-
----
-
-## Attention is all they need: cognitive science and the (techno)political economy of attention in humans and machines
-
-- **Authors:** Pablo G. de la Torre, Marta Pérez-Verdugo, Xabier E. Barandiaran
-- **Year:** 2025
-- **Type:** Journal Article
-- **Published in:** AI & SOCIETY
-- **DOI:** [10.1007/s00146-025-02400-z](https://doi.org/10.1007/s00146-025-02400-z)
-- **Keywords:** Attention economy, Engagement, Habit, Attention, Digital platforms, Enactive cognitive science, Dividual
-- **Landing page:** https://publications.barandiaran.net/p/2025-attention-is-all-they-need-cognitive/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2025-attention-is-all-they-need-cognitive.pdf)
-
-### Abstract
-
-This paper critically analyses the “attention economy” within the framework of cognitive science and techno-political economics, as applied to both human and machine interactions. We explore how current business models, particularly in digital platform capitalism, harness user engagement by strategically shaping attentional patterns. These platforms utilize advanced AI and massive data analytics to enhance user engagement, creating a cycle of attention capture and data extraction. We review contemporary (neuro)cognitive theories of attention and platform engagement design techniques and criticize classical cognitivist and behaviourist theories for their inadequacies in addressing the potential harms of such engagement on user autonomy and wellbeing. 4E approaches to cognitive science, instead, emphasizing the embodied, extended, enactive, and ecological aspects of cognition, offer us an intrinsic normative standpoint and a more integrated understanding of how attentional patterns are actively constituted by adaptive digital environments. By examining the precarious nature of habit formation in digital contexts, we reveal the techno-economic underpinnings that threaten personal autonomy by disaggregating habits away from the individual, into an AI managed collection of behavioural patterns. Our current predicament suggests the necessity of a paradigm shift towards an ecology of attention. This shift aims to foster environments that respect and preserve human cognitive and social capacities, countering the exploitative tendencies of cognitive capitalism.
-
-### Cite
-
-de la Torre, P. G., Pérez-Verdugo, M., & Barandiaran, X. E. (2025). Attention is all they need: cognitive science and the (techno)political economy of attention in humans and machines. *AI & SOCIETY*. https://doi.org/10.1007/s00146-025-02400-z
 
 ---
 

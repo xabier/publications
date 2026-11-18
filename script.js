@@ -1,43 +1,44 @@
+/* publications.barandiaran.net: homepage behaviour (layout "B": highlighted cards,
+ * search + Topic / Type / Sort dropdowns, list grouped by year).
+ * Everything here is progressive enhancement: without JS the page is a complete,
+ * year-grouped list whose titles and "Details" links lead to each landing page. */
 (function () {
   "use strict";
 
   var list = document.getElementById("pub-list");
   if (!list) return;
   var items = Array.prototype.slice.call(list.querySelectorAll(".pub-item"));
+  var groups = Array.prototype.slice.call(list.querySelectorAll(".year-group"));
   var searchInput = document.getElementById("pub-search");
-  // only real type filters — NOT the ★ Highlighted toggle or the sort pills,
-  // which also carry .type-filter for styling but have no data-type-filter
-  var typeButtons = Array.prototype.slice.call(document.querySelectorAll(".type-filter[data-type-filter]"));
+  var topicSelect = document.getElementById("pub-topic");
+  var typeSelect = document.getElementById("pub-type");
+  var sortSelect = document.getElementById("pub-sort");
   var countEl = document.getElementById("results-count");
   var noResults = document.getElementById("no-results");
-  var featuredBtn = document.querySelector("[data-featured-filter]");
+  var featuredBtns = Array.prototype.slice.call(document.querySelectorAll("[data-featured-filter]"));
+  var countDefault = countEl ? countEl.innerHTML : "";
 
-  var activeType = "all";
-  var featuredOnly = false;
-  var activeTopic = "";
-  var topicButtons = Array.prototype.slice.call(document.querySelectorAll("[data-topic-filter]"));
-  var clearBtn = null;
-  var currentSort = "newest";
+  var state = { q: "", topic: "", type: "all", featured: false, sort: "newest" };
 
-  // remember the original DOM order (highlighted-first, then reverse-chronological)
-  items.forEach(function (item, i) { item._order = i; });
-
-  // Search text per entry, built once from the entry's own content (title, citation,
-  // type, year, keywords, abstract/summary). This replaces the old data-search
-  // attribute, which duplicated all of that text inside index.html.
-  items.forEach(function (item) {
+  // remember each entry's home (its year list) and original position
+  items.forEach(function (item, i) {
+    item._order = i;
+    item._home = item.parentNode;
     var parts = [];
-    Array.prototype.forEach.call(item.querySelectorAll(
-      ".pub-ref, .pub-title, .pub-citation, .pub-type, .pub-year, .pub-keywords, " +
-      "details.pub-details:not(.pub-cite):not(.pub-talks) .pub-panel"
-    ), function (el) { parts.push(el.textContent); });
+    Array.prototype.forEach.call(item.querySelectorAll(".pub-head, .pub-byline, .pub-type"), function (el) {
+      parts.push(el.textContent);
+    });
     parts.push(item.getAttribute("data-kw") || "");
     item._hay = parts.join(" ").replace(/\s+/g, " ").toLowerCase();
   });
 
-  // Abstracts and summaries are not in this page (to keep it short enough for AI
-  // agents); their text for searching comes from search-index.json, loaded the
-  // first time the search box is used.
+  // flat list used only for "Most cited" (years make no sense there)
+  var flat = document.createElement("ol");
+  flat.className = "year-list flat-list";
+  flat.hidden = true;
+  list.appendChild(flat);
+
+  // ---- search text that is not in the page (abstracts, summaries) ----
   var searchIndexState = 0;
   function loadSearchIndex() {
     if (searchIndexState || !window.fetch) return;
@@ -45,135 +46,79 @@
     fetch("search-index.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (ix) {
       if (!ix) return;
       items.forEach(function (it) { if (ix[it.id]) it._hay += " " + ix[it.id]; });
-      searchIndexState = 2;
-      applyFilters();
+      apply();
     }).catch(function () {});
   }
 
-  // Abstract / Summary panels: fill them from the publication's JSON record on first open
-  var recordCache = {};
-  function loadRecord(url) {
-    if (!recordCache[url]) {
-      recordCache[url] = fetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
-    }
-    return recordCache[url];
+  function matches(item) {
+    if (state.type !== "all" && item.getAttribute("data-type") !== state.type) return false;
+    if (state.featured && item.getAttribute("data-featured") !== "true") return false;
+    if (state.topic && (" " + (item.getAttribute("data-topics") || "") + " ").indexOf(" " + state.topic + " ") === -1) return false;
+    if (state.q && item._hay.indexOf(state.q) === -1) return false;
+    return true;
   }
-  function addQuoteButtons(root) {
-    Array.prototype.forEach.call(root.querySelectorAll(".summary-quote"), function (bq) {
-      if (bq.querySelector(".copy-quote")) return;
-      var btn = document.createElement("button");
-      btn.type = "button"; btn.className = "copy-quote"; btn.textContent = "Copy";
-      btn.title = "Copy quote"; btn.setAttribute("aria-label", "Copy quote to clipboard");
-      bq.insertBefore(btn, bq.firstChild);
-    });
-  }
-  list.addEventListener("toggle", function (e) {
-    var d = e.target;
-    if (d.tagName !== "DETAILS" || !d.open || !d.classList.contains("pub-lazy") || d._loaded || !window.fetch) return;
-    var panel = d._panel || d.querySelector(".pub-panel");
-    loadRecord(d.getAttribute("data-src")).then(function (rec) {
-      var field = d.getAttribute("data-field");
-      if (field === "abstract" && rec.abstract) {
-        panel.innerHTML = "";
-        var p = document.createElement("p");
-        p.textContent = rec.abstract;
-        panel.appendChild(p);
-      } else if (field === "summary" && rec.summary_html) {
-        panel.innerHTML = rec.summary_html;   // our own generated HTML
-        addQuoteButtons(panel);
-      }
-      d._loaded = true;
-    }).catch(function () { /* keep the fallback link to the landing page */ });
-  }, true);
 
-  function citationCount(item) {
+  function citations(item) {
     var c = parseInt(item.getAttribute("data-citations"), 10);
     return isNaN(c) ? null : c;
   }
 
-  // Reorder the list in the DOM. "newest" restores the original order;
-  // "cited" ranks by citation count (desc), with entries that have no count
-  // falling to the bottom in their original chronological order.
-  function applySort() {
-    var ordered;
-    if (currentSort === "cited") {
-      ordered = items.slice().sort(function (a, b) {
-        var ca = citationCount(a), cb = citationCount(b);
-        if (ca === null && cb === null) return a._order - b._order;
-        if (ca === null) return 1;   // a to the bottom
-        if (cb === null) return -1;  // b to the bottom
-        if (cb !== ca) return cb - ca;
-        return a._order - b._order;  // tie-break: keep chronological
-      });
-    } else if (currentSort === "oldest") {
-      ordered = items.slice().sort(function (a, b) {
-        var ya = parseInt((a.querySelector(".pub-year") || {}).textContent, 10) || 0;
-        var yb = parseInt((b.querySelector(".pub-year") || {}).textContent, 10) || 0;
-        if (ya !== yb) return ya - yb;
-        return b._order - a._order;
-      });
-    } else {
-      ordered = items.slice().sort(function (a, b) { return a._order - b._order; });
-    }
-    var frag = document.createDocumentFragment();
-    ordered.forEach(function (item) { frag.appendChild(item); });
-    list.appendChild(frag);
-  }
-
-  function normalize(s) {
-    return (s || "").toLowerCase();
-  }
-
-  function applyFilters() {
-    var query = normalize(searchInput ? searchInput.value : "");
+  function apply() {
     var visible = 0;
-
     items.forEach(function (item) {
-      var type = item.getAttribute("data-type");
-      var haystack = item._hay || "";
-      var matchesType = activeType === "all" || type === activeType;
-      var matchesQuery = query === "" || haystack.indexOf(query) !== -1;
-      var matchesFeatured = !featuredOnly || item.getAttribute("data-featured") === "true";
-      var matchesTopic = !activeTopic ||
-        (" " + (item.getAttribute("data-topics") || "") + " ").indexOf(" " + activeTopic + " ") !== -1;
-      var show = matchesType && matchesQuery && matchesFeatured && matchesTopic;
-      item.style.display = show ? "" : "none";
+      var show = matches(item);
+      item.hidden = !show;
       if (show) visible++;
     });
 
+    if (state.sort === "cited") {
+      var ordered = items.slice().sort(function (a, b) {
+        var ca = citations(a), cb = citations(b);
+        if (ca === null && cb === null) return a._order - b._order;
+        if (ca === null) return 1;
+        if (cb === null) return -1;
+        return cb !== ca ? cb - ca : a._order - b._order;
+      });
+      ordered.forEach(function (it) { flat.appendChild(it); });
+      flat.hidden = false;
+      groups.forEach(function (g) { g.hidden = true; });
+    } else {
+      items.forEach(function (it) { it._home.appendChild(it); });   // back to their year
+      flat.hidden = true;
+      var gs = state.sort === "oldest" ? groups.slice().reverse() : groups;
+      gs.forEach(function (g) {
+        var ol = g.querySelector(".year-list");
+        var its = Array.prototype.slice.call(ol.querySelectorAll(".pub-item"));
+        its.sort(function (a, b) { return state.sort === "oldest" ? b._order - a._order : a._order - b._order; });
+        its.forEach(function (it) { ol.appendChild(it); });
+        var n = its.filter(function (it) { return !it.hidden; }).length;
+        g.hidden = n === 0;
+        var c = g.querySelector(".year-count");
+        if (c) c.textContent = n + (n === 1 ? " publication" : " publications");
+        list.appendChild(g);                       // year order follows the sort
+      });
+      list.appendChild(flat);
+    }
+
+    var filtered = state.q || state.topic || state.type !== "all" || state.featured;
     if (countEl) {
-      countEl.textContent = visible + " of " + items.length + " publications";
+      countEl.innerHTML = filtered
+        ? "<strong>" + visible + " of " + items.length + " publications</strong> · <a href=\"#\" class=\"clear-all\">Clear filters</a>"
+        : countDefault;
     }
-    if (noResults) {
-      noResults.classList.toggle("show", visible === 0);
-    }
-    if (clearBtn) {
-      clearBtn.hidden = !(searchInput && searchInput.value);
-    }
-    markKeywords();
+    if (noResults) noResults.classList.toggle("show", visible === 0);
+    if (clearBtn) clearBtn.hidden = !(searchInput && searchInput.value);
+    if (sortNote) sortNote.hidden = state.sort !== "cited";
+    featuredBtns.forEach(function (b) { b.setAttribute("aria-pressed", state.featured ? "true" : "false"); });
   }
 
-  // highlight the keyword chip(s) matching the current search term
-  function markKeywords() {
-    var q = normalize(searchInput ? searchInput.value : "").trim();
-    Array.prototype.forEach.call(document.querySelectorAll("a.pub-kw"), function (k) {
-      var kw = normalize(k.getAttribute("data-kw") || k.textContent).trim();
-      k.classList.toggle("active", q !== "" && kw === q);
-    });
-  }
-
+  // ---- controls ----
+  var clearBtn = null;
   if (searchInput) {
-    searchInput.addEventListener("input", applyFilters);
-    searchInput.addEventListener("focus", loadSearchIndex);
-    searchInput.addEventListener("input", loadSearchIndex);
-
-    // Inject a Clear (×) button inside the search box. Done in JS so it
-    // survives pipeline rebuilds of index.html (script.js is not regenerated).
     var wrap = document.createElement("span");
     wrap.className = "search-wrap";
     searchInput.parentNode.insertBefore(wrap, searchInput);
     wrap.appendChild(searchInput);
-
     clearBtn = document.createElement("button");
     clearBtn.type = "button";
     clearBtn.className = "clear-search";
@@ -181,189 +126,59 @@
     clearBtn.innerHTML = "&times;";
     clearBtn.hidden = true;
     wrap.appendChild(clearBtn);
-
-    clearBtn.addEventListener("click", function () {
-      searchInput.value = "";
-      applyFilters();
-      searchInput.focus();
-    });
-
-    // Esc clears the box when it's focused
+    clearBtn.addEventListener("click", function () { searchInput.value = ""; state.q = ""; apply(); searchInput.focus(); });
+    searchInput.addEventListener("input", function () { state.q = searchInput.value.trim().toLowerCase(); loadSearchIndex(); apply(); });
+    searchInput.addEventListener("focus", loadSearchIndex);
     searchInput.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && searchInput.value) {
-        searchInput.value = "";
-        applyFilters();
-      }
+      if (e.key === "Escape" && searchInput.value) { searchInput.value = ""; state.q = ""; apply(); }
     });
   }
-
-  function setActiveType(type) {
-    activeType = type;
-    typeButtons.forEach(function (b) {
-      b.setAttribute("aria-pressed", b.getAttribute("data-type-filter") === type ? "true" : "false");
-    });
-    applyFilters();
-  }
-
-  typeButtons.forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      var clicked = btn.getAttribute("data-type-filter");
-      // clicking the already-active category (other than "all") unselects it
-      if (clicked === activeType && clicked !== "all") {
-        setActiveType("all");
-      } else {
-        setActiveType(clicked);
-      }
+  if (topicSelect) topicSelect.addEventListener("change", function () { state.topic = topicSelect.value; apply(); });
+  if (typeSelect) typeSelect.addEventListener("change", function () { state.type = typeSelect.value; apply(); });
+  if (sortSelect) sortSelect.addEventListener("change", function () { state.sort = sortSelect.value; apply(); });
+  featuredBtns.forEach(function (b) {
+    b.addEventListener("click", function () {
+      state.featured = !state.featured;
+      apply();
+      if (state.featured && countEl) countEl.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
-
-  // Topic shortcuts: one at a time; clicking the active topic again clears it
-  topicButtons.forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      var t = btn.getAttribute("data-topic-filter");
-      activeTopic = (activeTopic === t) ? "" : t;
-      topicButtons.forEach(function (b) {
-        b.setAttribute("aria-pressed", b.getAttribute("data-topic-filter") === activeTopic ? "true" : "false");
-      });
-      applyFilters();
-    });
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest("a.clear-all") : null;
+    if (!a) return;
+    e.preventDefault();
+    state = { q: "", topic: "", type: "all", featured: false, sort: state.sort };
+    if (searchInput) searchInput.value = "";
+    if (topicSelect) topicSelect.value = "";
+    if (typeSelect) typeSelect.value = "all";
+    apply();
   });
 
-  if (featuredBtn) {
-    featuredBtn.addEventListener("click", function () {
-      featuredOnly = !featuredOnly;
-      featuredBtn.setAttribute("aria-pressed", featuredOnly ? "true" : "false");
-      applyFilters();
-    });
-  }
+  // note shown only when ranking by citations
+  var sortNote = document.createElement("p");
+  sortNote.className = "sort-note";
+  sortNote.hidden = true;
+  sortNote.textContent = "Ranked by open citation data (OpenAlex / Semantic Scholar), which under-counts " +
+    "books and some older work. Entries with no available count are listed last.";
+  if (countEl && countEl.parentNode) countEl.parentNode.parentNode.insertBefore(sortNote, countEl.parentNode.nextSibling);
 
-  // ---- Sort control: the "Sort by" <select> in the panel (built by build_site.py) ----
-  var sortNote = null;
-  var sortSelect = document.getElementById("pub-sort");
-  function setSort(mode) {
-    currentSort = mode;
-    if (sortSelect && sortSelect.value !== mode) sortSelect.value = mode;
-    if (sortNote) sortNote.hidden = mode !== "cited";
-    applySort();
-  }
-  if (sortSelect) {
-    sortSelect.addEventListener("change", function () { setSort(sortSelect.value); });
-    var controls = document.querySelector(".controls");
-    // explanatory note, shown only in "Most cited" mode
-    sortNote = document.createElement("p");
-    sortNote.className = "sort-note";
-    sortNote.hidden = true;
-    sortNote.textContent = "Ranked by open citation data (OpenAlex / Semantic Scholar), " +
-      "which under-counts books and some older work. Entries with no available count — " +
-      "including several books — are listed last.";
-    if (controls && controls.parentNode) controls.parentNode.insertBefore(sortNote, controls.nextSibling);
-  }
+  // live citation counts arrive later (scholar-citations.js)
+  document.addEventListener("citations:updated", function () { if (state.sort === "cited") apply(); });
 
-  // when live citation counts load (or update), re-sort if we're ranking by them
-  document.addEventListener("citations:updated", function () {
-    if (currentSort === "cited") applySort();
-  });
-
-  // Deep link: ?q=term pre-fills the search box (keyword links on the
-  // per-publication pages point here, e.g. /?q=Autonomy)
+  // deep links: ?q=term (keyword links on landing pages) and ?topic=id
   try {
-    var q0 = new URLSearchParams(window.location.search).get("q");
-    if (q0 && searchInput) { searchInput.value = q0; loadSearchIndex(); }
+    var params = new URLSearchParams(window.location.search);
+    if (params.get("q") && searchInput) {
+      searchInput.value = params.get("q");
+      state.q = params.get("q").toLowerCase();
+      loadSearchIndex();
+    }
+    if (params.get("topic") && topicSelect) { topicSelect.value = params.get("topic"); state.topic = topicSelect.value; }
   } catch (e) {}
+  apply();
 
-  applyFilters();
-
-  // --- Hover tooltips on action buttons that don't already carry one ---
-  var ACTION_TIPS = {
-    "abstract": "Read the paper's abstract",
-    "summary": "Read an extended summary with key quotes",
-    "html": "Read the full text as a web page (new tab)",
-    "full pdf": "Open the full published PDF (new tab)",
-    "preprint": "Open the preprint PDF (new tab)",
-    "cite": "Download the citation (RIS / BibTeX), or import it with a Zotero/Mendeley browser connector",
-    "talk": "Watch related talks and video recordings",
-    "talks": "Watch related talks and video recordings"
-  };
-  Array.prototype.forEach.call(document.querySelectorAll(".pub-action, .pub-action-btn"), function (el) {
-    if (el.getAttribute("title")) return;
-    var label = el.textContent.replace(/[▾▸]/g, "").replace(/\(\d+\)/g, "").replace(/soon/i, "").trim().toLowerCase();
-    if (ACTION_TIPS[label]) el.setAttribute("title", ACTION_TIPS[label]);
-  });
-
-  // --- "Keywords:" label + clickable-filter hints on each keyword line ---
-  Array.prototype.forEach.call(document.querySelectorAll(".pub-keywords"), function (kw) {
-    if (!kw.querySelector(".pub-kw-label")) {
-      var lab = document.createElement("span");
-      lab.className = "pub-kw-label";
-      lab.textContent = "Keywords:";
-      lab.title = "Click any keyword to filter the list by that topic";
-      kw.insertBefore(document.createTextNode(" "), kw.firstChild);
-      kw.insertBefore(lab, kw.firstChild);
-    }
-    Array.prototype.forEach.call(kw.querySelectorAll("a.pub-kw"), function (k) {
-      if (!k.getAttribute("title")) k.setAttribute("title", "Filter the list by “" + k.textContent.trim() + "”");
-    });
-  });
-
-  // --- Copy button on each summary quote ---
-  function fallbackCopy(text) {
-    var ta = document.createElement("textarea");
-    ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
-    document.body.appendChild(ta); ta.select();
-    try { document.execCommand("copy"); } catch (e) {}
-    document.body.removeChild(ta);
-  }
-  Array.prototype.forEach.call(document.querySelectorAll(".summary-quote"), function (bq) {
-    if (bq.querySelector(".copy-quote")) return;
-    var btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "copy-quote";
-    btn.textContent = "Copy";
-    btn.title = "Copy quote";
-    btn.setAttribute("aria-label", "Copy quote to clipboard");
-    bq.insertBefore(btn, bq.firstChild);
-  });
-  document.addEventListener("click", function (e) {
-    var btn = e.target.closest ? e.target.closest(".copy-quote") : null;
-    if (!btn) return;
-    e.preventDefault();
-    var bq = btn.closest(".summary-quote");
-    if (!bq) return;
-    var clone = bq.cloneNode(true);
-    var b = clone.querySelector(".copy-quote"); if (b) b.parentNode.removeChild(b);
-    var text = clone.textContent.replace(/\s+/g, " ").trim();
-    var done = function () {
-      btn.textContent = "Copied"; btn.classList.add("copied");
-      setTimeout(function () { btn.textContent = "Copy"; btn.classList.remove("copied"); }, 1500);
-    };
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(done).catch(function () { fallbackCopy(text); done(); });
-    } else { fallbackCopy(text); done(); }
-  });
-
-  // Clicking a keyword chip searches for it; clicking the active one again clears it (toggle)
-  document.addEventListener("click", function (e) {
-    var chip = e.target.closest ? e.target.closest("a.pub-kw") : null;
-    if (!chip || !searchInput) return;
-    e.preventDefault();
-    var kw = (chip.getAttribute("data-kw") || chip.textContent).trim();
-    var current = searchInput.value.trim().toLowerCase();
-    if (current === kw.toLowerCase()) {
-      searchInput.value = "";                 // same keyword clicked again -> unselect
-    } else {
-      searchInput.value = kw;
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-    applyFilters();
-    searchInput.focus();
-  });
-
-  // --- Expandable panels: keep the button row aligned, drop the panel below it ---
-  // Progressive enhancement: move each panel out of its <details> into a full-width
-  // holder placed after the button row. The triggering button stays in place (and is
-  // highlighted via CSS on [open]); the panel appears below the whole row, clearly
-  // associated, without pushing the other buttons around. Works the same on mobile.
-  // With JS off, the native <details> still expand inline, so nothing is lost.
+  // ---- expandable panels (Abstract, Summary, Talks): one open per entry,
+  //      shown full-width below the button row; abstract/summary load on demand ----
   items.forEach(function (item) {
     var actions = item.querySelector(".pub-actions");
     if (!actions) return;
@@ -380,20 +195,67 @@
   });
   list.classList.add("js-panels");
 
-  // Drive the relocated panels from each <details>'s open/close state, and keep only
-  // one panel open per entry.
+  var recordCache = {};
+  function loadRecord(url) {
+    if (!recordCache[url]) {
+      recordCache[url] = fetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+    }
+    return recordCache[url];
+  }
+  function addQuoteButtons(root) {
+    Array.prototype.forEach.call(root.querySelectorAll(".summary-quote"), function (bq) {
+      if (bq.querySelector(".copy-quote")) return;
+      var btn = document.createElement("button");
+      btn.type = "button"; btn.className = "copy-quote"; btn.textContent = "Copy";
+      btn.setAttribute("aria-label", "Copy quote to clipboard");
+      bq.insertBefore(btn, bq.firstChild);
+    });
+  }
   list.addEventListener("toggle", function (e) {
     var d = e.target;
     if (d.tagName !== "DETAILS" || !d.classList.contains("pub-details")) return;
     var parent = d.closest(".pub-item");
-    if (!parent) return;
-    if (d.open) {
-      parent.querySelectorAll("details.pub-details").forEach(function (o) {
+    if (d.open && parent) {
+      Array.prototype.forEach.call(parent.querySelectorAll("details.pub-details"), function (o) {
         if (o !== d && o.open) o.open = false;
       });
-      if (d._panel) d._panel.hidden = false;
-    } else if (d._panel) {
-      d._panel.hidden = true;
     }
+    if (d._panel) d._panel.hidden = !d.open;
+    if (!d.open || !d.classList.contains("pub-lazy") || d._loaded || !window.fetch) return;
+    loadRecord(d.getAttribute("data-src")).then(function (rec) {
+      var field = d.getAttribute("data-field");
+      if (field === "abstract" && rec.abstract) {
+        d._panel.innerHTML = "";
+        var p = document.createElement("p");
+        p.textContent = rec.abstract;
+        d._panel.appendChild(p);
+      } else if (field === "summary" && rec.summary_html) {
+        d._panel.innerHTML = rec.summary_html;   // the site's own generated HTML
+        addQuoteButtons(d._panel);
+      }
+      d._loaded = true;
+    }).catch(function () { /* keep the fallback link to the landing page */ });
   }, true);
+
+  // copy button on summary quotes
+  function fallbackCopy(text) {
+    var ta = document.createElement("textarea");
+    ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest ? e.target.closest(".copy-quote") : null;
+    if (!btn) return;
+    e.preventDefault();
+    var bq = btn.closest(".summary-quote");
+    var clone = bq.cloneNode(true);
+    var b = clone.querySelector(".copy-quote"); if (b) b.parentNode.removeChild(b);
+    var text = clone.textContent.replace(/\s+/g, " ").trim();
+    var done = function () { btn.textContent = "Copied"; setTimeout(function () { btn.textContent = "Copy"; }, 1500); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function () { fallbackCopy(text); done(); });
+    } else { fallbackCopy(text); done(); }
+  });
 })();

@@ -108,7 +108,7 @@
     });
     if (entry.count < 1) return;
     (byDoi[doi] || []).forEach(function (el) {
-      var meta = el.querySelector(".pub-meta");
+      var meta = el.querySelector(".pub-meta") || el.querySelector(".pub-actions");
       if (!meta || meta.querySelector(".pub-cited")) return;
       var node;
       if (entry.url) {

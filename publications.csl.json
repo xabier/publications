@@ -1,5 +1,38 @@
 [
  {
+  "id": "2026-incorporating-machine-others-an-enactive-exploration",
+  "type": "article",
+  "title": "Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions",
+  "author": [
+   {
+    "family": "Cuffari",
+    "given": "Elena C."
+   },
+   {
+    "family": "Pérez-Verdugo",
+    "given": "Marta"
+   },
+   {
+    "family": "Barandiaran",
+    "given": "Xabier E."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     29
+    ]
+   ]
+  },
+  "publisher": "arXiv",
+  "DOI": "10.48550/arXiv.2610.39869",
+  "URL": "http://arxiv.org/abs/2610.39869",
+  "abstract": "New concepts based in interactional thinking are required to understand how humans are changed by relating to LLMs. Standard theories of technological impact upon users' autonomy are inadequate here, because this technology is capable of inducing linguistic interactions with humans in an unprecedented manner. Traditional theories of social cognition also fall short, because LLMs have neither autonomy nor minds nor sociality as such. And yet, humans interact, talk, and create with them. We base ourselves on enactive theory, particularly on the theory of Linguistic Bodies and recent developments of enactive accounts of AI, to explore how we make sense with machines. We argue that we incorporate machine-others in two ways: in the tool-like sense of incorporation as enabling particular skills, but also in the more linguistic and identity-tied sense of incorporating (and incarnating) LLMs' ways of languaging. However, LLMs are themselves excorporated and excarnated phantoms of our own languaging; we give a (machinic) body to our language. As such, we are not just incorporating machinic others; we are incorporating excorporated others. These conceptual advances draw a new map of our linguistic relation to LLMs, putting them in continuation with other forms of languaging involving other linguistic artifacts (e.g., religious books). We attend to some particular forms that this relation takes today, and how they may be impacting the autonomy and becoming of LLM-engaged humans. We introduce the idea of \"susceptive sense-making\" to characterize increased semiotic labour that is carried by the lack of friction that we sometimes encounter within these services.",
+  "keyword": "Susceptive sense-making, Incorporation, Incarnation, Excorporation, Excarnation, Autonomy, Linguistic bodies, LLMs"
+ },
+ {
   "id": "2026-sensorimotor-teleology-and-goal-directedness-an",
   "type": "article-journal",
   "title": "Sensorimotor teleology and goal-directedness. An organismic framework for normative behaviour",
@@ -61,111 +94,6 @@
   "keyword": "Autonomous organization, Dysfunction, Malfunction, Natural norms, Normative field, Normative function"
  },
  {
-  "id": "2026-outonomy-fleshing-out-the-concept-of",
-  "type": "book",
-  "title": "Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual",
-  "editor": [
-   {
-    "family": "Barandiaran",
-    "given": "Xabier E."
-   },
-   {
-    "family": "Etxeberria",
-    "given": "Arantza"
-   }
-  ],
-  "issued": {
-   "date-parts": [
-    [
-     2026
-    ]
-   ]
-  },
-  "publisher": "Springer Nature Switzerland",
-  "publisher-place": "Cham",
-  "ISBN": "978-3-032-05500-2 978-3-032-05501-9",
-  "DOI": "10.1007/978-3-032-05501-9",
-  "URL": "https://link.springer.com/10.1007/978-3-032-05501-9",
-  "language": "en",
-  "collection-title": "SpringerBriefs in Philosophy",
-  "keyword": "Outonomy, Autonomy, Human autonomy, Animal autonomy, Biology and politics, Contemporary philosophy of autonomy"
- },
- {
-  "id": "2026-socialecological-affective-arrangements-mapping-with-a",
-  "type": "article",
-  "title": "Socialecological affective arrangements: mapping with a small sea of many seas",
-  "author": [
-   {
-    "family": "Cabello",
-    "given": "Violeta"
-   },
-   {
-    "family": "Barandiaran",
-    "given": "Xabier"
-   },
-   {
-    "family": "Gonzalez-Mon",
-    "given": "Blanca"
-   },
-   {
-    "family": "Zaragoza",
-    "given": "Juan Manuel"
-   },
-   {
-    "family": "Siqueiros",
-    "given": "Jesús Mario"
-   },
-   {
-    "family": "Brugnach",
-    "given": "Marcela"
-   }
-  ],
-  "issued": {
-   "date-parts": [
-    [
-     2026
-    ]
-   ]
-  },
-  "URL": "https://philsci-archive.pitt.edu/id/eprint/31699/",
-  "abstract": "Environmental degradation engenders deep affective experiences that shape how people explain its causes and respond to it, yet socialecological research lacks tools to analyse these affective relations alongside factual accounts. This article proposes the concept of socialecological affective arrangement (SEAA), a historically and geographically situated formation of entities and practices that affect, and are affected by, one another, together with a method to map it: the mapparatus. The mapparatus codes interview narratives into networks whose nodes are narrators, entities (from nitrogen and algae to laws) and practices, and whose links are affects and emotions. It distinguishes egoaffective relations, through which narrators are themselves affected, from alteraffective relations, through which they explain what affects others, and combines network analysis with close qualitative reading. The method is explored through eight interviews with farmers, biologists, a fisher and a researcher concerned with the eutrophication of the Mar Menor, a Spanish coastal lagoon and the first ecosystem in Europe granted legal personhood. Participants are divided yet connected. Farmers cohere around how new regulations and public blame affect them; non-farmers cohere in signalling agriculture as a direct cause of eutrophication. Shared attachments to the lagoon, such as bathing and sailing with family, a common frustration with its governance and a participant experiencing inner affective contradictions about the lagoon connect both groups. Mapping SEAAs foregrounds affective experience as a crucial source of socialecological information and helps explain why people know-feel different worlds in contested environmental problems, offering a tool for affective knowing in sustainability research.",
-  "language": "en",
-  "keyword": "Affective arrangements, Emotions, Affective knowing, Socialecological systems, Mixed methods, Eutrophication, Mar Menor"
- },
- {
-  "id": "2026-incorporating-machine-others-an-enactive-exploration",
-  "type": "article",
-  "title": "Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions",
-  "author": [
-   {
-    "family": "Cuffari",
-    "given": "Elena C."
-   },
-   {
-    "family": "Pérez-Verdugo",
-    "given": "Marta"
-   },
-   {
-    "family": "Barandiaran",
-    "given": "Xabier E."
-   }
-  ],
-  "issued": {
-   "date-parts": [
-    [
-     2026,
-     10,
-     29
-    ]
-   ]
-  },
-  "publisher": "arXiv",
-  "DOI": "10.48550/arXiv.2610.39869",
-  "URL": "http://arxiv.org/abs/2610.39869",
-  "abstract": "New concepts based in interactional thinking are required to understand how humans are changed by relating to LLMs. Standard theories of technological impact upon users' autonomy are inadequate here, because this technology is capable of inducing linguistic interactions with humans in an unprecedented manner. Traditional theories of social cognition also fall short, because LLMs have neither autonomy nor minds nor sociality as such. And yet, humans interact, talk, and create with them. We base ourselves on enactive theory, particularly on the theory of Linguistic Bodies and recent developments of enactive accounts of AI, to explore how we make sense with machines. We argue that we incorporate machine-others in two ways: in the tool-like sense of incorporation as enabling particular skills, but also in the more linguistic and identity-tied sense of incorporating (and incarnating) LLMs' ways of languaging. However, LLMs are themselves excorporated and excarnated phantoms of our own languaging; we give a (machinic) body to our language. As such, we are not just incorporating machinic others; we are incorporating excorporated others. These conceptual advances draw a new map of our linguistic relation to LLMs, putting them in continuation with other forms of languaging involving other linguistic artifacts (e.g., religious books). We attend to some particular forms that this relation takes today, and how they may be impacting the autonomy and becoming of LLM-engaged humans. We introduce the idea of \"susceptive sense-making\" to characterize increased semiotic labour that is carried by the lack of friction that we sometimes encounter within these services.",
-  "keyword": "Susceptive sense-making, Incorporation, Incarnation, Excorporation, Excarnation, Autonomy, Linguistic bodies, LLMs"
- },
- {
   "id": "2026-sensorimotor-norms-and-social-norms-a",
   "type": "article-journal",
   "title": "Sensorimotor Norms and Social Norms: A Pluralistic Proposal",
@@ -195,6 +123,36 @@
   "abstract": "The performance of complex motor and craft skills is a norm-governed process, reliant on an agent’s sensitivity to standards of correct and incorrect performance. Whilst norm-governed practical skills tend to be understood in terms of social norms, this paper proposes an alternative, pluralistic perspective, which recognises socially underdetermined normative dimensions in practical skills. Specifically, drawing on the enactive approach, we argue that sensorimotor norms, understood as situated patterns of sensorimotor organisation, constitute skill-guiding normative standards which are not fully captured by social rules and expectations. We demonstrate the value of this pluralistic perspective for the explanation of skill-related norms by showing how it delivers a better interpretation of a recent proposal about the skill-based evolution of social norms, namely Jonathan Birch’s ‘skill hypothesis’. Building on this discussion, we then elaborate on the explanatory benefits of our proposal for making sense of cases of norm change and innovation in the context of practical skills and highlight its potential to address challenges connected to the origins and development of social norms. We conclude that a pluralistic perspective which takes account of both sensorimotor and social norms is better suited to explain essential features of norm-governed motor and craft skills than a view which limits itself to the consideration of social norms.",
   "language": "en",
   "keyword": "Normativity, Rule-following, Social norms, Sensorimotor norms, Normative cognition, Normative behavior, Practical skill"
+ },
+ {
+  "id": "2026-outonomy-fleshing-out-the-concept-of",
+  "type": "book",
+  "title": "Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual",
+  "editor": [
+   {
+    "family": "Barandiaran",
+    "given": "Xabier E."
+   },
+   {
+    "family": "Etxeberria",
+    "given": "Arantza"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "publisher": "Springer Nature Switzerland",
+  "publisher-place": "Cham",
+  "ISBN": "978-3-032-05500-2 978-3-032-05501-9",
+  "DOI": "10.1007/978-3-032-05501-9",
+  "URL": "https://link.springer.com/10.1007/978-3-032-05501-9",
+  "language": "en",
+  "collection-title": "SpringerBriefs in Philosophy",
+  "keyword": "Outonomy, Autonomy, Human autonomy, Animal autonomy, Biology and politics, Contemporary philosophy of autonomy"
  },
  {
   "id": "2026-outonomy-the-very-idea",
@@ -339,70 +297,46 @@
   "keyword": "Instrumentalism, Autonomy of technology, Technopolitical autonomy, Technocomplexity"
  },
  {
-  "id": "2025-transforming-agency-on-the-mode-of",
-  "type": "article-journal",
-  "title": "Transforming agency: On the mode of existence of large language models",
+  "id": "2026-socialecological-affective-arrangements-mapping-with-a",
+  "type": "article",
+  "title": "Socialecological affective arrangements: mapping with a small sea of many seas",
   "author": [
    {
-    "family": "Barandiaran",
-    "given": "Xabier E."
+    "family": "Cabello",
+    "given": "Violeta"
    },
    {
-    "family": "Almendros",
-    "given": "Lola S."
+    "family": "Barandiaran",
+    "given": "Xabier"
+   },
+   {
+    "family": "Gonzalez-Mon",
+    "given": "Blanca"
+   },
+   {
+    "family": "Zaragoza",
+    "given": "Juan Manuel"
+   },
+   {
+    "family": "Siqueiros",
+    "given": "Jesús Mario"
+   },
+   {
+    "family": "Brugnach",
+    "given": "Marcela"
    }
   ],
   "issued": {
    "date-parts": [
     [
-     2025,
-     8,
-     22
+     2026
     ]
    ]
   },
-  "container-title": "Phenomenology and the Cognitive Sciences",
-  "ISSN": "1572-8676",
-  "DOI": "10.1007/s11097-025-10094-3",
-  "URL": "https://doi.org/10.1007/s11097-025-10094-3",
-  "abstract": "This paper investigates the ontological characterization of Large Language Models (LLMs) like ChatGPT. Between inflationary and deflationary accounts, we pay special attention to their status as agents. This requires explaining in detail the architecture, processing, and training procedures that enable LLMs to display their capacities, and the extensions used to turn LLMs into agent-like systems. After a systematic analysis we conclude that a LLM fails to meet necessary and sufficient conditions for autonomous agency in the light of embodied theories of mind: the individuality condition (it is not the product of its own activity, it is not even directly affected by it), the normativity condition (it does not generate its own norms or goals), and, partially the interactional asymmetry condition (it is not the origin and sustained source of its interaction with the environment). If not agents, then… What are LLMs? We argue that ChatGPT should be characterized as an interlocutor or linguistic automaton, a library-that-talks, devoid of (autonomous) agency, but capable to engage performatively on non-purposeful yet purpose-structured and purpose-bounded tasks. When interacting with humans, a “ghostly” component of the human-machine interaction makes it possible to enact genuine conversational experiences with LLMs. Despite their lack of sensorimotor and biological embodiment, LLMs textual embodiment (the training corpus), digital extended interface embodiments, and resource-hungry computational embodiment, significantly transform existing forms of machine automatism and human agency. Beyond assisted and extended agency, the LLM-human coupling can produce midtended forms of agency, closer to the production of intentional agency than to the extended instrumentality of any previous technologies.",
+  "URL": "https://philsci-archive.pitt.edu/id/eprint/31699/",
+  "abstract": "Environmental degradation engenders deep affective experiences that shape how people explain its causes and respond to it, yet socialecological research lacks tools to analyse these affective relations alongside factual accounts. This article proposes the concept of socialecological affective arrangement (SEAA), a historically and geographically situated formation of entities and practices that affect, and are affected by, one another, together with a method to map it: the mapparatus. The mapparatus codes interview narratives into networks whose nodes are narrators, entities (from nitrogen and algae to laws) and practices, and whose links are affects and emotions. It distinguishes egoaffective relations, through which narrators are themselves affected, from alteraffective relations, through which they explain what affects others, and combines network analysis with close qualitative reading. The method is explored through eight interviews with farmers, biologists, a fisher and a researcher concerned with the eutrophication of the Mar Menor, a Spanish coastal lagoon and the first ecosystem in Europe granted legal personhood. Participants are divided yet connected. Farmers cohere around how new regulations and public blame affect them; non-farmers cohere in signalling agriculture as a direct cause of eutrophication. Shared attachments to the lagoon, such as bathing and sailing with family, a common frustration with its governance and a participant experiencing inner affective contradictions about the lagoon connect both groups. Mapping SEAAs foregrounds affective experience as a crucial source of socialecological information and helps explain why people know-feel different worlds in contested environmental problems, offering a tool for affective knowing in sustainability research.",
   "language": "en",
-  "keyword": "Transformers, Large language models, Agency, Autonomy, Interlocutor automata, Human machine interaction"
- },
- {
-  "id": "2025-generative-midtended-cognition-and-artificial-intelligence",
-  "type": "article-journal",
-  "title": "Generative midtended cognition and Artificial Intelligence: thinging with thinging things",
-  "author": [
-   {
-    "family": "Barandiaran",
-    "given": "Xabier E."
-   },
-   {
-    "family": "Pérez-Verdugo",
-    "given": "Marta"
-   }
-  ],
-  "issued": {
-   "date-parts": [
-    [
-     2025,
-     4,
-     1
-    ]
-   ]
-  },
-  "container-title": "Synthese",
-  "volume": "205",
-  "issue": "4",
-  "page": "1-24",
-  "publisher": "Springer Netherlands",
-  "ISSN": "1573-0964",
-  "DOI": "10.1007/s11229-025-04961-4",
-  "URL": "https://link.springer.com/article/10.1007/s11229-025-04961-4",
-  "abstract": "This paper introduces the concept of “generative midtended cognition”, that explores the integration of generative AI technologies with human cognitive processes. The term “generative” reflects AI’s ability to iteratively produce structured outputs, while “midtended” captures the potential hybrid (human-AI) nature of the process. It stands between traditional conceptions of intended creation, understood as steered or directed from within, and extended processes that bring exo-biological processes into the creative process. We examine the working of current generative technologies (based on multimodal transformer architectures typical of large language models like ChatGPT) to explain how they can transform human cognitive agency beyond what the conceptual resources of standard theories of extended cognition can capture. We suggest that the type of cognitive activity typical of the coupling between a human and generative technologies is closer (but not equivalent) to social cognition than to classical extended cognitive paradigms. Yet, it deserves a specific treatment. We provide an explicit definition of generative midtended cognition in which we treat interventions by AI systems as constitutive of the agent’s intentional creative processes. Furthermore, we distinguish two dimensions of generative hybrid creativity: 1. Width: captures the sensitivity of the context of the generative process (from the single letter to the whole historical and surrounding data), 2. Depth: captures the granularity of iteration loops involved in the process. Generative midtended cognition stands in the middle depth between conversational forms of cognition in which complete utterances or creative units are exchanged, and micro-cognitive (e.g. neural) subpersonal processes. Finally, the paper discusses the potential risks and benefits of widespread generative AI adoption, including the challenges of authenticity, generative power asymmetry, and creative boost or atrophy.",
-  "language": "en",
-  "keyword": "Extended cognition, Generative AI, Creativity, Authorship, Cyborg intentionality, Midtention"
+  "keyword": "Affective arrangements, Emotions, Affective knowing, Socialecological systems, Mixed methods, Eutrophication, Mar Menor"
  },
  {
   "id": "2025-the-equilibration-of-technical-objects-uncovering",
@@ -434,6 +368,37 @@
   "abstract": "In this paper we argue that radically embodied approaches to cognition can be expanded to show that: (a) our sensorimotor engagements with technical objects can be normatively shaped in a direct manner (i.e. not necessarily involving symbolic processes), and that (b) this normativity is not only anchored in the agent but also partially supported by technical objects themselves. We depart from the enactive reinterpretation of Piagetian sensorimotor schemes and his theory of equilibration to establish how both agent-sided and environment-sided support structures (including artefacts) contribute to the autonomous self-maintenance of sensorimotor networks. We will then introduce technical behaviour as a regulatory transformation of the environment enacted to equilibrate certain sensorimotor structures. We will defend that technical objects, as products of technical behaviour, sediment these normative constraints in their material structure. Then, through the dynamics of assimilation and accommodation, we schematize how different scenarios give rise to canonical or alternative uses in the encounter of agents with artefacts. Finally, we will offer a complexification of the normative entanglement of objects and agents by introducing the sociohistorical notion of activity as developed within Activity Theory approaches as collectively articulating individual actions. Based on all of this, we will have offered a picture of technical objects as also radically embodying normative layers, without submitting to an overly-deterministic picture of artefacts as rigidly prescribing behaviour, or to the purely symbolic or culturalist interpretation of them.",
   "language": "en",
   "keyword": "Technology, Normativity, Sensorimotor scheme, Radical embodiment, Enactivism, Affordances"
+ },
+ {
+  "id": "2025-transforming-agency-on-the-mode-of",
+  "type": "article-journal",
+  "title": "Transforming agency: On the mode of existence of large language models",
+  "author": [
+   {
+    "family": "Barandiaran",
+    "given": "Xabier E."
+   },
+   {
+    "family": "Almendros",
+    "given": "Lola S."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     8,
+     22
+    ]
+   ]
+  },
+  "container-title": "Phenomenology and the Cognitive Sciences",
+  "ISSN": "1572-8676",
+  "DOI": "10.1007/s11097-025-10094-3",
+  "URL": "https://doi.org/10.1007/s11097-025-10094-3",
+  "abstract": "This paper investigates the ontological characterization of Large Language Models (LLMs) like ChatGPT. Between inflationary and deflationary accounts, we pay special attention to their status as agents. This requires explaining in detail the architecture, processing, and training procedures that enable LLMs to display their capacities, and the extensions used to turn LLMs into agent-like systems. After a systematic analysis we conclude that a LLM fails to meet necessary and sufficient conditions for autonomous agency in the light of embodied theories of mind: the individuality condition (it is not the product of its own activity, it is not even directly affected by it), the normativity condition (it does not generate its own norms or goals), and, partially the interactional asymmetry condition (it is not the origin and sustained source of its interaction with the environment). If not agents, then… What are LLMs? We argue that ChatGPT should be characterized as an interlocutor or linguistic automaton, a library-that-talks, devoid of (autonomous) agency, but capable to engage performatively on non-purposeful yet purpose-structured and purpose-bounded tasks. When interacting with humans, a “ghostly” component of the human-machine interaction makes it possible to enact genuine conversational experiences with LLMs. Despite their lack of sensorimotor and biological embodiment, LLMs textual embodiment (the training corpus), digital extended interface embodiments, and resource-hungry computational embodiment, significantly transform existing forms of machine automatism and human agency. Beyond assisted and extended agency, the LLM-human coupling can produce midtended forms of agency, closer to the production of intentional agency than to the extended instrumentality of any previous technologies.",
+  "language": "en",
+  "keyword": "Transformers, Large language models, Agency, Autonomy, Interlocutor automata, Human machine interaction"
  },
  {
   "id": "2025-attention-is-all-they-need-cognitive",
@@ -469,6 +434,41 @@
   "abstract": "This paper critically analyses the “attention economy” within the framework of cognitive science and techno-political economics, as applied to both human and machine interactions. We explore how current business models, particularly in digital platform capitalism, harness user engagement by strategically shaping attentional patterns. These platforms utilize advanced AI and massive data analytics to enhance user engagement, creating a cycle of attention capture and data extraction. We review contemporary (neuro)cognitive theories of attention and platform engagement design techniques and criticize classical cognitivist and behaviourist theories for their inadequacies in addressing the potential harms of such engagement on user autonomy and wellbeing. 4E approaches to cognitive science, instead, emphasizing the embodied, extended, enactive, and ecological aspects of cognition, offer us an intrinsic normative standpoint and a more integrated understanding of how attentional patterns are actively constituted by adaptive digital environments. By examining the precarious nature of habit formation in digital contexts, we reveal the techno-economic underpinnings that threaten personal autonomy by disaggregating habits away from the individual, into an AI managed collection of behavioural patterns. Our current predicament suggests the necessity of a paradigm shift towards an ecology of attention. This shift aims to foster environments that respect and preserve human cognitive and social capacities, countering the exploitative tendencies of cognitive capitalism.",
   "language": "en",
   "keyword": "Attention economy, Engagement, Habit, Attention, Digital platforms, Enactive cognitive science, Dividual"
+ },
+ {
+  "id": "2025-generative-midtended-cognition-and-artificial-intelligence",
+  "type": "article-journal",
+  "title": "Generative midtended cognition and Artificial Intelligence: thinging with thinging things",
+  "author": [
+   {
+    "family": "Barandiaran",
+    "given": "Xabier E."
+   },
+   {
+    "family": "Pérez-Verdugo",
+    "given": "Marta"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     4,
+     1
+    ]
+   ]
+  },
+  "container-title": "Synthese",
+  "volume": "205",
+  "issue": "4",
+  "page": "1-24",
+  "publisher": "Springer Netherlands",
+  "ISSN": "1573-0964",
+  "DOI": "10.1007/s11229-025-04961-4",
+  "URL": "https://link.springer.com/article/10.1007/s11229-025-04961-4",
+  "abstract": "This paper introduces the concept of “generative midtended cognition”, that explores the integration of generative AI technologies with human cognitive processes. The term “generative” reflects AI’s ability to iteratively produce structured outputs, while “midtended” captures the potential hybrid (human-AI) nature of the process. It stands between traditional conceptions of intended creation, understood as steered or directed from within, and extended processes that bring exo-biological processes into the creative process. We examine the working of current generative technologies (based on multimodal transformer architectures typical of large language models like ChatGPT) to explain how they can transform human cognitive agency beyond what the conceptual resources of standard theories of extended cognition can capture. We suggest that the type of cognitive activity typical of the coupling between a human and generative technologies is closer (but not equivalent) to social cognition than to classical extended cognitive paradigms. Yet, it deserves a specific treatment. We provide an explicit definition of generative midtended cognition in which we treat interventions by AI systems as constitutive of the agent’s intentional creative processes. Furthermore, we distinguish two dimensions of generative hybrid creativity: 1. Width: captures the sensitivity of the context of the generative process (from the single letter to the whole historical and surrounding data), 2. Depth: captures the granularity of iteration loops involved in the process. Generative midtended cognition stands in the middle depth between conversational forms of cognition in which complete utterances or creative units are exchanged, and micro-cognitive (e.g. neural) subpersonal processes. Finally, the paper discusses the potential risks and benefits of widespread generative AI adoption, including the challenges of authenticity, generative power asymmetry, and creative boost or atrophy.",
+  "language": "en",
+  "keyword": "Extended cognition, Generative AI, Creativity, Authorship, Cyborg intentionality, Midtention"
  },
  {
   "id": "2025-varieties-of-normativity-and-mental-health",

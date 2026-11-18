@@ -193,35 +193,38 @@ def topic_id(label):
     return re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
 
 
+def byline_parts(r, slug):
+    """(authors, details) for the compact entry line, from the APA reference:
+    'Barandiaran, X. E., & Rama, T.' and '<em>Journal</em>, 21(1), 51-69'."""
+    lead, t, rest = apa_parts(r, slug)
+    who = re.sub(r"\s*\([^()]*\)\.$", "", lead)            # drop " (2026)."
+    m = re.search(r"</a>(.*?)\.?$", t)
+    bracket = m.group(1).strip() if m else ""               # " [Preprint]" / " (Report …)"
+    details = re.sub(r"\s*<a href=[^>]*>[^<]*</a>\s*$", "", rest).strip()
+    details = " ".join(x for x in (bracket, details) if x).strip()
+    return who, details
+
+
 def entry_html(r, e):
     slug = e["slug"]
-    meta = [f'<span class="pub-type">{esc(e["type_label"])}</span>',
-            f'<span class="pub-year">{esc(e["year"])}</span>']
-    if e["featured"]:
-        meta.append('<span class="pub-featured" title="Highlighted publication">★ Highlighted</span>')
-    for old in e["old_slugs"]:
-        meta.append(f'<span id="{esc(old)}" class="old-anchor"></span>')
-    lead, t, rest = apa_parts(r, slug)
-    L = [f'<li class="pub-item" id="{esc(slug)}" data-type="{esc(r["Item Type"])}"'
+    who, details = byline_parts(r, slug)
+    L = [f'<li class="pub-item" id="{esc(slug)}" data-type="{esc(r["Item Type"])}" data-year="{esc(e["year"])}"'
          f' data-kw="{esc(" ".join(k.lower() for k in e["keywords"] or e["topics"]))}"'
          + (' data-featured="true"' if e["featured"] else "")
          + (f' data-topics="{esc(" ".join(e["topic_ids"]))}"' if e["topic_ids"] else "")
-         + (f' data-doi="{esc(citelib.norm_doi(r["DOI"]))}"' if r["DOI"] else "") + ">",
-         '      <div class="pub-meta">\n        ' + "\n        ".join(meta) + "\n      </div>",
-         f'      <h2 class="pub-ref">{lead} {t} <span class="pub-source">{rest}</span></h2>']
-    kws, label = (e["keywords"], "Keywords") if e["keywords"] else (e["topics"], "Topics")
-    if kws:
-        tip = ("The authors’ keywords" if label == "Keywords"
-               else "Topics assigned by this site (the publication has no author keywords)")
-        chips = ' <span class="kw-sep">·</span> '.join(
-            f'<a class="pub-kw" href="#" data-kw="{esc(k)}">{esc(k)}</a>' for k in kws)
-        L.append(f'      <div class="pub-keywords"><span class="pub-kw-label" title="{tip}">'
-                 f'{label}:</span> {chips}</div>')
-    acts = [f'<a class="pub-action pub-page-link" href="p/{slug}/" '
-            f'title="This publication’s page: abstract, files, talks, citation">Details ›</a>']
-    # Abstract and summary are loaded on demand from p/{slug}/index.json (script.js),
-    # keeping this page short enough for AI agents to read whole. Without JS the
-    # panel links to the landing page, which carries the full text.
+         + (f' data-doi="{esc(citelib.norm_doi(r["DOI"]))}"' if r["DOI"] else "") + ">"]
+    for old in e["old_slugs"]:
+        L.append(f'        <span id="{esc(old)}" class="old-anchor"></span>')
+    L.append(f'        <h3 class="pub-head"><a class="pub-title-link" href="p/{slug}/" '
+             f'title="This publication’s page: abstract, files, talks, citation">{esc(e["title"])}</a></h3>')
+    L.append(f'        <p class="pub-byline">{who}' + (f' · <span class="pub-venue">{details}</span>' if details else "")
+             + f' <span class="pub-year">({esc(e["year"])})</span></p>')
+    acts = [f'<span class="pub-type">{esc(e["type_label"])}</span>']
+    if e["featured"]:
+        acts.append('<span class="pub-featured" title="Highlighted publication">★ Highlighted</span>')
+    acts.append(f'<a class="pub-action pub-page-link" href="p/{slug}/">Details ›</a>')
+    # Abstract and summary load on demand from p/{slug}/index.json (script.js); without
+    # JS the panel links to the landing page, which carries the full text.
     for field, label, extra in (("abstract", "Abstract", ""), ("summary", "Summary", " summary-panel")):
         if (field == "abstract" and e["abstract"]) or (field == "summary" and e["summary_html"]):
             acts.append(f'<details class="pub-details pub-lazy" data-src="p/{slug}/index.json" data-field="{field}">'
@@ -230,11 +233,11 @@ def entry_html(r, e):
                         f'Read the {label.lower()} on the publication’s page</a></p></div></details>')
     for kind, label_, tip in MEDIA:
         if kind in e["links"]:
-            lab = "Preprint" if (kind == "pdf" and r["Item Type"] == "preprint") else label_
+            lab = {"pdf": "Preprint" if r["Item Type"] == "preprint" else "PDF"}.get(kind, label_)
             acts.append(f'<a class="pub-action" href="{esc(e["links"][kind])}" target="_blank" '
                         f'rel="noopener" title="{esc(tip)}">{lab}</a>')
     if not any(k in e["links"] for k in ("pdf", "html", "txt")):
-        acts.append('<span class="pub-action-none">No open-access version available yet</span>')
+        acts.append('<span class="pub-action-none">No open-access version yet</span>')
     if e["talks"]:
         rows = []
         for tk in e["talks"]:
@@ -242,12 +245,93 @@ def entry_html(r, e):
             rows.append(f'<li><a href="{esc(tk["url"])}" target="_blank" rel="noopener">{esc(tk["title"])}</a> '
                         f'<span class="talk-meta">{esc(m)}</span></li>')
         lab = "Talk" if len(rows) == 1 else f"Talks ({len(rows)})"
-        acts.append(f'<details class="pub-details pub-talks"><summary class="pub-action-btn">{lab} ▾</summary>'
+        acts.append(f'<details class="pub-details pub-talks"><summary class="pub-action-btn">{lab}</summary>'
                     f'<div class="pub-panel pub-talks-panel"><ul class="talk-list">{"".join(rows)}</ul></div></details>')
-    L.append('      <div class="pub-actions">\n        ' + "\n        ".join(acts) + "\n      </div>")
-    L.append("      " + e["coins"])
-    L.append("    </li>")
+    L.append('        <div class="pub-actions">\n          ' + "\n          ".join(acts) + "\n        </div>")
+    L.append("        " + e["coins"])
+    L.append("      </li>")
     return "\n".join(L)
+
+
+def card_html(r, e):
+    bits = [lab for k, lab in (("pdf", "PDF"), ("html", "HTML")) if k in e["links"]]
+    if e["summary_html"]:
+        bits.append("Summary")
+    bits += [lab for k, lab in (("audio", "Audio"), ("podcast", "Podcast")) if k in e["links"]]
+    if e["talks"]:
+        bits.append("1 talk" if len(e["talks"]) == 1 else f"{len(e['talks'])} talks")
+    venue = r["Publication Title"] or r["Publisher"]
+    return (f'<a class="feat-card" href="p/{e["slug"]}/">'
+            f'<span class="feat-meta">{esc(e["type_label"])} · {esc(e["year"])}</span>'
+            f'<span class="feat-title">{esc(e["title"])}</span>'
+            + (f'<span class="feat-venue">{esc(venue)}</span>' if venue else "")
+            + (f'<span class="feat-extras">{" · ".join(bits)}</span>' if bits else "") + "</a>")
+
+
+def main_html(entries, site):
+    n = len(entries)
+    years = [e["year"] for e, _ in entries if e["year"]]
+    span = f"{min(years)}–{max(years)}" if years else ""
+    feats = [(e, r) for e, r in entries if e["featured"]]
+    out = []
+    if feats:
+        out.append('<section class="featured" aria-labelledby="featured-title">\n'
+                   '      <div class="featured-head"><h2 id="featured-title">★ Highlighted work</h2>'
+                   '<button type="button" class="featured-toggle" data-featured-filter aria-pressed="false">'
+                   f'Show only highlighted ({len(feats)})</button></div>\n'
+                   '      <div class="feat-grid">\n        '
+                   + "\n        ".join(card_html(r, e) for e, r in feats[:3]) + "\n      </div>\n    </section>")
+    # toolbar
+    counts = {t: sum(1 for e, _ in entries if e["type"] == t) for t in TYPE_ORDER}
+    topt = ['<option value="">All topics</option>']
+    for t in site.get("topics", []):
+        tid = topic_id(t["label"])
+        c = sum(1 for e, _ in entries if tid in e["topic_ids"])
+        if c:
+            topt.append(f'<option value="{tid}">{esc(t["label"])} ({c})</option>')
+    yopt = [f'<option value="all">All types ({n})</option>'] + [
+        f'<option value="{t}">{TYPE_PLURAL[t]} ({c})</option>' for t, c in counts.items() if c]
+    out.append('<div class="controls" role="search" aria-label="Search, filter and sort publications">\n'
+               '      <label class="visually-hidden" for="pub-search">Search publications</label>\n'
+               '      <input type="search" id="pub-search" placeholder="Search titles, keywords, abstracts…">\n'
+               '      <label class="ctl">Topic <select id="pub-topic">' + "".join(topt) + '</select></label>\n'
+               '      <label class="ctl">Type <select id="pub-type">' + "".join(yopt) + '</select></label>\n'
+               '      <label class="ctl">Sort <select id="pub-sort"><option value="newest">Newest first</option>'
+               '<option value="oldest">Oldest first</option><option value="cited">Most cited</option></select></label>\n'
+               '    </div>')
+    # year groups (newest first) + jump links
+    groups, order = {}, []
+    for e, r in entries:
+        y = e["year"] or "Undated"
+        if y not in groups:
+            groups[y] = []
+            order.append(y)
+        groups[y].append((e, r))
+    decades, jump = {}, []
+    for y in order:
+        if y[:3].isdigit():
+            decades.setdefault(y[:3] + "0s", y)
+    for y in order[:4]:
+        jump.append(f'<a href="#y{y}">{y}</a>')
+    for d in decades:
+        jump.append(f'<a href="#d{d}">{d}</a>')
+    out.append('<div class="list-meta">'
+               f'<p class="results-count" id="results-count" aria-live="polite"><strong>{n} publications</strong> · {span}</p>'
+               '<nav class="year-jump" aria-label="Jump to year"><span>Jump to:</span> ' + " ".join(jump) + '</nav></div>')
+    out.append('<p class="no-results" id="no-results">No publications match your search.</p>')
+    secs = []
+    first_of = {v: k for k, v in decades.items()}
+    for y in order:
+        items = groups[y]
+        anchor = f'<span id="d{first_of[y]}" class="old-anchor"></span>' if y in first_of else ""
+        c = len(items)
+        secs.append(f'<section class="year-group" id="y{y}" data-year="{y}">{anchor}\n'
+                    f'      <h2 class="year-head">{y} <span class="year-count" data-total="{c}">'
+                    f'{c} publication{"s" if c != 1 else ""}</span></h2>\n'
+                    '      <ol class="year-list">\n      ' + "\n      ".join(entry_html(r, e) for e, r in items)
+                    + "\n      </ol>\n    </section>")
+    out.append('<div id="pub-list" class="pub-years">\n    ' + "\n    ".join(secs) + '\n    </div>')
+    return "\n    ".join(out)
 
 
 def sort_key(r):
@@ -306,7 +390,6 @@ def main():
                   ensure_ascii=False, indent=1)
 
     zot.sort(key=sort_key, reverse=True)
-    zot = [r for r in zot if r["Key"] in featured] + [r for r in zot if r["Key"] not in featured]
 
     citelib._used_keys.clear()
     entries, li = [], []
@@ -349,12 +432,13 @@ def main():
         e["topic_ids"] = [topic_id(t["label"]) for t in site.get("topics", [])
                           if any(term in hay for term in t["terms"])]
         entries.append((e, r))
-        li.append("    " + entry_html(r, e))
+        li.append(e["slug"])
 
     doc = open(INDEX, encoding="utf-8").read()
-    # 1. the list
-    m = re.search(r'(<ol class="pub-list"[^>]*>)(.*?)(\n\s*</ol>)', doc, re.S)
-    doc = doc[:m.end(1)] + "\n" + "\n".join(li) + doc[m.start(3):]
+    # 1. everything inside <main>: highlighted cards, toolbar, year-grouped list
+    doc = re.sub(r'(<main id="content">)(.*?)(</main>)',
+                 lambda mo: mo.group(1) + "\n    " + main_html(entries, site) + "\n  " + mo.group(3),
+                 doc, count=1, flags=re.S)
     # 2. compact head JSON-LD (full records live on the landing pages)
     graph = []
     for e, r in entries:
@@ -380,55 +464,16 @@ def main():
     ld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=1)
     doc = re.sub(r'(<script type="application/ld\+json">\s*).*?(\s*</script>)',
                  lambda mo: mo.group(1) + ld + mo.group(2), doc, count=1, flags=re.S)
-    # 3. search / sort / filter panel, rebuilt every time (counts are live)
-    counts = {t: sum(1 for e, _ in entries if e["type"] == t) for t in TYPE_ORDER}
     n = len(entries)
-    nfeat = sum(1 for e, _ in entries if e["featured"])
-    btns = [f'<button type="button" class="type-filter" data-type-filter="all" aria-pressed="true">All ({n})</button>']
-    btns += [f'<button type="button" class="type-filter" data-type-filter="{t}" aria-pressed="false">'
-             f'{TYPE_PLURAL[t]} ({c})</button>' for t, c in counts.items() if c]
-    btns.append('<button type="button" class="type-filter featured-toggle" data-featured-filter aria-pressed="false" '
-                f'title="Show only highlighted publications">★ Highlighted ({nfeat})</button>')
-    trows = []
-    for t in site.get("topics", []):
-        tid = topic_id(t["label"])
-        c = sum(1 for e, _ in entries if tid in e["topic_ids"])
-        if c:
-            trows.append(f'<button type="button" class="type-filter topic-filter" data-topic-filter="{tid}" '
-                         f'aria-pressed="false">{esc(t["label"])} <span class="tcount">{c}</span></button>')
-    topics_row = ('      <div class="controls-row controls-topics" role="group" aria-label="Filter by topic">\n'
-                  '        <span class="controls-label">Topics:</span>\n        ' + "\n        ".join(trows)
-                  + "\n      </div>\n") if trows else ""
-    panel = (
-        '<div class="controls" role="search" aria-label="Search, sort and filter publications">\n'
-        '      <div class="controls-row controls-top">\n'
-        '        <input type="search" id="pub-search" placeholder="Search titles, keywords, abstracts…" '
-        'aria-label="Search publications by title, keyword, abstract, author or year">\n'
-        '        <span class="sort-select"><label for="pub-sort">Sort by</label>\n'
-        '          <select id="pub-sort">\n'
-        '            <option value="newest">Newest first</option>\n'
-        '            <option value="oldest">Oldest first</option>\n'
-        '            <option value="cited">Most cited first</option>\n'
-        '          </select></span>\n'
-        '      </div>\n'
-        + topics_row +
-        '      <div class="controls-row controls-filters" role="group" aria-label="Filter by type">\n'
-        '        <span class="controls-label">Show:</span>\n        ' + "\n        ".join(btns) + "\n"
-        '      </div>\n'
-        f'      <p class="results-count" id="results-count" aria-live="polite">{n} of {n} publications</p>\n'
-        '    </div>')
-    doc = re.sub(r'<div class="controls".*?</div>(?=\s*(?:<p class="sort-note"[^>]*>.*?</p>\s*)?<ol class="pub-list")',
-                 lambda mo: panel, doc, count=1, flags=re.S)
-    doc = re.sub(r"\d+ items, reverse-chronological", f"{n} items, reverse-chronological", doc)
+    counts = {t: sum(1 for e, _ in entries if e["type"] == t) for t in TYPE_ORDER}
     # 3b. researcher profiles in the header (data/site.json -> profiles)
     doc = re.sub(r"\s*<!--PROFILES-START-->.*?<!--PROFILES-END-->", "", doc, flags=re.S)
     if profiles:
-        rows = "\n".join(
-            f'          <li><a href="{esc(p["url"])}" rel="me" target="_blank" title="{esc(p["name"])} profile">'
-            f'{esc(p["name"])} <span class="pid">{esc(p["id"])}</span></a></li>' for p in profiles)
-        box = ('\n    <!--PROFILES-START--><aside class="site-profiles" aria-label="Researcher profiles">\n'
-               '        <p class="profiles-title">Researcher profiles</p>\n'
-               f'        <ul>\n{rows}\n        </ul>\n      </aside><!--PROFILES-END-->')
+        links = " ".join(
+            f'<a href="{esc(p["url"])}" rel="me" target="_blank" title="{esc(p["name"])}: {esc(p["id"])}">'
+            f'{esc(p["name"])}</a>' for p in profiles)
+        box = ('\n    <!--PROFILES-START--><nav class="site-profiles" aria-label="Researcher profiles">'
+               f'{links}</nav><!--PROFILES-END-->')
         doc = doc.replace('<header class="site-header">', '<header class="site-header">' + box, 1)
     # 3c. "back to my site" and "last updated" on one line (one-time rewrite of the
     #     original two paragraphs; the date itself is re-stamped by build_pages)
