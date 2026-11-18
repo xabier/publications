@@ -197,7 +197,6 @@ def entry_html(r, e):
         meta.append('<span class="pub-featured" title="Highlighted publication">★ Highlighted</span>')
     for old in e["old_slugs"]:
         meta.append(f'<span id="{esc(old)}" class="old-anchor"></span>')
-    meta.append(f'<a class="pub-permalink" href="#{esc(slug)}" aria-label="Link to this entry in the list">#</a>')
     lead, t, rest = apa_parts(r, slug)
     L = [f'<li class="pub-item" id="{esc(slug)}" data-type="{esc(r["Item Type"])}"'
          f' data-kw="{esc(" ".join(k.lower() for k in e["keywords"] or e["topics"]))}"'

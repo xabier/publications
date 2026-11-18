@@ -870,7 +870,7 @@ def slim_index(doc, records):
     doc = doc.replace('<link rel="stylesheet" href="style.css">',
                       '<link rel="stylesheet" href="style.css">' + head_links, 1)
     machine = (
-        '\n    <!--MACHINE-START--><p class="site-machine">For machines and AI agents: '
+        '\n    <!--MACHINE-START--><p class="site-machine visually-hidden">For machines and AI agents: '
         '<a href="llms.txt">llms.txt</a> &middot; <a href="llms-full.txt">llms-full.txt</a> &middot; '
         '<a href="publications.json">JSON</a> &middot; <a href="all.bib">BibTeX</a> &middot; '
         '<a href="all.ris">RIS</a>. Every publication also has its own page '
@@ -881,6 +881,14 @@ def slim_index(doc, records):
     today = datetime.date.today()
     doc = re.sub(r'(<time id="last-updated" datetime=")[^"]*(">)[^<]*(</time>)',
                  rf'\g<1>{today.isoformat()}\g<2>{today.day} {today.strftime("%B %Y")}\g<3>', doc)
+    # 6b. small visible "for machines" line in the footer (the header copy is visually hidden)
+    doc = re.sub(r"\s*<!--MACHINE-FOOT-START-->.*?<!--MACHINE-FOOT-END-->", "", doc, flags=re.S)
+    doc = doc.replace(
+        '<footer class="site-footer">',
+        '<footer class="site-footer">\n    <!--MACHINE-FOOT-START--><p class="site-machine-foot">For machines and AI agents: '
+        '<a href="llms.txt">llms.txt</a> &middot; <a href="llms-full-1.txt">full records</a> &middot; '
+        '<a href="publications.json">JSON</a> &middot; <a href="all.bib">BibTeX</a> &middot; '
+        '<a href="all.ris">RIS</a></p><!--MACHINE-FOOT-END-->', 1)
     # 7. one site-wide Zotero tip in the footer (no longer repeated in every Cite panel)
     doc = re.sub(r"\s*<!--ZTIP-START-->.*?<!--ZTIP-END-->", "", doc, flags=re.S)
     doc = doc.replace(

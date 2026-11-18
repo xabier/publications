@@ -429,3 +429,4 @@ a.res:hover .res-name{ color: var(--accent); }
 /* "Details ›" — the entry's way into its landing page */
 .pub-action.pub-page-link{ color: var(--accent); border-color: var(--accent); font-weight: 700; }
 .pub-action.pub-page-link:hover{ background: var(--accent); color: #fff; }
+.site-machine-foot{ font-size: .8125rem; color: var(--text-light); }
