@@ -1,0 +1,73 @@
+{
+ "slug": "2015-el-proceso-buen-conocer-flok-society",
+ "id": "https://publications.barandiaran.net/p/2015-el-proceso-buen-conocer-flok-society/",
+ "type": "bookSection",
+ "type_label": "Book Chapter",
+ "title": "El proceso Buen Conocer / FLOK Society",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Vila-Viñas",
+   "given": "David"
+  },
+  {
+   "family": "Vázquez",
+   "given": "Daniel"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Vila-Viñas, David; Vázquez, Daniel",
+ "editors": [
+  {
+   "family": "Vila-Viñas",
+   "given": "David"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "year": "2015",
+ "date": "2015",
+ "venue": "Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "35-88",
+ "publisher": "IAEN-CIESPAL",
+ "place": "Quito, Ecuador",
+ "note": "",
+ "isbn": "978-9978-55-123-3",
+ "issn": "",
+ "doi": "",
+ "url": "",
+ "language": "",
+ "abstract": "",
+ "keywords": [
+  "Metodología",
+  "Diseño participativo",
+  "Cooperación",
+  "Diseño de políticas públicas",
+  "Investigación-acción participativa",
+  "FLOK",
+  "Conocimiento libre",
+  "Copyleft",
+  "Economía social del conocimiento común y abierto"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., Vila-Viñas, D., & Vázquez, D. (2015). El proceso Buen Conocer / FLOK Society. In D. Vila-Viñas, & X. E. Barandiaran (Eds.), Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador (pp. 35-88). IAEN-CIESPAL.",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2015-el-proceso-buen-conocer-flok-society/",
+  "markdown": "https://publications.barandiaran.net/p/2015-el-proceso-buen-conocer-flok-society/index.md",
+  "json": "https://publications.barandiaran.net/p/2015-el-proceso-buen-conocer-flok-society/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2015-el-proceso-buen-conocer-flok-society.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2015-el-proceso-buen-conocer-flok-society.bib",
+  "ris": "https://publications.barandiaran.net/citations/2015-el-proceso-buen-conocer-flok-society.ris"
+ }
+}

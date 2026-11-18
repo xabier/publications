@@ -1,0 +1,54 @@
+{
+ "slug": "2015-buen-conocer-flok-society-modelos-sostenibles",
+ "id": "https://publications.barandiaran.net/p/2015-buen-conocer-flok-society-modelos-sostenibles/",
+ "type": "book",
+ "type_label": "Book",
+ "title": "Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador",
+ "authors": [],
+ "author_string": "",
+ "editors": [
+  {
+   "family": "Vila-Viñas",
+   "given": "David"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "year": "2015",
+ "date": "2015",
+ "venue": "",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "IAEN-CIESPAL",
+ "place": "Quito, Ecuador",
+ "note": "",
+ "isbn": "978-9978-55-123-3",
+ "issn": "",
+ "doi": "",
+ "url": "http://book.floksociety.org/ec/",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Free software",
+  "Commons"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Vila-Viñas, D., & Barandiaran, X. E. (Eds.) (2015). Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador. IAEN-CIESPAL. http://book.floksociety.org/ec/",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2015-buen-conocer-flok-society-modelos-sostenibles/",
+  "markdown": "https://publications.barandiaran.net/p/2015-buen-conocer-flok-society-modelos-sostenibles/index.md",
+  "json": "https://publications.barandiaran.net/p/2015-buen-conocer-flok-society-modelos-sostenibles/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2015-buen-conocer-flok-society-modelos-sostenibles.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2015-buen-conocer-flok-society-modelos-sostenibles.bib",
+  "ris": "https://publications.barandiaran.net/citations/2015-buen-conocer-flok-society-modelos-sostenibles.ris",
+  "publisher": "http://book.floksociety.org/ec/"
+ }
+}

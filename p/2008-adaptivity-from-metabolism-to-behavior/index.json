@@ -1,0 +1,58 @@
+{
+ "slug": "2008-adaptivity-from-metabolism-to-behavior",
+ "id": "https://publications.barandiaran.net/p/2008-adaptivity-from-metabolism-to-behavior/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Adaptivity: From Metabolism to Behavior",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Moreno",
+   "given": "Alvaro"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Moreno, Alvaro",
+ "editors": [],
+ "year": "2008",
+ "date": "2008-10-01",
+ "venue": "Adaptive Behavior",
+ "series": "",
+ "volume": "16",
+ "issue": "5",
+ "pages": "325-344",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "10.1177/1059712308093868",
+ "url": "http://adb.sagepub.com/cgi/content/abstract/16/5/325",
+ "language": "",
+ "abstract": "In this article, we propose some fundamental requirements for the appearance of adaptivity. We argue that a basic metabolic organization, taken in its minimal sense, may provide the conceptual framework for naturalizing the origin of teleology and normative functionality as it appears in living systems. However, adaptivity also requires the emergence of a regulatory subsystem, which implies a certain form of dynamic decoupling within a globally integrated, autonomous system. Thus, we analyze several forms of minimal adaptivity, including the special case of motility. We go on to explain how an open-ended complexity growth of motility-based adaptive agency, namely, behavior, requires the appearance of the nervous system. Finally, we discuss some implications of these ideas for embodied robotics.",
+ "keywords": [
+  "Naturalist approach to normativity",
+  "Autonomous systems",
+  "Adaptivity",
+  "Minimal agency",
+  "Decoupling of the nervous system",
+  "Definition of adaptive behavior"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Moreno, A. (2008). Adaptivity: From Metabolism to Behavior. Adaptive Behavior, 16(5), 325-344. https://doi.org/10.1177/1059712308093868",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2008-adaptivity-from-metabolism-to-behavior/",
+  "markdown": "https://publications.barandiaran.net/p/2008-adaptivity-from-metabolism-to-behavior/index.md",
+  "json": "https://publications.barandiaran.net/p/2008-adaptivity-from-metabolism-to-behavior/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2008-adaptivity-from-metabolism-to-behavior.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2008-adaptivity-from-metabolism-to-behavior.bib",
+  "ris": "https://publications.barandiaran.net/citations/2008-adaptivity-from-metabolism-to-behavior.ris",
+  "publisher": "http://adb.sagepub.com/cgi/content/abstract/16/5/325"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "slug": "2019-tecnopolitica-municipalismo-y-radicalizacion-democratica",
+ "id": "https://publications.barandiaran.net/p/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica/",
+ "type": "bookSection",
+ "type_label": "Book Chapter",
+ "title": "Tecnopolítica, municipalismo y radicalización democrática.",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.",
+ "editors": [
+  {
+   "family": "Roth",
+   "given": "Laura"
+  },
+  {
+   "family": "Monterde",
+   "given": "Arnau"
+  },
+  {
+   "family": "Calleja-López",
+   "given": "Antonio"
+  }
+ ],
+ "year": "2019",
+ "date": "2019",
+ "venue": "Ciudades Democráticas. La revuelta municipalista en el ciclo post-15M",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "173-207",
+ "publisher": "Icaria",
+ "place": "Barcelona",
+ "note": "",
+ "isbn": "978-84-9888-906-2",
+ "issn": "",
+ "doi": "",
+ "url": "http://ciudadesdemocraticas.tecnopolitica.net/capitulos/capitulo6.pdf",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Technopolitics",
+  "Tecnopolítica",
+  "Municipalismo",
+  "Radicalización"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E. (2019). Tecnopolítica, municipalismo y radicalización democrática. In L. Roth, A. Monterde, & A. Calleja-López (Eds.), Ciudades Democráticas. La revuelta municipalista en el ciclo post-15M (pp. 173-207). Icaria. http://ciudadesdemocraticas.tecnopolitica.net/capitulos/capitulo6.pdf",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica/",
+  "markdown": "https://publications.barandiaran.net/p/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica/index.md",
+  "json": "https://publications.barandiaran.net/p/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica.bib",
+  "ris": "https://publications.barandiaran.net/citations/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica.ris",
+  "publisher": "http://ciudadesdemocraticas.tecnopolitica.net/capitulos/capitulo6.pdf"
+ }
+}

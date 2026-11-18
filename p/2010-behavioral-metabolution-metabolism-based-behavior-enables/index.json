@@ -1,0 +1,58 @@
+{
+ "slug": "2010-behavioral-metabolution-metabolism-based-behavior-enables",
+ "id": "https://publications.barandiaran.net/p/2010-behavioral-metabolution-metabolism-based-behavior-enables/",
+ "type": "conferencePaper",
+ "type_label": "Conference Paper",
+ "title": "Behavioral Metabolution: Metabolism based behavior enables new forms of adaptation and evolution",
+ "authors": [
+  {
+   "family": "Egbert",
+   "given": "Matthew D."
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Di Paolo",
+   "given": "Ezequiel A"
+  }
+ ],
+ "author_string": "Egbert, Matthew D.; Barandiaran, Xabier E.; Di Paolo, Ezequiel A",
+ "editors": [],
+ "year": "2010",
+ "date": "2010",
+ "venue": "Artificial Life XII: Proceedings of the Twelfth International Conference on the Simulation and Synthesis of Living Systems",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "",
+ "language": "",
+ "abstract": "Both metabolism and behavior play a key role in biological theory and artificial life modelling. Yet, despite their centrality there has been very little exploration of the relationship between these concepts and almost no exploration of how the interaction between the two could impact on evolution or instantiate alternative mechanisms for evolutionary processes. We present a simulation model of bacteria capable of metabolism-based chemotaxis: a minimal metabolic system capable of modulating behavior by influencing the probability of flagellar rotation (like in E. coli chemotaxis). We perform two illustrative experiments. In the first, the incorporation of a chemical compound into metabolism qualitatively improves the chemotactic strategy. In the second, an encounter\nwith a specific chemical compound leads to a reaction that\nopens up a new metabolic pathway while automatically regu-\nlating chemotaxis towards that same compound. Both exper-\niments illustrate the adaptive potential of metabolism-based\nbehavior and can be used to explore the idea of “Behavioral\nMetabolution,” a co-evolutionary synergy between behavior\nand metabolism. We abstract some principles of behavioral\nmetabolution and discuss its application to early prebiotic\nevolution.",
+ "keywords": [],
+ "topics": [
+  "Metabolism",
+  "Artificial life",
+  "Evolution"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2010). Behavioral Metabolution: Metabolism based behavior enables new forms of adaptation and evolution. In Artificial Life XII: Proceedings of the Twelfth International Conference on the Simulation and Synthesis of Living Systems.",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2010-behavioral-metabolution-metabolism-based-behavior-enables/",
+  "markdown": "https://publications.barandiaran.net/p/2010-behavioral-metabolution-metabolism-based-behavior-enables/index.md",
+  "json": "https://publications.barandiaran.net/p/2010-behavioral-metabolution-metabolism-based-behavior-enables/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2010-behavioral-metabolution-metabolism-based-behavior-enables.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2010-behavioral-metabolution-metabolism-based-behavior-enables.bib",
+  "ris": "https://publications.barandiaran.net/citations/2010-behavioral-metabolution-metabolism-based-behavior-enables.ris"
+ }
+}

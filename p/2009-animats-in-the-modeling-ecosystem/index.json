@@ -1,0 +1,55 @@
+{
+ "slug": "2009-animats-in-the-modeling-ecosystem",
+ "id": "https://publications.barandiaran.net/p/2009-animats-in-the-modeling-ecosystem/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Animats in the Modeling Ecosystem",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Chemero",
+   "given": "Anthony"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Chemero, Anthony",
+ "editors": [],
+ "year": "2009",
+ "date": "2009-07",
+ "venue": "Adaptive Behavior",
+ "series": "",
+ "volume": "17",
+ "issue": "4",
+ "pages": "287-292",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "1059-7123",
+ "doi": "10.1177/1059712309340847",
+ "url": "http://adb.sagepub.com/cgi/pdf_extract/17/4/287",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Animats",
+  "Modeling",
+  "Ecosystem"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Chemero, A. (2009). Animats in the Modeling Ecosystem. Adaptive Behavior, 17(4), 287-292. https://doi.org/10.1177/1059712309340847",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2009-animats-in-the-modeling-ecosystem/",
+  "markdown": "https://publications.barandiaran.net/p/2009-animats-in-the-modeling-ecosystem/index.md",
+  "json": "https://publications.barandiaran.net/p/2009-animats-in-the-modeling-ecosystem/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2009-animats-in-the-modeling-ecosystem.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2009-animats-in-the-modeling-ecosystem.bib",
+  "ris": "https://publications.barandiaran.net/citations/2009-animats-in-the-modeling-ecosystem.ris",
+  "publisher": "http://adb.sagepub.com/cgi/pdf_extract/17/4/287"
+ }
+}

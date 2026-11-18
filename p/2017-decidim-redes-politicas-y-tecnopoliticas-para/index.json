@@ -1,0 +1,75 @@
+{
+ "slug": "2017-decidim-redes-politicas-y-tecnopoliticas-para",
+ "id": "https://publications.barandiaran.net/p/2017-decidim-redes-politicas-y-tecnopoliticas-para/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Decidim: redes políticas y tecnopolíticas para la democracia participativa.",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Calleja",
+   "given": "Antonio"
+  },
+  {
+   "family": "Monterde",
+   "given": "Arnau"
+  },
+  {
+   "family": "Aragón",
+   "given": "Pablo"
+  },
+  {
+   "family": "Linares",
+   "given": "Juan"
+  },
+  {
+   "family": "Romero",
+   "given": "Carol"
+  },
+  {
+   "family": "Pereira",
+   "given": "Andrés"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Calleja, Antonio; Monterde, Arnau; Aragón, Pablo; Linares, Juan; Romero, Carol; Pereira, Andrés",
+ "editors": [],
+ "year": "2017",
+ "date": "2017",
+ "venue": "Recerca. Revista de pensament i anàlisi.",
+ "series": "",
+ "volume": "21",
+ "issue": "",
+ "pages": "137-150",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "2254-4135",
+ "doi": "10.6035/Recerca.2017.21.8",
+ "url": "http://www.e-revistes.uji.es/index.php/recerca/article/view/2575",
+ "language": "",
+ "abstract": "Decidim es una plataforma digital de democracia participativa desarrollada por el Ajuntament de Barcelona. Decidim es, además, un proyecto tecnopolítico que implica multitud de códigos más allá del informático. Distinguimos tres planos analíticos que sirven para conceptualizar de forma holística y sistemática el proyecto Decidim: un plano político, uno tecnopolítico, y un plano técnico. Decidim emerge como ejemplo de lo que denominamos “redes políticas” caracterizadas, frente a las “redes sociales”, por hacer del vínculo político y la construcción de inteligencia y voluntad colectivas el centro de su diseño y estructura. A su vez, la comunidad y los espacios “Metadecidim” operan como dispositivos para la democratización del software de Decidim y de la democracia en red en un sentido más amplio, constituyendo “redes tecnopolíticas”. Estas redes de nueva generación hacen de la plataforma una infraestructura público-común (financiada con dinero público y co-diseñada con la ciudadanía), abierta y libre para la democracia participativa, un proyecto que aspira a servir de dispositivo y modelo para la transformación política en un periodo de crisis de la hegemonía neoliberal.",
+ "keywords": [],
+ "topics": [
+  "Technopolitics",
+  "Decidim",
+  "Network analysis"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., Calleja, A., Monterde, A., Aragón, P., Linares, J., Romero, C., & Pereira, A. (2017). Decidim: redes políticas y tecnopolíticas para la democracia participativa. Recerca. Revista de pensament i anàlisi, 21, 137-150. https://doi.org/10.6035/Recerca.2017.21.8",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2017-decidim-redes-politicas-y-tecnopoliticas-para/",
+  "markdown": "https://publications.barandiaran.net/p/2017-decidim-redes-politicas-y-tecnopoliticas-para/index.md",
+  "json": "https://publications.barandiaran.net/p/2017-decidim-redes-politicas-y-tecnopoliticas-para/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2017-decidim-redes-politicas-y-tecnopoliticas-para.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2017-decidim-redes-politicas-y-tecnopoliticas-para.bib",
+  "ris": "https://publications.barandiaran.net/citations/2017-decidim-redes-politicas-y-tecnopoliticas-para.ris",
+  "publisher": "http://www.e-revistes.uji.es/index.php/recerca/article/view/2575"
+ }
+}

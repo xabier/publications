@@ -1,0 +1,53 @@
+{
+ "slug": "2010-homeostatic-plasticity-in-robots-from-development",
+ "id": "https://publications.barandiaran.net/p/2010-homeostatic-plasticity-in-robots-from-development/",
+ "type": "conferencePaper",
+ "type_label": "Conference Paper",
+ "title": "Homeostatic Plasticity in Robots: from development to operant conditioning to habit formation",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Di Paolo",
+   "given": "Ezequiel A."
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Di Paolo, Ezequiel A.",
+ "editors": [],
+ "year": "2010",
+ "date": "2010",
+ "venue": "Proceedings of CogSys2010",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "",
+ "place": "Zurich",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "http://cogsys2010.ethz.ch/proceedings.html",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Habits",
+  "Robotics"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Di Paolo, E. A. (2010). Homeostatic Plasticity in Robots: from development to operant conditioning to habit formation. In Proceedings of CogSys2010. http://cogsys2010.ethz.ch/proceedings.html",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2010-homeostatic-plasticity-in-robots-from-development/",
+  "markdown": "https://publications.barandiaran.net/p/2010-homeostatic-plasticity-in-robots-from-development/index.md",
+  "json": "https://publications.barandiaran.net/p/2010-homeostatic-plasticity-in-robots-from-development/index.json",
+  "bibtex": "https://publications.barandiaran.net/citations/2010-homeostatic-plasticity-in-robots-from-development.bib",
+  "ris": "https://publications.barandiaran.net/citations/2010-homeostatic-plasticity-in-robots-from-development.ris",
+  "publisher": "http://cogsys2010.ethz.ch/proceedings.html"
+ }
+}

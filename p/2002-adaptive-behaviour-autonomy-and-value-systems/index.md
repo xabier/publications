@@ -1,0 +1,21 @@
+# Adaptive Behaviour, Autonomy and Value systems. Normative function in dynamical adaptive systems
+
+- **Authors:** Xabier E. Barandiaran
+- **Year:** 2002
+- **Type:** Thesis
+- **Publisher:** University of Sussex, Brighton, UK.
+- **URL:** https://xabierbarandiaran.files.wordpress.com/2022/06/barandiaran_-_2002_adaptive_behavior_autonomy_and_value_systems_-_msc_thesis.pdf
+- **Keywords:** Homeostatic adaptation, Autonomy, Value systems, Dynamical systems, Adaptive behaviour, Emergent autonomous functionality, Normativity, Simulation models
+- **Landing page:** https://publications.barandiaran.net/p/2002-adaptive-behaviour-autonomy-and-value-systems/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2002-adaptive-behaviour-autonomy-and-value-systems.pdf)
+
+## Abstract
+
+Computational functionalism [5] fails to understand the embodied and situated nature of behaviour by taking steady state functions as theoretical primitives, and by interpreting cognitive behaviour from a language-like, observer dependant framework without a naturalized normativity. Evolutionary functionalism [28, 27], on the other hand, by grounding functional normativity on historical processes fails to give an account of normative functionality based on the present causal mechanism producing behaviour. We propose an alternative autonomous dynamical framework where functionality is defined as contribution to self-maintenance [15, 10, 35] and normativity as satisfaction of closure criteria. We develop this framework by a set of formal definitions in the framework of dynamical system theory and propose the hypothesis of an homeostatic-plasticity [31, 40] based general purpose value system as an internalized normative mechanism that selects between internal state trajectories to produce adaptive functionality under different environmental conditions. To test the hypothesis we develop a simulation model where lower level specifications of a control arquitecture (an homeostatic plastic DRNN) give rise (through a simulated evolutionary process) to adaptive behaviour in a foraging task where food sources can be poisonous or profitable. Analysis of the evolved agent show that plastic changes occur when the agent produces salient adaptive interactions, those plastic changes determining the adaptive strategy. The embodied and interactive adaptive functionality is dynamically analysed, illustrating the autonomous dynamical framework.
+
+## Cite
+
+Barandiaran, X. E. (2002). *Adaptive Behaviour, Autonomy and Value systems. Normative function in dynamical adaptive systems* [MSc Thesis, University of Sussex]. https://xabierbarandiaran.files.wordpress.com/2022/06/barandiaran_-_2002_adaptive_behavior_autonomy_and_value_systems_-_msc_thesis.pdf
+
+BibTeX: https://publications.barandiaran.net/citations/2002-adaptive-behaviour-autonomy-and-value-systems.bib · RIS: https://publications.barandiaran.net/citations/2002-adaptive-behaviour-autonomy-and-value-systems.ris
+

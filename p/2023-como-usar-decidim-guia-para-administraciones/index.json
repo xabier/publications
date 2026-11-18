@@ -1,0 +1,54 @@
+{
+ "slug": "2023-como-usar-decidim-guia-para-administraciones",
+ "id": "https://publications.barandiaran.net/p/2023-como-usar-decidim-guia-para-administraciones/",
+ "type": "document",
+ "type_label": "Document",
+ "title": "Cómo usar Decidim. Guía para administraciones públicas y grandes organizaciones.",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E",
+ "editors": [],
+ "year": "2023",
+ "date": "2023",
+ "venue": "",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "Decidim.org",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "https://xabier.barandiaran.net/?p=2843",
+ "language": "",
+ "abstract": "Este documento es un manual para aquellas organizaciones y administraciones públicas (ayuntamientos, gobiernos autonómicos y estatales, ministerios, etc.) que quieran ofrecer un servicio digital para la participación pública usando Decidim. La sociedad contemporánea está irreversiblemente atravesada por una red de servicios digitales o plataformas que reconfiguran el campo social. Las instituciones públicas y organizaciones sociales no son ajenas a este cambio pero generalmente no disponen de medios digitales propios. Existen, sin embargo, alternativas como Decidim que han permitido ya a más de 400 organizaciones en todo el mundo desplegar plataformas digitales capaces de articular la inteligencia colectiva de la ciudadanía en la producción de políticas públicas complejas. Decidim es toda una infraestructura digital libre, gratuita y abierta para la democracia participativa que permite desplegar una red social diseñada para desplegar procesos de participación, para estructurar y canalizar la actividad de diferentes órganos o asambleas, para realizar consultas, activar iniciativas ciudadanas o realizar grandes conferencias participativas. Este documento explica los elementos a tener en cuenta para contratar, configurar y poner en marcha un servicio digital para la democracia participativa a través de la plataforma Decidim. Explica su integración con otros servicios, así como recomendaciones de uso, despliegue y evaluación. Se detallan también una serie de principios tecnopolíticos que permiten diseñar mejor los procesos de participación, articular los órganos, y también hacer frente a los potenciales riesgos y explotar las oportunidades que ofrece Decidim dentro de las administraciones públicas.",
+ "keywords": [
+  "Decidim",
+  "Participación democrática",
+  "Servicios digitales",
+  "Configuración de plataforma",
+  "Procesos de participación",
+  "Tecnopolítica"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E. (2023). Cómo usar Decidim. Guía para administraciones públicas y grandes organizaciones. Decidim.org. https://xabier.barandiaran.net/?p=2843",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2023-como-usar-decidim-guia-para-administraciones/",
+  "markdown": "https://publications.barandiaran.net/p/2023-como-usar-decidim-guia-para-administraciones/index.md",
+  "json": "https://publications.barandiaran.net/p/2023-como-usar-decidim-guia-para-administraciones/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2023-como-usar-decidim-guia-para-administraciones.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2023-como-usar-decidim-guia-para-administraciones.bib",
+  "ris": "https://publications.barandiaran.net/citations/2023-como-usar-decidim-guia-para-administraciones.ris",
+  "publisher": "https://xabier.barandiaran.net/?p=2843"
+ }
+}

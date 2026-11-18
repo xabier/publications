@@ -1,0 +1,62 @@
+{
+ "slug": "2020-measuring-autonomy-for-life-like-ai",
+ "id": "https://publications.barandiaran.net/p/2020-measuring-autonomy-for-life-like-ai/",
+ "type": "conferencePaper",
+ "type_label": "Conference Paper",
+ "title": "Measuring Autonomy for Life-Like AI",
+ "authors": [
+  {
+   "family": "Vakhrameev",
+   "given": "Demyan"
+  },
+  {
+   "family": "Aguilera",
+   "given": "Miguel"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Bedia",
+   "given": "Manuel"
+  }
+ ],
+ "author_string": "Vakhrameev, Demyan; Aguilera, Miguel; Barandiaran, Xabier E.; Bedia, Manuel",
+ "editors": [],
+ "year": "2020",
+ "date": "2020",
+ "venue": "The 2020 Conference on Artificial Life",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "589-591",
+ "publisher": "MIT Press",
+ "place": "Online",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "10.1162/isal_a_00308",
+ "url": "https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00308",
+ "language": "en",
+ "abstract": "Current success of Artiﬁcial Intelligence (particularly in the application of Deep Learning techniques) is bringing some of its methods closer to Artiﬁcial Life and re-opening old questions, social fears and envisioned applications. The concept of autonomy has long guided research and progress in Artiﬁcial Life. We explore how this concept can contribute to evaluate the autonomy of contemporary AI systems.",
+ "keywords": [],
+ "topics": [
+  "Autonomy",
+  "Artificial intelligence"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Vakhrameev, D., Aguilera, M., Barandiaran, X. E., & Bedia, M. (2020). Measuring Autonomy for Life-Like AI. In The 2020 Conference on Artificial Life (pp. 589-591). MIT Press. https://doi.org/10.1162/isal_a_00308",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2020-measuring-autonomy-for-life-like-ai/",
+  "markdown": "https://publications.barandiaran.net/p/2020-measuring-autonomy-for-life-like-ai/index.md",
+  "json": "https://publications.barandiaran.net/p/2020-measuring-autonomy-for-life-like-ai/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2020-measuring-autonomy-for-life-like-ai.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2020-measuring-autonomy-for-life-like-ai.bib",
+  "ris": "https://publications.barandiaran.net/citations/2020-measuring-autonomy-for-life-like-ai.ris",
+  "publisher": "https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00308"
+ }
+}

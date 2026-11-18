@@ -1,0 +1,78 @@
+{
+ "slug": "2017-deliberative-platform-design-the-case-study",
+ "id": "https://publications.barandiaran.net/p/2017-deliberative-platform-design-the-case-study/",
+ "type": "conferencePaper",
+ "type_label": "Conference Paper",
+ "title": "Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona",
+ "authors": [
+  {
+   "family": "Aragón",
+   "given": "Pablo"
+  },
+  {
+   "family": "Kaltenbrunner",
+   "given": "Andreas"
+  },
+  {
+   "family": "Calleja-López",
+   "given": "Antonio"
+  },
+  {
+   "family": "Pereira",
+   "given": "Andrés"
+  },
+  {
+   "family": "Monterde",
+   "given": "Arnau"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Gómez",
+   "given": "Vicenç"
+  }
+ ],
+ "author_string": "Aragón, Pablo; Kaltenbrunner, Andreas; Calleja-López, Antonio; Pereira, Andrés; Monterde, Arnau; Barandiaran, Xabier E.; Gómez, Vicenç",
+ "editors": [],
+ "year": "2017",
+ "date": "2017-09-13",
+ "venue": "Social Informatics",
+ "series": "Lecture Notes in Computer Science",
+ "volume": "",
+ "issue": "",
+ "pages": "277-287",
+ "publisher": "Springer, Cham",
+ "place": "",
+ "note": "",
+ "isbn": "978-3-319-67255-7 978-3-319-67256-4",
+ "issn": "",
+ "doi": "10.1007/978-3-319-67256-4_22",
+ "url": "https://link.springer.com/chapter/10.1007/978-3-319-67256-4_22",
+ "language": "en",
+ "abstract": "With the irruption of ICTs and the crisis of political representation, many online platforms have been developed with the aim of improving participatory democratic processes. However, regarding platforms for online petitioning, previous research has not found examples of how to effectively introduce discussions, a crucial feature to promote deliberation. In this study we focus on the case of Decidim Barcelona, the online participatory-democracy platform launched by the City Council of Barcelona in which proposals can be discussed with an interface that combines threaded discussions and comment alignment with the proposal. This innovative approach allows to examine whether neutral, positive or negative comments are more likely to generate discussion cascades. The results reveal that, with this interface, comments marked as negatively aligned with the proposal were more likely to engage users in online discussions and, therefore, helped to promote deliberative decision making.",
+ "keywords": [
+  "Human computer interfaces",
+  "Online deliberation",
+  "Civic participation",
+  "Technopolitics",
+  "Online discussions",
+  "Discussion threads"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Aragón, P., Kaltenbrunner, A., Calleja-López, A., Pereira, A., Monterde, A., Barandiaran, X. E., & Gómez, V. (2017). Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona. In Social Informatics (pp. 277-287). Springer, Cham. https://doi.org/10.1007/978-3-319-67256-4_22",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2017-deliberative-platform-design-the-case-study/",
+  "markdown": "https://publications.barandiaran.net/p/2017-deliberative-platform-design-the-case-study/index.md",
+  "json": "https://publications.barandiaran.net/p/2017-deliberative-platform-design-the-case-study/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2017-deliberative-platform-design-the-case-study.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2017-deliberative-platform-design-the-case-study.bib",
+  "ris": "https://publications.barandiaran.net/citations/2017-deliberative-platform-design-the-case-study.ris",
+  "publisher": "https://link.springer.com/chapter/10.1007/978-3-319-67256-4_22"
+ }
+}

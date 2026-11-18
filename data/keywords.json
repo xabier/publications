@@ -1,0 +1,726 @@
+{
+ "_about": "Author keywords per Zotero item key, shown as 'Keywords' on the site. source: pdf = the paper's own keyword list; zotero = publisher keywords stored in Zotero. Items not listed here have no author keywords; the site shows derived 'Topics' for them instead. Edit freely: build_site.py only reads this file, and extract_keywords.py only adds missing items.",
+ "8R6C4AHQ": {
+  "source": "pdf",
+  "keywords": [
+   "Sensorimotor autonomy",
+   "Personal autonomy",
+   "Digital platforms",
+   "Interface design",
+   "Dark patterns",
+   "Technology and autonomy"
+  ]
+ },
+ "I7SGA7C4": {
+  "source": "pdf",
+  "keywords": [
+   "Homeostatic adaptation",
+   "Autonomy",
+   "Value systems",
+   "Dynamical systems",
+   "Adaptive behaviour",
+   "Emergent autonomous functionality",
+   "Normativity",
+   "Simulation models"
+  ]
+ },
+ "SMIEQ2ZK": {
+  "source": "pdf",
+  "keywords": [
+   "Metabolism",
+   "Adaptive behavior",
+   "Autopoiesis",
+   "Chemotaxis"
+  ]
+ },
+ "TXA55NY2": {
+  "source": "pdf",
+  "keywords": [
+   "Human computer interfaces",
+   "Online deliberation",
+   "Civic participation",
+   "Technopolitics",
+   "Online discussions",
+   "Discussion threads"
+  ]
+ },
+ "X2UEHZSA": {
+  "source": "pdf",
+  "keywords": [
+   "Plataforma digital de participación",
+   "Red política",
+   "Participación",
+   "Decidim",
+   "Consul",
+   "Democracia digital"
+  ]
+ },
+ "XR6BQ7DD": {
+  "source": "pdf",
+  "keywords": [
+   "Collective identity",
+   "Network-movements",
+   "15M",
+   "Systemic dimension",
+   "Network analysis",
+   "Synchronization analysis",
+   "Multitudinous identity"
+  ]
+ },
+ "7QUM462I": {
+  "source": "pdf",
+  "keywords": [
+   "Habit",
+   "Associationism",
+   "Organicism",
+   "History of psychology",
+   "History of philosophy"
+  ]
+ },
+ "CN7U9MS5": {
+  "source": "pdf",
+  "keywords": [
+   "Sensorimotor contingencies",
+   "Piaget’s theory of equilibration",
+   "Dynamical systems",
+   "Open-ended learning"
+  ]
+ },
+ "6J4CKJ27": {
+  "source": "pdf",
+  "keywords": [
+   "Sensorimotor",
+   "Self-maintaining patterns-of-behavior",
+   "Mental life",
+   "Habits",
+   "Meso-scale modeling"
+  ]
+ },
+ "4SB8SZKQ": {
+  "source": "pdf",
+  "keywords": [
+   "Embodied cognition",
+   "Sensorimotor contingencies",
+   "Dynamical systems",
+   "Sensorimotor approach to perception",
+   "Minimal cognition"
+  ]
+ },
+ "E7EHN5SJ": {
+  "source": "pdf",
+  "keywords": [
+   "Knowledge society",
+   "FLOK (Free/Libre Open Knowledge) society",
+   "Sumak kawsay",
+   "Sumak yachay",
+   "Knowledge Pachamama",
+   "Collaborative investigation",
+   "Process-summit",
+   "Copyleft",
+   "Free software",
+   "Commons",
+   "Procommons",
+   "Cognitive autonomy",
+   "Community economy",
+   "Social economy of knowledge"
+  ]
+ },
+ "KD38GTV9": {
+  "source": "pdf",
+  "keywords": [
+   "Neural synchrony",
+   "Phase-coupled oscillators",
+   "Sensorimotor coordination"
+  ]
+ },
+ "E6JP7PQE": {
+  "source": "pdf",
+  "keywords": [
+   "Sensorimotor coordination",
+   "Oscillatory dynamics",
+   "Metastability",
+   "Coordination dynamics"
+  ]
+ },
+ "EAZEAA3I": {
+  "source": "pdf",
+  "keywords": [
+   "Naturalist approach to normativity",
+   "Autonomous systems",
+   "Adaptivity",
+   "Minimal agency",
+   "Decoupling of the nervous system",
+   "Definition of adaptive behavior"
+  ]
+ },
+ "HR84N2TW": {
+  "source": "pdf",
+  "keywords": [
+   "Philosophy of neuroscience",
+   "Neural information",
+   "Autonomous systems",
+   "Neurodynamic self-organization",
+   "Embodiment",
+   "Error detection"
+  ]
+ },
+ "C2K5T5EC": {
+  "source": "pdf",
+  "keywords": [
+   "Transferencia genética horizontal",
+   "Autonomía",
+   "Metabolismo",
+   "Información",
+   "Comunicación",
+   "Software libre",
+   "Código abierto",
+   "Redes bacterianas",
+   "Algoritmos genéticos",
+   "Redes de innovación tecnológica"
+  ]
+ },
+ "MH8ED8CI": {
+  "source": "pdf",
+  "keywords": [
+   "Intermittent behavior",
+   "Adaptive behavior",
+   "Adjustment-deployment dilemma",
+   "Behavioral modeling"
+  ]
+ },
+ "QXYKTFDN": {
+  "source": "pdf",
+  "keywords": [
+   "Collective identity",
+   "Social identity",
+   "Social interaction",
+   "Digital networks",
+   "Social network analysis",
+   "Technopolitics"
+  ]
+ },
+ "WFBIGS5Z": {
+  "source": "pdf",
+  "keywords": [
+   "Minimal cognition",
+   "Adaptive autonomy",
+   "Neurodynamic organization",
+   "Cognition-as-it-could-be",
+   "Emotional embodiment"
+  ]
+ },
+ "GTMXT433": {
+  "source": "pdf",
+  "keywords": [
+   "Inside-outside dichotomy",
+   "Constructive and interactive loop",
+   "Agency",
+   "Naturalized philosophy"
+  ]
+ },
+ "7UE4U4XN": {
+  "source": "pdf",
+  "keywords": [
+   "HKB model",
+   "Situated HKB model",
+   "Embodied cognition",
+   "Sensorimotor coupling",
+   "Coordination dynamics",
+   "Dynamical analysis",
+   "Neurodynamics"
+  ]
+ },
+ "CGFZCCDH": {
+  "source": "pdf",
+  "keywords": [
+   "Neural assemblies",
+   "Metastability",
+   "Criticality",
+   "Synaptic plasticity",
+   "Embodied cognition",
+   "Sensorimotor coupling",
+   "Evolutionary robotics"
+  ]
+ },
+ "G53BESSH": {
+  "source": "pdf",
+  "keywords": [
+   "Autonomy",
+   "Enactivism",
+   "Operational closure of the nervous system",
+   "Sensorimotor constitution of experience",
+   "Mental life",
+   "Habit",
+   "Sensorimotor autonomous agency",
+   "Autonomist sensorimotor enactivism"
+  ]
+ },
+ "9G4TCU7M": {
+  "source": "pdf",
+  "keywords": [
+   "Enactive robotics",
+   "Sensorimotor contingencies",
+   "Problem-solving",
+   "Habits",
+   "IDSM",
+   "Sensorimotor autonomy"
+  ]
+ },
+ "V6HMK33Q": {
+  "source": "pdf",
+  "keywords": [
+   "Activismo digital y telemático",
+   "Ciberespacio",
+   "Guerrilla de la comunicación",
+   "Política",
+   "Nuevos movimientos sociales",
+   "Poder"
+  ]
+ },
+ "URB3KCN9": {
+  "source": "pdf",
+  "keywords": [
+   "Minimal agency",
+   "Normativity",
+   "Viability",
+   "Organicism",
+   "Precariousness",
+   "Normative field"
+  ]
+ },
+ "W29JNNXT": {
+  "source": "pdf",
+  "keywords": [
+   "Agency",
+   "Individuality",
+   "Interactional asymmetry",
+   "Normativity",
+   "Spatiality",
+   "Temporality"
+  ]
+ },
+ "7B4DZMMP": {
+  "source": "pdf",
+  "keywords": [
+   "Thermodynamics",
+   "Life system",
+   "Earth system science",
+   "Gaia",
+   "Maximum entropy production",
+   "Climate change"
+  ]
+ },
+ "Q2G73SQA": {
+  "source": "pdf",
+  "keywords": [
+   "Normativity",
+   "Autonomy",
+   "Mental health",
+   "Enactivism",
+   "Participatory sense-making"
+  ]
+ },
+ "N383B6YK": {
+  "source": "pdf",
+  "keywords": [
+   "Extended cognition",
+   "Generative AI",
+   "Creativity",
+   "Authorship",
+   "Cyborg intentionality",
+   "Midtention"
+  ]
+ },
+ "USSW3WPA": {
+  "source": "pdf",
+  "keywords": [
+   "Organicism",
+   "4E cognition",
+   "Autonomous systems",
+   "Sensorimotor organization",
+   "Normativity",
+   "Teleosemantics"
+  ]
+ },
+ "Q6GHG7DP": {
+  "source": "pdf",
+  "keywords": [
+   "Attention economy",
+   "Engagement",
+   "Habit",
+   "Attention",
+   "Digital platforms",
+   "Enactive cognitive science",
+   "Dividual"
+  ]
+ },
+ "QPHYAUFF": {
+  "source": "pdf",
+  "keywords": [
+   "Transformers",
+   "Large language models",
+   "Agency",
+   "Autonomy",
+   "Interlocutor automata",
+   "Human machine interaction"
+  ]
+ },
+ "RF6ESHVP": {
+  "source": "pdf",
+  "keywords": [
+   "Technology",
+   "Normativity",
+   "Sensorimotor scheme",
+   "Radical embodiment",
+   "Enactivism",
+   "Affordances"
+  ]
+ },
+ "P9E7KJ4E": {
+  "source": "pdf",
+  "keywords": [
+   "Autonomy",
+   "Outonomy",
+   "Individuality",
+   "Interaction",
+   "Integration",
+   "Sustainability",
+   "Collectivity",
+   "Environmentality"
+  ]
+ },
+ "5F5W7YX8": {
+  "source": "pdf",
+  "keywords": [
+   "Social-ecological systems",
+   "Earth limits",
+   "Gaia",
+   "Social-ecological outonomy"
+  ]
+ },
+ "DYBUUJJT": {
+  "source": "pdf",
+  "keywords": [
+   "Instrumentalism",
+   "Autonomy of technology",
+   "Technopolitical autonomy",
+   "Technocomplexity"
+  ]
+ },
+ "VSMWK2KQ": {
+  "source": "pdf",
+  "keywords": [
+   "Normativity",
+   "Rule-following",
+   "Social norms",
+   "Sensorimotor norms",
+   "Normative cognition",
+   "Normative behavior",
+   "Practical skill"
+  ]
+ },
+ "8WR9REIJ": {
+  "source": "pdf",
+  "keywords": [
+   "Autonomous organization",
+   "Dysfunction",
+   "Malfunction",
+   "Natural norms",
+   "Normative field",
+   "Normative function"
+  ]
+ },
+ "62DGAE77": {
+  "source": "pdf",
+  "note": "The paper lists keywords only in Spanish, French and Basque; English rendering of that list.",
+  "keywords": [
+   "Agency",
+   "Emergence",
+   "Agential causation",
+   "Organization",
+   "Basic autonomy",
+   "Sensorimotor autonomy",
+   "Origins of life",
+   "Intentional action"
+  ]
+ },
+ "TD3JANT8": {
+  "source": "pdf",
+  "keywords": [
+   "Behavioural norms",
+   "Teleology",
+   "Goal-directedness",
+   "Organizational biology",
+   "Teleosemantics",
+   "A-not-B error",
+   "Sensorimotor normativity"
+  ]
+ },
+ "R5WQRJST": {
+  "source": "pdf",
+  "keywords": [
+   "Susceptive sense-making",
+   "Incorporation",
+   "Incarnation",
+   "Excorporation",
+   "Excarnation",
+   "Autonomy",
+   "Linguistic bodies",
+   "LLMs"
+  ]
+ },
+ "VFEQ7ET5": {
+  "source": "pdf",
+  "keywords": [
+   "Affective arrangements",
+   "Emotions",
+   "Affective knowing",
+   "Socialecological systems",
+   "Mixed methods",
+   "Eutrophication",
+   "Mar Menor"
+  ]
+ },
+ "59N9SD2Z": {
+  "source": "pdf",
+  "keywords": [
+   "Metodología",
+   "Diseño participativo",
+   "Cooperación",
+   "Diseño de políticas públicas",
+   "Investigación-acción participativa",
+   "FLOK",
+   "Conocimiento libre",
+   "Copyleft",
+   "Economía social del conocimiento común y abierto"
+  ]
+ },
+ "37RSA4S2": {
+  "source": "pdf",
+  "keywords": [
+   "Open Science",
+   "Science 2.0",
+   "e-Science",
+   "Science Commons",
+   "Ciencia abierta",
+   "Open Data",
+   "FLOK",
+   "Ciencia ciudadana",
+   "Infraestructuras científicas abiertas",
+   "Capitalismo cognitivo",
+   "Capitalismo académico"
+  ]
+ },
+ "DNXBDCFV": {
+  "source": "pdf",
+  "keywords": [
+   "Decidim",
+   "Participación democrática",
+   "Servicios digitales",
+   "Configuración de plataforma",
+   "Procesos de participación",
+   "Tecnopolítica"
+  ]
+ },
+ "AS54P7BG": {
+  "source": "zotero",
+  "keywords": [
+   "Collective intelligence",
+   "Decidim",
+   "Democratic innovation",
+   "Digital democracy",
+   "Digital platforms",
+   "Metadecidim",
+   "Network society",
+   "Participatory democracy",
+   "Participatory governance",
+   "Political network",
+   "Public-commons partnership",
+   "Software development",
+   "Techno-politics"
+  ]
+ },
+ "623RXU4W": {
+  "source": "zotero",
+  "keywords": [
+   "Outonomy",
+   "Autonomy",
+   "Human autonomy",
+   "Animal autonomy",
+   "Biology and politics",
+   "Contemporary philosophy of autonomy"
+  ]
+ },
+ "TRPV9YIC": {
+  "source": "none",
+  "keywords": []
+ },
+ "V2R7RSI5": {
+  "source": "none",
+  "keywords": []
+ },
+ "X6CMKNVT": {
+  "source": "none",
+  "keywords": []
+ },
+ "PWMD4M6E": {
+  "source": "none",
+  "keywords": []
+ },
+ "UEZIFQS3": {
+  "source": "none",
+  "keywords": []
+ },
+ "4ZEM6UB6": {
+  "source": "none",
+  "keywords": []
+ },
+ "SFIQSVVX": {
+  "source": "none",
+  "keywords": []
+ },
+ "IFP9XFLV": {
+  "source": "none",
+  "keywords": []
+ },
+ "YLQVWYCA": {
+  "source": "none",
+  "keywords": []
+ },
+ "B5SQ57VX": {
+  "source": "none",
+  "keywords": []
+ },
+ "HE2P69C5": {
+  "source": "none",
+  "keywords": []
+ },
+ "HM8CY3V2": {
+  "source": "none",
+  "keywords": []
+ },
+ "U4P56BGB": {
+  "source": "none",
+  "keywords": []
+ },
+ "T66R7P5C": {
+  "source": "none",
+  "keywords": []
+ },
+ "T7KI75TG": {
+  "source": "none",
+  "keywords": []
+ },
+ "SEEMR2H8": {
+  "source": "none",
+  "keywords": []
+ },
+ "CTWWNFI8": {
+  "source": "none",
+  "keywords": []
+ },
+ "JW5B77PQ": {
+  "source": "none",
+  "keywords": []
+ },
+ "9IJDF7DJ": {
+  "source": "none",
+  "keywords": []
+ },
+ "THNR4M6B": {
+  "source": "none",
+  "keywords": []
+ },
+ "QGUXSJ4D": {
+  "source": "none",
+  "keywords": []
+ },
+ "RQQBTDZI": {
+  "source": "none",
+  "keywords": []
+ },
+ "2U8WE2ZC": {
+  "source": "none",
+  "keywords": []
+ },
+ "A6PVNDGU": {
+  "source": "none",
+  "keywords": []
+ },
+ "247U5J9R": {
+  "source": "none",
+  "keywords": []
+ },
+ "R3HMVDTB": {
+  "source": "none",
+  "keywords": []
+ },
+ "Z5LMVGM5": {
+  "source": "none",
+  "keywords": []
+ },
+ "P9V6REL2": {
+  "source": "none",
+  "keywords": []
+ },
+ "REL38B6V": {
+  "source": "none",
+  "keywords": []
+ },
+ "YFREYYVE": {
+  "source": "none",
+  "keywords": []
+ },
+ "9MZVDA7F": {
+  "source": "none",
+  "keywords": []
+ },
+ "XV55C3GV": {
+  "source": "none",
+  "keywords": []
+ },
+ "PBPUT2PJ": {
+  "source": "none",
+  "keywords": []
+ },
+ "D27YWCSD": {
+  "source": "none",
+  "keywords": []
+ },
+ "4655GGMH": {
+  "source": "none",
+  "keywords": []
+ },
+ "VL5Q9VDH": {
+  "source": "none",
+  "keywords": []
+ },
+ "TBZVED4Z": {
+  "source": "none",
+  "keywords": []
+ },
+ "WR7U23H6": {
+  "source": "none",
+  "keywords": []
+ },
+ "TJZ6ZIZW": {
+  "source": "none",
+  "keywords": []
+ },
+ "NMYRCENT": {
+  "source": "none",
+  "keywords": []
+ },
+ "XX44XCYJ": {
+  "source": "none",
+  "keywords": []
+ },
+ "IW5YIGY3": {
+  "source": "none",
+  "keywords": []
+ },
+ "YYL5MQ94": {
+  "source": "none",
+  "keywords": []
+ }
+}

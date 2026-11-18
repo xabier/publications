@@ -1,0 +1,66 @@
+{
+ "slug": "2016-plan-de-desarrollo-decidim-barcelona",
+ "id": "https://publications.barandiaran.net/p/2016-plan-de-desarrollo-decidim-barcelona/",
+ "type": "report",
+ "type_label": "Report",
+ "title": "Plan de desarrollo Decidim Barcelona",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Pereira",
+   "given": "Andrés"
+  },
+  {
+   "family": "Monterde",
+   "given": "Arnau"
+  },
+  {
+   "family": "Calleja-López",
+   "given": "Antonio"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Pereira, Andrés; Monterde, Arnau; Calleja-López, Antonio",
+ "editors": [],
+ "year": "2016",
+ "date": "2016-11-14",
+ "venue": "",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "Ajuntament de Barcelona City Council",
+ "place": "Barcelona",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "https://decidim-barcelona.s3.amazonaws.com/uploads/decidim/attachment/file/54/Plan_desarrollo_decidim.pdf",
+ "language": "es",
+ "abstract": "Este documento detalla el futuro desarrollo de la plataforma digital de participación de l´Ajuntament de Barcelona, decidim.barcelona (disponible en URL https://decidim.barcelona). Los principales objetivos de la plataforma son articular, estandarizar, visualizar y comunicar todos los procesos de participación del Ajuntament de Barcelona y de la ciudad ofreciendo un servicio de infraestructura digital para la democracia directa y participativa a todas las escalas territoriales y asociativas de Barcelona. El documento detalla los objetivos de la plataforma, el flujo de desarrollo, las funcionalidades previstas, y un código ético-político.",
+ "keywords": [
+  "Plataforma digital de participación",
+  "Red política",
+  "Participación",
+  "Decidim",
+  "Consul",
+  "Democracia digital"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., Pereira, A., Monterde, A., & Calleja-López, A. (2016). Plan de desarrollo Decidim Barcelona. Ajuntament de Barcelona City Council. https://decidim-barcelona.s3.amazonaws.com/uploads/decidim/attachment/file/54/Plan_desarrollo_decidim.pdf",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2016-plan-de-desarrollo-decidim-barcelona/",
+  "markdown": "https://publications.barandiaran.net/p/2016-plan-de-desarrollo-decidim-barcelona/index.md",
+  "json": "https://publications.barandiaran.net/p/2016-plan-de-desarrollo-decidim-barcelona/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2016-plan-de-desarrollo-decidim-barcelona.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2016-plan-de-desarrollo-decidim-barcelona.bib",
+  "ris": "https://publications.barandiaran.net/citations/2016-plan-de-desarrollo-decidim-barcelona.ris",
+  "publisher": "https://decidim-barcelona.s3.amazonaws.com/uploads/decidim/attachment/file/54/Plan_desarrollo_decidim.pdf"
+ }
+}

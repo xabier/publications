@@ -1,0 +1,62 @@
+{
+ "slug": "2025-sensorimotor-teleology-and-goal-directedness-an",
+ "id": "https://publications.barandiaran.net/p/2025-sensorimotor-teleology-and-goal-directedness-an/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Sensorimotor teleology and goal-directedness. An organismic framework for normative behaviour",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Rama",
+   "given": "Tiago"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Rama, Tiago",
+ "editors": [],
+ "year": "2026",
+ "date": "2026",
+ "venue": "Phenomenology and the Cognitive Sciences",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "",
+ "place": "",
+ "note": "In press",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "https://philsci-archive.pitt.edu/id/eprint/25369",
+ "language": "en",
+ "abstract": "The explanation of behavioural error is a mandatory prerequisite for any naturalistic project of intentionality. Mainstream teleosemantics, rooted in the evolutionary theory of selected functions, has addressed this explanatory goal by drawing on an evolutionary account of teleology and normativity. This paper takes a teleosemantic route but follows a different biological background, namely the organismic or autonomous organizational account of natural teleology and normativity. Although departing from the biological domain, the theory of autonomous systems has been recently extended to the cognitive domain through sensorimotor theory. The key concept in the analysis of normative behaviour, carried over from earlier work, is that of dynamic presupposition: goal-directed behaviour is based on networked dependency between sensorimotor coordination patterns. Our main contribution is to define minimal (necessary and sufficient) requirements for the characterization of goal-directed behaviour that discloses a naturalized sense of normativity. The introduction of these requirements is closely related to our teleosemantic route: to provide a criterion for evaluating normative behaviour that can be interpreted in terms of a particular conception of natural teleology. We argue that organism teleosemantics is a suitable frame for interpreting these requisites. After presenting and discussing the individual elements of our proposal, we turn to a specific and classic case study: Piaget's A-not-B error. We use empirical data available from this case to show how infant behaviour can meet our minimal requirements and the multiple forms of normativity that it brings forth.",
+ "keywords": [
+  "Autonomy",
+  "Autonomous systems",
+  "Cognition",
+  "Sensorimotor",
+  "Normativity",
+  "Biological function"
+ ],
+ "featured": true,
+ "talks": [
+  {
+   "url": "https://www.youtube.com/watch?v=wbmHfsJbOiI",
+   "title": "An Organismic Approach to Cognitive Normativity",
+   "meta": "2024-08-25 · Metanoia"
+  }
+ ],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Rama, T. (2026). Sensorimotor teleology and goal-directedness. An organismic framework for normative behaviour. Phenomenology and the Cognitive Sciences. Advance online publication (in press). Accepted manuscript",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2025-sensorimotor-teleology-and-goal-directedness-an/",
+  "markdown": "https://publications.barandiaran.net/p/2025-sensorimotor-teleology-and-goal-directedness-an/index.md",
+  "json": "https://publications.barandiaran.net/p/2025-sensorimotor-teleology-and-goal-directedness-an/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2025-sensorimotor-teleology-and-goal-directedness-an.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2025-sensorimotor-teleology-and-goal-directedness-an.bib",
+  "ris": "https://publications.barandiaran.net/citations/2025-sensorimotor-teleology-and-goal-directedness-an.ris",
+  "publisher": "https://philsci-archive.pitt.edu/id/eprint/25369"
+ }
+}

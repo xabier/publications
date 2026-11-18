@@ -1,0 +1,62 @@
+{
+ "slug": "2009-defining-agency-individuality-normativity-asymmetry-and",
+ "id": "https://publications.barandiaran.net/p/2009-defining-agency-individuality-normativity-asymmetry-and/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Defining Agency: Individuality, Normativity, Asymmetry, and Spatio-temporality in Action",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Di Paolo",
+   "given": "Ezequiel"
+  },
+  {
+   "family": "Rohde",
+   "given": "Marieke"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Di Paolo, Ezequiel; Rohde, Marieke",
+ "editors": [],
+ "year": "2009",
+ "date": "2009-10-01",
+ "venue": "Adaptive Behavior",
+ "series": "",
+ "volume": "17",
+ "issue": "5",
+ "pages": "367-386",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "10.1177/1059712309343819",
+ "url": "http://xabierbarandiaran.files.wordpress.com/2009/07/barandiaran_dipaolo_rohde_-_defining_agency_v_1_0_-_jab_20091.pdf",
+ "language": "",
+ "abstract": "The concept of agency is of crucial importance in cognitive science and artificial intelligence, and it is often used as an intuitive and rather uncontroversial term, in contrast to more abstract and theoretically heavily weighted terms such as intentionality , rationality, or mind. However, most of the available definitions of agency are too loose or unspecific to allow for a progressive scientific research program. They implicitly and unproblematically assume the features that characterize agents, thus obscuring the full potential and challenge of modeling agency. We identify three conditions that a system must meet in order to be considered as a genuine agent: (a) a system must define its own individuality, (b) it must be the active source of activity in its environment (interactional asymmetry), and (c) it must regulate this activity in relation to certain norms (normativity). We find that even minimal forms of proto-cellular systems can already provide a paradigmatic example of genuine agency. By abstracting away some specific details of minimal models of living agency we define the kind of organization that is capable of meeting the required conditions for agency (which is not restricted to living organisms). On this basis, we define agency as an autonomous organization that adaptively regulates its coupling with its environment and contributes to sustaining itself as a consequence. We find that spatiality and temporality are the two fundamental domains in which agency spans at different scales. We conclude by giving an outlook for the road that lies ahead in the pursuit of understanding, modeling, and synthesizing agents.",
+ "keywords": [
+  "Agency",
+  "Individuality",
+  "Interactional asymmetry",
+  "Normativity",
+  "Spatiality",
+  "Temporality"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., Di Paolo, E., & Rohde, M. (2009). Defining Agency: Individuality, Normativity, Asymmetry, and Spatio-temporality in Action. Adaptive Behavior, 17(5), 367-386. https://doi.org/10.1177/1059712309343819",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2009-defining-agency-individuality-normativity-asymmetry-and/",
+  "markdown": "https://publications.barandiaran.net/p/2009-defining-agency-individuality-normativity-asymmetry-and/index.md",
+  "json": "https://publications.barandiaran.net/p/2009-defining-agency-individuality-normativity-asymmetry-and/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2009-defining-agency-individuality-normativity-asymmetry-and.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2009-defining-agency-individuality-normativity-asymmetry-and.bib",
+  "ris": "https://publications.barandiaran.net/citations/2009-defining-agency-individuality-normativity-asymmetry-and.ris",
+  "publisher": "http://xabierbarandiaran.files.wordpress.com/2009/07/barandiaran_dipaolo_rohde_-_defining_agency_v_1_0_-_jab_20091.pdf"
+ }
+}

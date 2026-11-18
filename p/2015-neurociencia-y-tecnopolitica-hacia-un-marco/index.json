@@ -1,0 +1,58 @@
+{
+ "slug": "2015-neurociencia-y-tecnopolitica-hacia-un-marco",
+ "id": "https://publications.barandiaran.net/p/2015-neurociencia-y-tecnopolitica-hacia-un-marco/",
+ "type": "bookSection",
+ "type_label": "Book Chapter",
+ "title": "Neurociencia y tecnopolítica:  hacia un marco analógico para comprender la mente colectiva del 15M",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Aguilera",
+   "given": "Miguel"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Aguilera, Miguel",
+ "editors": [
+  {
+   "family": "Toret",
+   "given": "Javier"
+  }
+ ],
+ "year": "2015",
+ "date": "2015",
+ "venue": "Tecnopolítica y 15M. La potencia de las multitudes conectadas.",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "163-211",
+ "publisher": "Editorial UOC",
+ "place": "Barcelona",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Technopolitics",
+  "Social movements"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Aguilera, M. (2015). Neurociencia y tecnopolítica: hacia un marco analógico para comprender la mente colectiva del 15M. In J. Toret (Ed.), Tecnopolítica y 15M. La potencia de las multitudes conectadas (pp. 163-211). Editorial UOC.",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2015-neurociencia-y-tecnopolitica-hacia-un-marco/",
+  "markdown": "https://publications.barandiaran.net/p/2015-neurociencia-y-tecnopolitica-hacia-un-marco/index.md",
+  "json": "https://publications.barandiaran.net/p/2015-neurociencia-y-tecnopolitica-hacia-un-marco/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2015-neurociencia-y-tecnopolitica-hacia-un-marco.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2015-neurociencia-y-tecnopolitica-hacia-un-marco.bib",
+  "ris": "https://publications.barandiaran.net/citations/2015-neurociencia-y-tecnopolitica-hacia-un-marco.ris"
+ }
+}

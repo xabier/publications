@@ -1,0 +1,62 @@
+{
+ "slug": "2013-quantifying-political-self-organization-in-social",
+ "id": "https://publications.barandiaran.net/p/2013-quantifying-political-self-organization-in-social/",
+ "type": "conferencePaper",
+ "type_label": "Conference Paper",
+ "title": "Quantifying Political Self-Organization in Social Media. Fractal patterns in the Spanish 15M movement on Twitter",
+ "authors": [
+  {
+   "family": "Aguilera",
+   "given": "Miguel"
+  },
+  {
+   "family": "Morer",
+   "given": "Ignacio"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Bedia",
+   "given": "Manuel"
+  }
+ ],
+ "author_string": "Aguilera, Miguel; Morer, Ignacio; Barandiaran, Xabier E.; Bedia, Manuel",
+ "editors": [],
+ "year": "2013",
+ "date": "2013-09-02",
+ "venue": "P. Lio, O. Miglino, G. Nicosia, S. Nolfi & M. Pavone (Eds.), Advances in Artificial Life: ECAL 2013",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "395-402",
+ "publisher": "MIT Press",
+ "place": "",
+ "note": "",
+ "isbn": "978-0-262-31709-2",
+ "issn": "",
+ "doi": "10.7551/978-0-262-31709-2-ch057",
+ "url": "http://mitpress.mit.edu/sites/default/files/titles/content/ecal13/ch057.html",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Self-organization",
+  "Social movements"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Aguilera, M., Morer, I., Barandiaran, X. E., & Bedia, M. (2013). Quantifying Political Self-Organization in Social Media. Fractal patterns in the Spanish 15M movement on Twitter. In P. Lio, O. Miglino, G. Nicosia, S. Nolfi & M. Pavone (Eds.), Advances in Artificial Life: ECAL 2013 (pp. 395-402). MIT Press. https://doi.org/10.7551/978-0-262-31709-2-ch057",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2013-quantifying-political-self-organization-in-social/",
+  "markdown": "https://publications.barandiaran.net/p/2013-quantifying-political-self-organization-in-social/index.md",
+  "json": "https://publications.barandiaran.net/p/2013-quantifying-political-self-organization-in-social/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2013-quantifying-political-self-organization-in-social.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2013-quantifying-political-self-organization-in-social.bib",
+  "ris": "https://publications.barandiaran.net/citations/2013-quantifying-political-self-organization-in-social.ris",
+  "publisher": "http://mitpress.mit.edu/sites/default/files/titles/content/ecal13/ch057.html"
+ }
+}

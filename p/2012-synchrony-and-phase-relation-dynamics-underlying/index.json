@@ -1,0 +1,59 @@
+{
+ "slug": "2012-synchrony-and-phase-relation-dynamics-underlying",
+ "id": "https://publications.barandiaran.net/p/2012-synchrony-and-phase-relation-dynamics-underlying/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Synchrony and phase relation dynamics underlying sensorimotor coordination",
+ "authors": [
+  {
+   "family": "Santos",
+   "given": "Bruno A."
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Husbands",
+   "given": "Philip"
+  }
+ ],
+ "author_string": "Santos, Bruno A.; Barandiaran, Xabier E.; Husbands, Philip",
+ "editors": [],
+ "year": "2012",
+ "date": "2012",
+ "venue": "Adaptive Behavior",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "321-336",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "1059-7123, 1741-2633",
+ "doi": "10.1177/1059712312451859",
+ "url": "http://adb.sagepub.com/content/early/2012/07/11/1059712312451859",
+ "language": "en",
+ "abstract": "Synchronous oscillations have become a widespread hypothetical “mechanism” to explain how brain dynamics give rise to neural functions. By focusing on synchrony one leaves the phase relations during moments of desynchronous oscillations either without a clear functional role or with a secondary role such as a transition between functionally “relevant” synchronized states. In this work, rather than studying synchrony we focus on desynchronous oscillations and investigate their functional roles in the context of a sensorimotor coordination task. In particular, we address the questions: a) how does the informational content of the sensorimotor activity present in a complete dynamical description of phase relations change as such a description is reduced to the dynamics of synchronous oscillations? and b) to what extent are desynchronous oscillations as causally relevant as synchronous ones to the generation of functional sensorimotor coordination? These questions are addressed with a model of a simulated agent performing a functional sensorimotor coordination task controlled by an oscillatory network. The results suggest that: i) desynchronized phase relations carry as much information about sensorimotor activity as synchronized phase relations; and ii) phase relations between oscillators with near-zero frequency difference carry a relatively higher causal relevance than the rest of the phase relations to the sensorimotor coordination; however, overall a privileged functional causal contribution can not be attributed to either synchronous or desynchronous oscillations.",
+ "keywords": [
+  "Neural synchrony",
+  "Phase-coupled oscillators",
+  "Sensorimotor coordination"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Santos, B. A., Barandiaran, X. E., & Husbands, P. (2012). Synchrony and phase relation dynamics underlying sensorimotor coordination. Adaptive Behavior, 321-336. https://doi.org/10.1177/1059712312451859",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2012-synchrony-and-phase-relation-dynamics-underlying/",
+  "markdown": "https://publications.barandiaran.net/p/2012-synchrony-and-phase-relation-dynamics-underlying/index.md",
+  "json": "https://publications.barandiaran.net/p/2012-synchrony-and-phase-relation-dynamics-underlying/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2012-synchrony-and-phase-relation-dynamics-underlying.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2012-synchrony-and-phase-relation-dynamics-underlying.bib",
+  "ris": "https://publications.barandiaran.net/citations/2012-synchrony-and-phase-relation-dynamics-underlying.ris",
+  "publisher": "http://adb.sagepub.com/content/early/2012/07/11/1059712312451859"
+ }
+}

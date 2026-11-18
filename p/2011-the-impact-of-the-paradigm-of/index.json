@@ -1,0 +1,77 @@
+{
+ "slug": "2011-the-impact-of-the-paradigm-of",
+ "id": "https://publications.barandiaran.net/p/2011-the-impact-of-the-paradigm-of/",
+ "type": "bookSection",
+ "type_label": "Book Chapter",
+ "title": "The impact of the paradigm of complexity on the foundational frameworks of biology and cognitive science",
+ "authors": [
+  {
+   "family": "Moreno",
+   "given": "Alvaro"
+  },
+  {
+   "family": "Ruiz-Mirazo",
+   "given": "K."
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "author_string": "Moreno, Alvaro; Ruiz-Mirazo, K.; Barandiaran, Xabier E.",
+ "editors": [
+  {
+   "family": "Hooker",
+   "given": "Cliff A."
+  },
+  {
+   "family": "Gabbay",
+   "given": "D. V."
+  },
+  {
+   "family": "Thagard",
+   "given": "P."
+  },
+  {
+   "family": "Woods",
+   "given": "John"
+  }
+ ],
+ "year": "2011",
+ "date": "2011-06-16",
+ "venue": "Handbook of the Philosophy of Science",
+ "series": "",
+ "volume": "Philosophy of Complex Systems",
+ "issue": "",
+ "pages": "311-333",
+ "publisher": "Elsevier",
+ "place": "",
+ "note": "",
+ "isbn": "978-0-444-52076-0",
+ "issn": "",
+ "doi": "",
+ "url": "",
+ "language": "en",
+ "abstract": "The domain of nonlinear dynamical systems and its mathematical underpinnings has been developing exponentially for a century, the last 35 years seeing an outpouring of new ideas and applications and a concomitant confluence with ideas of complex systems and their applications from irreversible thermodynamics. A few examples are in meteorology, ecological dynamics, andásocial and economic dynamics. These new ideas have profound implications for our understanding and practice in domains involving complexity, predictability and determinism, equilibrium, control, planning, individuality, responsibility and so on. Our intention is to draw together in this volume, we believe for the first time, a comprehensive picture of the manifold philosophically interesting impacts of recent developments in understanding nonlinear systems and the unique aspects of their complexity. The book will focus specifically on the philosophical concepts, principles, judgments and problems distinctly raised by work in the domain of complex nonlinear dynamical systems, especially in recent years. -Comprehensive coverage of all main theories in the philosophy of Complex Systems -Clearly written expositions of fundamental ideas and concepts -Definitive discussions by leading researchers in the field -Summaries of leading-edge research in related fields are also included",
+ "keywords": [],
+ "topics": [
+  "Cognition",
+  "Cognitive science",
+  "Dynamical systems",
+  "Complexity",
+  "Individuality"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Moreno, A., Ruiz-Mirazo, K., & Barandiaran, X. E. (2011). The impact of the paradigm of complexity on the foundational frameworks of biology and cognitive science. In C. A. Hooker, D. V. Gabbay, P. Thagard, & J. Woods (Eds.), Handbook of the Philosophy of Science (pp. 311-333). Elsevier.",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2011-the-impact-of-the-paradigm-of/",
+  "markdown": "https://publications.barandiaran.net/p/2011-the-impact-of-the-paradigm-of/index.md",
+  "json": "https://publications.barandiaran.net/p/2011-the-impact-of-the-paradigm-of/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2011-the-impact-of-the-paradigm-of.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2011-the-impact-of-the-paradigm-of.bib",
+  "ris": "https://publications.barandiaran.net/citations/2011-the-impact-of-the-paradigm-of.ris"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "2017-decidim-s-functionalities-and-features-roadmap",
+ "id": "https://publications.barandiaran.net/p/2017-decidim-s-functionalities-and-features-roadmap/",
+ "type": "report",
+ "type_label": "Report",
+ "title": "Decidim's functionalities and features. Roadmap 2017-2018",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Romero",
+   "given": "Carol"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Romero, Carol",
+ "editors": [],
+ "year": "2017",
+ "date": "2017-09-04",
+ "venue": "",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "Decidim.org (Ajuntament de Barcelona)",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "https://decidim.org/pdf/features-roadmap-en.pdf",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Decidim",
+  "Functionalities",
+  "Roadmap"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Romero, C. (2017). Decidim's functionalities and features. Roadmap 2017-2018 (Decidim Documentation). Decidim.org (Ajuntament de Barcelona). https://decidim.org/pdf/features-roadmap-en.pdf",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2017-decidim-s-functionalities-and-features-roadmap/",
+  "markdown": "https://publications.barandiaran.net/p/2017-decidim-s-functionalities-and-features-roadmap/index.md",
+  "json": "https://publications.barandiaran.net/p/2017-decidim-s-functionalities-and-features-roadmap/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2017-decidim-s-functionalities-and-features-roadmap.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2017-decidim-s-functionalities-and-features-roadmap.bib",
+  "ris": "https://publications.barandiaran.net/citations/2017-decidim-s-functionalities-and-features-roadmap.ris",
+  "publisher": "https://decidim.org/pdf/features-roadmap-en.pdf"
+ }
+}

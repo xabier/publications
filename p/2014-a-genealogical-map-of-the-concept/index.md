@@ -1,0 +1,21 @@
+# A genealogical map of the concept of habit
+
+- **Authors:** Xabier E. Barandiaran, Ezequiel Alejandro Di Paolo
+- **Year:** 2014
+- **Type:** Journal Article
+- **Published in:** Frontiers in Human Neuroscience, 8, 522
+- **DOI:** [10.3389/fnhum.2014.00522](https://doi.org/10.3389/fnhum.2014.00522)
+- **Keywords:** Habit, Associationism, Organicism, History of psychology, History of philosophy
+- **Landing page:** https://publications.barandiaran.net/p/2014-a-genealogical-map-of-the-concept/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2014-a-genealogical-map-of-the-concept.pdf)
+
+## Abstract
+
+The notion of information processing has dominated the study of the mind for over six decades. However, before the advent of cognitivism, one of the most prominent theoretical ideas was that of Habit. This is a concept with a rich and complex history, which is again starting to awaken interest, following recent embodied, enactive critiques of computationalist frameworks. We offer here a very brief history of the concept of habit in the form of a genealogical network-map. This serves to provide an overview of the richness of this notion and as a guide for further re-appraisal. We identify 77 thinkers and their influences, and group them into seven schools of thought. Two major trends can be distinguished. One is the associationist trend, starting with the work of Locke and Hume, developed by Hartley, Bain, and Mill to be later absorbed into behaviorism through pioneering animal psychologists (Morgan and Thorndike). This tradition conceived of habits atomistically and as automatisms (a conception later debunked by cognitivism). Another historical trend we have called organicism inherits the legacy of Aristotle and develops along German idealism, French spiritualism, pragmatism, and phenomenology. It feeds into the work of continental psychologists in the early 20th century, influencing important figures such as Merleau-Ponty, Piaget, and Gibson. But it has not yet been taken up by mainstream cognitive neuroscience and psychology. Habits, in this tradition, are seen as ecological, self-organizing structures that relate to a web of predispositions and plastic dependencies both in the agent and in the environment. In addition, they are not conceptualized in opposition to rational, volitional processes, but as transversing a continuum from reflective to embodied intentionality. These are properties that make habit a particularly attractive idea for embodied, enactive perspectives, which can now re-evaluate it in light of dynamical systems theory and complexity research.
+
+## Cite
+
+Barandiaran, X. E., & Di Paolo, E. A. (2014). A genealogical map of the concept of habit. *Frontiers in Human Neuroscience*, *8*, 522. https://doi.org/10.3389/fnhum.2014.00522
+
+BibTeX: https://publications.barandiaran.net/citations/2014-a-genealogical-map-of-the-concept.bib · RIS: https://publications.barandiaran.net/citations/2014-a-genealogical-map-of-the-concept.ris
+

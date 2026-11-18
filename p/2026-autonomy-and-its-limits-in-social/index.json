@@ -1,0 +1,77 @@
+{
+ "slug": "2026-autonomy-and-its-limits-in-social",
+ "id": "https://publications.barandiaran.net/p/2026-autonomy-and-its-limits-in-social/",
+ "type": "bookSection",
+ "type_label": "Book Chapter",
+ "title": "Autonomy and Its Limits in Social-Ecological Systems",
+ "authors": [
+  {
+   "family": "Cabello",
+   "given": "Violeta"
+  },
+  {
+   "family": "Merlo",
+   "given": "Alejandro"
+  },
+  {
+   "family": "Mancilla",
+   "given": "María"
+  },
+  {
+   "family": "Siqueiros",
+   "given": "Jesús M."
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "author_string": "Cabello, Violeta; Merlo, Alejandro; Mancilla, María; Siqueiros, Jesús M.; Barandiaran, Xabier E.",
+ "editors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Etxeberria",
+   "given": "Arantza"
+  }
+ ],
+ "year": "2026",
+ "date": "2026",
+ "venue": "Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "121-130",
+ "publisher": "Springer Nature Switzerland",
+ "place": "Cham",
+ "note": "",
+ "isbn": "978-3-032-05501-9",
+ "issn": "",
+ "doi": "10.1007/978-3-032-05501-9_12",
+ "url": "https://doi.org/10.1007/978-3-032-05501-9_12",
+ "language": "en",
+ "abstract": "Traditionally, autonomy has been perceived through the lens of individualism and internalism, a view increasingly challenged by contemporary philosophical approaches, as well as by the context of global sustainability. Environmental challenges underline the need to shift from Earth-imposed limits to social-ecological limitations to achieve autonomy, democracy, and sustainability. In the realm of sustainability sciences, the concept of social-ecological systems has been developed to explore the interdependencies between humans and their environments. Despite the significance of autonomy in discussions around sustainability, its exploration within this field remains limited. This chapter aims to discuss the potential contribution of the concept of outonomy for social-ecological systems and the planetary scale and, conversely, to open up the concept of autonomy to planetary-ecological dependencies.",
+ "keywords": [
+  "Social-ecological systems",
+  "Earth limits",
+  "Gaia",
+  "Social-ecological outonomy"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Cabello, V., Merlo, A., Mancilla, M., Siqueiros, J. M., & Barandiaran, X. E. (2026). Autonomy and Its Limits in Social-Ecological Systems. In X. E. Barandiaran, & A. Etxeberria (Eds.), Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual (pp. 121-130). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_12",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2026-autonomy-and-its-limits-in-social/",
+  "markdown": "https://publications.barandiaran.net/p/2026-autonomy-and-its-limits-in-social/index.md",
+  "json": "https://publications.barandiaran.net/p/2026-autonomy-and-its-limits-in-social/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2026-autonomy-and-its-limits-in-social.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2026-autonomy-and-its-limits-in-social.bib",
+  "ris": "https://publications.barandiaran.net/citations/2026-autonomy-and-its-limits-in-social.ris",
+  "publisher": "https://doi.org/10.1007/978-3-032-05501-9_12"
+ }
+}

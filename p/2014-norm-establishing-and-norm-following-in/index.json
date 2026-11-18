@@ -1,0 +1,58 @@
+{
+ "slug": "2014-norm-establishing-and-norm-following-in",
+ "id": "https://publications.barandiaran.net/p/2014-norm-establishing-and-norm-following-in/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Norm-establishing and norm-following in autonomous agency",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Egbert",
+   "given": "Matthew D."
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Egbert, Matthew D.",
+ "editors": [],
+ "year": "2014",
+ "date": "2014",
+ "venue": "Artificial Life",
+ "series": "",
+ "volume": "20",
+ "issue": "1",
+ "pages": "5-28",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "1064-5462",
+ "doi": "10.1162/ARTL_a_00094",
+ "url": "https://doi.org/10.1162/ARTL_a_00094",
+ "language": "",
+ "abstract": "",
+ "keywords": [
+  "Minimal agency",
+  "Normativity",
+  "Viability",
+  "Organicism",
+  "Precariousness",
+  "Normative field"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Egbert, M. D. (2014). Norm-establishing and norm-following in autonomous agency. Artificial Life, 20(1), 5-28. https://doi.org/10.1162/ARTL_a_00094",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2014-norm-establishing-and-norm-following-in/",
+  "markdown": "https://publications.barandiaran.net/p/2014-norm-establishing-and-norm-following-in/index.md",
+  "json": "https://publications.barandiaran.net/p/2014-norm-establishing-and-norm-following-in/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2014-norm-establishing-and-norm-following-in.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2014-norm-establishing-and-norm-following-in.bib",
+  "ris": "https://publications.barandiaran.net/citations/2014-norm-establishing-and-norm-following-in.ris",
+  "publisher": "https://doi.org/10.1162/ARTL_a_00094"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "2011-neurodynamic-regimes-of-phase-relation-and",
+ "id": "https://publications.barandiaran.net/p/2011-neurodynamic-regimes-of-phase-relation-and/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Neurodynamic regimes of phase relation and behavior in robotic models",
+ "authors": [
+  {
+   "family": "Santos",
+   "given": "Bruno"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Husbands",
+   "given": "Phil"
+  }
+ ],
+ "author_string": "Santos, Bruno; Barandiaran, Xabier E.; Husbands, Phil",
+ "editors": [],
+ "year": "2011",
+ "date": "2011",
+ "venue": "BMC Neuroscience",
+ "series": "",
+ "volume": "12",
+ "issue": "Suppl 1",
+ "pages": "P155",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "http://www.biomedcentral.com/1471-2202/12/S1/P155",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Neuroscience",
+  "Robotics"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Santos, B., Barandiaran, X. E., & Husbands, P. (2011). Neurodynamic regimes of phase relation and behavior in robotic models. BMC Neuroscience, 12(Suppl 1), P155. http://www.biomedcentral.com/1471-2202/12/S1/P155",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2011-neurodynamic-regimes-of-phase-relation-and/",
+  "markdown": "https://publications.barandiaran.net/p/2011-neurodynamic-regimes-of-phase-relation-and/index.md",
+  "json": "https://publications.barandiaran.net/p/2011-neurodynamic-regimes-of-phase-relation-and/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2011-neurodynamic-regimes-of-phase-relation-and.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2011-neurodynamic-regimes-of-phase-relation-and.bib",
+  "ris": "https://publications.barandiaran.net/citations/2011-neurodynamic-regimes-of-phase-relation-and.ris",
+  "publisher": "http://www.biomedcentral.com/1471-2202/12/S1/P155"
+ }
+}

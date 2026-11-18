@@ -1,0 +1,72 @@
+{
+ "slug": "2008-artificial-mental-life",
+ "id": "https://publications.barandiaran.net/p/2008-artificial-mental-life/",
+ "type": "conferencePaper",
+ "type_label": "Conference Paper",
+ "title": "Artificial Mental Life",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Di Paolo",
+   "given": "Ezequiel A"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Di Paolo, Ezequiel A",
+ "editors": [
+  {
+   "family": "Bullock",
+   "given": "S."
+  },
+  {
+   "family": "Noble",
+   "given": "J."
+  },
+  {
+   "family": "Watson",
+   "given": "R."
+  },
+  {
+   "family": "Bedau",
+   "given": "M."
+  }
+ ],
+ "year": "2008",
+ "date": "2008",
+ "venue": "Artificial Life XI: Proceedings of the Eleventh International Conference on the Simulation and Synthesis of Living Systems",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "747",
+ "publisher": "MIT Press",
+ "place": "Cambridge, MA.",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Mental life",
+  "Artificial",
+  "Mental",
+  "Life"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Di Paolo, E. A. (2008). Artificial Mental Life. In Artificial Life XI: Proceedings of the Eleventh International Conference on the Simulation and Synthesis of Living Systems (pp. 747). MIT Press.",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2008-artificial-mental-life/",
+  "markdown": "https://publications.barandiaran.net/p/2008-artificial-mental-life/index.md",
+  "json": "https://publications.barandiaran.net/p/2008-artificial-mental-life/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2008-artificial-mental-life.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2008-artificial-mental-life.bib",
+  "ris": "https://publications.barandiaran.net/citations/2008-artificial-mental-life.ris"
+ }
+}

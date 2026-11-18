@@ -1,0 +1,64 @@
+{
+ "slug": "2014-intermittent-animal-behavior-the-adjustment-deployment",
+ "id": "https://publications.barandiaran.net/p/2014-intermittent-animal-behavior-the-adjustment-deployment/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Intermittent Animal Behavior: The Adjustment-Deployment Dilemma",
+ "authors": [
+  {
+   "family": "Aguilera",
+   "given": "Miguel"
+  },
+  {
+   "family": "Bedia",
+   "given": "Manuel G."
+  },
+  {
+   "family": "Seron",
+   "given": "Francisco"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "author_string": "Aguilera, Miguel; Bedia, Manuel G.; Seron, Francisco; Barandiaran, Xabier E.",
+ "editors": [],
+ "year": "2014",
+ "date": "2014-04-14",
+ "venue": "Artificial Life",
+ "series": "",
+ "volume": "20",
+ "issue": "",
+ "pages": "319-337",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "1064-5462, 1530-9185",
+ "doi": "10.1162/ARTL_a_00133",
+ "url": "http://www.mitpressjournals.org/doi/abs/10.1162/ARTL_a_00133",
+ "language": "en",
+ "abstract": "Intermittency is ubiquitous in animal behavior. We depict a coordination problem that is part of the more general structure of intermittent adaptation: the adjustment-deployment dilemma. It captures the intricate compromise between the time spent in adjusting a response and the time used to deploy it: The adjustment process improves fitness with time, but during deployment fitness of the solution decays as environmental conditions change. We provide a formal characterization of the dilemma, and solve it using computational methods. We find that the optimal solution always results in a high intermittency between adjustment and deployment around a non-maximal fitness value. Furthermore we show that this non-maximal fitness value is directly determined by the ratio between the exponential coefficient of the fitness increase during adjustment and that of its decay coefficient during deployment. We compare the model results with experimental data obtained from observation and measurement of intermittent behavior in animals. Among other phenomena, the model is able to predict the uneven distribution of average duration of search and motion phases found among various species such as fishes, birds, and lizards. Despite the complexity of the problem, it can be shown to be solved by relatively simple mechanisms. We find that a model of a single continuous-time recurrent neuron, with the same parametric configuration, is capable of solving the dilemma for a wide set of conditions. We finally hypothesize that many of the different patterns of intermittent behavior found in nature might respond to optimal solutions of complexified versions of the adjustment-deployment dilemma under different constraints.",
+ "keywords": [
+  "Intermittent behavior",
+  "Adaptive behavior",
+  "Adjustment-deployment dilemma",
+  "Behavioral modeling"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Aguilera, M., Bedia, M. G., Seron, F., & Barandiaran, X. E. (2014). Intermittent Animal Behavior: The Adjustment-Deployment Dilemma. Artificial Life, 20, 319-337. https://doi.org/10.1162/ARTL_a_00133",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2014-intermittent-animal-behavior-the-adjustment-deployment/",
+  "markdown": "https://publications.barandiaran.net/p/2014-intermittent-animal-behavior-the-adjustment-deployment/index.md",
+  "json": "https://publications.barandiaran.net/p/2014-intermittent-animal-behavior-the-adjustment-deployment/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2014-intermittent-animal-behavior-the-adjustment-deployment.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2014-intermittent-animal-behavior-the-adjustment-deployment.bib",
+  "ris": "https://publications.barandiaran.net/citations/2014-intermittent-animal-behavior-the-adjustment-deployment.ris",
+  "publisher": "http://www.mitpressjournals.org/doi/abs/10.1162/ARTL_a_00133"
+ }
+}

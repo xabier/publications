@@ -1,0 +1,59 @@
+{
+ "slug": "2017-framework-for-democratic-governance-of-distributed",
+ "id": "https://publications.barandiaran.net/p/2017-framework-for-democratic-governance-of-distributed/",
+ "type": "report",
+ "type_label": "Report",
+ "title": "Framework for democratic governance of distributed architectures: DEcentralised Citizens Owned Data Ecosystem",
+ "authors": [
+  {
+   "family": "Calleja-Lopez",
+   "given": "Antonio"
+  },
+  {
+   "family": "Monterde",
+   "given": "Arnau"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier"
+  }
+ ],
+ "author_string": "Calleja-Lopez, Antonio; Monterde, Arnau; Barandiaran, Xabier",
+ "editors": [],
+ "year": "2017",
+ "date": "2017",
+ "venue": "",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "DECODE",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "https://openaccess.uoc.edu/handle/10609/100368",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Democratic",
+  "Governance",
+  "Distributed"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Calleja-Lopez, A., Monterde, A., & Barandiaran, X. (2017). Framework for democratic governance of distributed architectures: DEcentralised Citizens Owned Data Ecosystem (Deliverable for DECODE DEcentralised Citizens Owned Data Ecosystem, H2020–ICT-2016-1, EU Funded Project no. 732546, D 2.3). DECODE. https://openaccess.uoc.edu/handle/10609/100368",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2017-framework-for-democratic-governance-of-distributed/",
+  "markdown": "https://publications.barandiaran.net/p/2017-framework-for-democratic-governance-of-distributed/index.md",
+  "json": "https://publications.barandiaran.net/p/2017-framework-for-democratic-governance-of-distributed/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2017-framework-for-democratic-governance-of-distributed.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2017-framework-for-democratic-governance-of-distributed.bib",
+  "ris": "https://publications.barandiaran.net/citations/2017-framework-for-democratic-governance-of-distributed.ris",
+  "publisher": "https://openaccess.uoc.edu/handle/10609/100368"
+ }
+}

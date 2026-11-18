@@ -1,0 +1,58 @@
+{
+ "slug": "2009-chemo-ethology-of-an-adaptive-protocell",
+ "id": "https://publications.barandiaran.net/p/2009-chemo-ethology-of-an-adaptive-protocell/",
+ "type": "conferencePaper",
+ "type_label": "Conference Paper",
+ "title": "Chemo-ethology of an adaptive protocell: Sensor-less sensitivity to implicit viability conditions",
+ "authors": [
+  {
+   "family": "Egbert",
+   "given": "Matthew D."
+  },
+  {
+   "family": "Di Paolo",
+   "given": "Ezequiel A."
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "author_string": "Egbert, Matthew D.; Di Paolo, Ezequiel A.; Barandiaran, Xabier E.",
+ "editors": [],
+ "year": "2009",
+ "date": "2009",
+ "venue": "Proceedings of the Ninth European Conference on Artificial Life",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "242-249",
+ "publisher": "Springer Verlag",
+ "place": "Berlin",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "",
+ "language": "",
+ "abstract": "The viability of a living system is a non-trivial concept, yet it is often highly simplified in models of adaptive behavior. What is lost in this abstraction? How do viability conditions appear in the first place? In order to address these questions we present a new model of an au- topoietic or protocellular system simulated at the molecular level. We propose a measurement for the viability of the system and analyze the ‘viability condition’ that becomes evident when using this measurement. We observe how the system behaves in relation to this condition, generating instances of chemotaxis, behavioural preferences and simple (yet not trivial) examples of action selection. The model permits the formulation of a number of conclusions regarding the nature of viability conditions and adaptive behaviour modulated by metabolic processes.",
+ "keywords": [],
+ "topics": [
+  "Metabolism",
+  "Viability",
+  "Adaptive behavior"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Egbert, M. D., Di Paolo, E. A., & Barandiaran, X. E. (2009). Chemo-ethology of an adaptive protocell: Sensor-less sensitivity to implicit viability conditions. In Proceedings of the Ninth European Conference on Artificial Life (pp. 242-249). Springer Verlag.",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2009-chemo-ethology-of-an-adaptive-protocell/",
+  "markdown": "https://publications.barandiaran.net/p/2009-chemo-ethology-of-an-adaptive-protocell/index.md",
+  "json": "https://publications.barandiaran.net/p/2009-chemo-ethology-of-an-adaptive-protocell/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2009-chemo-ethology-of-an-adaptive-protocell.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2009-chemo-ethology-of-an-adaptive-protocell.bib",
+  "ris": "https://publications.barandiaran.net/citations/2009-chemo-ethology-of-an-adaptive-protocell.ris"
+ }
+}

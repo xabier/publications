@@ -20,6 +20,70 @@
   // remember the original DOM order (highlighted-first, then reverse-chronological)
   items.forEach(function (item, i) { item._order = i; });
 
+  // Search text per entry, built once from the entry's own content (title, citation,
+  // type, year, keywords, abstract/summary). This replaces the old data-search
+  // attribute, which duplicated all of that text inside index.html.
+  items.forEach(function (item) {
+    var parts = [];
+    Array.prototype.forEach.call(item.querySelectorAll(
+      ".pub-ref, .pub-title, .pub-citation, .pub-type, .pub-year, .pub-keywords, " +
+      "details.pub-details:not(.pub-cite):not(.pub-talks) .pub-panel"
+    ), function (el) { parts.push(el.textContent); });
+    parts.push(item.getAttribute("data-kw") || "");
+    item._hay = parts.join(" ").replace(/\s+/g, " ").toLowerCase();
+  });
+
+  // Abstracts and summaries are not in this page (to keep it short enough for AI
+  // agents); their text for searching comes from search-index.json, loaded the
+  // first time the search box is used.
+  var searchIndexState = 0;
+  function loadSearchIndex() {
+    if (searchIndexState || !window.fetch) return;
+    searchIndexState = 1;
+    fetch("search-index.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (ix) {
+      if (!ix) return;
+      items.forEach(function (it) { if (ix[it.id]) it._hay += " " + ix[it.id]; });
+      searchIndexState = 2;
+      applyFilters();
+    }).catch(function () {});
+  }
+
+  // Abstract / Summary panels: fill them from the publication's JSON record on first open
+  var recordCache = {};
+  function loadRecord(url) {
+    if (!recordCache[url]) {
+      recordCache[url] = fetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+    }
+    return recordCache[url];
+  }
+  function addQuoteButtons(root) {
+    Array.prototype.forEach.call(root.querySelectorAll(".summary-quote"), function (bq) {
+      if (bq.querySelector(".copy-quote")) return;
+      var btn = document.createElement("button");
+      btn.type = "button"; btn.className = "copy-quote"; btn.textContent = "Copy";
+      btn.title = "Copy quote"; btn.setAttribute("aria-label", "Copy quote to clipboard");
+      bq.insertBefore(btn, bq.firstChild);
+    });
+  }
+  list.addEventListener("toggle", function (e) {
+    var d = e.target;
+    if (d.tagName !== "DETAILS" || !d.open || !d.classList.contains("pub-lazy") || d._loaded || !window.fetch) return;
+    var panel = d._panel || d.querySelector(".pub-panel");
+    loadRecord(d.getAttribute("data-src")).then(function (rec) {
+      var field = d.getAttribute("data-field");
+      if (field === "abstract" && rec.abstract) {
+        panel.innerHTML = "";
+        var p = document.createElement("p");
+        p.textContent = rec.abstract;
+        panel.appendChild(p);
+      } else if (field === "summary" && rec.summary_html) {
+        panel.innerHTML = rec.summary_html;   // our own generated HTML
+        addQuoteButtons(panel);
+      }
+      d._loaded = true;
+    }).catch(function () { /* keep the fallback link to the landing page */ });
+  }, true);
+
   function citationCount(item) {
     var c = parseInt(item.getAttribute("data-citations"), 10);
     return isNaN(c) ? null : c;
@@ -57,7 +121,7 @@
 
     items.forEach(function (item) {
       var type = item.getAttribute("data-type");
-      var haystack = (item.getAttribute("data-search") || "") + " " + (item.getAttribute("data-kw") || "");
+      var haystack = item._hay || "";
       var matchesType = activeType === "all" || type === activeType;
       var matchesQuery = query === "" || haystack.indexOf(query) !== -1;
       var matchesFeatured = !featuredOnly || item.getAttribute("data-featured") === "true";
@@ -89,6 +153,8 @@
 
   if (searchInput) {
     searchInput.addEventListener("input", applyFilters);
+    searchInput.addEventListener("focus", loadSearchIndex);
+    searchInput.addEventListener("input", loadSearchIndex);
 
     // Inject a Clear (×) button inside the search box. Done in JS so it
     // survives pipeline rebuilds of index.html (script.js is not regenerated).
@@ -200,6 +266,13 @@
   document.addEventListener("citations:updated", function () {
     if (currentSort === "cited") applySort();
   });
+
+  // Deep link: ?q=term pre-fills the search box (keyword links on the
+  // per-publication pages point here, e.g. /?q=Autonomy)
+  try {
+    var q0 = new URLSearchParams(window.location.search).get("q");
+    if (q0 && searchInput) { searchInput.value = q0; loadSearchIndex(); }
+  } catch (e) {}
 
   applyFilters();
 

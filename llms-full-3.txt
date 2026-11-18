@@ -1,0 +1,172 @@
+# Publications of Xabier E. Barandiaran — full records, part 3 of 3
+
+> Newest first. Generated 2026-11-18. Index of all publications: https://publications.barandiaran.net/llms.txt. This is the last part.
+
+## Mental Life: conceptual models and synthetic methodologies for a post-cognitivist psychology
+
+- **Authors:** Xabier E. Barandiaran
+- **Year:** 2007
+- **Type:** Book Chapter
+- **Published in:** The World, the Mind and the Body: Psychology after cognitivism, 49-90
+- **Publisher:** Imprint Academic, Exeter, UK
+- **Topics (assigned by the site; no author keywords):** Cognition, Mental life
+- **Landing page:** https://publications.barandiaran.net/p/2007-mental-life-conceptual-models-and-synthetic/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2007-mental-life-conceptual-models-and-synthetic.pdf)
+
+### Cite
+
+Barandiaran, X. E. (2007). Mental Life: conceptual models and synthetic methodologies for a post-cognitivist psychology. In B. Wallace, A. Ross, J. Davies, & T. Anderson (Eds.), *The World, the Mind and the Body: Psychology after cognitivism* (pp. 49-90). Imprint Academic.
+
+---
+
+## On What Makes Certain Dynamical Systems Cognitive: A Minimally Cognitive Organization Program
+
+- **Authors:** Xabier E. Barandiaran, Alvaro Moreno
+- **Year:** 2006
+- **Type:** Journal Article
+- **Published in:** Adaptive Behavior, 14(2), 171-185
+- **DOI:** [10.1177/105971230601400208](https://doi.org/10.1177/105971230601400208)
+- **Keywords:** Minimal cognition, Adaptive autonomy, Neurodynamic organization, Cognition-as-it-could-be, Emotional embodiment
+- **Landing page:** https://publications.barandiaran.net/p/2006-on-what-makes-certain-dynamical-systems/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2006-on-what-makes-certain-dynamical-systems.pdf)
+
+### Abstract
+
+Dynamicism has provided cognitive science with important tools to understand some aspects of "how cognitive agents work" but the issue of "what makes something cognitive" has not been sufficiently addressed yet and, we argue, the former will never be complete without the latter. Behavioristic characterizations of cognitive properties are criticized in favor of an organizational approach focused on the internal dynamic relationships that constitute cognitive systems. A definition of cognition as adaptive-autonomy in the embodied and situated neurodynamic domain is provided: the compensatory regulation of a web of stability dependencies between sensorimotor structures is created and pre served during a historical/developmental process. We highlight the functional role of emotional embodiment: internal bioregulatory processes coupled to the formation and adaptive regulation of neurodynamic autonomy. Finally, we discuss a "minimally cognitive behavior program" in evolutionary simulation modeling suggesting that much is to be learned from a complementary "minimally cognitive organization program"
+
+### Cite
+
+Barandiaran, X. E., & Moreno, A. (2006). On What Makes Certain Dynamical Systems Cognitive: A Minimally Cognitive Organization Program. *Adaptive Behavior*, *14*(2), 171-185. https://doi.org/10.1177/105971230601400208
+
+---
+
+## Autonomía, Comunicación y Evolución en redes bacterianas y tecnológicas
+
+- **Authors:** Xabier E. Barandiaran, Lluis Guiu
+- **Year:** 2006
+- **Type:** Journal Article
+- **Published in:** biTARTE, 35-60
+- **Keywords:** Transferencia genética horizontal, Autonomía, Metabolismo, Información, Comunicación, Software libre, Código abierto, Redes bacterianas, Algoritmos genéticos, Redes de innovación tecnológica
+- **Landing page:** https://publications.barandiaran.net/p/2006-autonomia-comunicacion-y-evolucion-en-redes/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2006-autonomia-comunicacion-y-evolucion-en-redes.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Guiu, L. (2006). Autonomía, Comunicación y Evolución en redes bacterianas y tecnológicas. *biTARTE*, (38), 35-60.
+
+---
+
+## ALife Models as Epistemic Artefacts
+
+- **Authors:** Xabier E. Barandiaran, Alvaro Moreno
+- **Year:** 2006
+- **Type:** Conference Paper
+- **Published in:** Artificial Life X : Proceedings of the Tenth International Conference on the Simulation and Synthesis of Living Systems, 513-519
+- **Publisher:** The MIT Press (Bradford Books), Cambridge, MA
+- **Topics (assigned by the site; no author keywords):** A-Life, Artificial life, Complexity
+- **Landing page:** https://publications.barandiaran.net/p/2006-alife-models-as-epistemic-artefacts/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2006-alife-models-as-epistemic-artefacts.pdf)
+
+### Abstract
+
+Both the irreducible complexity of biological phenomena and the aim of a universalized biology (life-as-it-could-be) have lead to a deep methodological shift in the study of life; represented by the appearance of ALife, with its claim that computational modelling is the main tool for studying the general principles of biological phenomenology. However this methodological shift implies important questions concerning the aesthetic, engineering and specially the epistemological status of computational models in scientific research: halfway between the well established categories of theory and experiment. ALife models become powerful epistemic artefacts allowing the simulation of emergent phenomena, the interaction between different levels of organization and the integration of different causal factors in the very same manipulable object. The use of computational models in ALife can be classified in four main categories depending on their position between theoretical and empirical practices: generic, conceptual, functional and mechanistic. For each of these categories we analyse their epistemic value and select paradigmatic examples that illustrate how ALife models can be fruitfully inserted in the study of life.
+
+### Cite
+
+Barandiaran, X. E., & Moreno, A. (2006). ALife Models as Epistemic Artefacts. In *Artificial Life X : Proceedings of the Tenth International Conference on the Simulation and Synthesis of Living Systems* (pp. 513-519). The MIT Press (Bradford Books).
+
+---
+
+## Behavioral Adaptive Autonomy. A milestone on the Alife  route to AI?
+
+- **Authors:** Xabier E. Barandiaran
+- **Year:** 2004
+- **Type:** Conference Paper
+- **Published in:** Artificial life IX: proceedings of the Ninth International Conference on the Simulation and Synthesis of Artificial Life, 514-521
+- **Publisher:** MIT Press, Cambridge, MA
+- **Topics (assigned by the site; no author keywords):** Autonomy, Metabolism, Artificial life, Cognition, Cognitive science, Agency
+- **Landing page:** https://publications.barandiaran.net/p/2004-behavioral-adaptive-autonomy-a-milestone-on/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2004-behavioral-adaptive-autonomy-a-milestone-on.pdf)
+
+### Abstract
+
+While central to robotics, biology and cognitive science, the concept of autonomy remains still difficult to make operative in the realm of Alife simulation models of cognitive agents. Its deep significance as a transition concept between life and cognition (a milestone on the Alife route to AI) remains obscured in the intricate relation between metabolic/constructive processes and behavioral adaptive processes in living systems. Within a naturalized and biologically inspired dynamical approach to cognition a definition of behavioral adaptive autonomy is provided: homeostatic maintenance of essential variables under viability constraints through self-modulating behavioral coupling with the environment, hierarchically decoupled from metabolic (constructive) processes. This definition allows for a naturalized notion of behavioral adaptive functionality (that defines a proper level of modelling within Alife), structurally and interactively emergent: the mapping of the agent-environment system’s state space trajectories into the viability subspace of the essential variables of the organism.
+
+### Cite
+
+Barandiaran, X. E. (2004). Behavioral Adaptive Autonomy. A milestone on the Alife route to AI? In *Artificial life IX: proceedings of the Ninth International Conference on the Simulation and Synthesis of Artificial Life* (pp. 514-521). MIT Press.
+
+---
+
+## A naturalized account of the inside-outside dichotomy
+
+- **Authors:** Alvaro Moreno, Xabier E. Barandiaran
+- **Year:** 2004
+- **Type:** Journal Article
+- **Published in:** PHILOSOPHICA, 73, 11-26
+- **URL:** https://www.philosophica.ugent.be/wp-content/uploads/fulltexts/73-2.pdf
+- **Keywords:** Inside-outside dichotomy, Constructive and interactive loop, Agency, Naturalized philosophy
+- **Landing page:** https://publications.barandiaran.net/p/2004-a-naturalized-account-of-the-inside/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2004-a-naturalized-account-of-the-inside.pdf)
+
+### Abstract
+
+The first form of the inside-outside dichotomy appears as a self-encapsulated system with an active border. These systems are based on two complementary but asymmetric processes: constructive and interactive. The former physically constitute the system as a recursive network of component production, defining an inside. The maintenance of the constructive processes implies that the internal organization also constrains certain flows of matter and energy across the border of the system, generating interactive processes. These interactive processes ensure the maintenance of the constructive processes thus specifying a meaningful outside. Upon this basic form of identity formation, the evolutionary and historical domain is open for the emergence of a whole hierarchy and ecology of insides and outsides. These which mutually subsume and collaborate in the maintenance of the essential inside-outside dichotomy that defines the conditions of possibility of the subjects and the worlds they generate.
+
+### Cite
+
+Moreno, A., & Barandiaran, X. E. (2004). A naturalized account of the inside-outside dichotomy. *PHILOSOPHICA*, *73*, 11-26. https://www.philosophica.ugent.be/wp-content/uploads/fulltexts/73-2.pdf
+
+---
+
+## Activismo digital y telemático. Poder y contrapoder en el ciberespacio
+
+- **Authors:** Xabier E. Barandiaran
+- **Year:** 2003
+- **Type:** Book Chapter
+- **URL:** http://201.147.150.252:8080/jspui/handle/123456789/1837
+- **Keywords:** Activismo digital y telemático, Ciberespacio, Guerrilla de la comunicación, Política, Nuevos movimientos sociales, Poder
+- **Landing page:** https://publications.barandiaran.net/p/2003-activismo-digital-y-telematico-poder-y/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2003-activismo-digital-y-telematico-poder-y.pdf)
+
+### Cite
+
+Barandiaran, X. E. (2003). Activismo digital y telemático. Poder y contrapoder en el ciberespacio. http://201.147.150.252:8080/jspui/handle/123456789/1837
+
+---
+
+## Hacklabs. Ensamblaje colectivo de la tecnopolítica como realidad social
+
+- **Authors:** Xabier Barandiaran
+- **Year:** 2003
+- **Type:** Journal Article
+- **Topics (assigned by the site; no author keywords):** Technopolitics, Hacktivism
+- **Landing page:** https://publications.barandiaran.net/p/2003-hacklabs-ensamblaje-colectivo-de-la-tecnopolitica/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2003-hacklabs-ensamblaje-colectivo-de-la-tecnopolitica.pdf)
+
+### Cite
+
+Barandiaran, X. (2003). Hacklabs. Ensamblaje colectivo de la tecnopolítica como realidad social.
+
+---
+
+## Adaptive Behaviour, Autonomy and Value systems. Normative function in dynamical adaptive systems
+
+- **Authors:** Xabier E. Barandiaran
+- **Year:** 2002
+- **Type:** Thesis
+- **Publisher:** University of Sussex, Brighton, UK.
+- **URL:** https://xabierbarandiaran.files.wordpress.com/2022/06/barandiaran_-_2002_adaptive_behavior_autonomy_and_value_systems_-_msc_thesis.pdf
+- **Keywords:** Homeostatic adaptation, Autonomy, Value systems, Dynamical systems, Adaptive behaviour, Emergent autonomous functionality, Normativity, Simulation models
+- **Landing page:** https://publications.barandiaran.net/p/2002-adaptive-behaviour-autonomy-and-value-systems/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2002-adaptive-behaviour-autonomy-and-value-systems.pdf)
+
+### Abstract
+
+Computational functionalism [5] fails to understand the embodied and situated nature of behaviour by taking steady state functions as theoretical primitives, and by interpreting cognitive behaviour from a language-like, observer dependant framework without a naturalized normativity. Evolutionary functionalism [28, 27], on the other hand, by grounding functional normativity on historical processes fails to give an account of normative functionality based on the present causal mechanism producing behaviour. We propose an alternative autonomous dynamical framework where functionality is defined as contribution to self-maintenance [15, 10, 35] and normativity as satisfaction of closure criteria. We develop this framework by a set of formal definitions in the framework of dynamical system theory and propose the hypothesis of an homeostatic-plasticity [31, 40] based general purpose value system as an internalized normative mechanism that selects between internal state trajectories to produce adaptive functionality under different environmental conditions. To test the hypothesis we develop a simulation model where lower level specifications of a control arquitecture (an homeostatic plastic DRNN) give rise (through a simulated evolutionary process) to adaptive behaviour in a foraging task where food sources can be poisonous or profitable. Analysis of the evolved agent show that plastic changes occur when the agent produces salient adaptive interactions, those plastic changes determining the adaptive strategy. The embodied and interactive adaptive functionality is dynamically analysed, illustrating the autonomous dynamical framework.
+
+### Cite
+
+Barandiaran, X. E. (2002). *Adaptive Behaviour, Autonomy and Value systems. Normative function in dynamical adaptive systems* [MSc Thesis, University of Sussex]. https://xabierbarandiaran.files.wordpress.com/2022/06/barandiaran_-_2002_adaptive_behavior_autonomy_and_value_systems_-_msc_thesis.pdf
+
+---

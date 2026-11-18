@@ -1,0 +1,79 @@
+{
+ "slug": "2006-alife-models-as-epistemic-artefacts",
+ "id": "https://publications.barandiaran.net/p/2006-alife-models-as-epistemic-artefacts/",
+ "type": "conferencePaper",
+ "type_label": "Conference Paper",
+ "title": "ALife Models as Epistemic Artefacts",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Moreno",
+   "given": "Alvaro"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Moreno, Alvaro",
+ "editors": [
+  {
+   "family": "Rocha",
+   "given": "Luis"
+  },
+  {
+   "family": "Yaeger",
+   "given": "Larry"
+  },
+  {
+   "family": "Bedau",
+   "given": "Mark"
+  },
+  {
+   "family": "Floreano",
+   "given": "Dario"
+  },
+  {
+   "family": "Goldstone",
+   "given": "Robert"
+  },
+  {
+   "family": "Vespignani",
+   "given": "Alessandro"
+  }
+ ],
+ "year": "2006",
+ "date": "2006",
+ "venue": "Artificial Life X : Proceedings of the Tenth International Conference on the Simulation and Synthesis of Living Systems",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "513-519",
+ "publisher": "The MIT Press (Bradford Books)",
+ "place": "Cambridge, MA",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "",
+ "language": "",
+ "abstract": "Both the irreducible complexity of biological phenomena and the aim of a universalized biology (life-as-it-could-be) have lead to a deep methodological shift in the study of life; represented by the appearance of ALife, with its claim that computational modelling is the main tool for studying the general principles of biological phenomenology. However this methodological shift implies important questions concerning the aesthetic, engineering and specially the epistemological status of computational models in scientific research: halfway between the well established categories of theory and experiment. ALife models become powerful epistemic artefacts allowing the simulation of emergent phenomena, the interaction between different levels of organization and the integration of different causal factors in the very same manipulable object. The use of computational models in ALife can be classified in four main categories depending on their position between theoretical and empirical practices: generic, conceptual, functional and mechanistic. For each of these categories we analyse their epistemic value and select paradigmatic examples that illustrate how ALife models can be fruitfully inserted in the study of life.",
+ "keywords": [],
+ "topics": [
+  "A-Life",
+  "Artificial life",
+  "Complexity"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Moreno, A. (2006). ALife Models as Epistemic Artefacts. In Artificial Life X : Proceedings of the Tenth International Conference on the Simulation and Synthesis of Living Systems (pp. 513-519). The MIT Press (Bradford Books).",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2006-alife-models-as-epistemic-artefacts/",
+  "markdown": "https://publications.barandiaran.net/p/2006-alife-models-as-epistemic-artefacts/index.md",
+  "json": "https://publications.barandiaran.net/p/2006-alife-models-as-epistemic-artefacts/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2006-alife-models-as-epistemic-artefacts.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2006-alife-models-as-epistemic-artefacts.bib",
+  "ris": "https://publications.barandiaran.net/citations/2006-alife-models-as-epistemic-artefacts.ris"
+ }
+}

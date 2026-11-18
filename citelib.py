@@ -1,21 +1,11 @@
-#!/usr/bin/env python3
-"""Generate per-item RIS + BibTeX files from the Zotero CSV and inject
-Export buttons + COinS auto-detect metadata into index.html.
-
-Idempotent: re-running removes previously injected blocks first.
+"""Citation helpers shared by build_site.py: RIS, BibTeX and COinS builders and
+the derived-topic lexicon. Records use the field names of Zotero's CSV export
+("Item Type", "Publication Title", "Manual Tags", ...), as written to
+data/zotero.json by sync_zotero.py. (Extracted from the former
+build_citations.py, now in _legacy/.)
 """
-import csv, re, html, sys, os, urllib.parse
+import re, html, urllib.parse
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-CSV_PATH = os.path.join(HERE, "..", "..", "my_publications", "Exported Items.csv")
-# When run from the mounted workspace the CSV sibling folder differs; allow override
-if not os.path.exists(CSV_PATH):
-    alt = os.environ.get("ZOTERO_CSV")
-    if alt and os.path.exists(alt):
-        CSV_PATH = alt
-INDEX = os.path.join(HERE, "index.html")
-CITE_DIR = os.path.join(HERE, "citations")
-os.makedirs(CITE_DIR, exist_ok=True)
 
 def norm(s):
     return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
@@ -37,19 +27,6 @@ BIB_TY = {
     "conferencePaper": "inproceedings", "report": "techreport", "thesis": "phdthesis",
     "preprint": "misc", "document": "misc", "magazineArticle": "article",
 }
-
-# ---- load CSV ----
-records = []
-with open(CSV_PATH, encoding="utf-8-sig") as f:
-    for row in csv.DictReader(f):
-        records.append(row)
-
-by_doi, by_title = {}, {}
-for r in records:
-    d = norm_doi(r.get("DOI"))
-    if d: by_doi[d] = r
-    t = norm(r.get("Title"))
-    if t: by_title.setdefault(t, r)
 
 def authors_list(r):
     a = (r.get("Author") or "").strip()
@@ -125,6 +102,8 @@ def unique_key(base):
 
 def build_bib(r, slug):
     bt = BIB_TY.get(field(r, "Item Type"), "misc")
+    if bt == "phdthesis" and re.search(r"\b(MSc|MA|Master)", field(r, "Type")):
+        bt = "mastersthesis"
     key = unique_key(bib_key(r, slug))
     fields = []
     au = authors_list(r)
@@ -143,7 +122,13 @@ def build_bib(r, slug):
     if field(r, "Volume"): fields.append(("volume", field(r, "Volume")))
     if field(r, "Issue"): fields.append(("number", field(r, "Issue")))
     if field(r, "Pages"): fields.append(("pages", field(r, "Pages").replace("–", "--")))
-    if field(r, "Publisher"): fields.append(("publisher", field(r, "Publisher")))
+    if field(r, "Publisher"):
+        if bt in ("phdthesis", "mastersthesis"): fields.append(("school", field(r, "Publisher")))
+        elif bt == "techreport": fields.append(("institution", field(r, "Publisher")))
+        else: fields.append(("publisher", field(r, "Publisher")))
+    if field(r, "Type") and bt in ("phdthesis", "mastersthesis", "techreport"):
+        fields.append(("type", field(r, "Type")))
+    if field(r, "Number") and bt == "techreport": fields.append(("number", field(r, "Number")))
     if field(r, "Place"): fields.append(("address", field(r, "Place")))
     if field(r, "ISSN"): fields.append(("issn", field(r, "ISSN")))
     if field(r, "ISBN"): fields.append(("isbn", field(r, "ISBN")))
@@ -156,7 +141,7 @@ def build_bib(r, slug):
         tags += [t.strip() for t in field(r, col).split(";") if t.strip()]
     tags = list(dict.fromkeys(tags))
     if tags: fields.append(("keywords", ", ".join(tags)))
-    body = ",\n".join(f"  {k} = {{{bib_escape(v)}}}" for k, v in fields)
+    body = ",\n".join(f"  {k} = {{{v if k in ('url', 'doi') else bib_escape(v)}}}" for k, v in fields)
     return f"@{bt}{{{key},\n{body}\n}}\n"
 
 def build_coins(r, slug):
@@ -332,191 +317,3 @@ def compute_keywords(rec, cap=6):
             push(t)
     return kws[:cap]
 
-# ---- talks (video recordings) linked to publications ----
-_T_PANOPTO = {"date": "2026-04-14",
-    "title": "Transforming agency through generative midtended cognition. Digital thinging with thinging things",
-    "url": "https://sussex.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f6d678b6-14d1-47e0-a708-b42c0122f316",
-    "host": "University of Sussex"}
-TALKS = {
-    "2025-transforming-agency-on-the-mode-of": [
-        {"date": "2024-12-16",
-         "title": "Transformar la Humanidad: El modo de existencia de la IA generativa en la sociedad",
-         "url": "https://www.youtube.com/watch?v=PczZ4_L-cQ0", "lang": "ES"},
-        {"date": "2025-11-16", "title": "Transforming Agency: LLMs in a human world",
-         "url": "https://youtu.be/i_0fmzIBsyU?si=q6uvjEXogKcXhnTT&t=169"},
-        _T_PANOPTO,
-    ],
-    "2025-generative-midtended-cognition-and-artificial-intelligence": [
-        {"date": "2025-12-04", "title": "Generative midtended cognition and Artificial Intelligence",
-         "url": "https://www.youtube.com/watch?v=PkcUrHLOuxk"},
-        _T_PANOPTO,
-    ],
-    "2025-sensorimotor-teleology-and-goal-directedness-an": [
-        {"date": "2024-08-25", "title": "An Organismic Approach to Cognitive Normativity",
-         "url": "https://www.youtube.com/watch?v=wbmHfsJbOiI", "host": "Metanoia"},
-    ],
-}
-
-# ---- highlighted / featured publications ----
-FEATURED = {
-    "2025-sensorimotor-teleology-and-goal-directedness-an",
-    "2026-organizational-accounts-of-malfunction-the-dual",
-    "2025-transforming-agency-on-the-mode-of",
-    "2025-generative-midtended-cognition-and-artificial-intelligence",
-    "2026-outonomy-fleshing-out-the-concept-of",
-}
-
-def build_talks(slug):
-    talks = TALKS.get(slug)
-    if not talks:
-        return ""
-    rows = []
-    for t in talks:
-        meta = t["date"]
-        if t.get("host"):
-            meta += " · " + t["host"]
-        if t.get("lang"):
-            meta += " · " + t["lang"]
-        rows.append(
-            f'<li><a href="{html.escape(t["url"], quote=True)}" target="_blank" rel="noopener">'
-            f'{html.escape(t["title"])}</a> <span class="talk-meta">{html.escape(meta)}</span></li>')
-    label = "Talk" if len(talks) == 1 else f"Talks ({len(talks)})"
-    return ('<!--TALK-START--><details class="pub-details pub-talks">'
-            f'<summary class="pub-action-btn">{label} ▾</summary>'
-            '<div class="pub-panel pub-talks-panel"><ul class="talk-list">'
-            + "".join(rows) + '</ul></div></details><!--TALK-END-->')
-
-# ---- process index.html ----
-with open(INDEX, encoding="utf-8") as f:
-    doc = f.read()
-
-# strip any previously injected blocks (idempotency).
-# Bounded so a missing END marker can't gobble across into the next block/entry.
-doc = re.sub(r"[ \t]*<!--CITE-START-->(?:(?!<!--CITE-START-->).)*?<!--CITE-END-->\n?", "", doc, flags=re.S)
-doc = re.sub(r"[ \t]*<span class=\"Z3988\"[^>]*></span>\n?", "", doc)
-doc = re.sub(r"[ \t]*<div class=\"pub-keywords\">(?:(?!<div class=\"pub-keywords\">).)*?</div>\n?", "", doc, flags=re.S)
-doc = re.sub(r"[ \t]*<!--TALK-START-->(?:(?!<!--TALK-START-->).)*?<!--TALK-END-->\n?", "", doc, flags=re.S)
-doc = re.sub(r'\s*<span class="pub-featured"[^>]*>.*?</span>', "", doc, flags=re.S)
-# remove li attributes we manage (pub-keywords divs already stripped above, so any
-# remaining data-kw/data-featured live only on <li> open tags — safe to drop globally)
-doc = re.sub(r'\s+data-kw="[^"]*"', "", doc)
-doc = re.sub(r'\s+data-featured="[^"]*"', "", doc)
-doc = re.sub(r'\s+data-doi="[^"]*"', "", doc)
-# also drop the earlier hand-added keyword tokens appended to the malfunction data-search
-doc = doc.replace(" autonomous organization dysfunction malfunction natural norms normative field normative function\">", "\">")
-
-li_re = re.compile(r'(<li class="pub-item" id="([^"]+)"[^>]*>)(.*?)(</li>)', re.S)
-
-matched, unmatched = 0, []
-
-def find_record(slug, body):
-    m = re.search(r'href="https?://(?:dx\.)?doi\.org/([^"]+)"', body)
-    if m:
-        rec = by_doi.get(norm_doi(m.group(1)))
-        if rec: return rec
-    # title fallback: pull citation text title between the year and the venue is hard;
-    # use JSON-LD name matched by slug from head graph
-    nm = slug_to_name.get(slug)
-    if nm:
-        rec = by_title.get(norm(nm))
-        if rec: return rec
-        # loose contains match
-        key = norm(nm)
-        for t, rec in by_title.items():
-            if key and (key in t or t in key):
-                return rec
-    return None
-
-# map slug -> name from JSON-LD head
-slug_to_name = {}
-for m in re.finditer(r'"@id":\s*"[^"]*#([^"]+)",\s*"name":\s*"((?:[^"\\]|\\.)*)"', doc):
-    slug_to_name[m.group(1)] = html.unescape(m.group(2).replace('\\"', '"'))
-
-def inject(m):
-    global matched
-    open_tag, slug, body, close = m.groups()
-    rec = find_record(slug, body)
-    if not rec:
-        unmatched.append(slug)
-        return m.group(0)
-    matched += 1
-    ris = build_ris(rec); bib = build_bib(rec, slug)
-    with open(os.path.join(CITE_DIR, slug + ".ris"), "w", encoding="utf-8") as fh:
-        fh.write(ris)
-    with open(os.path.join(CITE_DIR, slug + ".bib"), "w", encoding="utf-8") as fh:
-        fh.write(bib)
-    coins = build_coins(rec, slug)
-    # keywords as a compact, clickable, middot-separated inline line
-    kws = compute_keywords(rec)
-    if kws:
-        chips = ' <span class="kw-sep">·</span> '.join(
-            f'<a class="pub-kw" href="#" data-kw="{html.escape(k, quote=True)}">{html.escape(k)}</a>'
-            for k in kws)
-        kw_block = f'      <div class="pub-keywords">{chips}</div>\n'
-        data_kw = " ".join(k.lower() for k in kws)
-        open_tag = open_tag[:-1] + f' data-kw="{html.escape(data_kw, quote=True)}">'
-        body = body.replace('      <div class="pub-actions">',
-                            kw_block + '      <div class="pub-actions">', 1)
-    # featured badge + attribute
-    if slug in FEATURED:
-        open_tag = open_tag[:-1] + ' data-featured="true">'
-        body = body.replace('<a class="pub-permalink"',
-                            '<span class="pub-featured" title="Highlighted publication">★ Highlighted</span>\n        <a class="pub-permalink"', 1)
-    # DOI attribute for live citation-count lookup (OpenAlex + Semantic Scholar)
-    doi = norm_doi(field(rec, "DOI"))
-    if doi:
-        open_tag = open_tag[:-1] + f' data-doi="{html.escape(doi, quote=True)}">'
-    talks_block = build_talks(slug)
-    export = (
-        '<!--CITE-START--><details class="pub-details pub-cite">'
-        '<summary class="pub-action-btn">Cite ▾</summary>'
-        '<div class="pub-panel pub-cite-panel">'
-        '<p class="cite-lead">Import into Zotero, Mendeley, EndNote, Papers or any reference manager:</p>'
-        f'<a class="pub-action" href="citations/{slug}.ris" download>Download RIS</a> '
-        f'<a class="pub-action" href="citations/{slug}.bib" download>Download BibTeX</a>'
-        '<p class="cite-note">Tip: with the Zotero or Mendeley browser connector installed, '
-        'this page is auto-detected — one click saves the citation (and its PDF) directly to your library.</p>'
-        '</div></details><!--CITE-END-->'
-    )
-    # insert talks + export button before closing </div> of pub-actions, coins before </li>
-    inserts = (("        " + talks_block + "\n") if talks_block else "") + "        " + export
-    if "</div>" in body:
-        idx = body.rfind("</div>")
-        body = body[:idx] + inserts + "\n      " + body[idx:]
-    else:
-        body = body + inserts
-    body = body + "      " + coins + "\n    "
-    return open_tag + body + close
-
-doc = li_re.sub(inject, doc)
-
-# ---- reorder: highlighted publications first, then the rest (reverse-chronological) ----
-# Split on entry-start boundaries (NOT on </li>) so nested <li> inside talk lists
-# can never truncate an entry.
-mlist = re.search(r'(<ol class="pub-list"[^>]*>)(.*?)(</ol>)', doc, re.S)
-inner = mlist.group(2)
-starts = [m.start() for m in re.finditer(r'<li class="pub-item"', inner)]
-segs = [inner[starts[i]:(starts[i + 1] if i + 1 < len(starts) else len(inner))]
-        for i in range(len(starts))]
-def _seg_slug(seg):
-    m = re.search(r'id="([^"]+)"', seg)
-    return m.group(1) if m else ""
-featured_segs = [s for s in segs if _seg_slug(s) in FEATURED]
-rest_segs = [s for s in segs if _seg_slug(s) not in FEATURED]
-new_inner = inner[:starts[0]] + "".join(featured_segs + rest_segs) if starts else inner
-doc = doc[:mlist.start(2)] + new_inner + doc[mlist.end(2):]
-
-# ---- stamp the last-updated date ----
-import datetime
-today = datetime.date.today()
-stamp = today.strftime("%-d %B %Y") if os.name != "nt" else today.strftime("%d %B %Y")
-doc = re.sub(r'(<time id="last-updated" datetime=")[^"]*(">)[^<]*(</time>)',
-             rf'\g<1>{today.isoformat()}\g<2>{stamp}\g<3>', doc)
-
-with open(INDEX, "w", encoding="utf-8") as f:
-    f.write(doc)
-
-print(f"Matched & generated: {matched}")
-print(f"Unmatched ({len(unmatched)}): {unmatched}")
-print(f"Reordered: {len(featured_segs)} highlighted first, then {len(rest_segs)}")
-print(f"Last-updated stamp: {stamp}")

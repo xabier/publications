@@ -1,0 +1,54 @@
+{
+ "slug": "2020-autonomia-tecnopolitica-que-significa-y-porque",
+ "id": "https://publications.barandiaran.net/p/2020-autonomia-tecnopolitica-que-significa-y-porque/",
+ "type": "bookSection",
+ "type_label": "Book Chapter",
+ "title": "Autonomía tecnopolítica Qué significa y porqué Decidim es un buen ejemplo",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.",
+ "editors": [
+  {
+   "literal": "Decidim"
+  }
+ ],
+ "year": "2020",
+ "date": "2020",
+ "venue": "DecidimFest20: Democracia y tecnología en tiempos de emergencia",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "Ajuntament de Barcelona",
+ "place": "Barcelona",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "https://xabier.barandiaran.net/wp-content/uploads/2025/10/barandiaran.pdf",
+ "language": "es",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Technopolitics",
+  "Decidim"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E. (2020). Autonomía tecnopolítica Qué significa y porqué Decidim es un buen ejemplo. In Decidim (Ed.), DecidimFest20: Democracia y tecnología en tiempos de emergencia. Ajuntament de Barcelona. https://xabier.barandiaran.net/wp-content/uploads/2025/10/barandiaran.pdf",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2020-autonomia-tecnopolitica-que-significa-y-porque/",
+  "markdown": "https://publications.barandiaran.net/p/2020-autonomia-tecnopolitica-que-significa-y-porque/index.md",
+  "json": "https://publications.barandiaran.net/p/2020-autonomia-tecnopolitica-que-significa-y-porque/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2020-autonomia-tecnopolitica-que-significa-y-porque.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2020-autonomia-tecnopolitica-que-significa-y-porque.bib",
+  "ris": "https://publications.barandiaran.net/citations/2020-autonomia-tecnopolitica-que-significa-y-porque.ris",
+  "publisher": "https://xabier.barandiaran.net/wp-content/uploads/2025/10/barandiaran.pdf"
+ }
+}

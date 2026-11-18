@@ -1,0 +1,61 @@
+{
+ "slug": "2006-autonomia-comunicacion-y-evolucion-en-redes",
+ "id": "https://publications.barandiaran.net/p/2006-autonomia-comunicacion-y-evolucion-en-redes/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Autonomía, Comunicación y Evolución en redes bacterianas y tecnológicas",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Guiu",
+   "given": "Lluis"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Guiu, Lluis",
+ "editors": [],
+ "year": "2006",
+ "date": "2006",
+ "venue": "biTARTE",
+ "series": "",
+ "volume": "",
+ "issue": "38",
+ "pages": "35-60",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "",
+ "language": "",
+ "abstract": "",
+ "keywords": [
+  "Transferencia genética horizontal",
+  "Autonomía",
+  "Metabolismo",
+  "Información",
+  "Comunicación",
+  "Software libre",
+  "Código abierto",
+  "Redes bacterianas",
+  "Algoritmos genéticos",
+  "Redes de innovación tecnológica"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Guiu, L. (2006). Autonomía, Comunicación y Evolución en redes bacterianas y tecnológicas. biTARTE, (38), 35-60.",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2006-autonomia-comunicacion-y-evolucion-en-redes/",
+  "markdown": "https://publications.barandiaran.net/p/2006-autonomia-comunicacion-y-evolucion-en-redes/index.md",
+  "json": "https://publications.barandiaran.net/p/2006-autonomia-comunicacion-y-evolucion-en-redes/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2006-autonomia-comunicacion-y-evolucion-en-redes.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2006-autonomia-comunicacion-y-evolucion-en-redes.bib",
+  "ris": "https://publications.barandiaran.net/citations/2006-autonomia-comunicacion-y-evolucion-en-redes.ris"
+ }
+}

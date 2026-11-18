@@ -8,3 +8,6 @@ Thumbs.db
 SITE-SPEC.md
 DEPLOYMENT.md
 private/
+
+# Python caches
+__pycache__/

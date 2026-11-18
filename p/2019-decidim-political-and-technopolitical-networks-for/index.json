@@ -1,0 +1,65 @@
+{
+ "slug": "2019-decidim-political-and-technopolitical-networks-for",
+ "id": "https://publications.barandiaran.net/p/2019-decidim-political-and-technopolitical-networks-for/",
+ "type": "document",
+ "type_label": "Document",
+ "title": "Decidim: political and technopolitical networks for participatory democracy. White Paper",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Calleja-López",
+   "given": "Antonio"
+  },
+  {
+   "family": "Monterde",
+   "given": "Arnau"
+  },
+  {
+   "family": "Romero",
+   "given": "Carol"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Calleja-López, Antonio; Monterde, Arnau; Romero, Carol",
+ "editors": [],
+ "year": "2019",
+ "date": "2019",
+ "venue": "",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "Decidim.org (Ajuntament de Barcelona)",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "https://docs.decidim.org/whitepaper/en/doc-info/",
+ "language": "",
+ "abstract": "Decidim [http://decidim.org], from the Catalan for \"let’s decide\" or “we decide”, is a digital infrastructure for participatory democracy, built entirely and collaboratively as free software. More specifically, Decidim is a web environment (a framework) produced in Ruby on Rails (a programming language) that allows anybody to create and configure a website platform, to be used in the form of a political network for democratic participation. The platform allows any organization (local city council, association, university, NGO, neighbourhood or cooperative) to create mass processes for strategic planning, participatory budgeting, collaborative design for regulations, urban spaces and election processes. It also makes possible to connect traditional in-person democratic meetings (assemblies, council meetings, etc.) with the digital world: sending meeting invites, managing registrations, streaming content, facilitating the publication of meeting minutes, etc. In addition, Decidim enables the structuring of government bodies or assemblies (councils, boards, working groups), the convening of consultations, referendums or channelling citizen or member initiatives to trigger different decision making processes. However, the Decidim project is much more than its technological features. Decidim is in itself a sort of crossroad of the various dimensions of networked democracy and society, a detailed practical map of their complexities and conflicts. We distinguish three general planes or dimensions of the project: the political (focused on the democratic model that Decidim promotes and its impact on public policies and organizations), the technopolitical (focused on how the platform is designed, the mechanisms it embodies, and the way in which it is democratically designed), and the technical (focused on the conditions of production, operation and success of the project: the factory, collaborative mechanisms, licenses, etc.).",
+ "keywords": [],
+ "topics": [
+  "Embodiment",
+  "Complexity",
+  "Technopolitics",
+  "Participatory democracy",
+  "Decidim",
+  "Free software"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., Calleja-López, A., Monterde, A., & Romero, C. (2019). Decidim: political and technopolitical networks for participatory democracy. White Paper. Decidim.org (Ajuntament de Barcelona). https://docs.decidim.org/whitepaper/en/doc-info/",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2019-decidim-political-and-technopolitical-networks-for/",
+  "markdown": "https://publications.barandiaran.net/p/2019-decidim-political-and-technopolitical-networks-for/index.md",
+  "json": "https://publications.barandiaran.net/p/2019-decidim-political-and-technopolitical-networks-for/index.json",
+  "bibtex": "https://publications.barandiaran.net/citations/2019-decidim-political-and-technopolitical-networks-for.bib",
+  "ris": "https://publications.barandiaran.net/citations/2019-decidim-political-and-technopolitical-networks-for.ris",
+  "publisher": "https://docs.decidim.org/whitepaper/en/doc-info/"
+ }
+}

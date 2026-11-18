@@ -1,0 +1,909 @@
+# Publications of Xabier E. Barandiaran — full records, part 2 of 3
+
+> Newest first. Generated 2026-11-18. Index of all publications: https://publications.barandiaran.net/llms.txt. Next: https://publications.barandiaran.net/llms-full-3.txt.
+
+## Sensorimotor Agency
+
+- **Authors:** Ezequiel A. Di Paolo, Thomas Buhrmann, Xabier E. Barandiaran
+- **Year:** 2017
+- **Type:** Book Chapter
+- **Published in:** Sensorimotor Life: An enactive proposal, 141-181
+- **Publisher:** Oxford University Press
+- **URL:** https://doi.org/10.1093/acprof:oso/9780198786849.001.0001
+- **Topics (assigned by the site; no author keywords):** Enaction, Cognition, Cognitive science, Enactivism, Sensorimotor, Embodiment
+- **Landing page:** https://publications.barandiaran.net/p/2017-sensorimotor-agency/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-sensorimotor-agency.pdf)
+
+### Abstract
+
+How accurate is the picture of the human mind that has emerged from studies in neuroscience, psychology, and cognitive science? Anybody with an interest in how minds work - how we learn about the world and how we remember people and events - may feel dissatisfied with the answers contemporary science has to offer. Sensorimotor Life draws on current theoretical developments in the enactive approach to life and mind. It examines and expands the premises of the sciences of the human mind, while developing an alternative picture closer to people's daily experiences. Enactive ideas are applied and extended, providing a theoretically rich, naturalistic account of meaning and agency. The book includes a dynamical systems description of different types of sensorimotor regularities or sensorimotor contingencies; a dynamical interpretation of Piaget's theory of equilibration to ground the concept of sensorimotor mastery; and a theory of agency as organized networks of sensorimotor schemes, as well as its implicatons for embodied subjectivity. Written for students and researchers of cognitive science, the authors offer a fuller view of the mind, a view better attuned to the experiences of people who live, work, love, struggle, and age, thrown into a world of meaningful relations they help create. Additionally, the book is of interest to neuroscientists, psychiatrists, and philosophers of science.
+
+### Cite
+
+Di Paolo, E. A., Buhrmann, T., & Barandiaran, X. E. (2017). Sensorimotor Agency. In *Sensorimotor Life: An enactive proposal* (pp. 141-181). Oxford University Press. https://doi.org/10.1093/acprof:oso/9780198786849.001.0001
+
+---
+
+## Virtual actions and abstract attitudes (Chapter 7)
+
+- **Authors:** Ezequiel A. Di Paolo, Thomas Buhrmann, Xabier E. Barandiaran
+- **Year:** 2017
+- **Type:** Book Chapter
+- **Published in:** Sensorimotor Life: an enactive proposal
+- **Publisher:** Oxford University Press
+- **URL:** https://doi.org/10.1093/acprof:oso/9780198786849.001.0001
+- **Topics (assigned by the site; no author keywords):** Cognitive Psychology & Cognition, Cognitive Science, Mind & Body, Enaction, Cognition, Enactivism
+- **Landing page:** https://publications.barandiaran.net/p/2017-virtual-actions-and-abstract-attitudes-chapter/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-virtual-actions-and-abstract-attitudes-chapter.pdf)
+
+### Abstract
+
+How accurate is the picture of the human mind that has emerged from studies in neuroscience, psychology, and cognitive science? Anybody with an interest in how minds work - how we learn about the world and how we remember people and events - may feel dissatisfied with the answers contemporary science has to offer. Sensorimotor Life draws on current theoretical developments in the enactive approach to life and mind. It examines and expands the premises of the sciences of the human mind, while developing an alternative picture closer to people's daily experiences. Enactive ideas are applied and extended, providing a theoretically rich, naturalistic account of meaning and agency. The book includes a dynamical systems description of different types of sensorimotor regularities or sensorimotor contingencies; a dynamical interpretation of Piaget's theory of equilibration to ground the concept of sensorimotor mastery; and a theory of agency as organized networks of sensorimotor schemes, as well as its implicatons for embodied subjectivity. Written for students and researchers of cognitive science, the authors offer a fuller view of the mind, a view better attuned to the experiences of people who live, work, love, struggle, and age, thrown into a world of meaningful relations they help create. Additionally, the book is of interest to neuroscientists, psychiatrists, and philosophers of science.
+
+### Cite
+
+Di Paolo, E. A., Buhrmann, T., & Barandiaran, X. E. (2017). Virtual actions and abstract attitudes (Chapter 7). In *Sensorimotor Life: an enactive proposal*. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780198786849.001.0001
+
+---
+
+## Decidim: redes políticas y tecnopolíticas para la democracia participativa.
+
+- **Authors:** Xabier E. Barandiaran, Antonio Calleja, Arnau Monterde, Pablo Aragón, Juan Linares, Carol Romero, Andrés Pereira
+- **Year:** 2017
+- **Type:** Journal Article
+- **Published in:** Recerca. Revista de pensament i anàlisi., 21, 137-150
+- **DOI:** [10.6035/Recerca.2017.21.8](https://doi.org/10.6035/Recerca.2017.21.8)
+- **Topics (assigned by the site; no author keywords):** Technopolitics, Decidim, Network analysis
+- **Landing page:** https://publications.barandiaran.net/p/2017-decidim-redes-politicas-y-tecnopoliticas-para/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-decidim-redes-politicas-y-tecnopoliticas-para.pdf)
+
+### Abstract
+
+Decidim es una plataforma digital de democracia participativa desarrollada por el Ajuntament de Barcelona. Decidim es, además, un proyecto tecnopolítico que implica multitud de códigos más allá del informático. Distinguimos tres planos analíticos que sirven para conceptualizar de forma holística y sistemática el proyecto Decidim: un plano político, uno tecnopolítico, y un plano técnico. Decidim emerge como ejemplo de lo que denominamos “redes políticas” caracterizadas, frente a las “redes sociales”, por hacer del vínculo político y la construcción de inteligencia y voluntad colectivas el centro de su diseño y estructura. A su vez, la comunidad y los espacios “Metadecidim” operan como dispositivos para la democratización del software de Decidim y de la democracia en red en un sentido más amplio, constituyendo “redes tecnopolíticas”. Estas redes de nueva generación hacen de la plataforma una infraestructura público-común (financiada con dinero público y co-diseñada con la ciudadanía), abierta y libre para la democracia participativa, un proyecto que aspira a servir de dispositivo y modelo para la transformación política en un periodo de crisis de la hegemonía neoliberal.
+
+### Cite
+
+Barandiaran, X. E., Calleja, A., Monterde, A., Aragón, P., Linares, J., Romero, C., & Pereira, A. (2017). Decidim: redes políticas y tecnopolíticas para la democracia participativa. *Recerca. Revista de pensament i anàlisi*, *21*, 137-150. https://doi.org/10.6035/Recerca.2017.21.8
+
+---
+
+## Guia sobre sobirania tecnològica a l'Ajuntament de Barcelona
+
+- **Authors:** Javier Ruiz, Xabier E. Barandiaran, Màrius Boada Pla, Ana Bastida Vila, Àrea de Treball, Esther Bretschneider, Josep Carles Collazos, Malcolm Bain, Guillem Marpons Ucero, Joan Domènech Bas
+- **Year:** 2017
+- **Type:** Document
+- **Publisher:** Ajuntament de Barcelona
+- **URL:** https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/106302/1/guia_sobre_sobirania_tecnologica.pdf
+- **Topics (assigned by the site; no author keywords):** Guia, Sobirania, Tecnològica
+- **Landing page:** https://publications.barandiaran.net/p/2017-guia-sobre-sobirania-tecnologica-a-l/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-guia-sobre-sobirania-tecnologica-a-l.pdf)
+
+### Cite
+
+Ruiz, J., Barandiaran, X. E., Boada Pla, M., Bastida Vila, A., de Treball, À., Bretschneider, E., Collazos, J. C., Bain, M., Marpons Ucero, G., & Domènech Bas, J. (2017). *Guia sobre sobirania tecnològica a l'Ajuntament de Barcelona*. Ajuntament de Barcelona. https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/106302/1/guia_sobre_sobirania_tecnologica.pdf
+
+---
+
+## Guia de compra pública de TIC de l'Ajuntament de Barcelona
+
+- **Authors:** Javier Ruiz, Xabier E. Barandiaran, Màrius Boada Pla, Ana Bastida Vila, Àrea de Treball, Esther Bretschneider, Josep Carles Collazos, Malcolm Bain, Guillem Marpons Ucero, Joan Domènech Bas
+- **Year:** 2017
+- **Type:** Document
+- **Publisher:** Ajuntament de Barcelona
+- **URL:** https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/106505/1/guia_compra_publica_tic.pdf.pdf
+- **Topics (assigned by the site; no author keywords):** Guia, Compra, Pública
+- **Landing page:** https://publications.barandiaran.net/p/2017-guia-de-compra-publica-de-tic/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-guia-de-compra-publica-de-tic.pdf)
+
+### Cite
+
+Ruiz, J., Barandiaran, X. E., Boada Pla, M., Bastida Vila, A., de Treball, À., Bretschneider, E., Collazos, J. C., Bain, M., Marpons Ucero, G., & Domènech Bas, J. (2017). *Guia de compra pública de TIC de l'Ajuntament de Barcelona*. Ajuntament de Barcelona. https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/106505/1/guia_compra_publica_tic.pdf.pdf
+
+---
+
+## Framework for democratic governance of distributed architectures: DEcentralised Citizens Owned Data Ecosystem
+
+- **Authors:** Antonio Calleja-Lopez, Arnau Monterde, Xabier Barandiaran
+- **Year:** 2017
+- **Type:** Report
+- **Publisher:** DECODE
+- **URL:** https://openaccess.uoc.edu/handle/10609/100368
+- **Topics (assigned by the site; no author keywords):** Democratic, Governance, Distributed
+- **Landing page:** https://publications.barandiaran.net/p/2017-framework-for-democratic-governance-of-distributed/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-framework-for-democratic-governance-of-distributed.pdf)
+
+### Cite
+
+Calleja-Lopez, A., Monterde, A., & Barandiaran, X. (2017). *Framework for democratic governance of distributed architectures: DEcentralised Citizens Owned Data Ecosystem* (Deliverable for DECODE DEcentralised Citizens Owned Data Ecosystem, H2020–ICT-2016-1, EU Funded Project no. 732546, D 2.3). DECODE. https://openaccess.uoc.edu/handle/10609/100368
+
+---
+
+## Plan de desarrollo Decidim Barcelona
+
+- **Authors:** Xabier E. Barandiaran, Andrés Pereira, Arnau Monterde, Antonio Calleja-López
+- **Year:** 2016
+- **Type:** Report
+- **Publisher:** Ajuntament de Barcelona City Council, Barcelona
+- **URL:** https://decidim-barcelona.s3.amazonaws.com/uploads/decidim/attachment/file/54/Plan_desarrollo_decidim.pdf
+- **Keywords:** Plataforma digital de participación, Red política, Participación, Decidim, Consul, Democracia digital
+- **Landing page:** https://publications.barandiaran.net/p/2016-plan-de-desarrollo-decidim-barcelona/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2016-plan-de-desarrollo-decidim-barcelona.pdf)
+
+### Abstract
+
+Este documento detalla el futuro desarrollo de la plataforma digital de participación de l´Ajuntament de Barcelona, decidim.barcelona (disponible en URL https://decidim.barcelona). Los principales objetivos de la plataforma son articular, estandarizar, visualizar y comunicar todos los procesos de participación del Ajuntament de Barcelona y de la ciudad ofreciendo un servicio de infraestructura digital para la democracia directa y participativa a todas las escalas territoriales y asociativas de Barcelona. El documento detalla los objetivos de la plataforma, el flujo de desarrollo, las funcionalidades previstas, y un código ético-político.
+
+### Cite
+
+Barandiaran, X. E., Pereira, A., Monterde, A., & Calleja-López, A. (2016). *Plan de desarrollo Decidim Barcelona*. Ajuntament de Barcelona City Council. https://decidim-barcelona.s3.amazonaws.com/uploads/decidim/attachment/file/54/Plan_desarrollo_decidim.pdf
+
+---
+
+## Extended Neural Metastability in an Embodied Model of Sensorimotor Coupling
+
+- **Authors:** Miguel Aguilera, Manuel G. Bedia, Xabier E. Barandiaran
+- **Year:** 2016
+- **Type:** Journal Article
+- **Published in:** Frontiers in Systems Neuroscience, 10
+- **DOI:** [10.3389/fnsys.2016.00076](https://doi.org/10.3389/fnsys.2016.00076)
+- **Keywords:** Neural assemblies, Metastability, Criticality, Synaptic plasticity, Embodied cognition, Sensorimotor coupling, Evolutionary robotics
+- **Landing page:** https://publications.barandiaran.net/p/2016-extended-neural-metastability-in-an-embodied/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2016-extended-neural-metastability-in-an-embodied.pdf)
+
+### Abstract
+
+The hypothesis that brain organization is based on mechanisms of metastable synchronization in neural assemblies has been popularized during the last decades of neuroscientific research. Nevertheless, the role of body and environment for understanding the functioning of metastable assemblies is frequently dismissed. The main goal of this paper is to investigate the contribution of sensorimotor coupling to neural and behavioural metastability using a minimal computational model of plastic neural ensembles embedded in a robotic agent in a behavioural preference task. Our hypothesis is that, under some conditions, the metastability of the system is not restricted to the brain but extends to the system composed by the interaction of brain, body and environment. We test this idea, comparing an agent in continuous interaction with its environment in a task demanding behavioural flexibility with an equivalent model from the point of view of 'internalist neuroscience'. A statistical characterization of our model and tools from information theory allows us to show how (1) the bidirectional coupling between agent and environment brings the system closer to a regime of criticality and triggers the emergence of additional metastable states which are not found in the brain in isolation but extended to the whole system of sensorimotor interaction, (2) the synaptic plasticity of the agent is fundamental to sustain open structures in the neural controller of the agent flexibly engaging and disengaging different behavioural patterns that sustain sensorimotor metastable states, and (3) these extended metastable states emerge when the agent generates an asymmetrical circular loop of causal interaction with its environment, in which the agent responds to variability of the environment at fast timescales while acting over the environment at slow timescales, suggesting the constitution of the agent as an autonomous entity actively modulating its sensorimotor coupling with the world. We conclude with a reflection about how our results contribute in a more general way to current progress in neuroscientific research.
+
+### Cite
+
+Aguilera, M., Bedia, M. G., & Barandiaran, X. E. (2016). Extended Neural Metastability in an Embodied Model of Sensorimotor Coupling. *Frontiers in Systems Neuroscience*, *10*. https://doi.org/10.3389/fnsys.2016.00076
+
+---
+
+## Multitudinous identities: a qualitative and network analysis of the 15M collective identity
+
+- **Authors:** Arnau Monterde, Antonio Calleja-López, Miguel Aguilera, Xabier E. Barandiaran, John Postill
+- **Year:** 2015
+- **Type:** Journal Article
+- **Published in:** Information, Communication & Society, 18(8), 930-950
+- **DOI:** [10.1080/1369118X.2015.1043315](https://doi.org/10.1080/1369118X.2015.1043315)
+- **Keywords:** Collective identity, Network-movements, 15M, Systemic dimension, Network analysis, Synchronization analysis, Multitudinous identity
+- **Landing page:** https://publications.barandiaran.net/p/2015-multitudinous-identities-a-qualitative-and-network/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-multitudinous-identities-a-qualitative-and-network.pdf)
+
+### Cite
+
+Monterde, A., Calleja-López, A., Aguilera, M., Barandiaran, X. E., & Postill, J. (2015). Multitudinous identities: a qualitative and network analysis of the 15M collective identity. *Information, Communication & Society*, *18*(8), 930-950. https://doi.org/10.1080/1369118X.2015.1043315
+
+---
+
+## Self-Organized Criticality, Plasticity and Sensorimotor Coupling. Explorations with a Neurorobotic Model in a Behavioural Preference Task
+
+- **Authors:** Miguel Aguilera, Xabier E. Barandiaran, Manuel G. Bedia, Francisco Seron
+- **Year:** 2015
+- **Type:** Journal Article
+- **Published in:** PLOS ONE, 10(2), e0117465
+- **Publisher:** Public Library of Science
+- **DOI:** [10.1371/journal.pone.0117465](https://doi.org/10.1371/journal.pone.0117465)
+- **Topics (assigned by the site; no author keywords):** Self-organization, Cognition, Cognitive science, Sensorimotor, Agency, Self-organized criticality
+- **Landing page:** https://publications.barandiaran.net/p/2015-self-organized-criticality-plasticity-and-sensorimotor/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-self-organized-criticality-plasticity-and-sensorimotor.pdf)
+
+### Abstract
+
+During the last two decades, analysis of 1/ƒ noise in cognitive science has led to a considerable progress in the way we understand the organization of our mental life. However, there is still a lack of specific models providing explanations of how 1/ƒ noise is generated in coupled brain-body-environment systems, since existing models and experiments typically target either externally observable behaviour or isolated neuronal systems but do not address the interplay between neuronal mechanisms and sensorimotor dynamics. We present a conceptual model of a minimal neurorobotic agent solving a behavioural task that makes it possible to relate mechanistic (neurodynamic) and behavioural levels of description. The model consists of a simulated robot controlled by a network of Kuramoto oscillators with homeostatic plasticity and the ability to develop behavioural preferences mediated by sensorimotor patterns. With only three oscillators, this simple model displays self-organized criticality in the form of robust 1/ƒ noise and a wide multifractal spectrum. We show that the emergence of self-organized criticality and 1/ƒ noise in our model is the result of three simultaneous conditions: a) non-linear interaction dynamics capable of generating stable collective patterns, b) internal plastic mechanisms modulating the sensorimotor flows, and c) strong sensorimotor coupling with the environment that induces transient metastable neurodynamic regimes. We carry out a number of experiments to show that both synaptic plasticity and strong sensorimotor coupling play a necessary role, as constituents of self-organized criticality, in the generation of 1/ƒ noise. The experiments also shown to be useful to test the robustness of 1/ƒ scaling comparing the results of different techniques. We finally discuss the role of conceptual models as mediators between nomothetic and mechanistic models and how they can inform future experimental research where self-organized critically includes sensorimotor coupling among the essential interaction-dominant process giving rise to 1/ƒ noise.
+
+### Cite
+
+Aguilera, M., Barandiaran, X. E., Bedia, M. G., & Seron, F. (2015). Self-Organized Criticality, Plasticity and Sensorimotor Coupling. Explorations with a Neurorobotic Model in a Behavioural Preference Task. *PLOS ONE*, *10*(2), e0117465. https://doi.org/10.1371/journal.pone.0117465
+
+---
+
+## Neurociencia y tecnopolítica:  hacia un marco analógico para comprender la mente colectiva del 15M
+
+- **Authors:** Xabier E. Barandiaran, Miguel Aguilera
+- **Year:** 2015
+- **Type:** Book Chapter
+- **Published in:** Tecnopolítica y 15M. La potencia de las multitudes conectadas., 163-211
+- **Publisher:** Editorial UOC, Barcelona
+- **Topics (assigned by the site; no author keywords):** Technopolitics, Social movements
+- **Landing page:** https://publications.barandiaran.net/p/2015-neurociencia-y-tecnopolitica-hacia-un-marco/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-neurociencia-y-tecnopolitica-hacia-un-marco.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Aguilera, M. (2015). Neurociencia y tecnopolítica: hacia un marco analógico para comprender la mente colectiva del 15M. In J. Toret (Ed.), *Tecnopolítica y 15M. La potencia de las multitudes conectadas* (pp. 163-211). Editorial UOC.
+
+---
+
+## Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador
+
+- **Year:** 2015
+- **Type:** Book
+- **Publisher:** IAEN-CIESPAL, Quito, Ecuador
+- **URL:** http://book.floksociety.org/ec/
+- **Topics (assigned by the site; no author keywords):** Free software, Commons
+- **Landing page:** https://publications.barandiaran.net/p/2015-buen-conocer-flok-society-modelos-sostenibles/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-buen-conocer-flok-society-modelos-sostenibles.pdf)
+
+### Cite
+
+Vila-Viñas, D., & Barandiaran, X. E. (Eds.) (2015). *Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador*. IAEN-CIESPAL. http://book.floksociety.org/ec/
+
+---
+
+## El proceso Buen Conocer / FLOK Society
+
+- **Authors:** Xabier E. Barandiaran, David Vila-Viñas, Daniel Vázquez
+- **Year:** 2015
+- **Type:** Book Chapter
+- **Published in:** Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador, 35-88
+- **Publisher:** IAEN-CIESPAL, Quito, Ecuador
+- **Keywords:** Metodología, Diseño participativo, Cooperación, Diseño de políticas públicas, Investigación-acción participativa, FLOK, Conocimiento libre, Copyleft, Economía social del conocimiento común y abierto
+- **Landing page:** https://publications.barandiaran.net/p/2015-el-proceso-buen-conocer-flok-society/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-el-proceso-buen-conocer-flok-society.pdf)
+
+### Cite
+
+Barandiaran, X. E., Vila-Viñas, D., & Vázquez, D. (2015). El proceso Buen Conocer / FLOK Society. In D. Vila-Viñas, & X. E. Barandiaran (Eds.), *Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador* (pp. 35-88). IAEN-CIESPAL.
+
+---
+
+## Ciencia: Investigación colaborativa, participativa y abierta.
+
+- **Authors:** Xabier E. Barandiaran, Daniel Araya, David Vila-Viñas
+- **Year:** 2015
+- **Type:** Book Chapter
+- **Published in:** Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador, 181-268
+- **Publisher:** IAEN-CIESPAL, Quito, Ecuador
+- **URL:** http://book.floksociety.org/ec/1/1-2-ciencia-investigacion-colaborativa-participativa-y-abierta/
+- **Keywords:** Open Science, Science 2.0, e-Science, Science Commons, Ciencia abierta, Open Data, FLOK, Ciencia ciudadana, Infraestructuras científicas abiertas, Capitalismo cognitivo, Capitalismo académico
+- **Landing page:** https://publications.barandiaran.net/p/2015-ciencia-investigacion-colaborativa-participativa-y-abierta/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-ciencia-investigacion-colaborativa-participativa-y-abierta.pdf)
+
+### Abstract
+
+el desarrollo de políticas públicas sobre la investigación científica es clave hoy día para el desarrollo social y económico. Los modelos del capitalismo cognitivo han cercado los comunes de la ciencia (incluidos sus resultados, las infraestructuras de desarrollo y gran parte de su organización), dentro de una serie de estrictas barreras legales y tecnológicas. Esto ralentiza el desarrollo científico generando beneficios extraordinarios a un pequeño número de corporaciones e instituciones privadas. Sin embargo, modelos alternativos de publicación científica, de participación ciudadana, así como de infraestructuras de colaboración y organización de la investigación comienzan a abrirse camino a escala global, desafiando los presupuestos capitalistas de la producción y gestión del conocimiento. Bajo las etiquetas de Open Science (Ciencia Abierta), Science 2.0 (Ciencia 2.0), e-Science (e-Ciencia) o Science Commons (Procomún Científico), está teniendo lugar una masiva transformación de los procesos científicos, incluyendo el acceso abierto a las publicaciones y datos científicos (donde la disposición, reutilización y distribución queda garantizada, sin barreras técnicas, legales o económicas), junto al desarrollo de infraestructuras abiertas para la producción científica colaborativa intradiscipliar e interdisciplinar. Además, un nuevo movimiento de ciencia pública y ciudadana está abriendo el camino para que la ciencia aborde problemas sociales, más allá de la aun dominante mercantilización e instrumentalización capitalista del conocimiento científico orientado al mercado y rentabilizado por este. Desarrollamos, a lo largo de este documento, principios para el desarrollo de políticas públicas que estimulen una economía social del conocimiento común y abierto en relación al acceso a los resultados científicos, sus infraestructuras y su organización.
+
+### Cite
+
+Barandiaran, X. E., Araya, D., & Vila-Viñas, D. (2015). Ciencia: Investigación colaborativa, participativa y abierta. In D. Vila-Viñas, & X. E. Barandiaran (Eds.), *Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador* (pp. 181-268). IAEN-CIESPAL. http://book.floksociety.org/ec/1/1-2-ciencia-investigacion-colaborativa-participativa-y-abierta/
+
+---
+
+## The FLOK doctrine
+
+- **Authors:** Xabier E. Barandiaran, David Vila-Viñas
+- **Year:** 2015
+- **Type:** Journal Article
+- **Published in:** Journal of Peer Production, 7
+- **URL:** http://peerproduction.net/issues/issue-7-policies-for-the-commons/the-flok-doctrine/
+- **Topics (assigned by the site; no author keywords):** Free software, FLOK, Doctrine
+- **Landing page:** https://publications.barandiaran.net/p/2015-the-flok-doctrine/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-the-flok-doctrine.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Vila-Viñas, D. (2015). The FLOK doctrine. *Journal of Peer Production*, *7*. http://peerproduction.net/issues/issue-7-policies-for-the-commons/the-flok-doctrine/
+
+---
+
+## Intermittent Animal Behavior: The Adjustment-Deployment Dilemma
+
+- **Authors:** Miguel Aguilera, Manuel G. Bedia, Francisco Seron, Xabier E. Barandiaran
+- **Year:** 2014
+- **Type:** Journal Article
+- **Published in:** Artificial Life, 20, 319-337
+- **DOI:** [10.1162/ARTL_a_00133](https://doi.org/10.1162/ARTL_a_00133)
+- **Keywords:** Intermittent behavior, Adaptive behavior, Adjustment-deployment dilemma, Behavioral modeling
+- **Landing page:** https://publications.barandiaran.net/p/2014-intermittent-animal-behavior-the-adjustment-deployment/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2014-intermittent-animal-behavior-the-adjustment-deployment.pdf)
+
+### Abstract
+
+Intermittency is ubiquitous in animal behavior. We depict a coordination problem that is part of the more general structure of intermittent adaptation: the adjustment-deployment dilemma. It captures the intricate compromise between the time spent in adjusting a response and the time used to deploy it: The adjustment process improves fitness with time, but during deployment fitness of the solution decays as environmental conditions change. We provide a formal characterization of the dilemma, and solve it using computational methods. We find that the optimal solution always results in a high intermittency between adjustment and deployment around a non-maximal fitness value. Furthermore we show that this non-maximal fitness value is directly determined by the ratio between the exponential coefficient of the fitness increase during adjustment and that of its decay coefficient during deployment. We compare the model results with experimental data obtained from observation and measurement of intermittent behavior in animals. Among other phenomena, the model is able to predict the uneven distribution of average duration of search and motion phases found among various species such as fishes, birds, and lizards. Despite the complexity of the problem, it can be shown to be solved by relatively simple mechanisms. We find that a model of a single continuous-time recurrent neuron, with the same parametric configuration, is capable of solving the dilemma for a wide set of conditions. We finally hypothesize that many of the different patterns of intermittent behavior found in nature might respond to optimal solutions of complexified versions of the adjustment-deployment dilemma under different constraints.
+
+### Cite
+
+Aguilera, M., Bedia, M. G., Seron, F., & Barandiaran, X. E. (2014). Intermittent Animal Behavior: The Adjustment-Deployment Dilemma. *Artificial Life*, *20*, 319-337. https://doi.org/10.1162/ARTL_a_00133
+
+---
+
+## Enactivism without Autonomy? What went wrong at the roots of enactivism and how we should recover the autonomous foundations of sensorimotor agency
+
+- **Authors:** Xabier E. Barandiaran
+- **Year:** 2014
+- **Type:** Conference Paper
+- **Published in:** 40th Annual Convention of the Society for the Study of Artificial Intelligence and the Simulation of Behaviour, 640-642
+- **Publisher:** Curran Associates, Inc., Red Hook, NY
+- **URL:** http://doc.gold.ac.uk/aisb50/AISB50-S25/AISB50-S25-Barandiaran-extabs.pdf
+- **Topics (assigned by the site; no author keywords):** Autonomy, Cognition, Enactivism, Sensorimotor, Agency, Habits
+- **Landing page:** https://publications.barandiaran.net/p/2014-enactivism-without-autonomy-what-went-wrong/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2014-enactivism-without-autonomy-what-went-wrong.pdf)
+
+### Abstract
+
+Different varieties of enactivism struggle to fill the empty throne after the long reign of representational cognitivism. And the notion of autonomy is one of the central claims under dispute within the different enactivist research programmes, despite the central role that it played on the early enactivist foundations. It is the very autonomy of enactivism itself what is at stake here, if it doesn't want to be integrated back into a reformed version of representational cognitivism or subsumed under new forms of behaviourism. In this work I will show why autonomy is a necessary component of the enactive programme, I shall clarify some foundational misunderstandings or conceptual obstacles that have made autonomy a difficult notion to assume for some sensorimotor enactive approaches and, finally, I will propose to introduce autonomy back at the roots of enactivism through the notion of habit and sensorimotor agency.
+
+### Cite
+
+Barandiaran, X. E. (2014). Enactivism without Autonomy? What went wrong at the roots of enactivism and how we should recover the autonomous foundations of sensorimotor agency. In *40th Annual Convention of the Society for the Study of Artificial Intelligence and the Simulation of Behaviour* (pp. 640-642). Curran Associates, Inc. http://doc.gold.ac.uk/aisb50/AISB50-S25/AISB50-S25-Barandiaran-extabs.pdf
+
+---
+
+## A genealogical map of the concept of habit
+
+- **Authors:** Xabier E. Barandiaran, Ezequiel Alejandro Di Paolo
+- **Year:** 2014
+- **Type:** Journal Article
+- **Published in:** Frontiers in Human Neuroscience, 8, 522
+- **DOI:** [10.3389/fnhum.2014.00522](https://doi.org/10.3389/fnhum.2014.00522)
+- **Keywords:** Habit, Associationism, Organicism, History of psychology, History of philosophy
+- **Landing page:** https://publications.barandiaran.net/p/2014-a-genealogical-map-of-the-concept/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2014-a-genealogical-map-of-the-concept.pdf)
+
+### Abstract
+
+The notion of information processing has dominated the study of the mind for over six decades. However, before the advent of cognitivism, one of the most prominent theoretical ideas was that of Habit. This is a concept with a rich and complex history, which is again starting to awaken interest, following recent embodied, enactive critiques of computationalist frameworks. We offer here a very brief history of the concept of habit in the form of a genealogical network-map. This serves to provide an overview of the richness of this notion and as a guide for further re-appraisal. We identify 77 thinkers and their influences, and group them into seven schools of thought. Two major trends can be distinguished. One is the associationist trend, starting with the work of Locke and Hume, developed by Hartley, Bain, and Mill to be later absorbed into behaviorism through pioneering animal psychologists (Morgan and Thorndike). This tradition conceived of habits atomistically and as automatisms (a conception later debunked by cognitivism). Another historical trend we have called organicism inherits the legacy of Aristotle and develops along German idealism, French spiritualism, pragmatism, and phenomenology. It feeds into the work of continental psychologists in the early 20th century, influencing important figures such as Merleau-Ponty, Piaget, and Gibson. But it has not yet been taken up by mainstream cognitive neuroscience and psychology. Habits, in this tradition, are seen as ecological, self-organizing structures that relate to a web of predispositions and plastic dependencies both in the agent and in the environment. In addition, they are not conceptualized in opposition to rational, volitional processes, but as transversing a continuum from reflective to embodied intentionality. These are properties that make habit a particularly attractive idea for embodied, enactive perspectives, which can now re-evaluate it in light of dynamical systems theory and complexity research.
+
+### Cite
+
+Barandiaran, X. E., & Di Paolo, E. A. (2014). A genealogical map of the concept of habit. *Frontiers in Human Neuroscience*, *8*, 522. https://doi.org/10.3389/fnhum.2014.00522
+
+---
+
+## Learning to perceive in the sensorimotor approach: Piaget’s theory of equilibration interpreted dynamically
+
+- **Authors:** Ezequiel A. Di Paolo, Xabier E. Barandiaran, Michael Beaton, Thomas Buhrmann
+- **Year:** 2014
+- **Type:** Journal Article
+- **Published in:** Frontiers in Human Neuroscience, 8, 551
+- **DOI:** [10.3389/fnhum.2014.00551](https://doi.org/10.3389/fnhum.2014.00551)
+- **Keywords:** Sensorimotor contingencies, Piaget’s theory of equilibration, Dynamical systems, Open-ended learning
+- **Landing page:** https://publications.barandiaran.net/p/2014-learning-to-perceive-in-the-sensorimotor/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2014-learning-to-perceive-in-the-sensorimotor.pdf)
+
+### Abstract
+
+Learning to perceive is faced with a classical paradox: if understanding is required for perception, how can we learn to perceive something new, something we do not yet understand? According to the sensorimotor approach, perception involves mastery of regular sensorimotor co-variations that depend on the agent and the environment, also known as the “laws” of sensorimotor contingencies (SMCs). In this sense, perception involves enacting relevant sensorimotor skills in each situation. It is important for this proposal that such skills can be learned and refined with experience and yet up to this date, the sensorimotor approach has had no explicit theory of perceptual learning. The situation is made more complex if we acknowledge the open-ended nature of human learning. In this paper we propose Piaget’s theory of equilibration as a potential candidate to fulfill this role. This theory highlights the importance of intrinsic sensorimotor norms, in terms of the closure of sensorimotor schemes. It also explains how the equilibration of a sensorimotor organization faced with novelty or breakdowns proceeds by re-shaping pre-existing structures in coupling with dynamical regularities of the world. This way learning to perceive is guided by the equilibration of emerging forms of skillful coping with the world. We demonstrate the compatibility between Piaget’s theory and the sensorimotor approach by providing a dynamical formalization of equilibration to give an explicit micro-genetic account of sensorimotor learning and, by extension, of how we learn to perceive. This allows us to draw important lessons in the form of general principles for open-ended sensorimotor learning, including the need for an intrinsic normative evaluation by the agent itself. We also explore implications of our micro-genetic account at the personal level.
+
+### Cite
+
+Di Paolo, E. A., Barandiaran, X. E., Beaton, M., & Buhrmann, T. (2014). Learning to perceive in the sensorimotor approach: Piaget’s theory of equilibration interpreted dynamically. *Frontiers in Human Neuroscience*, *8*, 551. https://doi.org/10.3389/fnhum.2014.00551
+
+---
+
+## Modeling habits as self-sustaining patterns of sensorimotor behavior
+
+- **Authors:** Matthew D. Egbert, Xabier E. Barandiaran
+- **Year:** 2014
+- **Type:** Journal Article
+- **Published in:** Frontiers in Human Neuroscience, 8, 590
+- **DOI:** [10.3389/fnhum.2014.00590](https://doi.org/10.3389/fnhum.2014.00590)
+- **Keywords:** Sensorimotor, Self-maintaining patterns-of-behavior, Mental life, Habits, Meso-scale modeling
+- **Landing page:** https://publications.barandiaran.net/p/2014-modeling-habits-as-self-sustaining-patterns/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2014-modeling-habits-as-self-sustaining-patterns.pdf)
+
+### Abstract
+
+In the recent history of psychology and cognitive neuroscience, the notion of habit has been reduced to a stimulus-triggered response probability correlation. In this paper we use a computational model to present an alternative theoretical view (with some philosophical implications), where habits are seen as self-maintaining patterns of behavior that share properties in common with self-maintaining biological processes, and that inhabit a complex ecological context, including the presence and influence of other habits. Far from mechanical automatisms, this organismic and self-organizing concept of habit can overcome the dominating atomistic and statistical conceptions, and the high temporal resolution effects of situatedness, embodiment and sensorimotor loops emerge as playing a more central, subtle and complex role in the organization of behavior. The model is based on a novel “iterant deformable sensorimotor medium (IDSM),” designed such that trajectories taken through sensorimotor-space increase the likelihood that in the future, similar trajectories will be taken. We couple the IDSM to sensors and motors of a simulated robot, and show that under certain conditions, the IDSM conditions, the IDSM forms self-maintaining patterns of activity that operate across the IDSM, the robot's body, and the environment. We present various environments and the resulting habits that form in them. The model acts as an abstraction of habits at a much needed sensorimotor “meso-scale” between microscopic neuron-based models and macroscopic descriptions of behavior. Finally, we discuss how this model and extensions of it can help us understand aspects of behavioral self-organization, historicity and autonomy that remain out of the scope of contemporary representationalist frameworks.
+
+### Cite
+
+Egbert, M. D., & Barandiaran, X. E. (2014). Modeling habits as self-sustaining patterns of sensorimotor behavior. *Frontiers in Human Neuroscience*, *8*, 590. https://doi.org/10.3389/fnhum.2014.00590
+
+---
+
+## Norm-establishing and norm-following in autonomous agency
+
+- **Authors:** Xabier E. Barandiaran, Matthew D. Egbert
+- **Year:** 2014
+- **Type:** Journal Article
+- **Published in:** Artificial Life, 20(1), 5-28
+- **DOI:** [10.1162/ARTL_a_00094](https://doi.org/10.1162/ARTL_a_00094)
+- **Keywords:** Minimal agency, Normativity, Viability, Organicism, Precariousness, Normative field
+- **Landing page:** https://publications.barandiaran.net/p/2014-norm-establishing-and-norm-following-in/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2014-norm-establishing-and-norm-following-in.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Egbert, M. D. (2014). Norm-establishing and norm-following in autonomous agency. *Artificial Life*, *20*(1), 5-28. https://doi.org/10.1162/ARTL_a_00094
+
+---
+
+## Quantifying Political Self-Organization in Social Media. Fractal patterns in the Spanish 15M movement on Twitter
+
+- **Authors:** Miguel Aguilera, Ignacio Morer, Xabier E. Barandiaran, Manuel Bedia
+- **Year:** 2013
+- **Type:** Conference Paper
+- **Published in:** P. Lio, O. Miglino, G. Nicosia, S. Nolfi & M. Pavone (Eds.), Advances in Artificial Life: ECAL 2013, 395-402
+- **Publisher:** MIT Press
+- **DOI:** [10.7551/978-0-262-31709-2-ch057](https://doi.org/10.7551/978-0-262-31709-2-ch057)
+- **Topics (assigned by the site; no author keywords):** Self-organization, Social movements
+- **Landing page:** https://publications.barandiaran.net/p/2013-quantifying-political-self-organization-in-social/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2013-quantifying-political-self-organization-in-social.pdf)
+
+### Cite
+
+Aguilera, M., Morer, I., Barandiaran, X. E., & Bedia, M. (2013). Quantifying Political Self-Organization in Social Media. Fractal patterns in the Spanish 15M movement on Twitter. In *P. Lio, O. Miglino, G. Nicosia, S. Nolfi & M. Pavone (Eds.), Advances in Artificial Life: ECAL 2013* (pp. 395-402). MIT Press. https://doi.org/10.7551/978-0-262-31709-2-ch057
+
+---
+
+## Sumak Yachay - Devenir Sociedad del Conocimiento Común y Abierto -Designing the FLOK Society (v.1.5.2)
+
+- **Authors:** Xabier E. Barandiaran, Daniel Vázquez
+- **Year:** 2013
+- **Type:** Report
+- **Publisher:** IAEN (Instituto de Altos Estudios Nacionales), Quito, Ecuador
+- **Keywords:** Knowledge society, FLOK (Free/Libre Open Knowledge) society, Sumak kawsay, Sumak yachay, Knowledge Pachamama, Collaborative investigation, Process-summit, Copyleft, Free software, Commons, Procommons, Cognitive autonomy, Community economy, Social economy of knowledge
+- **Landing page:** https://publications.barandiaran.net/p/2013-sumak-yachay-devenir-sociedad-del-conocimiento/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2013-sumak-yachay-devenir-sociedad-del-conocimiento.pdf)
+
+### Abstract
+
+Este es el documento madre (ampliable y revisable) para el diseño de un proceso de colaboración y participación social (popular e institucional) y de expertos que culmine en una cumbre productiva (no meramente expositiva). El objetivo es desencadenar y coordinar un proceso participativo a escala global y de inmediata aplicación nacional para el cambio de matriz productiva hacia una sociedad del conocimiento común y abierto en el Ecuador, que resulte en 10 documentos base para el desarrollo legislativo y de políticas de Estado (orientadas al código orgánico para la economía social del conocimiento) así como de utilidad para las redes productivas de conocimiento que ya existen en Ecuador. Se detalla el marco conceptual, económico y filosófico del proceso y del contexto histórico y económico-cognitivo, los principios organizativos que regirán el proceso, las herramientas digitales colaborativas y comunicativas y una propuesta de planificación de todo el proceso-cumbre.
+
+### Cite
+
+Barandiaran, X. E., & Vázquez, D. (2013). *Sumak Yachay - Devenir Sociedad del Conocimiento Común y Abierto -Designing the FLOK Society (v.1.5.2)*. IAEN (Instituto de Altos Estudios Nacionales).
+
+---
+
+## eSMCs and Embodied Cognition
+
+- **Authors:** Xabier E. Barandiaran, Michael JS Beaton, Thomas Buhrmann, Ezequiel A. Di Paolo
+- **Year:** 2013
+- **Type:** Report
+- **Publisher:** UPV/EHU, University of the Basque Country
+- **URL:** http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.698.3252&rep=rep1&type=pdf
+- **Topics (assigned by the site; no author keywords):** Cognition, Embodiment
+- **Landing page:** https://publications.barandiaran.net/p/2013-esmcs-and-embodied-cognition/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2013-esmcs-and-embodied-cognition.pdf)
+
+### Cite
+
+Barandiaran, X. E., Beaton, M. J., Buhrmann, T., & Di Paolo, E. A. (2013). *eSMCs and Embodied Cognition* (Deliverable for EU project "Extending Sensorimotor Contingencies to Cognition" FP7-ICT-2009-6 Grant Agreement No. 270212, D1.2). UPV/EHU, University of the Basque Country. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.698.3252&rep=rep1&type=pdf
+
+---
+
+## A dynamical systems account of sensorimotor contingencies
+
+- **Authors:** Thomas Buhrmann, Ezequiel A. Di Paolo, Xabier E. Barandiaran
+- **Year:** 2013
+- **Type:** Journal Article
+- **Published in:** Frontiers in Cognition, 4, 285
+- **DOI:** [10.3389/fpsyg.2013.00285](https://doi.org/10.3389/fpsyg.2013.00285)
+- **Keywords:** Embodied cognition, Sensorimotor contingencies, Dynamical systems, Sensorimotor approach to perception, Minimal cognition
+- **Landing page:** https://publications.barandiaran.net/p/2013-a-dynamical-systems-account-of-sensorimotor/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2013-a-dynamical-systems-account-of-sensorimotor.pdf)
+
+### Abstract
+
+According to the sensorimotor approach, perception is a form of embodied know-how, constituted by lawful regularities in the sensorimotor flow or in sensorimotor contingencies (SMCs) in an active and situated agent. Despite the attention that this approach has attracted, there have been few attempts to define its core concepts formally. In this paper, we examine the idea of SMCs and argue that its use involves notions that need to be distinguished. We introduce four distinct kinds of SMCs, which we define operationally. These are the notions of sensorimotor environment (open-loop motor-induced sensory variations), sensorimotor habitat (closed-loop sensorimotor trajectories), sensorimotor coordination (reliable sensorimotor patterns playing a functional role), and sensorimotor strategy (normative organization of sensorimotor coordinations). We make use of a minimal dynamical model of visually guided categorization to test the explanatory value of the different kinds of SMCs. Finally, we discuss the impact of our definitions on the conceptual development and empirical as well as model-based testing of the claims of the sensorimotor approach.
+
+### Cite
+
+Buhrmann, T., Di Paolo, E. A., & Barandiaran, X. E. (2013). A dynamical systems account of sensorimotor contingencies. *Frontiers in Cognition*, *4*, 285. https://doi.org/10.3389/fpsyg.2013.00285
+
+---
+
+## Informe para el diseño de políticas e infra- estructura para publicaciones académicas y colaboración científica
+
+- **Authors:** Xabier E. Barandiaran
+- **Year:** 2013
+- **Type:** Report
+- **Publisher:** IAEN (Instituto de Altos Estudios Nacionales), Quito, Ecuador
+- **URL:** http://xabierbarandiaran.files.wordpress.com/2014/07/barandiaran_-_2013_-_informe_politicas_e_infraestructura_ciencia_abierta_y_colaborativa_-_iaen-flok.pdf
+- **Topics (assigned by the site; no author keywords):** Informe, Diseño, Políticas
+- **Landing page:** https://publications.barandiaran.net/p/2013-informe-para-el-diseno-de-politicas/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2013-informe-para-el-diseno-de-politicas.pdf)
+
+### Cite
+
+Barandiaran, X. E. (2013). *Informe para el diseño de políticas e infra- estructura para publicaciones académicas y colaboración científica*. IAEN (Instituto de Altos Estudios Nacionales). http://xabierbarandiaran.files.wordpress.com/2014/07/barandiaran_-_2013_-_informe_politicas_e_infraestructura_ciencia_abierta_y_colaborativa_-_iaen-flok.pdf
+
+---
+
+## The situated HKB model: how sensorimotor spatial coupling can alter oscillatory brain dynamics
+
+- **Authors:** Miguel Aguilera, Manuel G. Bedia, Bruno A. Santos, Xabier E. Barandiaran
+- **Year:** 2013
+- **Type:** Journal Article
+- **Published in:** Frontiers in Computational Neuroscience, 7
+- **DOI:** [10.3389/fncom.2013.00117](https://doi.org/10.3389/fncom.2013.00117)
+- **Keywords:** HKB model, Situated HKB model, Embodied cognition, Sensorimotor coupling, Coordination dynamics, Dynamical analysis, Neurodynamics
+- **Landing page:** https://publications.barandiaran.net/p/2013-the-situated-hkb-model-how-sensorimotor/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2013-the-situated-hkb-model-how-sensorimotor.pdf)
+
+### Abstract
+
+Despite the increase of both dynamic and embodied/situated approaches in cognitive science, there is still little research on how coordination dynamics under a closed sensorimotor loop might induce qualitatively different patterns of neural oscillations compared to those found in isolated systems. We take as a departure point the Haken-Kelso-Bunz (HKB) model, a generic model for dynamic coordination between two oscillatory components, which has proven useful for a vast range of applications in cognitive science and whose dynamical properties are well understood. In order to explore the properties of this model under closed sensorimotor conditions we present what we call the situated HKB model: a robotic model that performs a gradient climbing task and whose “brain” is modeled by the HKB equation. We solve the differential equations that define the agent-environment coupling for increasing values of the agent’s sensitivity (sensor gain), finding different behavioral strategies. These results are compared with two different models: a decoupled HKB with no sensory input and a passively-coupled HKB that is also decoupled but receives a structured input generated by a situated agent. We can precisely quantify and qualitatively describe how the properties of the system, when studied in coupled conditions, radically change in a manner that cannot be deduced from the decoupled HKB models alone. We also present the notion of neurodynamic signature as the dynamic pattern that correlates with a specific behavior and we show how only a situated agent can display this signature compared to an agent that simply receives the exact same sensory input. To our knowledge, this is the first analytical solution of the HKB equation in a sensorimotor loop and qualitative and quantitative analytic comparison of spatially coupled vs. decoupled oscillatory controllers. Finally, we discuss the limitations and possible generalization of our model to contemporary neuroscience and philosophy of mind.
+
+### Cite
+
+Aguilera, M., Bedia, M. G., Santos, B. A., & Barandiaran, X. E. (2013). The situated HKB model: how sensorimotor spatial coupling can alter oscillatory brain dynamics. *Frontiers in Computational Neuroscience*, *7*. https://doi.org/10.3389/fncom.2013.00117
+
+---
+
+## Behavioral Metabolution: The Adaptive and Evolutionary Potential of Metabolism-Based Chemotaxis
+
+- **Authors:** Matthew D. Egbert, Xabier E. Barandiaran, Ezequiel A. Di Paolo
+- **Year:** 2012
+- **Type:** Journal Article
+- **Published in:** Artificial Life, 18(1), 1-25
+- **DOI:** [10.1162/artl_a_00047](https://doi.org/10.1162/artl_a_00047)
+- **Keywords:** Metabolism, Adaptive behavior, Autopoiesis, Chemotaxis
+- **Landing page:** https://publications.barandiaran.net/p/2012-behavioral-metabolution-the-adaptive-and-evolutionary/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2012-behavioral-metabolution-the-adaptive-and-evolutionary.pdf)
+
+### Abstract
+
+We use a minimal model of metabolism-based chemotaxis to show how a coupling between metabolism and behavior can affect evolutionary dynamics in a process we refer to as behavioral metabolution. This mutual influence can function as an in-the-moment, intrinsic evaluation of the adaptive value of a novel situation, such as an encounter with a compound that activates new metabolic pathways. Our model demonstrates how changes to metabolic pathways can lead to improvement of behavioral strategies, and conversely, how behavior can contribute to the exploration and fixation of new metabolic pathways. These examples indicate the potentially important role that the interplay between behavior and metabolism could have played in shaping adaptive evolution in early life and protolife. We argue that the processes illustrated by these models can be interpreted as an unorthodox instantiation of the principles of evolution by random variation and selective retention. We then discuss how the interaction between metabolism and behavior can facilitate evolution through (i) increasing exposure to environmental variation, (ii) making more likely the fixation of some beneficial metabolic pathways, (iii) providing a mechanism for in-the-moment adaptation to changes in the environment and to changes in the organization of the organism itself, and (iv) generating conditions that are conducive to speciation.
+
+### Cite
+
+Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2012). Behavioral Metabolution: The Adaptive and Evolutionary Potential of Metabolism-Based Chemotaxis. *Artificial Life*, *18*(1), 1-25. https://doi.org/10.1162/artl_a_00047
+
+---
+
+## Synchrony and phase relation dynamics underlying sensorimotor coordination
+
+- **Authors:** Bruno A. Santos, Xabier E. Barandiaran, Philip Husbands
+- **Year:** 2012
+- **Type:** Journal Article
+- **Published in:** Adaptive Behavior, 321-336
+- **DOI:** [10.1177/1059712312451859](https://doi.org/10.1177/1059712312451859)
+- **Keywords:** Neural synchrony, Phase-coupled oscillators, Sensorimotor coordination
+- **Landing page:** https://publications.barandiaran.net/p/2012-synchrony-and-phase-relation-dynamics-underlying/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2012-synchrony-and-phase-relation-dynamics-underlying.pdf)
+
+### Abstract
+
+Synchronous oscillations have become a widespread hypothetical “mechanism” to explain how brain dynamics give rise to neural functions. By focusing on synchrony one leaves the phase relations during moments of desynchronous oscillations either without a clear functional role or with a secondary role such as a transition between functionally “relevant” synchronized states. In this work, rather than studying synchrony we focus on desynchronous oscillations and investigate their functional roles in the context of a sensorimotor coordination task. In particular, we address the questions: a) how does the informational content of the sensorimotor activity present in a complete dynamical description of phase relations change as such a description is reduced to the dynamics of synchronous oscillations? and b) to what extent are desynchronous oscillations as causally relevant as synchronous ones to the generation of functional sensorimotor coordination? These questions are addressed with a model of a simulated agent performing a functional sensorimotor coordination task controlled by an oscillatory network. The results suggest that: i) desynchronized phase relations carry as much information about sensorimotor activity as synchronized phase relations; and ii) phase relations between oscillators with near-zero frequency difference carry a relatively higher causal relevance than the rest of the phase relations to the sensorimotor coordination; however, overall a privileged functional causal contribution can not be attributed to either synchronous or desynchronous oscillations.
+
+### Cite
+
+Santos, B. A., Barandiaran, X. E., & Husbands, P. (2012). Synchrony and phase relation dynamics underlying sensorimotor coordination. *Adaptive Behavior*, 321-336. https://doi.org/10.1177/1059712312451859
+
+---
+
+## Sensorimotor coordination and metastability in a situated HKB model
+
+- **Authors:** Bruno Santos, Xabier E. Barandiaran, Philip Husbands, Miguel Aguilera, Manuel Bedia
+- **Year:** 2012
+- **Type:** Journal Article
+- **Published in:** Connection Science, 24(4), 143-161
+- **DOI:** [10.1080/09540091.2013.770821](https://doi.org/10.1080/09540091.2013.770821)
+- **Keywords:** Sensorimotor coordination, Oscillatory dynamics, Metastability, Coordination dynamics
+- **Landing page:** https://publications.barandiaran.net/p/2012-sensorimotor-coordination-and-metastability-in-a/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2012-sensorimotor-coordination-and-metastability-in-a.pdf)
+
+### Abstract
+
+Oscillatory phenomena are ubiquitous in nature and have become particularly relevant for the study of brain and behaviour. One of the simplest, yet explanatorily powerful, models of oscillatory Coordination Dynamics is the Haken–Kelso–Bunz (HKB) model. The metastable regime described by the HKB equation has been hypothesised to be the signature of brain oscillatory dynamics underlying sensorimotor coordination. Despite evidence supporting such a hypothesis, to our knowledge, there are still very few models (if any) where the HKB equation generates spatially situated behaviour and, at the same time, has its dynamics modulated by the behaviour it generates (by means of the sensory feedback resulting from body movement). This work presents a computational model where the HKB equation controls an agent performing a simple gradient climbing task and shows (i) how different metastable dynamical patterns in the HKB equation are generated and sustained by the continuous interaction between the agent and its environment; and (ii) how the emergence of functional metastable patterns in the HKB equation – i.e. patterns that generate gradient climbing behaviour – depends not only on the structure of the agent's sensory input but also on the coordinated coupling of the agent's motor–sensory dynamics. This work contributes to Kelso's theoretical framework and also to the understanding of neural oscillations and sensorimotor coordination.
+
+### Cite
+
+Santos, B., Barandiaran, X. E., Husbands, P., Aguilera, M., & Bedia, M. (2012). Sensorimotor coordination and metastability in a situated HKB model. *Connection Science*, *24*(4), 143-161. https://doi.org/10.1080/09540091.2013.770821
+
+---
+
+## The impact of the paradigm of complexity on the foundational frameworks of biology and cognitive science
+
+- **Authors:** Alvaro Moreno, K. Ruiz-Mirazo, Xabier E. Barandiaran
+- **Year:** 2011
+- **Type:** Book Chapter
+- **Published in:** Handbook of the Philosophy of Science, Philosophy of Complex Systems, 311-333
+- **Publisher:** Elsevier
+- **Topics (assigned by the site; no author keywords):** Cognition, Cognitive science, Dynamical systems, Complexity, Individuality
+- **Landing page:** https://publications.barandiaran.net/p/2011-the-impact-of-the-paradigm-of/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2011-the-impact-of-the-paradigm-of.pdf)
+
+### Abstract
+
+The domain of nonlinear dynamical systems and its mathematical underpinnings has been developing exponentially for a century, the last 35 years seeing an outpouring of new ideas and applications and a concomitant confluence with ideas of complex systems and their applications from irreversible thermodynamics. A few examples are in meteorology, ecological dynamics, andásocial and economic dynamics. These new ideas have profound implications for our understanding and practice in domains involving complexity, predictability and determinism, equilibrium, control, planning, individuality, responsibility and so on. Our intention is to draw together in this volume, we believe for the first time, a comprehensive picture of the manifold philosophically interesting impacts of recent developments in understanding nonlinear systems and the unique aspects of their complexity. The book will focus specifically on the philosophical concepts, principles, judgments and problems distinctly raised by work in the domain of complex nonlinear dynamical systems, especially in recent years. -Comprehensive coverage of all main theories in the philosophy of Complex Systems -Clearly written expositions of fundamental ideas and concepts -Definitive discussions by leading researchers in the field -Summaries of leading-edge research in related fields are also included
+
+### Cite
+
+Moreno, A., Ruiz-Mirazo, K., & Barandiaran, X. E. (2011). The impact of the paradigm of complexity on the foundational frameworks of biology and cognitive science. In C. A. Hooker, D. V. Gabbay, P. Thagard, & J. Woods (Eds.), *Handbook of the Philosophy of Science* (pp. 311-333). Elsevier.
+
+---
+
+## Metastable dynamical regimes in an oscillatory network modulated by an agent's sensorimotor loop
+
+- **Authors:** B. A Santos, Xabier E. Barandiaran, P. Husbands
+- **Year:** 2011
+- **Type:** Conference Paper
+- **Published in:** 2011 IEEE Symposium on Artificial Life (ALIFE), 124-131
+- **Publisher:** IEEE
+- **DOI:** [10.1109/ALIFE.2011.5954659](https://doi.org/10.1109/ALIFE.2011.5954659)
+- **Topics (assigned by the site; no author keywords):** Cognition, Sensorimotor, Agency, Neuroscience, Robotics, Coordination dynamics
+- **Landing page:** https://publications.barandiaran.net/p/2011-metastable-dynamical-regimes-in-an-oscillatory/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2011-metastable-dynamical-regimes-in-an-oscillatory.pdf)
+
+### Abstract
+
+The last two decades have witnessed an increasing focus on oscillatory brain dynamics as a means of understanding a variety of cognitive phenomena. Most theoretical and mathematical approaches in this area have mainly worked under two assumptions: a) that the most significant aspect of oscillatory brain dynamics is synchronization; and, b) that most part of functional brain dynamics can be understood without incorporating the sensorimotor loop into the picture. Although significant progress has been achieved with these assumptions, we believe they might limit future development of dynamical approaches to brain functioning and cognitive behaviour. Looking at the whole picture of brain dynamics, rather than only moments of synchronization, and analysing it inside the sensorimotor loop can provide new insights on how the brain operates. In this paper we present a robotic agent capable of performing phototaxis controlled by a Kuramoto-model based oscillatory neural network. The network parameters were optimized using a genetic algorithm. The resulting brain and behavioural dynamics are analysed within Kelso's Coordination dynamic framework. We found that: a) during a whole behavioural episode of phototaxis the robot's brain undergoes different metastable dynamical regimes of phase-lock and phase-scattering, represented by the relative phase and phase coherence among oscillators; b) even for a simple task, metastable coordination patterns and functional behaviour emerges without the need for a specific synchronization signature; and, c) sensorimotor loop dynamics plays a critical role generating and sustaining functional metastable regimes of brain activity by modulating the network's control parameter.
+
+### Cite
+
+Santos, B. A., Barandiaran, X. E., & Husbands, P. (2011). Metastable dynamical regimes in an oscillatory network modulated by an agent's sensorimotor loop. In *2011 IEEE Symposium on Artificial Life (ALIFE)* (pp. 124-131). IEEE. https://doi.org/10.1109/ALIFE.2011.5954659
+
+---
+
+## Neurodynamic regimes of phase relation and behavior in robotic models
+
+- **Authors:** Bruno Santos, Xabier E. Barandiaran, Phil Husbands
+- **Year:** 2011
+- **Type:** Journal Article
+- **Published in:** BMC Neuroscience, 12(Suppl 1), P155
+- **URL:** http://www.biomedcentral.com/1471-2202/12/S1/P155
+- **Topics (assigned by the site; no author keywords):** Neuroscience, Robotics
+- **Landing page:** https://publications.barandiaran.net/p/2011-neurodynamic-regimes-of-phase-relation-and/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2011-neurodynamic-regimes-of-phase-relation-and.pdf)
+
+### Cite
+
+Santos, B., Barandiaran, X. E., & Husbands, P. (2011). Neurodynamic regimes of phase relation and behavior in robotic models. *BMC Neuroscience*, *12*(Suppl 1), P155. http://www.biomedcentral.com/1471-2202/12/S1/P155
+
+---
+
+## Quantifying Normative Behaviour and Precariousness in Adaptive Agency
+
+- **Authors:** Matthew D. Egbert, Xabier E. Barandiaran
+- **Year:** 2011
+- **Type:** Conference Paper
+- **Published in:** Proceedings of the 11th European Conference on Artificial Life, 210-218
+- **Publisher:** MIT Press
+- **Topics (assigned by the site; no author keywords):** Autonomy, Metabolism, Agency, Normativity, Viability
+- **Landing page:** https://publications.barandiaran.net/p/2011-quantifying-normative-behaviour-and-precariousness-in/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2011-quantifying-normative-behaviour-and-precariousness-in.pdf)
+
+### Abstract
+
+An essential feature of autonomous adaptive agency is that a system behaves according to an intrinsic norm. In this paper, we illustrate and clarify this notion of “behavior according to an intrinsic norm” with a minimalistic model of agency. We present a minimal metabolic system whose auto-catalytic dynamics define a viability region for different concentrations of available resource or ‘food’ molecules. We initially consider the availability of food as a control parameter for metabolic dynamics. A bifurcation diagram shows that for fixed values of available food, there exists a viability region. This region has an non-zero stable equilibrium and a lower boundary that takes the form of an unstable equilibrium—below which, the tendency of the system is towards “death”, a stable equilibrium with a zero concentration of metabolites. We define the viability region as that in which the system tends toward the “living” stable-equilibrium. Outside of this region, in the precarious region, the system may live for some time but will eventually die if the food concentration does not change. With a precise definition of system-determined death, living, precarious and viable regions we move on to reconsider the available concentration of resources ([F]), not as a free parameter of the system but as modulated by organismic behaviour. By coupling the metabolism to a behavioural mechanism, we simulate a stochastic, up-resource gradient climbing behaviour. As a result, the effect of behaviour on the viability space can be mapped and quantified. This lets us move closer to defining adaptive action more precisely as that course of behaviour whose effect is in accordance with an intrinsic normative field.
+
+### Cite
+
+Egbert, M. D., & Barandiaran, X. E. (2011). Quantifying Normative Behaviour and Precariousness in Adaptive Agency. In *Proceedings of the 11th European Conference on Artificial Life* (pp. 210-218). MIT Press.
+
+---
+
+## A Minimal Model of Metabolism-Based Chemotaxis
+
+- **Authors:** Matthew D. Egbert, Xabier E. Barandiaran, Ezequiel A. Di Paolo
+- **Year:** 2010
+- **Type:** Journal Article
+- **Published in:** PLoS Comput Biol, 6(12), e1001004
+- **DOI:** [10.1371/journal.pcbi.1001004](https://doi.org/10.1371/journal.pcbi.1001004)
+- **Topics (assigned by the site; no author keywords):** Metabolism, Minimal, Model, Metabolism-Based
+- **Landing page:** https://publications.barandiaran.net/p/2010-a-minimal-model-of-metabolism-based/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2010-a-minimal-model-of-metabolism-based.pdf)
+
+### Abstract
+
+Traditionally, bacterial chemotaxis has been treated as metabolism-independent. Under this assumption, dedicated chemotaxis signalling pathways operate independently of metabolic processes. There is however, in various strains of bacteria, growing evidence of metabolism-dependent chemotaxis where metabolism modulates behavior. In this vein, we present the first model of metabolism-based chemotaxis that accomplishes chemotaxis without transmembrane receptors or signal transduction proteins, through the direct modulation of flagellar rotation by metabolite concentrations. The minimal model recreates chemotactic patterns found in bacteria, including: 1) chemotaxis towards metabolic resources and 2) away from metabolic inhibitors, 3) inhibition of chemotaxis in the presence of abundant resources, 4) cessation of chemotaxis to a resource due to inhibition of the metabolism of that resource, 5) sensitivity to metabolic and behavioral history and 6) integration of simultaneous complex environmental “stimuli”. The model demonstrates the substantial adaptability provided by the simple metabolism-based mechanism in the form of an ongoing, contextualized and integrative evaluation of the environment. Fumarate is identified as possibly playing a role in metabolism-based chemotaxis in bacteria, and some consequences of relaxing the metabolism-independent assumption are considered, causing us to reconsider the categorization of environmental compounds into “attractants” or “repellents” based solely on their binding properties.
+
+### Cite
+
+Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2010). A Minimal Model of Metabolism-Based Chemotaxis. *PLoS Comput Biol*, *6*(12), e1001004. https://doi.org/10.1371/journal.pcbi.1001004
+
+---
+
+## Homeostatic Plasticity in Robots: from development to operant conditioning to habit formation
+
+- **Authors:** Xabier E. Barandiaran, Ezequiel A. Di Paolo
+- **Year:** 2010
+- **Type:** Conference Paper
+- **Published in:** Proceedings of CogSys2010
+- **URL:** http://cogsys2010.ethz.ch/proceedings.html
+- **Topics (assigned by the site; no author keywords):** Habits, Robotics
+- **Landing page:** https://publications.barandiaran.net/p/2010-homeostatic-plasticity-in-robots-from-development/
+
+### Cite
+
+Barandiaran, X. E., & Di Paolo, E. A. (2010). Homeostatic Plasticity in Robots: from development to operant conditioning to habit formation. In *Proceedings of CogSys2010*. http://cogsys2010.ethz.ch/proceedings.html
+
+---
+
+## Behavioral Metabolution: Metabolism based behavior enables new forms of adaptation and evolution
+
+- **Authors:** Matthew D. Egbert, Xabier E. Barandiaran, Ezequiel A Di Paolo
+- **Year:** 2010
+- **Type:** Conference Paper
+- **Published in:** Artificial Life XII: Proceedings of the Twelfth International Conference on the Simulation and Synthesis of Living Systems
+- **Topics (assigned by the site; no author keywords):** Metabolism, Artificial life, Evolution
+- **Landing page:** https://publications.barandiaran.net/p/2010-behavioral-metabolution-metabolism-based-behavior-enables/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2010-behavioral-metabolution-metabolism-based-behavior-enables.pdf)
+
+### Abstract
+
+Both metabolism and behavior play a key role in biological theory and artificial life modelling. Yet, despite their centrality there has been very little exploration of the relationship between these concepts and almost no exploration of how the interaction between the two could impact on evolution or instantiate alternative mechanisms for evolutionary processes. We present a simulation model of bacteria capable of metabolism-based chemotaxis: a minimal metabolic system capable of modulating behavior by influencing the probability of flagellar rotation (like in E. coli chemotaxis). We perform two illustrative experiments. In the first, the incorporation of a chemical compound into metabolism qualitatively improves the chemotactic strategy. In the second, an encounter
+with a specific chemical compound leads to a reaction that
+opens up a new metabolic pathway while automatically regu-
+lating chemotaxis towards that same compound. Both exper-
+iments illustrate the adaptive potential of metabolism-based
+behavior and can be used to explore the idea of “Behavioral
+Metabolution,” a co-evolutionary synergy between behavior
+and metabolism. We abstract some principles of behavioral
+metabolution and discuss its application to early prebiotic
+evolution.
+
+### Cite
+
+Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2010). Behavioral Metabolution: Metabolism based behavior enables new forms of adaptation and evolution. In *Artificial Life XII: Proceedings of the Twelfth International Conference on the Simulation and Synthesis of Living Systems*.
+
+---
+
+## Defining Agency: Individuality, Normativity, Asymmetry, and Spatio-temporality in Action
+
+- **Authors:** Xabier E. Barandiaran, Ezequiel Di Paolo, Marieke Rohde
+- **Year:** 2009
+- **Type:** Journal Article
+- **Published in:** Adaptive Behavior, 17(5), 367-386
+- **DOI:** [10.1177/1059712309343819](https://doi.org/10.1177/1059712309343819)
+- **Keywords:** Agency, Individuality, Interactional asymmetry, Normativity, Spatiality, Temporality
+- **Landing page:** https://publications.barandiaran.net/p/2009-defining-agency-individuality-normativity-asymmetry-and/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2009-defining-agency-individuality-normativity-asymmetry-and.pdf)
+
+### Abstract
+
+The concept of agency is of crucial importance in cognitive science and artificial intelligence, and it is often used as an intuitive and rather uncontroversial term, in contrast to more abstract and theoretically heavily weighted terms such as intentionality , rationality, or mind. However, most of the available definitions of agency are too loose or unspecific to allow for a progressive scientific research program. They implicitly and unproblematically assume the features that characterize agents, thus obscuring the full potential and challenge of modeling agency. We identify three conditions that a system must meet in order to be considered as a genuine agent: (a) a system must define its own individuality, (b) it must be the active source of activity in its environment (interactional asymmetry), and (c) it must regulate this activity in relation to certain norms (normativity). We find that even minimal forms of proto-cellular systems can already provide a paradigmatic example of genuine agency. By abstracting away some specific details of minimal models of living agency we define the kind of organization that is capable of meeting the required conditions for agency (which is not restricted to living organisms). On this basis, we define agency as an autonomous organization that adaptively regulates its coupling with its environment and contributes to sustaining itself as a consequence. We find that spatiality and temporality are the two fundamental domains in which agency spans at different scales. We conclude by giving an outlook for the road that lies ahead in the pursuit of understanding, modeling, and synthesizing agents.
+
+### Cite
+
+Barandiaran, X. E., Di Paolo, E., & Rohde, M. (2009). Defining Agency: Individuality, Normativity, Asymmetry, and Spatio-temporality in Action. *Adaptive Behavior*, *17*(5), 367-386. https://doi.org/10.1177/1059712309343819
+
+---
+
+## Animats in the Modeling Ecosystem
+
+- **Authors:** Xabier E. Barandiaran, Anthony Chemero
+- **Year:** 2009
+- **Type:** Journal Article
+- **Published in:** Adaptive Behavior, 17(4), 287-292
+- **DOI:** [10.1177/1059712309340847](https://doi.org/10.1177/1059712309340847)
+- **Topics (assigned by the site; no author keywords):** Animats, Modeling, Ecosystem
+- **Landing page:** https://publications.barandiaran.net/p/2009-animats-in-the-modeling-ecosystem/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2009-animats-in-the-modeling-ecosystem.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Chemero, A. (2009). Animats in the Modeling Ecosystem. *Adaptive Behavior*, *17*(4), 287-292. https://doi.org/10.1177/1059712309340847
+
+---
+
+## Chemo-ethology of an adaptive protocell: Sensor-less sensitivity to implicit viability conditions
+
+- **Authors:** Matthew D. Egbert, Ezequiel A. Di Paolo, Xabier E. Barandiaran
+- **Year:** 2009
+- **Type:** Conference Paper
+- **Published in:** Proceedings of the Ninth European Conference on Artificial Life, 242-249
+- **Publisher:** Springer Verlag, Berlin
+- **Topics (assigned by the site; no author keywords):** Metabolism, Viability, Adaptive behavior
+- **Landing page:** https://publications.barandiaran.net/p/2009-chemo-ethology-of-an-adaptive-protocell/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2009-chemo-ethology-of-an-adaptive-protocell.pdf)
+
+### Abstract
+
+The viability of a living system is a non-trivial concept, yet it is often highly simplified in models of adaptive behavior. What is lost in this abstraction? How do viability conditions appear in the first place? In order to address these questions we present a new model of an au- topoietic or protocellular system simulated at the molecular level. We propose a measurement for the viability of the system and analyze the ‘viability condition’ that becomes evident when using this measurement. We observe how the system behaves in relation to this condition, generating instances of chemotaxis, behavioural preferences and simple (yet not trivial) examples of action selection. The model permits the formulation of a number of conclusions regarding the nature of viability conditions and adaptive behaviour modulated by metabolic processes.
+
+### Cite
+
+Egbert, M. D., Di Paolo, E. A., & Barandiaran, X. E. (2009). Chemo-ethology of an adaptive protocell: Sensor-less sensitivity to implicit viability conditions. In *Proceedings of the Ninth European Conference on Artificial Life* (pp. 242-249). Springer Verlag.
+
+---
+
+## Adaptivity: From Metabolism to Behavior
+
+- **Authors:** Xabier E. Barandiaran, Alvaro Moreno
+- **Year:** 2008
+- **Type:** Journal Article
+- **Published in:** Adaptive Behavior, 16(5), 325-344
+- **DOI:** [10.1177/1059712308093868](https://doi.org/10.1177/1059712308093868)
+- **Keywords:** Naturalist approach to normativity, Autonomous systems, Adaptivity, Minimal agency, Decoupling of the nervous system, Definition of adaptive behavior
+- **Landing page:** https://publications.barandiaran.net/p/2008-adaptivity-from-metabolism-to-behavior/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-adaptivity-from-metabolism-to-behavior.pdf)
+
+### Abstract
+
+In this article, we propose some fundamental requirements for the appearance of adaptivity. We argue that a basic metabolic organization, taken in its minimal sense, may provide the conceptual framework for naturalizing the origin of teleology and normative functionality as it appears in living systems. However, adaptivity also requires the emergence of a regulatory subsystem, which implies a certain form of dynamic decoupling within a globally integrated, autonomous system. Thus, we analyze several forms of minimal adaptivity, including the special case of motility. We go on to explain how an open-ended complexity growth of motility-based adaptive agency, namely, behavior, requires the appearance of the nervous system. Finally, we discuss some implications of these ideas for embodied robotics.
+
+### Cite
+
+Barandiaran, X. E., & Moreno, A. (2008). Adaptivity: From Metabolism to Behavior. *Adaptive Behavior*, *16*(5), 325-344. https://doi.org/10.1177/1059712308093868
+
+---
+
+## Modelling autonomy: Simulating the essence of life and cognition
+
+- **Authors:** Xabier E. Barandiaran, K. Ruiz-Mirazo
+- **Year:** 2008
+- **Type:** Journal Article
+- **Published in:** Biosystems, 91(2), 295-304
+- **DOI:** [10.1016/j.biosystems.2007.07.001](https://doi.org/10.1016/j.biosystems.2007.07.001)
+- **Topics (assigned by the site; no author keywords):** Autonomy, Cognition
+- **Landing page:** https://publications.barandiaran.net/p/2008-modelling-autonomy-simulating-the-essence-of/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-modelling-autonomy-simulating-the-essence-of.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Ruiz-Mirazo, K. (2008). Modelling autonomy: Simulating the essence of life and cognition. *Biosystems*, *91*(2), 295-304. https://doi.org/10.1016/j.biosystems.2007.07.001
+
+---
+
+## On the nature of neural information: A critique of the received view 50 years later
+
+- **Authors:** Xabier E. Barandiaran, Alvaro Moreno
+- **Year:** 2008
+- **Type:** Journal Article
+- **Published in:** Neurocomputing, 71(4-6), 681-692
+- **DOI:** [10.1016/j.neucom.2007.09.014](https://doi.org/10.1016/j.neucom.2007.09.014)
+- **Keywords:** Philosophy of neuroscience, Neural information, Autonomous systems, Neurodynamic self-organization, Embodiment, Error detection
+- **Landing page:** https://publications.barandiaran.net/p/2008-on-the-nature-of-neural-information/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-on-the-nature-of-neural-information.pdf)
+
+### Abstract
+
+We offer a critical review of the concept of neural information, as received within mainstream neuroscience from Artificial Intelligence. This conception of information is constructed as a conditional probability of a stimulus given a certain neural activation, a correlation that cannot be accessed by the organism and fails to explain its causal organization. We reconstruct an alternative conception of neural information: a pattern of signals that is selected by the organism (as an autonomous system) to contribute to its self-maintenance in virtue of its correlation with external conditions, a correlation that might further be evaluated by the very system.
+
+### Cite
+
+Barandiaran, X. E., & Moreno, A. (2008). On the nature of neural information: A critique of the received view 50 years later. *Neurocomputing*, *71*(4-6), 681-692. https://doi.org/10.1016/j.neucom.2007.09.014
+
+---
+
+## Artificial Mental Life
+
+- **Authors:** Xabier E. Barandiaran, Ezequiel A Di Paolo
+- **Year:** 2008
+- **Type:** Conference Paper
+- **Published in:** Artificial Life XI: Proceedings of the Eleventh International Conference on the Simulation and Synthesis of Living Systems, 747
+- **Publisher:** MIT Press, Cambridge, MA.
+- **Topics (assigned by the site; no author keywords):** Mental life, Artificial, Mental, Life
+- **Landing page:** https://publications.barandiaran.net/p/2008-artificial-mental-life/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-artificial-mental-life.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Di Paolo, E. A. (2008). Artificial Mental Life. In *Artificial Life XI: Proceedings of the Eleventh International Conference on the Simulation and Synthesis of Living Systems* (pp. 747). MIT Press.
+
+---
+
+## Report on Open Access and FLOK for a New Journal in Cognitive Science
+
+- **Authors:** Xabier E. Barandiaran
+- **Year:** 2008
+- **Type:** Report
+- **Publisher:** ASLab (Autonomous Systems Lab), Universidad Politécnica de Madrid, Madrid
+- **URL:** https://xabierbarandiaran.files.wordpress.com/2014/07/barandiaran_-_2008_-_oa_and_flok_for_journal_in_cogsci_-_aslab_report.pdf
+- **Topics (assigned by the site; no author keywords):** Cognition, Cognitive science, Free software, Open access
+- **Landing page:** https://publications.barandiaran.net/p/2008-report-on-open-access-and-flok/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-report-on-open-access-and-flok.pdf)
+
+### Abstract
+
+This report deals with the principles, context, opportunities and tools to create an Open Access and Free/Libre Open Knowledge Journal in Cognitive Science. It review different definitions of Open Access, institutions and declarations supporting it, it overviews the landscape of potentially competing Open Access journals in the field of cognitive science and it finally provides a short summary of possible resources for launching and financing a new Open Access journal.
+
+### Cite
+
+Barandiaran, X. E. (2008). *Report on Open Access and FLOK for a New Journal in Cognitive Science*. ASLab (Autonomous Systems Lab), Universidad Politécnica de Madrid. https://xabierbarandiaran.files.wordpress.com/2014/07/barandiaran_-_2008_-_oa_and_flok_for_journal_in_cogsci_-_aslab_report.pdf
+
+---
+
+## Mental Life: a naturalized approach to the autonomy of cognitive agents.
+
+- **Authors:** Xabier E. Barandiaran
+- **Year:** 2008
+- **Type:** Thesis
+- **Publisher:** University of the Basque Country (UPV-EHU), Donostia - San Sebastián, Gipuzkoa, Spain
+- **URL:** https://xabier.barandiaran.net/phdthesis/
+- **Topics (assigned by the site; no author keywords):** Autonomy, Cognition, Agency, Mental life
+- **Landing page:** https://publications.barandiaran.net/p/2008-mental-life-a-naturalized-approach-to/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-mental-life-a-naturalized-approach-to.pdf)
+
+### Cite
+
+Barandiaran, X. E. (2008). *Mental Life: a naturalized approach to the autonomy of cognitive agents* [PhD Thesis, University of the Basque Country (UPV-EHU)]. https://xabier.barandiaran.net/phdthesis/
+
+---

@@ -1,0 +1,58 @@
+{
+ "slug": "2025-the-equilibration-of-technical-objects-uncovering",
+ "id": "https://publications.barandiaran.net/p/2025-the-equilibration-of-technical-objects-uncovering/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "The Equilibration of Technical Objects: Uncovering Normative Layers of Sensorimotor Engagement",
+ "authors": [
+  {
+   "family": "Pérez-Verdugo",
+   "given": "Marta"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "author_string": "Pérez-Verdugo, Marta; Barandiaran, Xabier E.",
+ "editors": [],
+ "year": "2025",
+ "date": "2025-08-28",
+ "venue": "Topoi",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "1572-8749",
+ "doi": "10.1007/s11245-025-10259-4",
+ "url": "https://doi.org/10.1007/s11245-025-10259-4",
+ "language": "en",
+ "abstract": "In this paper we argue that radically embodied approaches to cognition can be expanded to show that: (a) our sensorimotor engagements with technical objects can be normatively shaped in a direct manner (i.e. not necessarily involving symbolic processes), and that (b) this normativity is not only anchored in the agent but also partially supported by technical objects themselves. We depart from the enactive reinterpretation of Piagetian sensorimotor schemes and his theory of equilibration to establish how both agent-sided and environment-sided support structures (including artefacts) contribute to the autonomous self-maintenance of sensorimotor networks. We will then introduce technical behaviour as a regulatory transformation of the environment enacted to equilibrate certain sensorimotor structures. We will defend that technical objects, as products of technical behaviour, sediment these normative constraints in their material structure. Then, through the dynamics of assimilation and accommodation, we schematize how different scenarios give rise to canonical or alternative uses in the encounter of agents with artefacts. Finally, we will offer a complexification of the normative entanglement of objects and agents by introducing the sociohistorical notion of activity as developed within Activity Theory approaches as collectively articulating individual actions. Based on all of this, we will have offered a picture of technical objects as also radically embodying normative layers, without submitting to an overly-deterministic picture of artefacts as rigidly prescribing behaviour, or to the purely symbolic or culturalist interpretation of them.",
+ "keywords": [
+  "Technology",
+  "Normativity",
+  "Sensorimotor scheme",
+  "Radical embodiment",
+  "Enactivism",
+  "Affordances"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Pérez-Verdugo, M., & Barandiaran, X. E. (2025). The Equilibration of Technical Objects: Uncovering Normative Layers of Sensorimotor Engagement. Topoi. https://doi.org/10.1007/s11245-025-10259-4",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2025-the-equilibration-of-technical-objects-uncovering/",
+  "markdown": "https://publications.barandiaran.net/p/2025-the-equilibration-of-technical-objects-uncovering/index.md",
+  "json": "https://publications.barandiaran.net/p/2025-the-equilibration-of-technical-objects-uncovering/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2025-the-equilibration-of-technical-objects-uncovering.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2025-the-equilibration-of-technical-objects-uncovering.bib",
+  "ris": "https://publications.barandiaran.net/citations/2025-the-equilibration-of-technical-objects-uncovering.ris",
+  "publisher": "https://doi.org/10.1007/s11245-025-10259-4"
+ }
+}

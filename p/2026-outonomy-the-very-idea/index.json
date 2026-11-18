@@ -1,0 +1,69 @@
+{
+ "slug": "2026-outonomy-the-very-idea",
+ "id": "https://publications.barandiaran.net/p/2026-outonomy-the-very-idea/",
+ "type": "bookSection",
+ "type_label": "Book Chapter",
+ "title": "Outonomy, the Very Idea",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Etxeberria",
+   "given": "Arantza"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Etxeberria, Arantza",
+ "editors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Etxeberria",
+   "given": "Arantza"
+  }
+ ],
+ "year": "2026",
+ "date": "2026",
+ "venue": "Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "3-12",
+ "publisher": "Springer Nature Switzerland",
+ "place": "Cham",
+ "note": "",
+ "isbn": "978-3-032-05501-9",
+ "issn": "",
+ "doi": "10.1007/978-3-032-05501-9_1",
+ "url": "https://doi.org/10.1007/978-3-032-05501-9_1",
+ "language": "en",
+ "abstract": "The concept of autonomy, as the capacity of a system to govern itself according to its own normativity, is central to modernity. Its theoretical significance spans across various scientific and philosophical fields. Traditionally, however, autonomy has been conceived as arising within the boundaries attributed to the individual in an abstract, internalist and self-sufficient manner. During the last decades, this conception has been challenged at different scales and requires a revision that crosses the boundaries of the individual and takes into account the material embeddedness, open interactivity, and deep interdependency of natural and social phenomena. We propose that autonomous systems are better understood as emerging-from and depending-on different scales of interactivity, collectivity, extensionality, environmentality, and through the lenses of integrativity and sustainability. This updated approach we call Outonomy.",
+ "keywords": [
+  "Autonomy",
+  "Outonomy",
+  "Individuality",
+  "Interaction",
+  "Integration",
+  "Sustainability",
+  "Collectivity",
+  "Environmentality"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Etxeberria, A. (2026). Outonomy, the Very Idea. In X. E. Barandiaran, & A. Etxeberria (Eds.), Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual (pp. 3-12). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_1",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2026-outonomy-the-very-idea/",
+  "markdown": "https://publications.barandiaran.net/p/2026-outonomy-the-very-idea/index.md",
+  "json": "https://publications.barandiaran.net/p/2026-outonomy-the-very-idea/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2026-outonomy-the-very-idea.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2026-outonomy-the-very-idea.bib",
+  "ris": "https://publications.barandiaran.net/citations/2026-outonomy-the-very-idea.ris",
+  "publisher": "https://doi.org/10.1007/978-3-032-05501-9_1"
+ }
+}

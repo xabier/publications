@@ -1,0 +1,52 @@
+{
+ "slug": "2008-report-on-open-access-and-flok",
+ "id": "https://publications.barandiaran.net/p/2008-report-on-open-access-and-flok/",
+ "type": "report",
+ "type_label": "Report",
+ "title": "Report on Open Access and FLOK for a New Journal in Cognitive Science",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.",
+ "editors": [],
+ "year": "2008",
+ "date": "2008",
+ "venue": "",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "ASLab (Autonomous Systems Lab), Universidad Politécnica de Madrid",
+ "place": "Madrid",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "https://xabierbarandiaran.files.wordpress.com/2014/07/barandiaran_-_2008_-_oa_and_flok_for_journal_in_cogsci_-_aslab_report.pdf",
+ "language": "",
+ "abstract": "This report deals with the principles, context, opportunities and tools to create an Open Access and Free/Libre Open Knowledge Journal in Cognitive Science. It review different definitions of Open Access, institutions and declarations supporting it, it overviews the landscape of potentially competing Open Access journals in the field of cognitive science and it finally provides a short summary of possible resources for launching and financing a new Open Access journal.",
+ "keywords": [],
+ "topics": [
+  "Cognition",
+  "Cognitive science",
+  "Free software",
+  "Open access"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E. (2008). Report on Open Access and FLOK for a New Journal in Cognitive Science. ASLab (Autonomous Systems Lab), Universidad Politécnica de Madrid. https://xabierbarandiaran.files.wordpress.com/2014/07/barandiaran_-_2008_-_oa_and_flok_for_journal_in_cogsci_-_aslab_report.pdf",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2008-report-on-open-access-and-flok/",
+  "markdown": "https://publications.barandiaran.net/p/2008-report-on-open-access-and-flok/index.md",
+  "json": "https://publications.barandiaran.net/p/2008-report-on-open-access-and-flok/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2008-report-on-open-access-and-flok.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2008-report-on-open-access-and-flok.bib",
+  "ris": "https://publications.barandiaran.net/citations/2008-report-on-open-access-and-flok.ris",
+  "publisher": "https://xabierbarandiaran.files.wordpress.com/2014/07/barandiaran_-_2008_-_oa_and_flok_for_journal_in_cogsci_-_aslab_report.pdf"
+ }
+}

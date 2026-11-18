@@ -1,0 +1,62 @@
+{
+ "slug": "2020-defining-collective-identities-in-technopolitical-interaction",
+ "id": "https://publications.barandiaran.net/p/2020-defining-collective-identities-in-technopolitical-interaction/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Defining Collective Identities in Technopolitical Interaction Networks",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Calleja-López",
+   "given": "Antonio"
+  },
+  {
+   "family": "Cozzo",
+   "given": "Emanuele"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Calleja-López, Antonio; Cozzo, Emanuele",
+ "editors": [],
+ "year": "2020",
+ "date": "2020",
+ "venue": "Frontiers in Psychology",
+ "series": "",
+ "volume": "11",
+ "issue": "",
+ "pages": "",
+ "publisher": "Frontiers",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "1664-1078",
+ "doi": "10.3389/fpsyg.2020.01549",
+ "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.01549/full",
+ "language": "en",
+ "abstract": "We are currently witnessing the emergence of new forms of collective identities and a redefinition of the old ones through networked digital interactions, and these can be explicitly measured and analysed. We distinguish between three major trends on the development of the concept of identity in the realm of the social: 1) an essentialist sense (based on conditions and properties shared by members of a group), 2) a representational or ideational sense (based on the application of categories by oneself or others), and 3) a relational and interactional sense (based on interaction processes between actors and their environments). The interactional approach aligns with current empirical and methodological progress in social network analysis. Moreover, it has been argued that within the network society, the notion of collective identity (Melucci, 1995) in the political field must be rethought as technologically mediated and interactive. We suggest that collective identities should be understood as recurrent, cohesive and coordinated communicative interaction networks. We here propose that such identities can be depicted by a) mapping and filtering a relevant interaction network, b) delimiting a set of communities, c) determining the strongly connected component(s) of such communities (the core identity) in a directed graph and d) defining the identity audiences and sources within the community. This technical graph-theoretical characterization is explained and justified in detail through a toy model and applied to three empirical case studies to characterize political identities in: party politics (communicative interaction in Twitter during the Spanish elections in 2018), contentious politics in confrontation (in Twitter) during Catalan strike for independence (2019) and the multitudinous identity of Spanish Indignados/15 social movement in Facebook fan pages (2011). We discuss how the proposed definition is useful to delimit and characterize the internal structure of collective identities in technopolitical interaction networks, we suggest how the proposed methods can be improved and complemented with other approaches and draw the theoretical implications of understanding collective identities as emerging from interaction networks in a progressive platformization of social interactions in a digital world.",
+ "keywords": [
+  "Collective identity",
+  "Social identity",
+  "Social interaction",
+  "Digital networks",
+  "Social network analysis",
+  "Technopolitics"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., Calleja-López, A., & Cozzo, E. (2020). Defining Collective Identities in Technopolitical Interaction Networks. Frontiers in Psychology, 11. https://doi.org/10.3389/fpsyg.2020.01549",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2020-defining-collective-identities-in-technopolitical-interaction/",
+  "markdown": "https://publications.barandiaran.net/p/2020-defining-collective-identities-in-technopolitical-interaction/index.md",
+  "json": "https://publications.barandiaran.net/p/2020-defining-collective-identities-in-technopolitical-interaction/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2020-defining-collective-identities-in-technopolitical-interaction.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2020-defining-collective-identities-in-technopolitical-interaction.bib",
+  "ris": "https://publications.barandiaran.net/citations/2020-defining-collective-identities-in-technopolitical-interaction.ris",
+  "publisher": "https://www.frontiersin.org/articles/10.3389/fpsyg.2020.01549/full"
+ }
+}

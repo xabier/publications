@@ -1,0 +1,54 @@
+{
+ "slug": "2008-modelling-autonomy-simulating-the-essence-of",
+ "id": "https://publications.barandiaran.net/p/2008-modelling-autonomy-simulating-the-essence-of/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "Modelling autonomy: Simulating the essence of life and cognition",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Ruiz-Mirazo",
+   "given": "K."
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Ruiz-Mirazo, K.",
+ "editors": [],
+ "year": "2008",
+ "date": "2008-02",
+ "venue": "Biosystems",
+ "series": "",
+ "volume": "91",
+ "issue": "2",
+ "pages": "295-304",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "0303-2647",
+ "doi": "10.1016/j.biosystems.2007.07.001",
+ "url": "http://www.sciencedirect.com/science/article/B6T2K-4P6M66B-2/2/506c315bd1c4497b91b36279efa348e0",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Autonomy",
+  "Cognition"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Ruiz-Mirazo, K. (2008). Modelling autonomy: Simulating the essence of life and cognition. Biosystems, 91(2), 295-304. https://doi.org/10.1016/j.biosystems.2007.07.001",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2008-modelling-autonomy-simulating-the-essence-of/",
+  "markdown": "https://publications.barandiaran.net/p/2008-modelling-autonomy-simulating-the-essence-of/index.md",
+  "json": "https://publications.barandiaran.net/p/2008-modelling-autonomy-simulating-the-essence-of/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2008-modelling-autonomy-simulating-the-essence-of.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2008-modelling-autonomy-simulating-the-essence-of.bib",
+  "ris": "https://publications.barandiaran.net/citations/2008-modelling-autonomy-simulating-the-essence-of.ris",
+  "publisher": "http://www.sciencedirect.com/science/article/B6T2K-4P6M66B-2/2/506c315bd1c4497b91b36279efa348e0"
+ }
+}

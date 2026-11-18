@@ -1,0 +1,55 @@
+{
+ "slug": "2015-the-flok-doctrine",
+ "id": "https://publications.barandiaran.net/p/2015-the-flok-doctrine/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "The FLOK doctrine",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Vila-Viñas",
+   "given": "David"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Vila-Viñas, David",
+ "editors": [],
+ "year": "2015",
+ "date": "2015",
+ "venue": "Journal of Peer Production",
+ "series": "",
+ "volume": "7",
+ "issue": "",
+ "pages": "",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "http://peerproduction.net/issues/issue-7-policies-for-the-commons/the-flok-doctrine/",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Free software",
+  "FLOK",
+  "Doctrine"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Vila-Viñas, D. (2015). The FLOK doctrine. Journal of Peer Production, 7. http://peerproduction.net/issues/issue-7-policies-for-the-commons/the-flok-doctrine/",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2015-the-flok-doctrine/",
+  "markdown": "https://publications.barandiaran.net/p/2015-the-flok-doctrine/index.md",
+  "json": "https://publications.barandiaran.net/p/2015-the-flok-doctrine/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2015-the-flok-doctrine.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2015-the-flok-doctrine.bib",
+  "ris": "https://publications.barandiaran.net/citations/2015-the-flok-doctrine.ris",
+  "publisher": "http://peerproduction.net/issues/issue-7-policies-for-the-commons/the-flok-doctrine/"
+ }
+}

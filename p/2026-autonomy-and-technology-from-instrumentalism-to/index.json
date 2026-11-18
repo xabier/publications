@@ -1,0 +1,69 @@
+{
+ "slug": "2026-autonomy-and-technology-from-instrumentalism-to",
+ "id": "https://publications.barandiaran.net/p/2026-autonomy-and-technology-from-instrumentalism-to/",
+ "type": "bookSection",
+ "type_label": "Book Chapter",
+ "title": "Autonomy and Technology: From Instrumentalism to Technocomplexity",
+ "authors": [
+  {
+   "family": "Calleja-López",
+   "given": "Antonio"
+  },
+  {
+   "family": "Pérez-Verdugo",
+   "given": "Marta"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  }
+ ],
+ "author_string": "Calleja-López, Antonio; Pérez-Verdugo, Marta; Barandiaran, Xabier E.",
+ "editors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Etxeberria",
+   "given": "Arantza"
+  }
+ ],
+ "year": "2026",
+ "date": "2026",
+ "venue": "Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "111-120",
+ "publisher": "Springer Nature Switzerland",
+ "place": "Cham",
+ "note": "",
+ "isbn": "978-3-032-05501-9",
+ "issn": "",
+ "doi": "10.1007/978-3-032-05501-9_11",
+ "url": "https://doi.org/10.1007/978-3-032-05501-9_11",
+ "language": "en",
+ "abstract": "In this chapter, we briefly present different visions of the relationships between technology and autonomy. We accomplish this by a historical and (partly) dialectical exploration of three positions. We start with the modern thesis by which autonomous humans instrumentalize tools and techniques for their own benefit and self-determination. Next, we address the antithesis: the notion that technological systems have become autonomous, subordinating people to their own self-maintenance. Finally, we explore a synthetic position, which underlines that the only space for autonomy in a technologically mediated world is a technopolitical autonomy that takes the individual beyond itself, back to the ontotechnical constitution of its being, and forward into a personal and collective, ethical and political, participation in its becoming.",
+ "keywords": [
+  "Instrumentalism",
+  "Autonomy of technology",
+  "Technopolitical autonomy",
+  "Technocomplexity"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Calleja-López, A., Pérez-Verdugo, M., & Barandiaran, X. E. (2026). Autonomy and Technology: From Instrumentalism to Technocomplexity. In X. E. Barandiaran, & A. Etxeberria (Eds.), Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual (pp. 111-120). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_11",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2026-autonomy-and-technology-from-instrumentalism-to/",
+  "markdown": "https://publications.barandiaran.net/p/2026-autonomy-and-technology-from-instrumentalism-to/index.md",
+  "json": "https://publications.barandiaran.net/p/2026-autonomy-and-technology-from-instrumentalism-to/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2026-autonomy-and-technology-from-instrumentalism-to.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2026-autonomy-and-technology-from-instrumentalism-to.bib",
+  "ris": "https://publications.barandiaran.net/citations/2026-autonomy-and-technology-from-instrumentalism-to.ris",
+  "publisher": "https://doi.org/10.1007/978-3-032-05501-9_11"
+ }
+}

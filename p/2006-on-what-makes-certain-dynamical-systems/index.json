@@ -1,0 +1,57 @@
+{
+ "slug": "2006-on-what-makes-certain-dynamical-systems",
+ "id": "https://publications.barandiaran.net/p/2006-on-what-makes-certain-dynamical-systems/",
+ "type": "journalArticle",
+ "type_label": "Journal Article",
+ "title": "On What Makes Certain Dynamical Systems Cognitive: A Minimally Cognitive Organization Program",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Moreno",
+   "given": "Alvaro"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Moreno, Alvaro",
+ "editors": [],
+ "year": "2006",
+ "date": "2006-06-01",
+ "venue": "Adaptive Behavior",
+ "series": "",
+ "volume": "14",
+ "issue": "2",
+ "pages": "171-185",
+ "publisher": "",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "1059-7123",
+ "doi": "10.1177/105971230601400208",
+ "url": "http://adb.sagepub.com/cgi/content/abstract/14/2/171",
+ "language": "",
+ "abstract": "Dynamicism has provided cognitive science with important tools to understand some aspects of \"how cognitive agents work\" but the issue of \"what makes something cognitive\" has not been sufficiently addressed yet and, we argue, the former will never be complete without the latter. Behavioristic characterizations of cognitive properties are criticized in favor of an organizational approach focused on the internal dynamic relationships that constitute cognitive systems. A definition of cognition as adaptive-autonomy in the embodied and situated neurodynamic domain is provided: the compensatory regulation of a web of stability dependencies between sensorimotor structures is created and pre served during a historical/developmental process. We highlight the functional role of emotional embodiment: internal bioregulatory processes coupled to the formation and adaptive regulation of neurodynamic autonomy. Finally, we discuss a \"minimally cognitive behavior program\" in evolutionary simulation modeling suggesting that much is to be learned from a complementary \"minimally cognitive organization program\"",
+ "keywords": [
+  "Minimal cognition",
+  "Adaptive autonomy",
+  "Neurodynamic organization",
+  "Cognition-as-it-could-be",
+  "Emotional embodiment"
+ ],
+ "topics": [],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Moreno, A. (2006). On What Makes Certain Dynamical Systems Cognitive: A Minimally Cognitive Organization Program. Adaptive Behavior, 14(2), 171-185. https://doi.org/10.1177/105971230601400208",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2006-on-what-makes-certain-dynamical-systems/",
+  "markdown": "https://publications.barandiaran.net/p/2006-on-what-makes-certain-dynamical-systems/index.md",
+  "json": "https://publications.barandiaran.net/p/2006-on-what-makes-certain-dynamical-systems/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2006-on-what-makes-certain-dynamical-systems.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2006-on-what-makes-certain-dynamical-systems.bib",
+  "ris": "https://publications.barandiaran.net/citations/2006-on-what-makes-certain-dynamical-systems.ris",
+  "publisher": "http://adb.sagepub.com/cgi/content/abstract/14/2/171"
+ }
+}

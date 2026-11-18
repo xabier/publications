@@ -1,0 +1,55 @@
+{
+ "slug": "2017-funcionalidades-y-caracteristicas-de-decidim",
+ "id": "https://publications.barandiaran.net/p/2017-funcionalidades-y-caracteristicas-de-decidim/",
+ "type": "report",
+ "type_label": "Report",
+ "title": "Funcionalidades y características de Decidim",
+ "authors": [
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Romero",
+   "given": "Carol"
+  }
+ ],
+ "author_string": "Barandiaran, Xabier E.; Romero, Carol",
+ "editors": [],
+ "year": "2017",
+ "date": "2017-09-04",
+ "venue": "",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "",
+ "publisher": "Decidim.org (Ajuntament de Barcelona)",
+ "place": "",
+ "note": "",
+ "isbn": "",
+ "issn": "",
+ "doi": "",
+ "url": "https://decidim.org/pdf/features-roadmap-es.pdf",
+ "language": "",
+ "abstract": "",
+ "keywords": [],
+ "topics": [
+  "Decidim",
+  "Funcionalidades",
+  "Características"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Barandiaran, X. E., & Romero, C. (2017). Funcionalidades y características de Decidim (Decidim Documentation). Decidim.org (Ajuntament de Barcelona). https://decidim.org/pdf/features-roadmap-es.pdf",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2017-funcionalidades-y-caracteristicas-de-decidim/",
+  "markdown": "https://publications.barandiaran.net/p/2017-funcionalidades-y-caracteristicas-de-decidim/index.md",
+  "json": "https://publications.barandiaran.net/p/2017-funcionalidades-y-caracteristicas-de-decidim/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2017-funcionalidades-y-caracteristicas-de-decidim.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2017-funcionalidades-y-caracteristicas-de-decidim.bib",
+  "ris": "https://publications.barandiaran.net/citations/2017-funcionalidades-y-caracteristicas-de-decidim.ris",
+  "publisher": "https://decidim.org/pdf/features-roadmap-es.pdf"
+ }
+}

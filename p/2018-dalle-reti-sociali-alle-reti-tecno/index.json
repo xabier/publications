@@ -1,0 +1,63 @@
+{
+ "slug": "2018-dalle-reti-sociali-alle-reti-tecno",
+ "id": "https://publications.barandiaran.net/p/2018-dalle-reti-sociali-alle-reti-tecno/",
+ "type": "bookSection",
+ "type_label": "Book Chapter",
+ "title": "Dalle reti sociali alle reti (tecno)politiche",
+ "authors": [
+  {
+   "family": "Calleja-López",
+   "given": "Antonio"
+  },
+  {
+   "family": "Barandiaran",
+   "given": "Xabier E."
+  },
+  {
+   "family": "Monterde",
+   "given": "Arnau"
+  }
+ ],
+ "author_string": "Calleja-López, Antonio; Barandiaran, Xabier E.; Monterde, Arnau",
+ "editors": [
+  {
+   "family": "Gambetta",
+   "given": "D."
+  }
+ ],
+ "year": "2018",
+ "date": "2018-05-05",
+ "venue": "Datacrazia. Politica, cultura algoritmica e conflitti al tempo dei big data",
+ "series": "",
+ "volume": "",
+ "issue": "",
+ "pages": "350-361",
+ "publisher": "D Editore",
+ "place": "Ladispoli (Roma)",
+ "note": "",
+ "isbn": "978-88-94830-14-9",
+ "issn": "",
+ "doi": "",
+ "url": "",
+ "language": "it",
+ "abstract": "La diffusione sempre più pervasiva delle tecnologie digitali e l'aumento esponenziale delle capacità di calcolo stanno radicalmente trasformando la società, dalla politica alla ricerca scientifica, dai rapporti sociali alle forme di lavoro, in modo tutt'altro che trasparente. Pochissimi gruppi privati hanno la possibilità di determinare processi su scala globale, traendo enormi profitti dalle informazioni che ognuno di noi produce ogni giorno. Gli algoritmi, spesso descritti come strumenti neutrali e oggettivi, giudicano medici, ristoranti, insegnanti e studenti, concedono o negano prestiti, valutano lavoratori, influenzano gli elettori, monitorano la nostra salute. Datacrazia indaga, con spirito multidisciplinare e critico, i rischi e le potenzialità delle nuove tecnologie, provando a immaginare un futuro all'altezza delle nostre aspettative.",
+ "keywords": [],
+ "topics": [
+  "Dalle",
+  "Reti",
+  "Sociali"
+ ],
+ "keywords_note": "",
+ "featured": false,
+ "talks": [],
+ "has_summary": false,
+ "citation_apa": "Calleja-López, A., Barandiaran, X. E., & Monterde, A. (2018). Dalle reti sociali alle reti (tecno)politiche. In D. Gambetta (Ed.), Datacrazia. Politica, cultura algoritmica e conflitti al tempo dei big data (pp. 350-361). D Editore.",
+ "links": {
+  "landing": "https://publications.barandiaran.net/p/2018-dalle-reti-sociali-alle-reti-tecno/",
+  "markdown": "https://publications.barandiaran.net/p/2018-dalle-reti-sociali-alle-reti-tecno/index.md",
+  "json": "https://publications.barandiaran.net/p/2018-dalle-reti-sociali-alle-reti-tecno/index.json",
+  "pdf": "https://publications.barandiaran.net/pdfs/2018-dalle-reti-sociali-alle-reti-tecno.pdf",
+  "bibtex": "https://publications.barandiaran.net/citations/2018-dalle-reti-sociali-alle-reti-tecno.bib",
+  "ris": "https://publications.barandiaran.net/citations/2018-dalle-reti-sociali-alle-reti-tecno.ris"
+ }
+}
