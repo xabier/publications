@@ -14,6 +14,8 @@
 
   var activeType = "all";
   var featuredOnly = false;
+  var activeTopic = "";
+  var topicButtons = Array.prototype.slice.call(document.querySelectorAll("[data-topic-filter]"));
   var clearBtn = null;
   var currentSort = "newest";
 
@@ -132,7 +134,9 @@
       var matchesType = activeType === "all" || type === activeType;
       var matchesQuery = query === "" || haystack.indexOf(query) !== -1;
       var matchesFeatured = !featuredOnly || item.getAttribute("data-featured") === "true";
-      var show = matchesType && matchesQuery && matchesFeatured;
+      var matchesTopic = !activeTopic ||
+        (" " + (item.getAttribute("data-topics") || "") + " ").indexOf(" " + activeTopic + " ") !== -1;
+      var show = matchesType && matchesQuery && matchesFeatured && matchesTopic;
       item.style.display = show ? "" : "none";
       if (show) visible++;
     });
@@ -210,6 +214,18 @@
       } else {
         setActiveType(clicked);
       }
+    });
+  });
+
+  // Topic shortcuts: one at a time; clicking the active topic again clears it
+  topicButtons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var t = btn.getAttribute("data-topic-filter");
+      activeTopic = (activeTopic === t) ? "" : t;
+      topicButtons.forEach(function (b) {
+        b.setAttribute("aria-pressed", b.getAttribute("data-topic-filter") === activeTopic ? "true" : "false");
+      });
+      applyFilters();
     });
   });
 

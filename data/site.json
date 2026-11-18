@@ -195,5 +195,111 @@
    "id": "1734288",
    "url": "https://www.semanticscholar.org/author/1734288"
   }
- ]
+ ],
+ "topics": [
+  {
+   "label": "Autonomy",
+   "terms": [
+    "autonom"
+   ]
+  },
+  {
+   "label": "Agency",
+   "terms": [
+    "agency",
+    "agential"
+   ]
+  },
+  {
+   "label": "Normativity & function",
+   "terms": [
+    "normativ",
+    "norms",
+    "malfunction",
+    "teleolog",
+    "teleosem",
+    "function"
+   ]
+  },
+  {
+   "label": "Enactivism",
+   "terms": [
+    "enactiv",
+    "enaction",
+    "sense-making",
+    "sensemaking"
+   ]
+  },
+  {
+   "label": "Sensorimotor & habits",
+   "terms": [
+    "sensorimotor",
+    "sensori-motor",
+    "habit"
+   ]
+  },
+  {
+   "label": "Neurodynamics",
+   "terms": [
+    "neural",
+    "neurodynamic",
+    "metastab",
+    "oscillat",
+    "synchron",
+    "critical"
+   ]
+  },
+  {
+   "label": "Artificial life & robotics",
+   "terms": [
+    "artificial life",
+    "alife",
+    "a-life",
+    "robot",
+    "protocell",
+    "animat"
+   ]
+  },
+  {
+   "label": "AI & LLMs",
+   "terms": [
+    "artificial intelligence",
+    "language model",
+    "llm",
+    "generative ai",
+    "chatgpt"
+   ]
+  },
+  {
+   "label": "Technopolitics & democracy",
+   "terms": [
+    "technopolit",
+    "tecnopol",
+    "democra",
+    "decidim",
+    "15m",
+    "municipal",
+    "sobiran",
+    "participa",
+    "reti tecno"
+   ]
+  },
+  {
+   "label": "Free knowledge & commons",
+   "terms": [
+    "flok",
+    "free software",
+    "software libre",
+    "commons",
+    "procom",
+    "open access",
+    "copyleft",
+    "conocimiento",
+    "knowledge society",
+    "open science",
+    "ciencia abierta"
+   ]
+  }
+ ],
+ "_topics_about": "Topic shortcuts on the homepage. An item belongs to a topic when any term appears (lower-case substring) in its title, keywords, topics or abstract."
 }

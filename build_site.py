@@ -189,6 +189,10 @@ def coins_row(r, kws):
     return row
 
 
+def topic_id(label):
+    return re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
+
+
 def entry_html(r, e):
     slug = e["slug"]
     meta = [f'<span class="pub-type">{esc(e["type_label"])}</span>',
@@ -201,6 +205,7 @@ def entry_html(r, e):
     L = [f'<li class="pub-item" id="{esc(slug)}" data-type="{esc(r["Item Type"])}"'
          f' data-kw="{esc(" ".join(k.lower() for k in e["keywords"] or e["topics"]))}"'
          + (' data-featured="true"' if e["featured"] else "")
+         + (f' data-topics="{esc(" ".join(e["topic_ids"]))}"' if e["topic_ids"] else "")
          + (f' data-doi="{esc(citelib.norm_doi(r["DOI"]))}"' if r["DOI"] else "") + ">",
          '      <div class="pub-meta">\n        ' + "\n        ".join(meta) + "\n      </div>",
          f'      <h2 class="pub-ref">{lead} {t} <span class="pub-source">{rest}</span></h2>']
@@ -340,6 +345,9 @@ def main():
             "coins": citelib.build_coins(crow, slug),
             "old_slugs": old_by_new.get(slug, []),
         }
+        hay = " ".join([e["title"], " ".join(kws + topics), e["abstract"]]).lower()
+        e["topic_ids"] = [topic_id(t["label"]) for t in site.get("topics", [])
+                          if any(term in hay for term in t["terms"])]
         entries.append((e, r))
         li.append("    " + entry_html(r, e))
 
@@ -381,6 +389,16 @@ def main():
              f'{TYPE_PLURAL[t]} ({c})</button>' for t, c in counts.items() if c]
     btns.append('<button type="button" class="type-filter featured-toggle" data-featured-filter aria-pressed="false" '
                 f'title="Show only highlighted publications">★ Highlighted ({nfeat})</button>')
+    trows = []
+    for t in site.get("topics", []):
+        tid = topic_id(t["label"])
+        c = sum(1 for e, _ in entries if tid in e["topic_ids"])
+        if c:
+            trows.append(f'<button type="button" class="type-filter topic-filter" data-topic-filter="{tid}" '
+                         f'aria-pressed="false">{esc(t["label"])} <span class="tcount">{c}</span></button>')
+    topics_row = ('      <div class="controls-row controls-topics" role="group" aria-label="Filter by topic">\n'
+                  '        <span class="controls-label">Topics:</span>\n        ' + "\n        ".join(trows)
+                  + "\n      </div>\n") if trows else ""
     panel = (
         '<div class="controls" role="search" aria-label="Search, sort and filter publications">\n'
         '      <div class="controls-row controls-top">\n'
@@ -393,6 +411,7 @@ def main():
         '            <option value="cited">Most cited first</option>\n'
         '          </select></span>\n'
         '      </div>\n'
+        + topics_row +
         '      <div class="controls-row controls-filters" role="group" aria-label="Filter by type">\n'
         '        <span class="controls-label">Show:</span>\n        ' + "\n        ".join(btns) + "\n"
         '      </div>\n'
@@ -405,12 +424,17 @@ def main():
     doc = re.sub(r"\s*<!--PROFILES-START-->.*?<!--PROFILES-END-->", "", doc, flags=re.S)
     if profiles:
         rows = "\n".join(
-            f'          <li><a href="{esc(p["url"])}" rel="me" target="_blank">{esc(p["name"])}</a> '
-            f'<span class="pid">{esc(p["id"])}</span></li>' for p in profiles)
+            f'          <li><a href="{esc(p["url"])}" rel="me" target="_blank" title="{esc(p["name"])} profile">'
+            f'{esc(p["name"])} <span class="pid">{esc(p["id"])}</span></a></li>' for p in profiles)
         box = ('\n    <!--PROFILES-START--><aside class="site-profiles" aria-label="Researcher profiles">\n'
                '        <p class="profiles-title">Researcher profiles</p>\n'
                f'        <ul>\n{rows}\n        </ul>\n      </aside><!--PROFILES-END-->')
         doc = doc.replace('<header class="site-header">', '<header class="site-header">' + box, 1)
+    # 3c. "back to my site" and "last updated" on one line (one-time rewrite of the
+    #     original two paragraphs; the date itself is re-stamped by build_pages)
+    doc = re.sub(r'<p class="site-backlink">(<a [^>]*>.*?</a>)</p>\s*'
+                 r'<p class="site-updated site-updated-top">Last updated (<time id="last-updated"[^>]*>[^<]*</time>)</p>',
+                 r'<p class="site-backlink">\1<span class="site-updated">Updated \2</span></p>', doc, count=1, flags=re.S)
     # 4. optional analytics (GoatCounter): off unless data/site.json has "goatcounter"
     doc = set_analytics(doc, site.get("goatcounter", ""), "")
     with open(INDEX, "w", encoding="utf-8") as f:

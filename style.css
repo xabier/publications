@@ -486,3 +486,22 @@ a.res:hover .res-name{ color: var(--accent); }
   .site-header{ display: flex; flex-direction: column; }
   .site-header > .site-profiles{ order: 99; }
 }
+
+/* tighter header: search panel sits higher (2026-11-18) */
+.site-header{ padding: 2em 0 1.25em; margin-bottom: 1.75em; }
+.site-backlink{ margin: .9em 0 0; font-size: .9375rem; }
+.site-backlink .site-updated{ margin-left: 1.25em; font-size: .75rem; font-style: italic; color: var(--text-light); }
+.site-profiles a{ color: var(--text); border-bottom: none; }
+.site-profiles a:hover, .site-profiles a:hover .pid{ color: var(--accent); }
+.controls{ margin-bottom: 1.75em; padding-bottom: 1.25em; }
+
+/* researcher profiles: tighter lines */
+.site-profiles{ line-height: 1.3; font-size: .78rem; }
+.site-profiles li{ margin: 0; }
+.profiles-title{ margin-bottom: .2em; }
+
+/* topic shortcuts */
+.controls-topics{ margin-bottom: .65em; }
+.topic-filter{ background: var(--accent-light); border-color: transparent; }
+.topic-filter .tcount{ font-size: .8em; color: var(--text-light); margin-left: .15em; }
+.topic-filter[aria-pressed="true"] .tcount{ color: rgba(255,255,255,.8); }

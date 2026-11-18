@@ -879,7 +879,7 @@ def slim_index(doc, records):
         '<a href="publications.json">JSON</a> &middot; <a href="all.bib">BibTeX</a> &middot; '
         '<a href="all.ris">RIS</a>. Every publication also has its own page '
         '(<code>/p/&lt;slug&gt;/</code>, with a Markdown twin at <code>index.md</code>).</p><!--MACHINE-END-->')
-    doc = re.sub(r'(<p class="site-updated site-updated-top">.*?</p>)', lambda mo: mo.group(1) + machine,
+    doc = re.sub(r'(<p class="site-(?:updated site-updated-top|backlink)">.*?</p>)', lambda mo: mo.group(1) + machine,
                  doc, count=1, flags=re.S)
     # 6. stamp the last-updated date
     today = datetime.date.today()

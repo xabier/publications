@@ -887,12 +887,12 @@
     <!--PROFILES-START--><aside class="site-profiles" aria-label="Researcher profiles">
         <p class="profiles-title">Researcher profiles</p>
         <ul>
-          <li><a href="https://orcid.org/0000-0002-4763-6845" rel="me" target="_blank">ORCID</a> <span class="pid">0000-0002-4763-6845</span></li>
-          <li><a href="https://scholar.google.com/citations?user=H4RGbI0AAAAJ" rel="me" target="_blank">Google Scholar</a> <span class="pid">H4RGbI0AAAAJ</span></li>
-          <li><a href="https://openalex.org/authors/A5001513750" rel="me" target="_blank">OpenAlex</a> <span class="pid">A5001513750</span></li>
-          <li><a href="https://www.scopus.com/authid/detail.url?authorId=6507085396" rel="me" target="_blank">Scopus</a> <span class="pid">6507085396</span></li>
-          <li><a href="https://www.webofscience.com/wos/author/record/A-6172-2011" rel="me" target="_blank">Web of Science</a> <span class="pid">A-6172-2011</span></li>
-          <li><a href="https://www.semanticscholar.org/author/1734288" rel="me" target="_blank">Semantic Scholar</a> <span class="pid">1734288</span></li>
+          <li><a href="https://orcid.org/0000-0002-4763-6845" rel="me" target="_blank" title="ORCID profile">ORCID <span class="pid">0000-0002-4763-6845</span></a></li>
+          <li><a href="https://scholar.google.com/citations?user=H4RGbI0AAAAJ" rel="me" target="_blank" title="Google Scholar profile">Google Scholar <span class="pid">H4RGbI0AAAAJ</span></a></li>
+          <li><a href="https://openalex.org/authors/A5001513750" rel="me" target="_blank" title="OpenAlex profile">OpenAlex <span class="pid">A5001513750</span></a></li>
+          <li><a href="https://www.scopus.com/authid/detail.url?authorId=6507085396" rel="me" target="_blank" title="Scopus profile">Scopus <span class="pid">6507085396</span></a></li>
+          <li><a href="https://www.webofscience.com/wos/author/record/A-6172-2011" rel="me" target="_blank" title="Web of Science profile">Web of Science <span class="pid">A-6172-2011</span></a></li>
+          <li><a href="https://www.semanticscholar.org/author/1734288" rel="me" target="_blank" title="Semantic Scholar profile">Semantic Scholar <span class="pid">1734288</span></a></li>
         </ul>
       </aside><!--PROFILES-END-->
     <div class="site-branding">
@@ -902,8 +902,7 @@
         <p class="site-description">Publications &#8212; philosophy, autonomy, mind, life, machines, politics</p>
       </div>
     </div>
-    <p class="site-backlink"><a href="https://xabier.barandiaran.net/">&#8592; back to my site</a></p>
-    <p class="site-updated site-updated-top">Last updated <time id="last-updated" datetime="2026-11-18">18 November 2026</time></p>
+    <p class="site-backlink"><a href="https://xabier.barandiaran.net/">&#8592; back to my site</a><span class="site-updated">Updated <time id="last-updated" datetime="2026-11-18">18 November 2026</time></span></p>
     <!--MACHINE-START--><p class="site-machine visually-hidden">For machines and AI agents: <a href="llms.txt">llms.txt</a> &middot; <a href="llms-full.txt">llms-full.txt</a> &middot; <a href="publications.json">JSON</a> &middot; <a href="all.bib">BibTeX</a> &middot; <a href="all.ris">RIS</a>. Every publication also has its own page (<code>/p/&lt;slug&gt;/</code>, with a Markdown twin at <code>index.md</code>).</p><!--MACHINE-END-->
   </header>
 
@@ -917,6 +916,19 @@
             <option value="oldest">Oldest first</option>
             <option value="cited">Most cited first</option>
           </select></span>
+      </div>
+      <div class="controls-row controls-topics" role="group" aria-label="Filter by topic">
+        <span class="controls-label">Topics:</span>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="autonomy" aria-pressed="false">Autonomy <span class="tcount">37</span></button>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="agency" aria-pressed="false">Agency <span class="tcount">21</span></button>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="normativity-function" aria-pressed="false">Normativity &amp; function <span class="tcount">27</span></button>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="enactivism" aria-pressed="false">Enactivism <span class="tcount">14</span></button>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="sensorimotor-habits" aria-pressed="false">Sensorimotor &amp; habits <span class="tcount">28</span></button>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="neurodynamics" aria-pressed="false">Neurodynamics <span class="tcount">16</span></button>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="artificial-life-robotics" aria-pressed="false">Artificial life &amp; robotics <span class="tcount">17</span></button>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="ai-llms" aria-pressed="false">AI &amp; LLMs <span class="tcount">6</span></button>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="technopolitics-democracy" aria-pressed="false">Technopolitics &amp; democracy <span class="tcount">25</span></button>
+        <button type="button" class="type-filter topic-filter" data-topic-filter="free-knowledge-commons" aria-pressed="false">Free knowledge &amp; commons <span class="tcount">9</span></button>
       </div>
       <div class="controls-row controls-filters" role="group" aria-label="Filter by type">
         <span class="controls-label">Show:</span>
@@ -935,7 +947,7 @@
     </div>
 
     <ol class="pub-list" id="pub-list" reversed>
-    <li class="pub-item" id="2026-sensorimotor-teleology-and-goal-directedness-an" data-type="journalArticle" data-kw="behavioural norms teleology goal-directedness organizational biology teleosemantics a-not-b error sensorimotor normativity" data-featured="true" data-doi="10.1007/s11097-026-10199-3">
+    <li class="pub-item" id="2026-sensorimotor-teleology-and-goal-directedness-an" data-type="journalArticle" data-kw="behavioural norms teleology goal-directedness organizational biology teleosemantics a-not-b error sensorimotor normativity" data-featured="true" data-topics="autonomy normativity-function enactivism sensorimotor-habits" data-doi="10.1007/s11097-026-10199-3">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2026</span>
@@ -952,7 +964,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Sensorimotor%20teleology%20and%20goal-directedness.%20An%20organismic%20framework%20for%20normative%20behaviour&amp;rft.jtitle=Phenomenology%20and%20the%20Cognitive%20Sciences&amp;rft.issn=1572-8676&amp;rft.date=2026&amp;rft_id=info%3Adoi%2F10.1007%2Fs11097-026-10199-3&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Rama%2C%20Tiago"></span>
     </li>
-    <li class="pub-item" id="2026-organizational-accounts-of-malfunction-the-dual" data-type="journalArticle" data-kw="autonomous organization dysfunction malfunction natural norms normative field normative function" data-featured="true" data-doi="10.1007/s13752-025-00500-z">
+    <li class="pub-item" id="2026-organizational-accounts-of-malfunction-the-dual" data-type="journalArticle" data-kw="autonomous organization dysfunction malfunction natural norms normative field normative function" data-featured="true" data-topics="autonomy normativity-function neurodynamics" data-doi="10.1007/s13752-025-00500-z">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2026</span>
@@ -972,7 +984,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Organizational%20Accounts%20of%20Malfunction%3A%20The%20Dual-Order%20Approach%20and%20the%20Normative%20Field%20Alternative&amp;rft.jtitle=Biological%20Theory&amp;rft.volume=21&amp;rft.issue=1&amp;rft.issn=1555-5550&amp;rft.date=2026&amp;rft.spage=51&amp;rft.epage=69&amp;rft_id=info%3Adoi%2F10.1007%2Fs13752-025-00500-z&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2026-outonomy-fleshing-out-the-concept-of" data-type="book" data-kw="outonomy autonomy human autonomy animal autonomy biology and politics contemporary philosophy of autonomy" data-featured="true" data-doi="10.1007/978-3-032-05501-9">
+    <li class="pub-item" id="2026-outonomy-fleshing-out-the-concept-of" data-type="book" data-kw="outonomy autonomy human autonomy animal autonomy biology and politics contemporary philosophy of autonomy" data-featured="true" data-topics="autonomy" data-doi="10.1007/978-3-032-05501-9">
       <div class="pub-meta">
         <span class="pub-type">Book</span>
         <span class="pub-year">2026</span>
@@ -986,7 +998,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Outonomy%3A%20Fleshing%20out%20the%20Concept%20of%20Autonomy%20Beyond%20the%20Individual&amp;rft.isbn=978-3-032-05500-2%20978-3-032-05501-9&amp;rft.date=2026&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-032-05501-9&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Etxeberria%2C%20Arantza"></span>
     </li>
-    <li class="pub-item" id="2026-socialecological-affective-arrangements-mapping-with-a" data-type="preprint" data-kw="affective arrangements emotions affective knowing socialecological systems mixed methods eutrophication mar menor" data-featured="true">
+    <li class="pub-item" id="2026-socialecological-affective-arrangements-mapping-with-a" data-type="preprint" data-kw="affective arrangements emotions affective knowing socialecological systems mixed methods eutrophication mar menor" data-featured="true" data-topics="technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Preprint</span>
         <span class="pub-year">2026</span>
@@ -1002,7 +1014,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=preprint&amp;rft.title=Socialecological%20affective%20arrangements%3A%20mapping%20with%20a%20small%20sea%20of%20many%20seas&amp;rft.date=2026&amp;rft.aulast=Cabello&amp;rft.aufirst=Violeta&amp;rft.au=Barandiaran%2C%20Xabier&amp;rft.au=Gonzalez-Mon%2C%20Blanca&amp;rft.au=Zaragoza%2C%20Juan%20Manuel&amp;rft.au=Siqueiros%2C%20Jes%C3%BAs%20Mario&amp;rft.au=Brugnach%2C%20Marcela"></span>
     </li>
-    <li class="pub-item" id="2025-transforming-agency-on-the-mode-of" data-type="journalArticle" data-kw="transformers large language models agency autonomy interlocutor automata human machine interaction" data-featured="true" data-doi="10.1007/s11097-025-10094-3">
+    <li class="pub-item" id="2025-transforming-agency-on-the-mode-of" data-type="journalArticle" data-kw="transformers large language models agency autonomy interlocutor automata human machine interaction" data-featured="true" data-topics="autonomy agency normativity-function sensorimotor-habits ai-llms" data-doi="10.1007/s11097-025-10094-3">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2025</span>
@@ -1018,7 +1030,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Transforming%20agency%3A%20On%20the%20mode%20of%20existence%20of%20large%20language%20models&amp;rft.jtitle=Phenomenology%20and%20the%20Cognitive%20Sciences&amp;rft.issn=1572-8676&amp;rft.date=2025&amp;rft_id=info%3Adoi%2F10.1007%2Fs11097-025-10094-3&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Almendros%2C%20Lola%20S."></span>
     </li>
-    <li class="pub-item" id="2025-generative-midtended-cognition-and-artificial-intelligence" data-type="journalArticle" data-kw="extended cognition generative ai creativity authorship cyborg intentionality midtention" data-featured="true" data-doi="10.1007/s11229-025-04961-4">
+    <li class="pub-item" id="2025-generative-midtended-cognition-and-artificial-intelligence" data-type="journalArticle" data-kw="extended cognition generative ai creativity authorship cyborg intentionality midtention" data-featured="true" data-topics="agency neurodynamics ai-llms" data-doi="10.1007/s11229-025-04961-4">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2025</span>
@@ -1034,7 +1046,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Generative%20midtended%20cognition%20and%20Artificial%20Intelligence%3A%20thinging%20with%20thinging%20things&amp;rft.jtitle=Synthese&amp;rft.volume=205&amp;rft.issue=4&amp;rft.issn=1573-0964&amp;rft.date=2025&amp;rft.spage=1&amp;rft.epage=24&amp;rft_id=info%3Adoi%2F10.1007%2Fs11229-025-04961-4&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=P%C3%A9rez-Verdugo%2C%20Marta"></span>
     </li>
-    <li class="pub-item" id="2026-incorporating-machine-others-an-enactive-exploration" data-type="preprint" data-kw="susceptive sense-making incorporation incarnation excorporation excarnation autonomy linguistic bodies llms" data-doi="10.48550/arxiv.2610.39869">
+    <li class="pub-item" id="2026-incorporating-machine-others-an-enactive-exploration" data-type="preprint" data-kw="susceptive sense-making incorporation incarnation excorporation excarnation autonomy linguistic bodies llms" data-topics="autonomy enactivism ai-llms" data-doi="10.48550/arxiv.2610.39869">
       <div class="pub-meta">
         <span class="pub-type">Preprint</span>
         <span class="pub-year">2026</span>
@@ -1048,7 +1060,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=preprint&amp;rft.title=Incorporating%20Machine-Others%3A%20An%20Enactive%20Exploration%20of%20Human-LLM%20Interactions&amp;rft.date=2026&amp;rft_id=info%3Adoi%2F10.48550%2FarXiv.2610.39869&amp;rft.aulast=Cuffari&amp;rft.aufirst=Elena%20C.&amp;rft.au=P%C3%A9rez-Verdugo%2C%20Marta&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2026-sensorimotor-norms-and-social-norms-a" data-type="journalArticle" data-kw="normativity rule-following social norms sensorimotor norms normative cognition normative behavior practical skill" data-doi="10.1007/s13164-026-00805-3">
+    <li class="pub-item" id="2026-sensorimotor-norms-and-social-norms-a" data-type="journalArticle" data-kw="normativity rule-following social norms sensorimotor norms normative cognition normative behavior practical skill" data-topics="normativity-function enactivism sensorimotor-habits" data-doi="10.1007/s13164-026-00805-3">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2026</span>
@@ -1062,7 +1074,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Sensorimotor%20Norms%20and%20Social%20Norms%3A%20A%20Pluralistic%20Proposal&amp;rft.jtitle=Review%20of%20Philosophy%20and%20Psychology&amp;rft.issn=1878-5166&amp;rft.date=2026&amp;rft_id=info%3Adoi%2F10.1007%2Fs13164-026-00805-3&amp;rft.aulast=Prokop&amp;rft.aufirst=Mirko&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2026-outonomy-the-very-idea" data-type="bookSection" data-kw="autonomy outonomy individuality interaction integration sustainability collectivity environmentality" data-doi="10.1007/978-3-032-05501-9_1">
+    <li class="pub-item" id="2026-outonomy-the-very-idea" data-type="bookSection" data-kw="autonomy outonomy individuality interaction integration sustainability collectivity environmentality" data-topics="autonomy normativity-function" data-doi="10.1007/978-3-032-05501-9_1">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2026</span>
@@ -1076,7 +1088,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Outonomy%2C%20the%20Very%20Idea&amp;rft.btitle=Outonomy%3A%20Fleshing%20out%20the%20Concept%20of%20Autonomy%20Beyond%20the%20Individual&amp;rft.isbn=978-3-032-05501-9&amp;rft.date=2026&amp;rft.spage=3&amp;rft.epage=12&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-032-05501-9_1&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Etxeberria%2C%20Arantza"></span>
     </li>
-    <li class="pub-item" id="2026-autonomy-and-its-limits-in-social" data-type="bookSection" data-kw="social-ecological systems earth limits gaia social-ecological outonomy" data-doi="10.1007/978-3-032-05501-9_12">
+    <li class="pub-item" id="2026-autonomy-and-its-limits-in-social" data-type="bookSection" data-kw="social-ecological systems earth limits gaia social-ecological outonomy" data-topics="autonomy technopolitics-democracy" data-doi="10.1007/978-3-032-05501-9_12">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2026</span>
@@ -1090,7 +1102,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Autonomy%20and%20Its%20Limits%20in%20Social-Ecological%20Systems&amp;rft.btitle=Outonomy%3A%20Fleshing%20out%20the%20Concept%20of%20Autonomy%20Beyond%20the%20Individual&amp;rft.isbn=978-3-032-05501-9&amp;rft.date=2026&amp;rft.spage=121&amp;rft.epage=130&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-032-05501-9_12&amp;rft.aulast=Cabello&amp;rft.aufirst=Violeta&amp;rft.au=Merlo%2C%20Alejandro&amp;rft.au=Mancilla%2C%20Mar%C3%ADa&amp;rft.au=Siqueiros%2C%20Jes%C3%BAs%20M.&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2026-autonomy-and-technology-from-instrumentalism-to" data-type="bookSection" data-kw="instrumentalism autonomy of technology technopolitical autonomy technocomplexity" data-doi="10.1007/978-3-032-05501-9_11">
+    <li class="pub-item" id="2026-autonomy-and-technology-from-instrumentalism-to" data-type="bookSection" data-kw="instrumentalism autonomy of technology technopolitical autonomy technocomplexity" data-topics="autonomy technopolitics-democracy" data-doi="10.1007/978-3-032-05501-9_11">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2026</span>
@@ -1104,7 +1116,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Autonomy%20and%20Technology%3A%20From%20Instrumentalism%20to%20Technocomplexity&amp;rft.btitle=Outonomy%3A%20Fleshing%20out%20the%20Concept%20of%20Autonomy%20Beyond%20the%20Individual&amp;rft.isbn=978-3-032-05501-9&amp;rft.date=2026&amp;rft.spage=111&amp;rft.epage=120&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-032-05501-9_11&amp;rft.aulast=Calleja-L%C3%B3pez&amp;rft.aufirst=Antonio&amp;rft.au=P%C3%A9rez-Verdugo%2C%20Marta&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2025-the-equilibration-of-technical-objects-uncovering" data-type="journalArticle" data-kw="technology normativity sensorimotor scheme radical embodiment enactivism affordances" data-doi="10.1007/s11245-025-10259-4">
+    <li class="pub-item" id="2025-the-equilibration-of-technical-objects-uncovering" data-type="journalArticle" data-kw="technology normativity sensorimotor scheme radical embodiment enactivism affordances" data-topics="autonomy normativity-function enactivism sensorimotor-habits" data-doi="10.1007/s11245-025-10259-4">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2025</span>
@@ -1118,7 +1130,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=The%20Equilibration%20of%20Technical%20Objects%3A%20Uncovering%20Normative%20Layers%20of%20Sensorimotor%20Engagement&amp;rft.jtitle=Topoi&amp;rft.issn=1572-8749&amp;rft.date=2025&amp;rft_id=info%3Adoi%2F10.1007%2Fs11245-025-10259-4&amp;rft.aulast=P%C3%A9rez-Verdugo&amp;rft.aufirst=Marta&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2025-attention-is-all-they-need-cognitive" data-type="journalArticle" data-kw="attention economy engagement habit attention digital platforms enactive cognitive science dividual" data-doi="10.1007/s00146-025-02400-z">
+    <li class="pub-item" id="2025-attention-is-all-they-need-cognitive" data-type="journalArticle" data-kw="attention economy engagement habit attention digital platforms enactive cognitive science dividual" data-topics="autonomy normativity-function enactivism sensorimotor-habits neurodynamics" data-doi="10.1007/s00146-025-02400-z">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2025</span>
@@ -1132,7 +1144,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Attention%20is%20all%20they%20need%3A%20cognitive%20science%20and%20the%20%28techno%29political%20economy%20of%20attention%20in%20humans%20and%20machines&amp;rft.jtitle=AI%20%26%20SOCIETY&amp;rft.issn=1435-5655&amp;rft.date=2025&amp;rft_id=info%3Adoi%2F10.1007%2Fs00146-025-02400-z&amp;rft.aulast=de%20la%20Torre&amp;rft.aufirst=Pablo%20G.&amp;rft.au=P%C3%A9rez-Verdugo%2C%20Marta&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2025-varieties-of-normativity-and-mental-health" data-type="journalArticle" data-kw="normativity autonomy mental health enactivism participatory sense-making" data-doi="10.1007/s11229-024-04854-y">
+    <li class="pub-item" id="2025-varieties-of-normativity-and-mental-health" data-type="journalArticle" data-kw="normativity autonomy mental health enactivism participatory sense-making" data-topics="autonomy normativity-function enactivism technopolitics-democracy" data-doi="10.1007/s11229-024-04854-y">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2025</span>
@@ -1146,7 +1158,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Varieties%20of%20normativity%20and%20mental%20health%3A%20an%20enactive%20approach&amp;rft.jtitle=Synthese&amp;rft.volume=205&amp;rft.issue=2&amp;rft.issn=1573-0964&amp;rft.date=2025&amp;rft.spage=1&amp;rft.epage=29&amp;rft_id=info%3Adoi%2F10.1007%2Fs11229-024-04854-y&amp;rft.aulast=Garc%C3%ADa&amp;rft.aufirst=Enara&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2025-the-organismic-turn-teleosemantics-after-4e" data-type="bookSection" data-kw="organicism 4e cognition autonomous systems sensorimotor organization normativity teleosemantics">
+    <li class="pub-item" id="2025-the-organismic-turn-teleosemantics-after-4e" data-type="bookSection" data-kw="organicism 4e cognition autonomous systems sensorimotor organization normativity teleosemantics" data-topics="autonomy normativity-function sensorimotor-habits">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2025</span>
@@ -1159,7 +1171,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=The%20Organismic%20Turn.%20Teleosemantics%20after%204E&amp;rft.btitle=Analytic%20Philosophy%20and%204E%20Cognition&amp;rft.date=2025&amp;rft.spage=143&amp;rft.epage=159&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Rama%2C%20Tiago"></span>
     </li>
-    <li class="pub-item" id="2025-emergence-and-autonomous-agency" data-type="journalArticle" data-kw="agency emergence agential causation organization basic autonomy sensorimotor autonomy origins of life intentional action" data-doi="10.61879/riev702zkia202511">
+    <li class="pub-item" id="2025-emergence-and-autonomous-agency" data-type="journalArticle" data-kw="agency emergence agential causation organization basic autonomy sensorimotor autonomy origins of life intentional action" data-topics="autonomy agency sensorimotor-habits" data-doi="10.61879/riev702zkia202511">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2025</span>
@@ -1173,7 +1185,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Emergence%20and%20Autonomous%20Agency&amp;rft.jtitle=RIEV%2C%20Revista%20Internacional%20de%20Estudios%20Vascos&amp;rft.volume=70&amp;rft.issue=2&amp;rft.issn=0212-7016%3B%20eISSN%3A%202953-4180&amp;rft.date=2025&amp;rft_id=info%3Adoi%2F10.61879%2Friev702zkia202511&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2024-thermina-a-minimal-model-of-autonomous" data-type="conferencePaper" data-kw="autonomy agency adaptive behavior" data-doi="10.1162/isal_a_00826">
+    <li class="pub-item" id="2024-thermina-a-minimal-model-of-autonomous" data-type="conferencePaper" data-kw="autonomy agency adaptive behavior" data-topics="autonomy agency" data-doi="10.1162/isal_a_00826">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2024</span>
@@ -1187,7 +1199,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Thermina%3A%20A%20minimal%20model%20of%20autonomous%20agency%20from%20the%20lens%20of%20stochastic%20thermodynamics&amp;rft.date=2024&amp;rft_id=info%3Adoi%2F10.1162%2Fisal_a_00826&amp;rft.aulast=Aguilera&amp;rft.aufirst=Miguel&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2024-beyond-fatalism-gaia-entropy-and-the" data-type="journalArticle" data-kw="thermodynamics life system earth system science gaia maximum entropy production climate change" data-doi="10.3354/esep00213">
+    <li class="pub-item" id="2024-beyond-fatalism-gaia-entropy-and-the" data-type="journalArticle" data-kw="thermodynamics life system earth system science gaia maximum entropy production climate change" data-topics="autonomy" data-doi="10.3354/esep00213">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2024</span>
@@ -1201,7 +1213,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Beyond%20fatalism%3A%20Gaia%2C%20entropy%2C%20and%20the%20autonomy%20of%20anthropogenic%20life%20on%20Earth&amp;rft.jtitle=Ethics%20in%20Science%20and%20Environmental%20Politics&amp;rft.volume=24&amp;rft.issn=1611-8014%2C%201863-5415&amp;rft.date=2024&amp;rft.spage=61&amp;rft.epage=75&amp;rft_id=info%3Adoi%2F10.3354%2Fesep00213&amp;rft.aulast=Merlo&amp;rft.aufirst=Alejandro&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2024-decidim-a-technopolitical-network-for-participatory" data-type="book" data-kw="collective intelligence decidim democratic innovation digital democracy digital platforms metadecidim network society participatory democracy participatory governance political network public-commons partnership software development techno-politics" data-doi="10.1007/978-3-031-50784-7">
+    <li class="pub-item" id="2024-decidim-a-technopolitical-network-for-participatory" data-type="book" data-kw="collective intelligence decidim democratic innovation digital democracy digital platforms metadecidim network society participatory democracy participatory governance political network public-commons partnership software development techno-politics" data-topics="autonomy technopolitics-democracy free-knowledge-commons" data-doi="10.1007/978-3-031-50784-7">
       <div class="pub-meta">
         <span class="pub-type">Book</span>
         <span class="pub-year">2024</span>
@@ -1214,7 +1226,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Decidim%2C%20a%20Technopolitical%20Network%20for%20Participatory%20Democracy%3A%20Philosophy%2C%20Practice%20and%20Autonomy%20of%20a%20Collective%20Platform%20in%20the%20Age%20of%20Digital%20Intelligence&amp;rft.isbn=978-3-031-50783-0%20978-3-031-50784-7&amp;rft.date=2024&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-031-50784-7&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Calleja-L%C3%B3pez%2C%20Antonio&amp;rft.au=Monterde%2C%20Arnau&amp;rft.au=Romero%2C%20Carol"></span>
     </li>
-    <li class="pub-item" id="2023-personal-autonomy-and-digital-technology-an" data-type="journalArticle" data-kw="sensorimotor autonomy personal autonomy digital platforms interface design dark patterns technology and autonomy" data-doi="10.1007/s13347-023-00683-y">
+    <li class="pub-item" id="2023-personal-autonomy-and-digital-technology-an" data-type="journalArticle" data-kw="sensorimotor autonomy personal autonomy digital platforms interface design dark patterns technology and autonomy" data-topics="autonomy agency enactivism sensorimotor-habits" data-doi="10.1007/s13347-023-00683-y">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2023</span>
@@ -1228,7 +1240,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Personal%20Autonomy%20and%20%28Digital%29%20Technology%3A%20An%20Enactive%20Sensorimotor%20Framework&amp;rft.jtitle=Philosophy%20%26%20Technology&amp;rft.volume=36&amp;rft.issue=4&amp;rft.issn=2210-5441&amp;rft.date=2023&amp;rft.pages=84&amp;rft_id=info%3Adoi%2F10.1007%2Fs13347-023-00683-y&amp;rft.aulast=P%C3%A9rez-Verdugo&amp;rft.aufirst=Marta&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2023-como-usar-decidim-guia-para-administraciones" data-type="document" data-kw="decidim participación democrática servicios digitales configuración de plataforma procesos de participación tecnopolítica">
+    <li class="pub-item" id="2023-como-usar-decidim-guia-para-administraciones" data-type="document" data-kw="decidim participación democrática servicios digitales configuración de plataforma procesos de participación tecnopolítica" data-topics="technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Document</span>
         <span class="pub-year">2023</span>
@@ -1242,7 +1254,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=document&amp;rft.title=C%C3%B3mo%20usar%20Decidim.%20Gu%C3%ADa%20para%20administraciones%20p%C3%BAblicas%20y%20grandes%20organizaciones.&amp;rft.date=2023&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E"></span>
     </li>
-    <li class="pub-item" id="2022-active-role-of-self-sustained-neural" data-type="journalArticle" data-kw="sensorimotor perception agency neuroscience coordination dynamics" data-doi="10.1162/neco_a_01471">
+    <li class="pub-item" id="2022-active-role-of-self-sustained-neural" data-type="journalArticle" data-kw="sensorimotor perception agency neuroscience coordination dynamics" data-topics="agency sensorimotor-habits neurodynamics" data-doi="10.1162/neco_a_01471">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2022</span>
@@ -1256,7 +1268,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Active%20Role%20of%20Self-Sustained%20Neural%20Activity%20on%20Sensory%20Input%20Processing%3A%20A%20Minimal%20Theoretical%20Model&amp;rft.jtitle=Neural%20Computation&amp;rft.volume=34&amp;rft.issue=3&amp;rft.issn=1530-888X&amp;rft.date=2022&amp;rft.spage=686&amp;rft.epage=715&amp;rft_id=info%3Adoi%2F10.1162%2Fneco_a_01471&amp;rft.aulast=Santos&amp;rft.aufirst=Bruno%20A.&amp;rft.au=Gomes%2C%20Rogerio%20M.&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Husbands%2C%20Phil"></span>
     </li>
-    <li class="pub-item" id="2022-using-enactive-robotics-to-think-outside" data-type="journalArticle" data-kw="enactive robotics sensorimotor contingencies problem-solving habits idsm sensorimotor autonomy" data-doi="10.3389/fnbot.2022.847054">
+    <li class="pub-item" id="2022-using-enactive-robotics-to-think-outside" data-type="journalArticle" data-kw="enactive robotics sensorimotor contingencies problem-solving habits idsm sensorimotor autonomy" data-topics="autonomy normativity-function enactivism sensorimotor-habits artificial-life-robotics" data-doi="10.3389/fnbot.2022.847054">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2022</span>
@@ -1270,7 +1282,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Using%20enactive%20robotics%20to%20think%20outside%20of%20the%20problem-solving%20box%3A%20How%20sensorimotor%20contingencies%20constrain%20the%20forms%20of%20emergent%20autononomous%20habits&amp;rft.jtitle=Frontiers%20in%20Neurorobotics&amp;rft.volume=16&amp;rft.issn=1662-5218&amp;rft.date=2022&amp;rft.spage=1&amp;rft.epage=23&amp;rft_id=info%3Adoi%2Fhttps%3A%2F%2Fdoi.org%2F10.3389%2Ffnbot.2022.847054&amp;rft.aulast=Egbert&amp;rft.aufirst=Matthew%20D.&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2020-measuring-autonomy-for-life-like-ai" data-type="conferencePaper" data-kw="autonomy artificial intelligence" data-doi="10.1162/isal_a_00308">
+    <li class="pub-item" id="2020-measuring-autonomy-for-life-like-ai" data-type="conferencePaper" data-kw="autonomy artificial intelligence" data-topics="autonomy ai-llms" data-doi="10.1162/isal_a_00308">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2020</span>
@@ -1284,7 +1296,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Measuring%20Autonomy%20for%20Life-Like%20AI&amp;rft.btitle=The%202020%20Conference%20on%20Artificial%20Life&amp;rft.date=2020&amp;rft.spage=589&amp;rft.epage=591&amp;rft_id=info%3Adoi%2F10.1162%2Fisal_a_00308&amp;rft.aulast=Vakhrameev&amp;rft.aufirst=Demyan&amp;rft.au=Aguilera%2C%20Miguel&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Bedia%2C%20Manuel"></span>
     </li>
-    <li class="pub-item" id="2020-defining-collective-identities-in-technopolitical-interaction" data-type="journalArticle" data-kw="collective identity social identity social interaction digital networks social network analysis technopolitics" data-doi="10.3389/fpsyg.2020.01549">
+    <li class="pub-item" id="2020-defining-collective-identities-in-technopolitical-interaction" data-type="journalArticle" data-kw="collective identity social identity social interaction digital networks social network analysis technopolitics" data-topics="technopolitics-democracy" data-doi="10.3389/fpsyg.2020.01549">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2020</span>
@@ -1298,7 +1310,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Defining%20Collective%20Identities%20in%20Technopolitical%20Interaction%20Networks&amp;rft.jtitle=Frontiers%20in%20Psychology&amp;rft.volume=11&amp;rft.issn=1664-1078&amp;rft.date=2020&amp;rft_id=info%3Adoi%2F10.3389%2Ffpsyg.2020.01549&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Calleja-L%C3%B3pez%2C%20Antonio&amp;rft.au=Cozzo%2C%20Emanuele"></span>
     </li>
-    <li class="pub-item" id="2020-autonomia-tecnopolitica-que-significa-y-porque" data-type="bookSection" data-kw="technopolitics decidim">
+    <li class="pub-item" id="2020-autonomia-tecnopolitica-que-significa-y-porque" data-type="bookSection" data-kw="technopolitics decidim" data-topics="autonomy technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2020</span>
@@ -1311,7 +1323,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Autonom%C3%ADa%20tecnopol%C3%ADtica%20Qu%C3%A9%20significa%20y%20porqu%C3%A9%20Decidim%20es%20un%20buen%20ejemplo&amp;rft.btitle=DecidimFest20%3A%20Democracia%20y%20tecnolog%C3%ADa%20en%20tiempos%20de%20emergencia&amp;rft.date=2020&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2019-artificial-democratic-life-re-engineering-the" data-type="conferencePaper" data-kw="autonomy artificial life complexity" data-doi="10.1162/isal_a_00131">
+    <li class="pub-item" id="2019-artificial-democratic-life-re-engineering-the" data-type="conferencePaper" data-kw="autonomy artificial life complexity" data-topics="autonomy artificial-life-robotics technopolitics-democracy" data-doi="10.1162/isal_a_00131">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2019</span>
@@ -1325,7 +1337,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Artificial%20Democratic%20Life.%20Re-engineering%20the%20autonomy%20of%20the%20social%2C%20a%20research%20program&amp;rft.btitle=The%202019%20Conference%20on%20Artificial%20Life&amp;rft.date=2019&amp;rft.spage=11&amp;rft.epage=12&amp;rft_id=info%3Adoi%2F10.1162%2Fisal_a_00131&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2019-towards-modelling-social-habits-an-organismically" data-type="conferencePaper" data-kw="cognition cognitive science sensorimotor embodiment perception agency" data-doi="10.1162/isal_a_00185">
+    <li class="pub-item" id="2019-towards-modelling-social-habits-an-organismically" data-type="conferencePaper" data-kw="cognition cognitive science sensorimotor embodiment perception agency" data-topics="agency sensorimotor-habits neurodynamics artificial-life-robotics" data-doi="10.1162/isal_a_00185">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2019</span>
@@ -1339,7 +1351,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Towards%20modelling%20social%20habits%3A%20an%20organismically%20inspired%20evolutionary%20robotics%20approach&amp;rft.btitle=Proceedings%20of%20ALIFE%202019%3A%20The%202019%20Conference%20on%20Artificial%20Life&amp;rft.isbn=10.1162%2Fisal_a_00185&amp;rft.date=2019&amp;rft.spage=341&amp;rft.epage=348&amp;rft_id=info%3Adoi%2F10.1162%2Fisal_a_00185&amp;rft.aulast=Bedia&amp;rft.aufirst=Manuel%20G.&amp;rft.au=Heras-Escribano%2C%20Manuel&amp;rft.au=Cajal%2C%20Diego&amp;rft.au=Aguilera%2C%20Miguel&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2019-tecnopolitica-municipalismo-y-radicalizacion-democratica" data-type="bookSection" data-kw="technopolitics tecnopolítica municipalismo radicalización">
+    <li class="pub-item" id="2019-tecnopolitica-municipalismo-y-radicalizacion-democratica" data-type="bookSection" data-kw="technopolitics tecnopolítica municipalismo radicalización" data-topics="technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2019</span>
@@ -1352,7 +1364,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Tecnopol%C3%ADtica%2C%20municipalismo%20y%20radicalizaci%C3%B3n%20democr%C3%A1tica.&amp;rft.btitle=Ciudades%20Democr%C3%A1ticas.%20La%20revuelta%20municipalista%20en%20el%20ciclo%20post-15M&amp;rft.isbn=978-84-9888-906-2&amp;rft.date=2019&amp;rft.spage=173&amp;rft.epage=207&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2019-decidim-political-and-technopolitical-networks-for" data-type="document" data-kw="embodiment complexity technopolitics participatory democracy decidim free software">
+    <li class="pub-item" id="2019-decidim-political-and-technopolitical-networks-for" data-type="document" data-kw="embodiment complexity technopolitics participatory democracy decidim free software" data-topics="technopolitics-democracy free-knowledge-commons">
       <div class="pub-meta">
         <span class="pub-type">Document</span>
         <span class="pub-year">2019</span>
@@ -1380,7 +1392,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Dalle%20reti%20sociali%20alle%20reti%20%28tecno%29politiche&amp;rft.btitle=Datacrazia.%20Politica%2C%20cultura%20algoritmica%20e%20conflitti%20al%20tempo%20dei%20big%20data&amp;rft.isbn=978-88-94830-14-9&amp;rft.date=2018&amp;rft.spage=350&amp;rft.epage=361&amp;rft.aulast=Calleja-L%C3%B3pez&amp;rft.aufirst=Antonio&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Monterde%2C%20Arnau"></span>
     </li>
-    <li class="pub-item" id="2017-deliberative-platform-design-the-case-study" data-type="conferencePaper" data-kw="human computer interfaces online deliberation civic participation technopolitics online discussions discussion threads" data-doi="10.1007/978-3-319-67256-4_22">
+    <li class="pub-item" id="2017-deliberative-platform-design-the-case-study" data-type="conferencePaper" data-kw="human computer interfaces online deliberation civic participation technopolitics online discussions discussion threads" data-topics="technopolitics-democracy" data-doi="10.1007/978-3-319-67256-4_22">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2017</span>
@@ -1394,7 +1406,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Deliberative%20Platform%20Design%3A%20The%20Case%20Study%20of%20the%20Online%20Discussions%20in%20Decidim%20Barcelona&amp;rft.btitle=Social%20Informatics&amp;rft.isbn=978-3-319-67255-7%20978-3-319-67256-4&amp;rft.date=2017&amp;rft.spage=277&amp;rft.epage=287&amp;rft_id=info%3Adoi%2F10.1007%2F978-3-319-67256-4_22&amp;rft.aulast=Arag%C3%B3n&amp;rft.aufirst=Pablo&amp;rft.au=Kaltenbrunner%2C%20Andreas&amp;rft.au=Calleja-L%C3%B3pez%2C%20Antonio&amp;rft.au=Pereira%2C%20Andr%C3%A9s&amp;rft.au=Monterde%2C%20Arnau&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=G%C3%B3mez%2C%20Vicen%C3%A7"></span>
     </li>
-    <li class="pub-item" id="2017-funcionalidades-y-caracteristicas-de-decidim" data-type="report" data-kw="decidim funcionalidades características">
+    <li class="pub-item" id="2017-funcionalidades-y-caracteristicas-de-decidim" data-type="report" data-kw="decidim funcionalidades características" data-topics="technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Report</span>
         <span class="pub-year">2017</span>
@@ -1407,7 +1419,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=report&amp;rft.title=Funcionalidades%20y%20caracter%C3%ADsticas%20de%20Decidim&amp;rft.date=2017&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Romero%2C%20Carol"></span>
     </li>
-    <li class="pub-item" id="2017-decidim-s-functionalities-and-features-roadmap" data-type="report" data-kw="decidim functionalities roadmap">
+    <li class="pub-item" id="2017-decidim-s-functionalities-and-features-roadmap" data-type="report" data-kw="decidim functionalities roadmap" data-topics="normativity-function technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Report</span>
         <span class="pub-year">2017</span>
@@ -1420,7 +1432,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=report&amp;rft.title=Decidim%27s%20functionalities%20and%20features.%20Roadmap%202017-2018&amp;rft.date=2017&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Romero%2C%20Carol"></span>
     </li>
-    <li class="pub-item" id="2017-autonomy-and-enactivism-towards-a-theory" data-type="journalArticle" data-kw="autonomy enactivism operational closure of the nervous system sensorimotor constitution of experience mental life habit sensorimotor autonomous agency autonomist sensorimotor enactivism" data-doi="10.1007/s11245-016-9365-4">
+    <li class="pub-item" id="2017-autonomy-and-enactivism-towards-a-theory" data-type="journalArticle" data-kw="autonomy enactivism operational closure of the nervous system sensorimotor constitution of experience mental life habit sensorimotor autonomous agency autonomist sensorimotor enactivism" data-topics="autonomy agency normativity-function enactivism sensorimotor-habits neurodynamics artificial-life-robotics" data-doi="10.1007/s11245-016-9365-4">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2017</span>
@@ -1434,7 +1446,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Autonomy%20and%20Enactivism%3A%20Towards%20a%20Theory%20of%20Sensorimotor%20Autonomous%20Agency&amp;rft.jtitle=Topoi&amp;rft.volume=36&amp;rft.issue=3&amp;rft.issn=0167-7411%2C%201572-8749&amp;rft.date=2017&amp;rft.spage=409&amp;rft.epage=430&amp;rft_id=info%3Adoi%2F10.1007%2Fs11245-016-9365-4&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2017-sensorimotor-life-an-enactive-proposal" data-type="book" data-kw="cognitive psychology &amp; cognition cognitive science mind &amp; body enaction cognition enactivism">
+    <li class="pub-item" id="2017-sensorimotor-life-an-enactive-proposal" data-type="book" data-kw="cognitive psychology &amp; cognition cognitive science mind &amp; body enaction cognition enactivism" data-topics="agency enactivism sensorimotor-habits">
       <div class="pub-meta">
         <span class="pub-type">Book</span>
         <span class="pub-year">2017</span>
@@ -1448,7 +1460,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sensorimotor%20Life%3A%20an%20enactive%20proposal&amp;rft.isbn=978-0-19-109047-9&amp;rft.date=2017&amp;rft.aulast=Di%20Paolo&amp;rft.aufirst=Ezequiel%20A.&amp;rft.au=Buhrmann%2C%20Thomas&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2017-sensorimotor-agency" data-type="bookSection" data-kw="enaction cognition cognitive science enactivism sensorimotor embodiment">
+    <li class="pub-item" id="2017-sensorimotor-agency" data-type="bookSection" data-kw="enaction cognition cognitive science enactivism sensorimotor embodiment" data-topics="agency enactivism sensorimotor-habits">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2017</span>
@@ -1462,7 +1474,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Sensorimotor%20Agency&amp;rft.btitle=Sensorimotor%20Life%3A%20An%20enactive%20proposal&amp;rft.isbn=978-0-19-109047-9&amp;rft.date=2017&amp;rft.spage=141&amp;rft.epage=181&amp;rft.aulast=Di%20Paolo&amp;rft.aufirst=Ezequiel%20A.&amp;rft.au=Buhrmann%2C%20Thomas&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2017-virtual-actions-and-abstract-attitudes-chapter" data-type="bookSection" data-kw="cognitive psychology &amp; cognition cognitive science mind &amp; body enaction cognition enactivism">
+    <li class="pub-item" id="2017-virtual-actions-and-abstract-attitudes-chapter" data-type="bookSection" data-kw="cognitive psychology &amp; cognition cognitive science mind &amp; body enaction cognition enactivism" data-topics="agency enactivism sensorimotor-habits">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2017</span>
@@ -1476,7 +1488,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Virtual%20actions%20and%20abstract%20attitudes%20%28Chapter%207%29&amp;rft.btitle=Sensorimotor%20Life%3A%20an%20enactive%20proposal&amp;rft.isbn=978-0-19-109047-9&amp;rft.date=2017&amp;rft.aulast=Di%20Paolo&amp;rft.aufirst=Ezequiel%20A.&amp;rft.au=Buhrmann%2C%20Thomas&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2017-decidim-redes-politicas-y-tecnopoliticas-para" data-type="journalArticle" data-kw="technopolitics decidim network analysis" data-doi="10.6035/recerca.2017.21.8">
+    <li class="pub-item" id="2017-decidim-redes-politicas-y-tecnopoliticas-para" data-type="journalArticle" data-kw="technopolitics decidim network analysis" data-topics="technopolitics-democracy" data-doi="10.6035/recerca.2017.21.8">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2017</span>
@@ -1490,7 +1502,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Decidim%3A%20redes%20pol%C3%ADticas%20y%20tecnopol%C3%ADticas%20para%20la%20democracia%20participativa.&amp;rft.jtitle=Recerca.%20Revista%20de%20pensament%20i%20an%C3%A0lisi.&amp;rft.volume=21&amp;rft.issn=2254-4135&amp;rft.date=2017&amp;rft.spage=137&amp;rft.epage=150&amp;rft_id=info%3Adoi%2F10.6035%2FRecerca.2017.21.8&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Calleja%2C%20Antonio&amp;rft.au=Monterde%2C%20Arnau&amp;rft.au=Arag%C3%B3n%2C%20Pablo&amp;rft.au=Linares%2C%20Juan&amp;rft.au=Romero%2C%20Carol&amp;rft.au=Pereira%2C%20Andr%C3%A9s"></span>
     </li>
-    <li class="pub-item" id="2017-guia-sobre-sobirania-tecnologica-a-l" data-type="document" data-kw="guia sobirania tecnològica">
+    <li class="pub-item" id="2017-guia-sobre-sobirania-tecnologica-a-l" data-type="document" data-kw="guia sobirania tecnològica" data-topics="technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Document</span>
         <span class="pub-year">2017</span>
@@ -1516,7 +1528,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=document&amp;rft.title=Guia%20de%20compra%20p%C3%BAblica%20de%20TIC%20de%20l%27Ajuntament%20de%20Barcelona&amp;rft.date=2017&amp;rft.aulast=Ruiz&amp;rft.aufirst=Javier&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Boada%20Pla%2C%20M%C3%A0rius&amp;rft.au=Bastida%20Vila%2C%20Ana&amp;rft.au=de%20Treball%2C%20%C3%80rea&amp;rft.au=Bretschneider%2C%20Esther&amp;rft.au=Collazos%2C%20Josep%20Carles&amp;rft.au=Bain%2C%20Malcolm&amp;rft.au=Marpons%20Ucero%2C%20Guillem&amp;rft.au=Dom%C3%A8nech%20Bas%2C%20Joan"></span>
     </li>
-    <li class="pub-item" id="2017-framework-for-democratic-governance-of-distributed" data-type="report" data-kw="democratic governance distributed">
+    <li class="pub-item" id="2017-framework-for-democratic-governance-of-distributed" data-type="report" data-kw="democratic governance distributed" data-topics="technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Report</span>
         <span class="pub-year">2017</span>
@@ -1529,7 +1541,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=report&amp;rft.title=Framework%20for%20democratic%20governance%20of%20distributed%20architectures%3A%20DEcentralised%20Citizens%20Owned%20Data%20Ecosystem&amp;rft.date=2017&amp;rft.aulast=Calleja-Lopez&amp;rft.aufirst=Antonio&amp;rft.au=Monterde%2C%20Arnau&amp;rft.au=Barandiaran%2C%20Xabier"></span>
     </li>
-    <li class="pub-item" id="2016-plan-de-desarrollo-decidim-barcelona" data-type="report" data-kw="plataforma digital de participación red política participación decidim consul democracia digital">
+    <li class="pub-item" id="2016-plan-de-desarrollo-decidim-barcelona" data-type="report" data-kw="plataforma digital de participación red política participación decidim consul democracia digital" data-topics="technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Report</span>
         <span class="pub-year">2016</span>
@@ -1543,7 +1555,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=report&amp;rft.title=Plan%20de%20desarrollo%20Decidim%20Barcelona&amp;rft.date=2016&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Pereira%2C%20Andr%C3%A9s&amp;rft.au=Monterde%2C%20Arnau&amp;rft.au=Calleja-L%C3%B3pez%2C%20Antonio"></span>
     </li>
-    <li class="pub-item" id="2016-extended-neural-metastability-in-an-embodied" data-type="journalArticle" data-kw="neural assemblies metastability criticality synaptic plasticity embodied cognition sensorimotor coupling evolutionary robotics" data-doi="10.3389/fnsys.2016.00076">
+    <li class="pub-item" id="2016-extended-neural-metastability-in-an-embodied" data-type="journalArticle" data-kw="neural assemblies metastability criticality synaptic plasticity embodied cognition sensorimotor coupling evolutionary robotics" data-topics="autonomy normativity-function sensorimotor-habits neurodynamics artificial-life-robotics" data-doi="10.3389/fnsys.2016.00076">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2016</span>
@@ -1557,7 +1569,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Extended%20Neural%20Metastability%20in%20an%20Embodied%20Model%20of%20Sensorimotor%20Coupling&amp;rft.jtitle=Frontiers%20in%20Systems%20Neuroscience&amp;rft.volume=10&amp;rft.issn=1662-5137&amp;rft.date=2016&amp;rft_id=info%3Adoi%2F10.3389%2Ffnsys.2016.00076&amp;rft.aulast=Aguilera&amp;rft.aufirst=Miguel&amp;rft.au=Bedia%2C%20Manuel%20G.&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2015-multitudinous-identities-a-qualitative-and-network" data-type="journalArticle" data-kw="collective identity network-movements 15m systemic dimension network analysis synchronization analysis multitudinous identity" data-doi="10.1080/1369118x.2015.1043315">
+    <li class="pub-item" id="2015-multitudinous-identities-a-qualitative-and-network" data-type="journalArticle" data-kw="collective identity network-movements 15m systemic dimension network analysis synchronization analysis multitudinous identity" data-topics="neurodynamics technopolitics-democracy" data-doi="10.1080/1369118x.2015.1043315">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2015</span>
@@ -1570,7 +1582,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Multitudinous%20identities%3A%20a%20qualitative%20and%20network%20analysis%20of%20the%2015M%20collective%20identity&amp;rft.jtitle=Information%2C%20Communication%20%26%20Society&amp;rft.volume=18&amp;rft.issue=8&amp;rft.issn=1369-118X%2C%201468-4462&amp;rft.date=2015&amp;rft.spage=930&amp;rft.epage=950&amp;rft_id=info%3Adoi%2F10.1080%2F1369118X.2015.1043315&amp;rft.aulast=Monterde&amp;rft.aufirst=Arnau&amp;rft.au=Calleja-L%C3%B3pez%2C%20Antonio&amp;rft.au=Aguilera%2C%20Miguel&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Postill%2C%20John"></span>
     </li>
-    <li class="pub-item" id="2015-self-organized-criticality-plasticity-and-sensorimotor" data-type="journalArticle" data-kw="self-organization cognition cognitive science sensorimotor agency self-organized criticality" data-doi="10.1371/journal.pone.0117465">
+    <li class="pub-item" id="2015-self-organized-criticality-plasticity-and-sensorimotor" data-type="journalArticle" data-kw="self-organization cognition cognitive science sensorimotor agency self-organized criticality" data-topics="agency sensorimotor-habits neurodynamics artificial-life-robotics" data-doi="10.1371/journal.pone.0117465">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2015</span>
@@ -1584,7 +1596,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Self-Organized%20Criticality%2C%20Plasticity%20and%20Sensorimotor%20Coupling.%20Explorations%20with%20a%20Neurorobotic%20Model%20in%20a%20Behavioural%20Preference%20Task&amp;rft.jtitle=PLOS%20ONE&amp;rft.volume=10&amp;rft.issue=2&amp;rft.issn=1932-6203&amp;rft.date=2015&amp;rft.pages=e0117465&amp;rft_id=info%3Adoi%2F10.1371%2Fjournal.pone.0117465&amp;rft.aulast=Aguilera&amp;rft.aufirst=Miguel&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Bedia%2C%20Manuel%20G.&amp;rft.au=Seron%2C%20Francisco"></span>
     </li>
-    <li class="pub-item" id="2015-neurociencia-y-tecnopolitica-hacia-un-marco" data-type="bookSection" data-kw="technopolitics social movements">
+    <li class="pub-item" id="2015-neurociencia-y-tecnopolitica-hacia-un-marco" data-type="bookSection" data-kw="technopolitics social movements" data-topics="technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2015</span>
@@ -1597,7 +1609,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Neurociencia%20y%20tecnopol%C3%ADtica%3A%20%20hacia%20un%20marco%20anal%C3%B3gico%20para%20comprender%20la%20mente%20colectiva%20del%2015M&amp;rft.btitle=Tecnopol%C3%ADtica%20y%2015M.%20La%20potencia%20de%20las%20multitudes%20conectadas.&amp;rft.date=2015&amp;rft.spage=163&amp;rft.epage=211&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Aguilera%2C%20Miguel"></span>
     </li>
-    <li class="pub-item" id="2015-buen-conocer-flok-society-modelos-sostenibles" data-type="book" data-kw="free software commons">
+    <li class="pub-item" id="2015-buen-conocer-flok-society-modelos-sostenibles" data-type="book" data-kw="free software commons" data-topics="free-knowledge-commons">
       <div class="pub-meta">
         <span class="pub-type">Book</span>
         <span class="pub-year">2015</span>
@@ -1610,7 +1622,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Buen%20conocer%20%2F%20FLOK%20Society%3A%20modelos%20sostenibles%20y%20pol%C3%ADticas%20p%C3%BAblicas%20para%20una%20econom%C3%ADa%20social%20del%20conocimiento%20com%C3%BAn%20y%20abierto%20en%20Ecuador&amp;rft.isbn=978-9978-55-123-3&amp;rft.date=2015&amp;rft.aulast=Vila-Vi%C3%B1as&amp;rft.aufirst=David&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2015-el-proceso-buen-conocer-flok-society" data-type="bookSection" data-kw="metodología diseño participativo cooperación diseño de políticas públicas investigación-acción participativa flok conocimiento libre copyleft economía social del conocimiento común y abierto">
+    <li class="pub-item" id="2015-el-proceso-buen-conocer-flok-society" data-type="bookSection" data-kw="metodología diseño participativo cooperación diseño de políticas públicas investigación-acción participativa flok conocimiento libre copyleft economía social del conocimiento común y abierto" data-topics="technopolitics-democracy free-knowledge-commons">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2015</span>
@@ -1623,7 +1635,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=El%20proceso%20Buen%20Conocer%20%2F%20FLOK%20Society&amp;rft.btitle=Buen%20conocer%20%2F%20FLOK%20Society%3A%20modelos%20sostenibles%20y%20pol%C3%ADticas%20p%C3%BAblicas%20para%20una%20econom%C3%ADa%20social%20del%20conocimiento%20com%C3%BAn%20y%20abierto%20en%20Ecuador&amp;rft.isbn=978-9978-55-123-3&amp;rft.date=2015&amp;rft.spage=35&amp;rft.epage=88&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Vila-Vi%C3%B1as%2C%20David&amp;rft.au=V%C3%A1zquez%2C%20Daniel"></span>
     </li>
-    <li class="pub-item" id="2015-ciencia-investigacion-colaborativa-participativa-y-abierta" data-type="bookSection" data-kw="open science science 2.0 e-science science commons ciencia abierta open data flok ciencia ciudadana infraestructuras científicas abiertas capitalismo cognitivo capitalismo académico">
+    <li class="pub-item" id="2015-ciencia-investigacion-colaborativa-participativa-y-abierta" data-type="bookSection" data-kw="open science science 2.0 e-science science commons ciencia abierta open data flok ciencia ciudadana infraestructuras científicas abiertas capitalismo cognitivo capitalismo académico" data-topics="technopolitics-democracy free-knowledge-commons">
       <div class="pub-meta">
         <span class="pub-type">Book Chapter</span>
         <span class="pub-year">2015</span>
@@ -1637,7 +1649,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Ciencia%3A%20Investigaci%C3%B3n%20colaborativa%2C%20participativa%20y%20abierta.&amp;rft.btitle=Buen%20conocer%20%2F%20FLOK%20Society%3A%20modelos%20sostenibles%20y%20pol%C3%ADticas%20p%C3%BAblicas%20para%20una%20econom%C3%ADa%20social%20del%20conocimiento%20com%C3%BAn%20y%20abierto%20en%20Ecuador&amp;rft.isbn=978-9978-55-123-3&amp;rft.date=2015&amp;rft.spage=181&amp;rft.epage=268&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Araya%2C%20Daniel&amp;rft.au=Vila-Vi%C3%B1as%2C%20David"></span>
     </li>
-    <li class="pub-item" id="2015-the-flok-doctrine" data-type="journalArticle" data-kw="free software flok doctrine">
+    <li class="pub-item" id="2015-the-flok-doctrine" data-type="journalArticle" data-kw="free software flok doctrine" data-topics="free-knowledge-commons">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2015</span>
@@ -1664,7 +1676,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Intermittent%20Animal%20Behavior%3A%20The%20Adjustment-Deployment%20Dilemma&amp;rft.jtitle=Artificial%20Life&amp;rft.volume=20&amp;rft.issn=1064-5462%2C%201530-9185&amp;rft.date=2014&amp;rft.spage=319&amp;rft.epage=337&amp;rft_id=info%3Adoi%2F10.1162%2FARTL_a_00133&amp;rft.aulast=Aguilera&amp;rft.aufirst=Miguel&amp;rft.au=Bedia%2C%20Manuel%20G.&amp;rft.au=Seron%2C%20Francisco&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2014-enactivism-without-autonomy-what-went-wrong" data-type="conferencePaper" data-kw="autonomy cognition enactivism sensorimotor agency habits">
+    <li class="pub-item" id="2014-enactivism-without-autonomy-what-went-wrong" data-type="conferencePaper" data-kw="autonomy cognition enactivism sensorimotor agency habits" data-topics="autonomy agency enactivism sensorimotor-habits">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2014</span>
@@ -1678,7 +1690,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Enactivism%20without%20Autonomy%3F%20What%20went%20wrong%20at%20the%20roots%20of%20enactivism%20and%20how%20we%20should%20recover%20the%20autonomous%20foundations%20of%20sensorimotor%20agency&amp;rft.btitle=40th%20Annual%20Convention%20of%20the%20Society%20for%20the%20Study%20of%20Artificial%20Intelligence%20and%20the%20Simulation%20of%20Behaviour&amp;rft.isbn=978-1-63266-838-7&amp;rft.date=2014&amp;rft.spage=640&amp;rft.epage=642&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2014-a-genealogical-map-of-the-concept" data-type="journalArticle" data-kw="habit associationism organicism history of psychology history of philosophy" data-doi="10.3389/fnhum.2014.00522">
+    <li class="pub-item" id="2014-a-genealogical-map-of-the-concept" data-type="journalArticle" data-kw="habit associationism organicism history of psychology history of philosophy" data-topics="enactivism sensorimotor-habits" data-doi="10.3389/fnhum.2014.00522">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2014</span>
@@ -1692,7 +1704,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=A%20genealogical%20map%20of%20the%20concept%20of%20habit&amp;rft.jtitle=Frontiers%20in%20Human%20Neuroscience&amp;rft.volume=8&amp;rft.date=2014&amp;rft.pages=522&amp;rft_id=info%3Adoi%2F10.3389%2Ffnhum.2014.00522&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Di%20Paolo%2C%20Ezequiel%20Alejandro"></span>
     </li>
-    <li class="pub-item" id="2014-learning-to-perceive-in-the-sensorimotor" data-type="journalArticle" data-kw="sensorimotor contingencies piaget’s theory of equilibration dynamical systems open-ended learning" data-doi="10.3389/fnhum.2014.00551">
+    <li class="pub-item" id="2014-learning-to-perceive-in-the-sensorimotor" data-type="journalArticle" data-kw="sensorimotor contingencies piaget’s theory of equilibration dynamical systems open-ended learning" data-topics="normativity-function sensorimotor-habits" data-doi="10.3389/fnhum.2014.00551">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2014</span>
@@ -1706,7 +1718,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Learning%20to%20perceive%20in%20the%20sensorimotor%20approach%3A%20Piaget%E2%80%99s%20theory%20of%20equilibration%20interpreted%20dynamically&amp;rft.jtitle=Frontiers%20in%20Human%20Neuroscience&amp;rft.volume=8&amp;rft.date=2014&amp;rft.pages=551&amp;rft_id=info%3Adoi%2F10.3389%2Ffnhum.2014.00551&amp;rft.aulast=Di%20Paolo&amp;rft.aufirst=Ezequiel%20A.&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Beaton%2C%20Michael&amp;rft.au=Buhrmann%2C%20Thomas"></span>
     </li>
-    <li class="pub-item" id="2014-modeling-habits-as-self-sustaining-patterns" data-type="journalArticle" data-kw="sensorimotor self-maintaining patterns-of-behavior mental life habits meso-scale modeling" data-doi="10.3389/fnhum.2014.00590">
+    <li class="pub-item" id="2014-modeling-habits-as-self-sustaining-patterns" data-type="journalArticle" data-kw="sensorimotor self-maintaining patterns-of-behavior mental life habits meso-scale modeling" data-topics="autonomy sensorimotor-habits artificial-life-robotics" data-doi="10.3389/fnhum.2014.00590">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2014</span>
@@ -1720,7 +1732,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Modeling%20habits%20as%20self-sustaining%20patterns%20of%20sensorimotor%20behavior&amp;rft.jtitle=Frontiers%20in%20Human%20Neuroscience&amp;rft.volume=8&amp;rft.date=2014&amp;rft.pages=590&amp;rft_id=info%3Adoi%2F10.3389%2Ffnhum.2014.00590&amp;rft.aulast=Egbert&amp;rft.aufirst=Matthew%20D.&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2014-norm-establishing-and-norm-following-in" data-type="journalArticle" data-kw="minimal agency normativity viability organicism precariousness normative field" data-doi="10.1162/artl_a_00094">
+    <li class="pub-item" id="2014-norm-establishing-and-norm-following-in" data-type="journalArticle" data-kw="minimal agency normativity viability organicism precariousness normative field" data-topics="autonomy agency normativity-function" data-doi="10.1162/artl_a_00094">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2014</span>
@@ -1733,7 +1745,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Norm-establishing%20and%20norm-following%20in%20autonomous%20agency&amp;rft.jtitle=Artificial%20Life&amp;rft.volume=20&amp;rft.issue=1&amp;rft.issn=1064-5462&amp;rft.date=2014&amp;rft.spage=5&amp;rft.epage=28&amp;rft_id=info%3Adoi%2F10.1162%2FARTL_a_00094&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Egbert%2C%20Matthew%20D."></span>
     </li>
-    <li class="pub-item" id="2013-quantifying-political-self-organization-in-social" data-type="conferencePaper" data-kw="self-organization social movements" data-doi="10.7551/978-0-262-31709-2-ch057">
+    <li class="pub-item" id="2013-quantifying-political-self-organization-in-social" data-type="conferencePaper" data-kw="self-organization social movements" data-topics="technopolitics-democracy" data-doi="10.7551/978-0-262-31709-2-ch057">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2013</span>
@@ -1746,7 +1758,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Quantifying%20Political%20Self-Organization%20in%20Social%20Media.%20Fractal%20patterns%20in%20the%20Spanish%2015M%20movement%20on%20Twitter&amp;rft.btitle=P.%20Lio%2C%20O.%20Miglino%2C%20G.%20Nicosia%2C%20S.%20Nolfi%20%26%20M.%20Pavone%20%28Eds.%29%2C%20Advances%20in%20Artificial%20Life%3A%20ECAL%202013&amp;rft.isbn=978-0-262-31709-2&amp;rft.date=2013&amp;rft.spage=395&amp;rft.epage=402&amp;rft_id=info%3Adoi%2F10.7551%2F978-0-262-31709-2-ch057&amp;rft.aulast=Aguilera&amp;rft.aufirst=Miguel&amp;rft.au=Morer%2C%20Ignacio&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Bedia%2C%20Manuel"></span>
     </li>
-    <li class="pub-item" id="2013-sumak-yachay-devenir-sociedad-del-conocimiento" data-type="report" data-kw="knowledge society flok (free/libre open knowledge) society sumak kawsay sumak yachay knowledge pachamama collaborative investigation process-summit copyleft free software commons procommons cognitive autonomy community economy social economy of knowledge">
+    <li class="pub-item" id="2013-sumak-yachay-devenir-sociedad-del-conocimiento" data-type="report" data-kw="knowledge society flok (free/libre open knowledge) society sumak kawsay sumak yachay knowledge pachamama collaborative investigation process-summit copyleft free software commons procommons cognitive autonomy community economy social economy of knowledge" data-topics="autonomy technopolitics-democracy free-knowledge-commons">
       <div class="pub-meta">
         <span class="pub-type">Report</span>
         <span class="pub-year">2013</span>
@@ -1773,7 +1785,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=report&amp;rft.title=eSMCs%20and%20Embodied%20Cognition&amp;rft.date=2013&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Beaton%2C%20Michael%20JS&amp;rft.au=Buhrmann%2C%20Thomas&amp;rft.au=Di%20Paolo%2C%20Ezequiel%20A."></span>
     </li>
-    <li class="pub-item" id="2013-a-dynamical-systems-account-of-sensorimotor" data-type="journalArticle" data-kw="embodied cognition sensorimotor contingencies dynamical systems sensorimotor approach to perception minimal cognition" data-doi="10.3389/fpsyg.2013.00285">
+    <li class="pub-item" id="2013-a-dynamical-systems-account-of-sensorimotor" data-type="journalArticle" data-kw="embodied cognition sensorimotor contingencies dynamical systems sensorimotor approach to perception minimal cognition" data-topics="normativity-function sensorimotor-habits" data-doi="10.3389/fpsyg.2013.00285">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2013</span>
@@ -1800,7 +1812,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=report&amp;rft.title=Informe%20para%20el%20dise%C3%B1o%20de%20pol%C3%ADticas%20e%20infra-%20estructura%20para%20publicaciones%20acad%C3%A9micas%20y%20colaboraci%C3%B3n%20cient%C3%ADfica&amp;rft.date=2013&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2013-the-situated-hkb-model-how-sensorimotor" data-type="journalArticle" data-kw="hkb model situated hkb model embodied cognition sensorimotor coupling coordination dynamics dynamical analysis neurodynamics" data-doi="10.3389/fncom.2013.00117">
+    <li class="pub-item" id="2013-the-situated-hkb-model-how-sensorimotor" data-type="journalArticle" data-kw="hkb model situated hkb model embodied cognition sensorimotor coupling coordination dynamics dynamical analysis neurodynamics" data-topics="sensorimotor-habits neurodynamics artificial-life-robotics" data-doi="10.3389/fncom.2013.00117">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2013</span>
@@ -1814,7 +1826,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=The%20situated%20HKB%20model%3A%20how%20sensorimotor%20spatial%20coupling%20can%20alter%20oscillatory%20brain%20dynamics&amp;rft.jtitle=Frontiers%20in%20Computational%20Neuroscience&amp;rft.volume=7&amp;rft.issn=1662-5188&amp;rft.date=2013&amp;rft_id=info%3Adoi%2F10.3389%2Ffncom.2013.00117&amp;rft.aulast=Aguilera&amp;rft.aufirst=Miguel&amp;rft.au=Bedia%2C%20Manuel%20G.&amp;rft.au=Santos%2C%20Bruno%20A.&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2012-behavioral-metabolution-the-adaptive-and-evolutionary" data-type="journalArticle" data-kw="metabolism adaptive behavior autopoiesis chemotaxis" data-doi="10.1162/artl_a_00047">
+    <li class="pub-item" id="2012-behavioral-metabolution-the-adaptive-and-evolutionary" data-type="journalArticle" data-kw="metabolism adaptive behavior autopoiesis chemotaxis" data-topics="normativity-function" data-doi="10.1162/artl_a_00047">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2012</span>
@@ -1828,7 +1840,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Behavioral%20Metabolution%3A%20The%20Adaptive%20and%20Evolutionary%20Potential%20of%20Metabolism-Based%20Chemotaxis&amp;rft.jtitle=Artificial%20Life&amp;rft.volume=18&amp;rft.issue=1&amp;rft.issn=1064-5462&amp;rft.date=2012&amp;rft.spage=1&amp;rft.epage=25&amp;rft_id=info%3Adoi%2F10.1162%2Fartl_a_00047&amp;rft.aulast=Egbert&amp;rft.aufirst=Matthew%20D.&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Di%20Paolo%2C%20Ezequiel%20A."></span>
     </li>
-    <li class="pub-item" id="2012-synchrony-and-phase-relation-dynamics-underlying" data-type="journalArticle" data-kw="neural synchrony phase-coupled oscillators sensorimotor coordination" data-doi="10.1177/1059712312451859">
+    <li class="pub-item" id="2012-synchrony-and-phase-relation-dynamics-underlying" data-type="journalArticle" data-kw="neural synchrony phase-coupled oscillators sensorimotor coordination" data-topics="normativity-function sensorimotor-habits neurodynamics" data-doi="10.1177/1059712312451859">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2012</span>
@@ -1842,7 +1854,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Synchrony%20and%20phase%20relation%20dynamics%20underlying%20sensorimotor%20coordination&amp;rft.jtitle=Adaptive%20Behavior&amp;rft.issn=1059-7123%2C%201741-2633&amp;rft.date=2012&amp;rft.spage=321&amp;rft.epage=336&amp;rft_id=info%3Adoi%2F10.1177%2F1059712312451859&amp;rft.aulast=Santos&amp;rft.aufirst=Bruno%20A.&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Husbands%2C%20Philip"></span>
     </li>
-    <li class="pub-item" id="2012-sensorimotor-coordination-and-metastability-in-a" data-type="journalArticle" data-kw="sensorimotor coordination oscillatory dynamics metastability coordination dynamics" data-doi="10.1080/09540091.2013.770821">
+    <li class="pub-item" id="2012-sensorimotor-coordination-and-metastability-in-a" data-type="journalArticle" data-kw="sensorimotor coordination oscillatory dynamics metastability coordination dynamics" data-topics="normativity-function sensorimotor-habits neurodynamics" data-doi="10.1080/09540091.2013.770821">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2012</span>
@@ -1870,7 +1882,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=The%20impact%20of%20the%20paradigm%20of%20complexity%20on%20the%20foundational%20frameworks%20of%20biology%20and%20cognitive%20science&amp;rft.btitle=Handbook%20of%20the%20Philosophy%20of%20Science&amp;rft.isbn=978-0-444-52076-0&amp;rft.date=2011&amp;rft.spage=311&amp;rft.epage=333&amp;rft.aulast=Moreno&amp;rft.aufirst=Alvaro&amp;rft.au=Ruiz-Mirazo%2C%20K.&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2011-metastable-dynamical-regimes-in-an-oscillatory" data-type="conferencePaper" data-kw="cognition sensorimotor agency neuroscience robotics coordination dynamics" data-doi="10.1109/alife.2011.5954659">
+    <li class="pub-item" id="2011-metastable-dynamical-regimes-in-an-oscillatory" data-type="conferencePaper" data-kw="cognition sensorimotor agency neuroscience robotics coordination dynamics" data-topics="agency normativity-function sensorimotor-habits neurodynamics artificial-life-robotics" data-doi="10.1109/alife.2011.5954659">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2011</span>
@@ -1884,7 +1896,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Metastable%20dynamical%20regimes%20in%20an%20oscillatory%20network%20modulated%20by%20an%20agent%27s%20sensorimotor%20loop&amp;rft.btitle=2011%20IEEE%20Symposium%20on%20Artificial%20Life%20%28ALIFE%29&amp;rft.isbn=978-1-61284-062-8&amp;rft.date=2011&amp;rft.spage=124&amp;rft.epage=131&amp;rft_id=info%3Adoi%2F10.1109%2FALIFE.2011.5954659&amp;rft.aulast=Santos&amp;rft.aufirst=B.%20A&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Husbands%2C%20P."></span>
     </li>
-    <li class="pub-item" id="2011-neurodynamic-regimes-of-phase-relation-and" data-type="journalArticle" data-kw="neuroscience robotics">
+    <li class="pub-item" id="2011-neurodynamic-regimes-of-phase-relation-and" data-type="journalArticle" data-kw="neuroscience robotics" data-topics="neurodynamics artificial-life-robotics">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2011</span>
@@ -1897,7 +1909,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Neurodynamic%20regimes%20of%20phase%20relation%20and%20behavior%20in%20robotic%20models&amp;rft.jtitle=BMC%20Neuroscience&amp;rft.volume=12&amp;rft.issue=Suppl%201&amp;rft.date=2011&amp;rft.pages=P155&amp;rft.aulast=Santos&amp;rft.aufirst=Bruno&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Husbands%2C%20Phil"></span>
     </li>
-    <li class="pub-item" id="2011-quantifying-normative-behaviour-and-precariousness-in" data-type="conferencePaper" data-kw="autonomy metabolism agency normativity viability">
+    <li class="pub-item" id="2011-quantifying-normative-behaviour-and-precariousness-in" data-type="conferencePaper" data-kw="autonomy metabolism agency normativity viability" data-topics="autonomy agency normativity-function">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2011</span>
@@ -1925,7 +1937,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=A%20Minimal%20Model%20of%20Metabolism-Based%20Chemotaxis&amp;rft.jtitle=PLoS%20Comput%20Biol&amp;rft.volume=6&amp;rft.issue=12&amp;rft.date=2010&amp;rft.pages=e1001004&amp;rft_id=info%3Adoi%2F10.1371%2Fjournal.pcbi.1001004&amp;rft.aulast=Egbert&amp;rft.aufirst=Matthew%20D.&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Di%20Paolo%2C%20Ezequiel%20A."></span>
     </li>
-    <li class="pub-item" id="2010-homeostatic-plasticity-in-robots-from-development" data-type="conferencePaper" data-kw="habits robotics">
+    <li class="pub-item" id="2010-homeostatic-plasticity-in-robots-from-development" data-type="conferencePaper" data-kw="habits robotics" data-topics="sensorimotor-habits artificial-life-robotics">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2010</span>
@@ -1938,7 +1950,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Homeostatic%20Plasticity%20in%20Robots%3A%20from%20development%20to%20operant%20conditioning%20to%20habit%20formation&amp;rft.btitle=Proceedings%20of%20CogSys2010&amp;rft.date=2010&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Di%20Paolo%2C%20Ezequiel%20A."></span>
     </li>
-    <li class="pub-item" id="2010-behavioral-metabolution-metabolism-based-behavior-enables" data-type="conferencePaper" data-kw="metabolism artificial life evolution">
+    <li class="pub-item" id="2010-behavioral-metabolution-metabolism-based-behavior-enables" data-type="conferencePaper" data-kw="metabolism artificial life evolution" data-topics="artificial-life-robotics">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2010</span>
@@ -1952,7 +1964,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Behavioral%20Metabolution%3A%20Metabolism%20based%20behavior%20enables%20new%20forms%20of%20adaptation%20and%20evolution&amp;rft.btitle=Artificial%20Life%20XII%3A%20Proceedings%20of%20the%20Twelfth%20International%20Conference%20on%20the%20Simulation%20and%20Synthesis%20of%20Living%20Systems&amp;rft.date=2010&amp;rft.aulast=Egbert&amp;rft.aufirst=Matthew%20D.&amp;rft.au=Barandiaran%2C%20Xabier%20E.&amp;rft.au=Di%20Paolo%2C%20Ezequiel%20A"></span>
     </li>
-    <li class="pub-item" id="2009-defining-agency-individuality-normativity-asymmetry-and" data-type="journalArticle" data-kw="agency individuality interactional asymmetry normativity spatiality temporality" data-doi="10.1177/1059712309343819">
+    <li class="pub-item" id="2009-defining-agency-individuality-normativity-asymmetry-and" data-type="journalArticle" data-kw="agency individuality interactional asymmetry normativity spatiality temporality" data-topics="autonomy agency normativity-function ai-llms" data-doi="10.1177/1059712309343819">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2009</span>
@@ -1966,7 +1978,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Defining%20Agency%3A%20Individuality%2C%20Normativity%2C%20Asymmetry%2C%20and%20Spatio-temporality%20in%20Action&amp;rft.jtitle=Adaptive%20Behavior&amp;rft.volume=17&amp;rft.issue=5&amp;rft.date=2009&amp;rft.spage=367&amp;rft.epage=386&amp;rft_id=info%3Adoi%2F10.1177%2F1059712309343819&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Di%20Paolo%2C%20Ezequiel&amp;rft.au=Rohde%2C%20Marieke"></span>
     </li>
-    <li class="pub-item" id="2009-animats-in-the-modeling-ecosystem" data-type="journalArticle" data-kw="animats modeling ecosystem" data-doi="10.1177/1059712309340847">
+    <li class="pub-item" id="2009-animats-in-the-modeling-ecosystem" data-type="journalArticle" data-kw="animats modeling ecosystem" data-topics="artificial-life-robotics" data-doi="10.1177/1059712309340847">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2009</span>
@@ -1979,7 +1991,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Animats%20in%20the%20Modeling%20Ecosystem&amp;rft.jtitle=Adaptive%20Behavior&amp;rft.volume=17&amp;rft.issue=4&amp;rft.issn=1059-7123&amp;rft.date=2009&amp;rft.spage=287&amp;rft.epage=292&amp;rft_id=info%3Adoi%2F10.1177%2F1059712309340847&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Chemero%2C%20Anthony"></span>
     </li>
-    <li class="pub-item" id="2009-chemo-ethology-of-an-adaptive-protocell" data-type="conferencePaper" data-kw="metabolism viability adaptive behavior">
+    <li class="pub-item" id="2009-chemo-ethology-of-an-adaptive-protocell" data-type="conferencePaper" data-kw="metabolism viability adaptive behavior" data-topics="artificial-life-robotics">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2009</span>
@@ -1993,7 +2005,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Chemo-ethology%20of%20an%20adaptive%20protocell%3A%20Sensor-less%20sensitivity%20to%20implicit%20viability%20conditions&amp;rft.btitle=Proceedings%20of%20the%20Ninth%20European%20Conference%20on%20Artificial%20Life&amp;rft.date=2009&amp;rft.spage=242&amp;rft.epage=249&amp;rft.aulast=Egbert&amp;rft.aufirst=Matthew%20D.&amp;rft.au=Di%20Paolo%2C%20Ezequiel%20A.&amp;rft.au=Barandiaran%2C%20Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2008-adaptivity-from-metabolism-to-behavior" data-type="journalArticle" data-kw="naturalist approach to normativity autonomous systems adaptivity minimal agency decoupling of the nervous system definition of adaptive behavior" data-doi="10.1177/1059712308093868">
+    <li class="pub-item" id="2008-adaptivity-from-metabolism-to-behavior" data-type="journalArticle" data-kw="naturalist approach to normativity autonomous systems adaptivity minimal agency decoupling of the nervous system definition of adaptive behavior" data-topics="autonomy agency normativity-function artificial-life-robotics" data-doi="10.1177/1059712308093868">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2008</span>
@@ -2007,7 +2019,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Adaptivity%3A%20From%20Metabolism%20to%20Behavior&amp;rft.jtitle=Adaptive%20Behavior&amp;rft.volume=16&amp;rft.issue=5&amp;rft.date=2008&amp;rft.spage=325&amp;rft.epage=344&amp;rft_id=info%3Adoi%2F10.1177%2F1059712308093868&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Moreno%2C%20Alvaro"></span>
     </li>
-    <li class="pub-item" id="2008-modelling-autonomy-simulating-the-essence-of" data-type="journalArticle" data-kw="autonomy cognition" data-doi="10.1016/j.biosystems.2007.07.001">
+    <li class="pub-item" id="2008-modelling-autonomy-simulating-the-essence-of" data-type="journalArticle" data-kw="autonomy cognition" data-topics="autonomy" data-doi="10.1016/j.biosystems.2007.07.001">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2008</span>
@@ -2020,7 +2032,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Modelling%20autonomy%3A%20Simulating%20the%20essence%20of%20life%20and%20cognition&amp;rft.jtitle=Biosystems&amp;rft.volume=91&amp;rft.issue=2&amp;rft.issn=0303-2647&amp;rft.date=2008&amp;rft.spage=295&amp;rft.epage=304&amp;rft_id=info%3Adoi%2F10.1016%2Fj.biosystems.2007.07.001&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Ruiz-Mirazo%2C%20K."></span>
     </li>
-    <li class="pub-item" id="2008-on-the-nature-of-neural-information" data-type="journalArticle" data-kw="philosophy of neuroscience neural information autonomous systems neurodynamic self-organization embodiment error detection" data-doi="10.1016/j.neucom.2007.09.014">
+    <li class="pub-item" id="2008-on-the-nature-of-neural-information" data-type="journalArticle" data-kw="philosophy of neuroscience neural information autonomous systems neurodynamic self-organization embodiment error detection" data-topics="autonomy neurodynamics ai-llms" data-doi="10.1016/j.neucom.2007.09.014">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2008</span>
@@ -2047,7 +2059,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Artificial%20Mental%20Life&amp;rft.btitle=Artificial%20Life%20XI%3A%20Proceedings%20of%20the%20Eleventh%20International%20Conference%20on%20the%20Simulation%20and%20Synthesis%20of%20Living%20Systems&amp;rft.date=2008&amp;rft.pages=747&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Di%20Paolo%2C%20Ezequiel%20A"></span>
     </li>
-    <li class="pub-item" id="2008-report-on-open-access-and-flok" data-type="report" data-kw="cognition cognitive science free software open access">
+    <li class="pub-item" id="2008-report-on-open-access-and-flok" data-type="report" data-kw="cognition cognitive science free software open access" data-topics="free-knowledge-commons">
       <div class="pub-meta">
         <span class="pub-type">Report</span>
         <span class="pub-year">2008</span>
@@ -2061,7 +2073,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=report&amp;rft.title=Report%20on%20Open%20Access%20and%20FLOK%20for%20a%20New%20Journal%20in%20Cognitive%20Science&amp;rft.date=2008&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2008-mental-life-a-naturalized-approach-to" data-type="thesis" data-kw="autonomy cognition agency mental life">
+    <li class="pub-item" id="2008-mental-life-a-naturalized-approach-to" data-type="thesis" data-kw="autonomy cognition agency mental life" data-topics="autonomy agency">
       <div class="pub-meta">
         <span class="pub-type">Thesis</span>
         <span class="pub-year">2008</span>
@@ -2087,7 +2099,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Mental%20Life%3A%20conceptual%20models%20and%20synthetic%20methodologies%20for%20a%20post-cognitivist%20psychology&amp;rft.btitle=The%20World%2C%20the%20Mind%20and%20the%20Body%3A%20Psychology%20after%20cognitivism&amp;rft.isbn=978-1-84540-073-6&amp;rft.date=2007&amp;rft.spage=49&amp;rft.epage=90&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2006-on-what-makes-certain-dynamical-systems" data-type="journalArticle" data-kw="minimal cognition adaptive autonomy neurodynamic organization cognition-as-it-could-be emotional embodiment" data-doi="10.1177/105971230601400208">
+    <li class="pub-item" id="2006-on-what-makes-certain-dynamical-systems" data-type="journalArticle" data-kw="minimal cognition adaptive autonomy neurodynamic organization cognition-as-it-could-be emotional embodiment" data-topics="autonomy normativity-function sensorimotor-habits neurodynamics" data-doi="10.1177/105971230601400208">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2006</span>
@@ -2101,7 +2113,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=On%20What%20Makes%20Certain%20Dynamical%20Systems%20Cognitive%3A%20A%20Minimally%20Cognitive%20Organization%20Program&amp;rft.jtitle=Adaptive%20Behavior&amp;rft.volume=14&amp;rft.issue=2&amp;rft.issn=1059-7123&amp;rft.date=2006&amp;rft.spage=171&amp;rft.epage=185&amp;rft_id=info%3Adoi%2F10.1177%2F105971230601400208&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Moreno%2C%20Alvaro"></span>
     </li>
-    <li class="pub-item" id="2006-autonomia-comunicacion-y-evolucion-en-redes" data-type="journalArticle" data-kw="transferencia genética horizontal autonomía metabolismo información comunicación software libre código abierto redes bacterianas algoritmos genéticos redes de innovación tecnológica">
+    <li class="pub-item" id="2006-autonomia-comunicacion-y-evolucion-en-redes" data-type="journalArticle" data-kw="transferencia genética horizontal autonomía metabolismo información comunicación software libre código abierto redes bacterianas algoritmos genéticos redes de innovación tecnológica" data-topics="autonomy free-knowledge-commons">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2006</span>
@@ -2114,7 +2126,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Autonom%C3%ADa%2C%20Comunicaci%C3%B3n%20y%20Evoluci%C3%B3n%20en%20redes%20bacterianas%20y%20tecnol%C3%B3gicas&amp;rft.jtitle=biTARTE&amp;rft.issue=38&amp;rft.date=2006&amp;rft.spage=35&amp;rft.epage=60&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Guiu%2C%20Lluis"></span>
     </li>
-    <li class="pub-item" id="2006-alife-models-as-epistemic-artefacts" data-type="conferencePaper" data-kw="a-life artificial life complexity">
+    <li class="pub-item" id="2006-alife-models-as-epistemic-artefacts" data-type="conferencePaper" data-kw="a-life artificial life complexity" data-topics="normativity-function artificial-life-robotics">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2006</span>
@@ -2128,7 +2140,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=ALife%20Models%20as%20Epistemic%20Artefacts&amp;rft.btitle=Artificial%20Life%20X%20%3A%20Proceedings%20of%20the%20Tenth%20International%20Conference%20on%20the%20Simulation%20and%20Synthesis%20of%20Living%20Systems&amp;rft.date=2006&amp;rft.spage=513&amp;rft.epage=519&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E.&amp;rft.au=Moreno%2C%20Alvaro"></span>
     </li>
-    <li class="pub-item" id="2004-behavioral-adaptive-autonomy-a-milestone-on" data-type="conferencePaper" data-kw="autonomy metabolism artificial life cognition cognitive science agency">
+    <li class="pub-item" id="2004-behavioral-adaptive-autonomy-a-milestone-on" data-type="conferencePaper" data-kw="autonomy metabolism artificial life cognition cognitive science agency" data-topics="autonomy agency normativity-function artificial-life-robotics">
       <div class="pub-meta">
         <span class="pub-type">Conference Paper</span>
         <span class="pub-year">2004</span>
@@ -2142,7 +2154,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Behavioral%20Adaptive%20Autonomy.%20A%20milestone%20on%20the%20Alife%20%20route%20to%20AI%3F&amp;rft.btitle=Artificial%20life%20IX%3A%20proceedings%20of%20the%20Ninth%20International%20Conference%20on%20the%20Simulation%20and%20Synthesis%20of%20Artificial%20Life&amp;rft.isbn=978-0-262-66183-6&amp;rft.date=2004&amp;rft.spage=514&amp;rft.epage=521&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2004-a-naturalized-account-of-the-inside" data-type="journalArticle" data-kw="inside-outside dichotomy constructive and interactive loop agency naturalized philosophy">
+    <li class="pub-item" id="2004-a-naturalized-account-of-the-inside" data-type="journalArticle" data-kw="inside-outside dichotomy constructive and interactive loop agency naturalized philosophy" data-topics="agency">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2004</span>
@@ -2169,7 +2181,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Activismo%20digital%20y%20telem%C3%A1tico.%20Poder%20y%20contrapoder%20en%20el%20ciberespacio&amp;rft.date=2003&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier%20E."></span>
     </li>
-    <li class="pub-item" id="2003-hacklabs-ensamblaje-colectivo-de-la-tecnopolitica" data-type="journalArticle" data-kw="technopolitics hacktivism">
+    <li class="pub-item" id="2003-hacklabs-ensamblaje-colectivo-de-la-tecnopolitica" data-type="journalArticle" data-kw="technopolitics hacktivism" data-topics="technopolitics-democracy">
       <div class="pub-meta">
         <span class="pub-type">Journal Article</span>
         <span class="pub-year">2003</span>
@@ -2182,7 +2194,7 @@
       </div>
       <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fpublications.barandiaran.net%3Agenerator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Hacklabs.%20Ensamblaje%20colectivo%20de%20la%20tecnopol%C3%ADtica%20como%20realidad%20social&amp;rft.date=2003&amp;rft.aulast=Barandiaran&amp;rft.aufirst=Xabier"></span>
     </li>
-    <li class="pub-item" id="2002-adaptive-behaviour-autonomy-and-value-systems" data-type="thesis" data-kw="homeostatic adaptation autonomy value systems dynamical systems adaptive behaviour emergent autonomous functionality normativity simulation models">
+    <li class="pub-item" id="2002-adaptive-behaviour-autonomy-and-value-systems" data-type="thesis" data-kw="homeostatic adaptation autonomy value systems dynamical systems adaptive behaviour emergent autonomous functionality normativity simulation models" data-topics="autonomy normativity-function">
       <div class="pub-meta">
         <span class="pub-type">Thesis</span>
         <span class="pub-year">2002</span>
