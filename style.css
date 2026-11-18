@@ -421,3 +421,11 @@ a.res:hover .res-name{ color: var(--accent); }
 .lazy-note{ font-size: .875rem; font-style: italic; color: var(--text-light); }
 @media (max-width: 600px){ .res-grid{ grid-template-columns: 1fr 1fr; } }
 @media print{ .pub-index{ display: none; } }
+
+/* text for screen readers and search engines, not shown on screen */
+.visually-hidden{ position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* "Details ›" — the entry's way into its landing page */
+.pub-action.pub-page-link{ color: var(--accent); border-color: var(--accent); font-weight: 700; }
+.pub-action.pub-page-link:hover{ background: var(--accent); color: #fff; }

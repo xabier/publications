@@ -213,7 +213,8 @@ def entry_html(r, e):
             f'<a class="pub-kw" href="#" data-kw="{esc(k)}">{esc(k)}</a>' for k in kws)
         L.append(f'      <div class="pub-keywords"><span class="pub-kw-label" title="{tip}">'
                  f'{label}:</span> {chips}</div>')
-    acts = []
+    acts = [f'<a class="pub-action pub-page-link" href="p/{slug}/" '
+            f'title="This publication’s page: abstract, files, talks, citation">Details ›</a>']
     # Abstract and summary are loaded on demand from p/{slug}/index.json (script.js),
     # keeping this page short enough for AI agents to read whole. Without JS the
     # panel links to the landing page, which carries the full text.

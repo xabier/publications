@@ -476,8 +476,12 @@ def resource_index(r):
     for kind, name, note, href, ext in tiles:
         tgt = ' target="_blank" rel="noopener"' if ext else ""
         arrow = " ↗" if ext and kind == "Publisher" else ""
+        # file links carry the paper's title in their link text (hidden visually),
+        # so search engines know what each PDF/HTML/audio file is
+        hidden = (f'<span class="visually-hidden">: {esc(r["title"])}</span>'
+                  if kind in ("Read", "Listen") else "")
         cards.append(f'<a class="res res-{kind.lower()}" href="{esc(href)}"{tgt}>'
-                     f'<span class="res-kind">{kind}</span><span class="res-name">{esc(name)}{arrow}</span>'
+                     f'<span class="res-kind">{kind}</span><span class="res-name">{esc(name)}{hidden}{arrow}</span>'
                      f'<span class="res-note">{esc(note)}</span></a>')
     if not any(k in L for k in ("pdf", "html", "txt")):
         cards.insert(0, '<span class="res res-none"><span class="res-kind">Read</span>'
