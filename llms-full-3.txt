@@ -2,6 +2,174 @@
 
 > Newest first. Generated 2026-11-19. Index of all publications: https://publications.barandiaran.net/llms.txt. This is the last part.
 
+## Behavioral Metabolution: Metabolism based behavior enables new forms of adaptation and evolution
+
+- **Authors:** Matthew D. Egbert, Xabier E. Barandiaran, Ezequiel A Di Paolo
+- **Year:** 2010
+- **Type:** Conference Paper
+- **Published in:** Artificial Life XII: Proceedings of the Twelfth International Conference on the Simulation and Synthesis of Living Systems
+- **Topics (assigned by the site; no author keywords):** Metabolism, Artificial life, Evolution
+- **Landing page:** https://publications.barandiaran.net/p/2010-behavioral-metabolution-metabolism-based-behavior-enables/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2010-behavioral-metabolution-metabolism-based-behavior-enables.pdf)
+
+### Abstract
+
+Both metabolism and behavior play a key role in biological theory and artificial life modelling. Yet, despite their centrality there has been very little exploration of the relationship between these concepts and almost no exploration of how the interaction between the two could impact on evolution or instantiate alternative mechanisms for evolutionary processes. We present a simulation model of bacteria capable of metabolism-based chemotaxis: a minimal metabolic system capable of modulating behavior by influencing the probability of flagellar rotation (like in E. coli chemotaxis). We perform two illustrative experiments. In the first, the incorporation of a chemical compound into metabolism qualitatively improves the chemotactic strategy. In the second, an encounter
+with a specific chemical compound leads to a reaction that
+opens up a new metabolic pathway while automatically regu-
+lating chemotaxis towards that same compound. Both exper-
+iments illustrate the adaptive potential of metabolism-based
+behavior and can be used to explore the idea of “Behavioral
+Metabolution,” a co-evolutionary synergy between behavior
+and metabolism. We abstract some principles of behavioral
+metabolution and discuss its application to early prebiotic
+evolution.
+
+### Cite
+
+Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2010). Behavioral Metabolution: Metabolism based behavior enables new forms of adaptation and evolution. In *Artificial Life XII: Proceedings of the Twelfth International Conference on the Simulation and Synthesis of Living Systems*.
+
+---
+
+## Defining Agency: Individuality, Normativity, Asymmetry, and Spatio-temporality in Action
+
+- **Authors:** Xabier E. Barandiaran, Ezequiel Di Paolo, Marieke Rohde
+- **Year:** 2009
+- **Type:** Journal Article
+- **Published in:** Adaptive Behavior, 17(5), 367-386
+- **DOI:** [10.1177/1059712309343819](https://doi.org/10.1177/1059712309343819)
+- **Keywords:** Agency, Individuality, Interactional asymmetry, Normativity, Spatiality, Temporality
+- **Landing page:** https://publications.barandiaran.net/p/2009-defining-agency-individuality-normativity-asymmetry-and/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2009-defining-agency-individuality-normativity-asymmetry-and.pdf)
+
+### Abstract
+
+The concept of agency is of crucial importance in cognitive science and artificial intelligence, and it is often used as an intuitive and rather uncontroversial term, in contrast to more abstract and theoretically heavily weighted terms such as intentionality , rationality, or mind. However, most of the available definitions of agency are too loose or unspecific to allow for a progressive scientific research program. They implicitly and unproblematically assume the features that characterize agents, thus obscuring the full potential and challenge of modeling agency. We identify three conditions that a system must meet in order to be considered as a genuine agent: (a) a system must define its own individuality, (b) it must be the active source of activity in its environment (interactional asymmetry), and (c) it must regulate this activity in relation to certain norms (normativity). We find that even minimal forms of proto-cellular systems can already provide a paradigmatic example of genuine agency. By abstracting away some specific details of minimal models of living agency we define the kind of organization that is capable of meeting the required conditions for agency (which is not restricted to living organisms). On this basis, we define agency as an autonomous organization that adaptively regulates its coupling with its environment and contributes to sustaining itself as a consequence. We find that spatiality and temporality are the two fundamental domains in which agency spans at different scales. We conclude by giving an outlook for the road that lies ahead in the pursuit of understanding, modeling, and synthesizing agents.
+
+### Cite
+
+Barandiaran, X. E., Di Paolo, E., & Rohde, M. (2009). Defining Agency: Individuality, Normativity, Asymmetry, and Spatio-temporality in Action. *Adaptive Behavior*, *17*(5), 367-386. https://doi.org/10.1177/1059712309343819
+
+---
+
+## Animats in the Modeling Ecosystem
+
+- **Authors:** Xabier E. Barandiaran, Anthony Chemero
+- **Year:** 2009
+- **Type:** Journal Article
+- **Published in:** Adaptive Behavior, 17(4), 287-292
+- **DOI:** [10.1177/1059712309340847](https://doi.org/10.1177/1059712309340847)
+- **Topics (assigned by the site; no author keywords):** Animats, Modeling, Ecosystem
+- **Landing page:** https://publications.barandiaran.net/p/2009-animats-in-the-modeling-ecosystem/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2009-animats-in-the-modeling-ecosystem.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Chemero, A. (2009). Animats in the Modeling Ecosystem. *Adaptive Behavior*, *17*(4), 287-292. https://doi.org/10.1177/1059712309340847
+
+---
+
+## Chemo-ethology of an adaptive protocell: Sensor-less sensitivity to implicit viability conditions
+
+- **Authors:** Matthew D. Egbert, Ezequiel A. Di Paolo, Xabier E. Barandiaran
+- **Year:** 2009
+- **Type:** Conference Paper
+- **Published in:** Proceedings of the Ninth European Conference on Artificial Life, 242-249
+- **Publisher:** Springer Verlag, Berlin
+- **Topics (assigned by the site; no author keywords):** Metabolism, Viability, Adaptive behavior
+- **Landing page:** https://publications.barandiaran.net/p/2009-chemo-ethology-of-an-adaptive-protocell/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2009-chemo-ethology-of-an-adaptive-protocell.pdf)
+
+### Abstract
+
+The viability of a living system is a non-trivial concept, yet it is often highly simplified in models of adaptive behavior. What is lost in this abstraction? How do viability conditions appear in the first place? In order to address these questions we present a new model of an au- topoietic or protocellular system simulated at the molecular level. We propose a measurement for the viability of the system and analyze the ‘viability condition’ that becomes evident when using this measurement. We observe how the system behaves in relation to this condition, generating instances of chemotaxis, behavioural preferences and simple (yet not trivial) examples of action selection. The model permits the formulation of a number of conclusions regarding the nature of viability conditions and adaptive behaviour modulated by metabolic processes.
+
+### Cite
+
+Egbert, M. D., Di Paolo, E. A., & Barandiaran, X. E. (2009). Chemo-ethology of an adaptive protocell: Sensor-less sensitivity to implicit viability conditions. In *Proceedings of the Ninth European Conference on Artificial Life* (pp. 242-249). Springer Verlag.
+
+---
+
+## Adaptivity: From Metabolism to Behavior
+
+- **Authors:** Xabier E. Barandiaran, Alvaro Moreno
+- **Year:** 2008
+- **Type:** Journal Article
+- **Published in:** Adaptive Behavior, 16(5), 325-344
+- **DOI:** [10.1177/1059712308093868](https://doi.org/10.1177/1059712308093868)
+- **Keywords:** Naturalist approach to normativity, Autonomous systems, Adaptivity, Minimal agency, Decoupling of the nervous system, Definition of adaptive behavior
+- **Landing page:** https://publications.barandiaran.net/p/2008-adaptivity-from-metabolism-to-behavior/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-adaptivity-from-metabolism-to-behavior.pdf)
+
+### Abstract
+
+In this article, we propose some fundamental requirements for the appearance of adaptivity. We argue that a basic metabolic organization, taken in its minimal sense, may provide the conceptual framework for naturalizing the origin of teleology and normative functionality as it appears in living systems. However, adaptivity also requires the emergence of a regulatory subsystem, which implies a certain form of dynamic decoupling within a globally integrated, autonomous system. Thus, we analyze several forms of minimal adaptivity, including the special case of motility. We go on to explain how an open-ended complexity growth of motility-based adaptive agency, namely, behavior, requires the appearance of the nervous system. Finally, we discuss some implications of these ideas for embodied robotics.
+
+### Cite
+
+Barandiaran, X. E., & Moreno, A. (2008). Adaptivity: From Metabolism to Behavior. *Adaptive Behavior*, *16*(5), 325-344. https://doi.org/10.1177/1059712308093868
+
+---
+
+## Modelling autonomy: Simulating the essence of life and cognition
+
+- **Authors:** Xabier E. Barandiaran, K. Ruiz-Mirazo
+- **Year:** 2008
+- **Type:** Journal Article
+- **Published in:** Biosystems, 91(2), 295-304
+- **DOI:** [10.1016/j.biosystems.2007.07.001](https://doi.org/10.1016/j.biosystems.2007.07.001)
+- **Topics (assigned by the site; no author keywords):** Autonomy, Cognition
+- **Landing page:** https://publications.barandiaran.net/p/2008-modelling-autonomy-simulating-the-essence-of/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-modelling-autonomy-simulating-the-essence-of.pdf)
+
+### Cite
+
+Barandiaran, X. E., & Ruiz-Mirazo, K. (2008). Modelling autonomy: Simulating the essence of life and cognition. *Biosystems*, *91*(2), 295-304. https://doi.org/10.1016/j.biosystems.2007.07.001
+
+---
+
+## On the nature of neural information: A critique of the received view 50 years later
+
+- **Authors:** Xabier E. Barandiaran, Alvaro Moreno
+- **Year:** 2008
+- **Type:** Journal Article
+- **Published in:** Neurocomputing, 71(4-6), 681-692
+- **DOI:** [10.1016/j.neucom.2007.09.014](https://doi.org/10.1016/j.neucom.2007.09.014)
+- **Keywords:** Philosophy of neuroscience, Neural information, Autonomous systems, Neurodynamic self-organization, Embodiment, Error detection
+- **Landing page:** https://publications.barandiaran.net/p/2008-on-the-nature-of-neural-information/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-on-the-nature-of-neural-information.pdf)
+
+### Abstract
+
+We offer a critical review of the concept of neural information, as received within mainstream neuroscience from Artificial Intelligence. This conception of information is constructed as a conditional probability of a stimulus given a certain neural activation, a correlation that cannot be accessed by the organism and fails to explain its causal organization. We reconstruct an alternative conception of neural information: a pattern of signals that is selected by the organism (as an autonomous system) to contribute to its self-maintenance in virtue of its correlation with external conditions, a correlation that might further be evaluated by the very system.
+
+### Cite
+
+Barandiaran, X. E., & Moreno, A. (2008). On the nature of neural information: A critique of the received view 50 years later. *Neurocomputing*, *71*(4-6), 681-692. https://doi.org/10.1016/j.neucom.2007.09.014
+
+---
+
+## Artificial Mental Life
+
+- **Authors:** Xabier E. Barandiaran, Ezequiel A Di Paolo
+- **Year:** 2008
+- **Type:** Conference Paper
+- **Published in:** Artificial Life XI: Proceedings of the Eleventh International Conference on the Simulation and Synthesis of Living Systems, 747
+- **Publisher:** MIT Press, Cambridge, MA.
+- **Topics (assigned by the site; no author keywords):** Mental life, Artificial, Mental, Life
+- **Landing page:** https://publications.barandiaran.net/p/2008-artificial-mental-life/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-artificial-mental-life.pdf)
+
+### Abstract
+
+Work in Artificial Life aimed at informing Artificial Intelligence (Steels & Brooks, 1994, Artificial Life route to Artificial Intelligence, Lawrence Erlbaum) has drawn inspiration from biology mainly at two levels: i) a bottom-up modelling approach conceiving cognition as the evolutionary complexification of adaptive behaviour, and ii) appeals to self-organization in the domain of behaviour and neural dynamics in analogy with self-organized chemical and biological processes. But little attention has been paid to the possibility of conceiving (and modelling) behaviour in terms of a self-maintaining organized unity in analogy with minimal forms of proto-cellular (or autopoietic) life. We propose that the behavioural counterpart of a network of self-sustaining chemical reactions should be a network of interactively maintained sensorimotor dissipative structures (habits) that emerge from the continuous reciprocal interaction between brain, body and world (and not, as in previous attempts, between molecular processes and neural processes, conceiving the nervous system as operationally closed—Varela, 1979, Principles of Biological Autonomy, Elsevier). Despite its popularity among pre-Darwinian biologists (such as Aristotle, Lamarck or Bichat), pragmatists and phenomenologists alike (Dewey, Merleau-Ponty) and among pre-computationalist psychologists (like James, Goldstein, Ivo Kohler or Piaget) the notion of habit has received little attention within Artificial Life. Habits posses key properties that make them extremely attractive for modelling the organization of behaviour: a) the structure of habits can be traced back to a fully operational-dynamicist framework, b) they do not presuppose a distinction or a causal priority between perception and action, c) habits are inherently situated or enactive structures cutting across brain, body and environment, d) habits are plastic and malleable, e) habits provide a concrete sense of self-maintenance (they are both cause and effect of their occurrence) potentially implying an intrinsic and a interactive teleology and f) habits can be nested or composed at different scales. This opens up the possibility for an operational notion of what might be called Mental Life (Barandiaran, 2007, The World, the Mind and the Body, p. 49, Imprint Academic) as the continued formation of a web of habits through sensorimotor interactions whose cohesive self-maintenance constitutes the identity of a cognitive (as opposed to barely biological) agent and the world it thereby co-defines. We use some recent evolutionary robotic models on preference and habit formation (Di Paolo & Iizuka, 2008, Biosystems, 91, p. 409) to illustrate and explore the theoretical and philosophical implications of taking sensorimotor habits as the building blocks of behavioural organization. This organization takes the form of an attractor landscape whose stability is homeodynamically maintained through sensorimotor coupling. Mental Life opens up a new object of modelling in its own right, closer to the Aristotelian notion of psyche (or even the Heideggerian notion of Dasein) than to the notion of information processing, adaptive problem solving or weak conceptions of autonomy in robotics. Artificial Mental Life involves a shift from building artificial systems that satisfy externally imposed norms (engineering or evolutionary) to systems capable of generating their own norms: those required to sustain their own behavioural organization. In turn, it can become a source of new research questions to investigate the dynamics of assimilation and accommodation into an existing organization, its shaping by social interactions and institutions, or mental disorders dealing with stability, stress, identity, etc.
+
+### Cite
+
+Barandiaran, X. E., & Di Paolo, E. A. (2008). Artificial Mental Life. In *Artificial Life XI: Proceedings of the Eleventh International Conference on the Simulation and Synthesis of Living Systems* (pp. 747). MIT Press.
+
+---
+
 ## Report on Open Access and FLOK for a New Journal in Cognitive Science
 
 - **Authors:** Xabier E. Barandiaran
@@ -33,6 +201,10 @@ Barandiaran, X. E. (2008). *Report on Open Access and FLOK for a New Journal in 
 - **Topics (assigned by the site; no author keywords):** Autonomy, Cognition, Agency, Mental life
 - **Landing page:** https://publications.barandiaran.net/p/2008-mental-life-a-naturalized-approach-to/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-mental-life-a-naturalized-approach-to.pdf)
+
+### Abstract
+
+Recent advances in modelling complex adaptive systems through computer simulation have reconfigured the way in which mechanistic explanations can conceptualize the mind. The goal of the thesis is to make explicit the construction of a model for Minds as a complex generative organization. For doing so, and under the difficulties that current approaches find to specify cognitive systems as distinct from generic computational or dynamical ones, the construction of a model for minds departs from a minimalist, universal and naturalized conception of agency. Three conditions are state to provide a satisfactory account of agency: self-generated individuality, normativity and causal-asymmetry. A morphophylogenetic approach is proposed whereby increasingly complex models of agency are analysed. The morphophylogenetic reconstruction depart with the origins of life as the emergence of a self-encapsulated chemical network capable of actively producing itself. The autonomous organization of living organisms is shown to ground a naturalized conception of normative functionality, individuality and agency. Taking biological autonomy as a departure point the thesis covers the main organizational evolutionary transitions of agency that lead to Bilaterian organisms. A number of case studies (E. coli, A. digitale and C. elegans) are provided to illustrate different aspects of such transitions until adaptive behaviour (made possible by multicellular organisms endowed with a nervous systems and mechanically articulated bodies) is precisely defined and its modelling process made explicit. However, a number of problems are found for the project of grounding intentionality and mindfulness in biological (metabolic) normativity. An alternative research avenue is proposed in which it is the autonomy of behaviour (and not that of its underlying infrastructure) what serves to naturalize intentional agency. A conceptual model of Mental Life is proposed: the autonomous and normatively regulated organization of a web of sensorimotor neurodynamic structures, capable of generating a distinctive level of coherency and identity in continuous interaction with the world. An analysis of the evolution of brain, body and behaviour suggests that there is an evolutionary pathway towards more plastic, diverse and integrated agency leading to Mental Life. It is argued that current developmental cognitive neuroscience reveals the progressive organization of the brain through self-sustained behavioural interactions as opposed to the maturation of genetically pre-specified cognitive modules that would preclude the emergence of Mental Life. Large-scale models of neural dynamics are reviewed supporting the view of an integrated dissipative organization of neural activity and its self-regulatory capacity. Finally, it is shown how sensorimotor deprivation regimes may lead to a disintegration of behavioural organization revealing the deep entanglement between world and mind for the continued self-maintenance of the latter.
 
 ### Cite
 
@@ -87,6 +259,10 @@ Barandiaran, X. E., & Moreno, A. (2006). On What Makes Certain Dynamical Systems
 - **Keywords:** Transferencia genética horizontal, Autonomía, Metabolismo, Información, Comunicación, Software libre, Código abierto, Redes bacterianas, Algoritmos genéticos, Redes de innovación tecnológica
 - **Landing page:** https://publications.barandiaran.net/p/2006-autonomia-comunicacion-y-evolucion-en-redes/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2006-autonomia-comunicacion-y-evolucion-en-redes.pdf)
+
+### Abstract
+
+La estructura microcósmica del metabolismo y la comunicación en la biosfera (especialmente en relación a las redes bacterianas) ofrecen metáforas o herramientas conceptuales para entender los procesos autoorganizativos de las redes cooperativas en la tecnosfera. Partimos del análisis del origen y expresión mínima de la vida como fusión entre sistemas autónomos y estructuras formales (template). Esta fusión entre un sistema dinámico automantenido (autónomo) y estructuras moleculares recombinables da lugar al origen de la información en la naturaleza: la información genética. Si entendemos por comunicación la transmisión de información entre dos sistemas autónomos (capaces de interpretación), las redes bacterianas de transferencia genética horizontal constituyen el primer ejemplo de una red de comunicación global: un sistema de evolución abierta cooperativa responsable del mantenimiento de la mayor parte del ecosistema planetario y de la mayor red de innovación biotecnológica que conocemos. No es por tanto descabellado proyectar (de la biosfera a la tecnosfera) este marco teórico para reconceptualizar el desarrollo tecnológico humano y redescubrir la autonomía tecnológica, las comunidades de desarrollo de software libre y las redes electrónicas de intercambio de información como fundamentos de autoorganización social cooperativa.
 
 ### Cite
 
@@ -166,6 +342,10 @@ Moreno, A., & Barandiaran, X. E. (2004). A naturalized account of the inside-out
 - **Keywords:** Activismo digital y telemático, Ciberespacio, Guerrilla de la comunicación, Política, Nuevos movimientos sociales, Poder
 - **Landing page:** https://publications.barandiaran.net/p/2003-activismo-digital-y-telematico-poder-y/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2003-activismo-digital-y-telematico-poder-y.pdf)
+
+### Abstract
+
+La construcción tecnológica y la introducción en el imaginario colectivo del ciberespacio (definido por el flujo de información y códigos, la esfera pública, la sociedad del espectáculo y las tecnologías de la información) abre nuevos horizontes políticos a través del establecimiento de nuevas relaciones de poder en la esfera tecnológica y comunicativa. En este contexto el activismo digital y telemático ofrece una serie de herramientas, de espacios, de canales y experimentos en los que recobrar la subjetividad política a través de la creación e inteligencia colectiva y la redefinición constante de los códigos y prácticas discursivas, comunicativas y tecnológicas que definen nuestra realidad social.
 
 ### Cite
 

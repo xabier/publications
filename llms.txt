@@ -12,7 +12,7 @@ How to read this site (for AI agents and crawlers):
   summary when available, talks, APA citation, BibTeX/RIS links) and a JSON record at
   `https://publications.barandiaran.net/p/{slug}/index.json`. The links below point to the Markdown twins.
 - All records with abstracts in one file: [llms-full.txt](https://publications.barandiaran.net/llms-full.txt)
-  (~185K characters), or the same split into parts small enough for a
+  (~207K characters), or the same split into parts small enough for a
   single fetch each: [part 1](https://publications.barandiaran.net/llms-full-1.txt) · [part 2](https://publications.barandiaran.net/llms-full-2.txt) · [part 3](https://publications.barandiaran.net/llms-full-3.txt).
 - Structured data: [publications.json](https://publications.barandiaran.net/publications.json),
   [CSL-JSON](https://publications.barandiaran.net/publications.csl.json), [BibTeX](https://publications.barandiaran.net/all.bib), [RIS](https://publications.barandiaran.net/all.ris).

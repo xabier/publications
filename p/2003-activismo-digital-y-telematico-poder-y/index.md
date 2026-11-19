@@ -8,6 +8,10 @@
 - **Landing page:** https://publications.barandiaran.net/p/2003-activismo-digital-y-telematico-poder-y/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2003-activismo-digital-y-telematico-poder-y.pdf)
 
+## Abstract
+
+La construcción tecnológica y la introducción en el imaginario colectivo del ciberespacio (definido por el flujo de información y códigos, la esfera pública, la sociedad del espectáculo y las tecnologías de la información) abre nuevos horizontes políticos a través del establecimiento de nuevas relaciones de poder en la esfera tecnológica y comunicativa. En este contexto el activismo digital y telemático ofrece una serie de herramientas, de espacios, de canales y experimentos en los que recobrar la subjetividad política a través de la creación e inteligencia colectiva y la redefinición constante de los códigos y prácticas discursivas, comunicativas y tecnológicas que definen nuestra realidad social.
+
 ## Cite
 
 Barandiaran, X. E. (2003). Activismo digital y telemático. Poder y contrapoder en el ciberespacio. http://201.147.150.252:8080/jspui/handle/123456789/1837

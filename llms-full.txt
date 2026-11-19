@@ -386,6 +386,10 @@ García, E., & Barandiaran, X. E. (2025). Varieties of normativity and mental he
 - **Landing page:** https://publications.barandiaran.net/p/2025-the-organismic-turn-teleosemantics-after-4e/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2025-the-organismic-turn-teleosemantics-after-4e.pdf)
 
+### Abstract
+
+This chapter calls for an “organismic” approach to teleosemantics, integrating insights from the 4E cognition paradigm (Embodied, Enactive, Extended, and Ecological) and deeply transforming one of the strongest naturalizing projects in analytic philosophy. Classical teleosemantics traditionally explains mental intentionality through evolutionary selection, positing that the function of cognitive states derive from historical adaptive advantages. However, this view faces challenges, including insufficient explanatory power regarding specific intentional properties and conflicts with contemporary biological theories that emphasize structural constraints and developmental processes over pure selection pressures. The proposed organismic turn shifts normativity from evolutionary history to current autonomous organization, particularly to sensorimotor dynamics in embodied organisms. Drawing on organizational biology and enactivism, we suggest that intentionality and normativity naturally emerge from the organization of a network of sensorimotor schemes. This perspective reframes intentional states as integral to the immediate, dynamic organization of an organism’s sensorimotor life, providing a grounding for cognitive normativity and teleology. Bringing together environmental (ecological) and agent-side (neurodynamic and musculoskeletal) support-structures for the enaction of sensorimotor schemes, makes possible to reconcile internalist theories of meaning (such as Conceptual Role Semantics and Semantic Networks) with teleosemantics. This connection provides a holistic, biologically plausible, foundation for the naturalization of meaning and intentionality in more traditional yet renewed analytic (and synthetic) terms.
+
 ### Cite
 
 Barandiaran, X. E., & Rama, T. (2025). The Organismic Turn. Teleosemantics after 4E. In M. Heras-Escribano (Ed.), *Analytic Philosophy and 4E Cognition* (pp. 143-159). Routledge. https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003649359-13/organismic-turn-teleosemantics-4e-xabier-barandiaran-tiago-rama
@@ -754,6 +758,10 @@ Aragón, P., Kaltenbrunner, A., Calleja-López, A., Pereira, A., Monterde, A., B
 - **Landing page:** https://publications.barandiaran.net/p/2017-funcionalidades-y-caracteristicas-de-decidim/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-funcionalidades-y-caracteristicas-de-decidim.pdf)
 
+### Abstract
+
+Decidim [https://decidim.org] es una infraestructura digital para la democracia participativa basada en software libre (Ruby on Rails), que facilita la creación de portales de participación ciudadana. Las personas usuarias de la plataforma (participantes) interactúan a través de los mecanismos de participación llamados componentes que ofrecen funcionalidades específicas para diferentes espacios de participación. Es decir, los espacios de participación como las Iniciativas, las Asambleas, los Procesos o las Consultas disponen de componentes que se combinan como mecanismos de participación. Entre los componentes más destacados están los encuentros presenciales, las encuestas, las propuestas, las votaciones, el seguimiento de resultados y los comentarios. Por ejemplo, un proceso de participación específico como la elaboración de presupuestos participativos, puede combinar, en sus diferentes fases, varios componentes para: convocar y registrar los resultados de encuentros presenciales con la ciudadanía, realizar una encuesta, hacer propuestas,y en las fases finales del proceso, hacer una votación para decidir sobre los proyectos con un sistema de gasto del presupuesto (siempre después de un periodo de comentarios y debates), realizar una encuesta de evaluación y, finalmente, un seguimiento de la ejecución de los proyectos escogidos.
+
 ### Cite
 
 Barandiaran, X. E., & Romero, C. (2017). *Funcionalidades y características de Decidim* (Decidim Documentation). Decidim.org (Ajuntament de Barcelona). https://decidim.org/pdf/features-roadmap-es.pdf
@@ -770,6 +778,10 @@ Barandiaran, X. E., & Romero, C. (2017). *Funcionalidades y características de 
 - **Topics (assigned by the site; no author keywords):** Decidim, Functionalities, Roadmap
 - **Landing page:** https://publications.barandiaran.net/p/2017-decidim-s-functionalities-and-features-roadmap/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-decidim-s-functionalities-and-features-roadmap.pdf)
+
+### Abstract
+
+Decidim [https://decidim.org] is a digital infrastructure for participatory democracy written on free software (Ruby on Rails), which enables the creation of citizen participation portals. Users of the platform (participants) interact through participatory mechanisms known as components which provide specific functions for the various participatory spaces. In other words, participatory spaces such as Initiatives, Assemblies, Processes and Consultations have components at their disposal which work together as participatory mechanisms. The more notable components include in-person meetings, surveys, proposals, votes, results monitoring and comments. For example, the various stages of a specific participatory process, such as the preparation of participatory budgets, can incorporate various components to: convene and capture the results of in-person meetings with citizens, conduct a survey, make proposals and, during the final stages of the process, hold a vote to decide on the projects with a budget expenditure system (always after a period for commentary and debate), conduct an assessment survey and, finally, monitor the implementation of the projects selected.
 
 ### Cite
 
@@ -929,6 +941,10 @@ Ruiz, J., Barandiaran, X. E., Boada Pla, M., Bastida Vila, A., de Treball, À., 
 - **Landing page:** https://publications.barandiaran.net/p/2017-framework-for-democratic-governance-of-distributed/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-framework-for-democratic-governance-of-distributed.pdf)
 
+### Abstract
+
+The DECODE (DEcentralized Citizen Owned Data Ecosystems) project turns around three key realities at the core of the current data economy: technological infrastructures (software and hardware), data, and social actors. It proposes a model of data ecosystems where, in opposition to the current data economy, citizens (both individually and collectively) own, govern, and make the most of their data1. In this deliverable we carry on two main tasks. Firstly and more importantly, we outline a preliminary framework for the democratic governance of distributed ledger technologies (or blockchains) such as DECODE. Otherwise, we focus upon the connection between social actors and DECODE technology, attending primarily to software. We leave the systematic consideration of the democratic governance of data for a later work (D2.5). Secondly, we look at some of the impacts that DECODE technology (specifically, in connection with the Decidim digital platform for participatory democracy) may have upon democratic governance in the network society.
+
 ### Cite
 
 Calleja-Lopez, A., Monterde, A., & Barandiaran, X. (2017). *Framework for democratic governance of distributed architectures: DEcentralised Citizens Owned Data Ecosystem* (Deliverable for DECODE DEcentralised Citizens Owned Data Ecosystem, H2020–ICT-2016-1, EU Funded Project no. 732546, D 2.3). DECODE. https://openaccess.uoc.edu/handle/10609/100368
@@ -987,6 +1003,10 @@ Aguilera, M., Bedia, M. G., & Barandiaran, X. E. (2016). Extended Neural Metasta
 - **Keywords:** Collective identity, Network-movements, 15M, Systemic dimension, Network analysis, Synchronization analysis, Multitudinous identity
 - **Landing page:** https://publications.barandiaran.net/p/2015-multitudinous-identities-a-qualitative-and-network/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-multitudinous-identities-a-qualitative-and-network.pdf)
+
+### Abstract
+
+The emergence of network-movements since 2011 has opened the debate around the way in which social media and networked practices make possible innovative forms of collective identity. We brieﬂy review the literature on social movements and ‘collective identity’, and show the tension between different positions stressing either organization or culture, the personal or the collective, aggregative or networking logics. We argue that the 15M (indignados) network-movement in Spain demands conceptual and methodological innovations. Its rapid emergence, endurance, diversity, multifaceted development and adaptive capacity, posit numerous theoretical and methodological challenges. We show how the use of structural and dynamic analysis of interaction networks (in combination with qualitative data) is a valuable tool to track the shape and change of what we term the ‘systemic dimension’ of collective identities in network-movements. In particular, we introduce a novel method for synchrony detection in Facebook activity to identify the distributed, yet integrated, coordinated activity behind collective identities. Applying this analytical strategy to the 15M movement, we show how it displays a speciﬁc form of systemic collective identity we call ‘multitudinous identity’, characterized by social transversality and internal heterogeneity, as well as a transient and distributed leadership driven by action initiatives. Our approach attends to the role of distributed interaction and transient leadership at a mesoscale level of organizational dynamics, which may contribute to contemporary discussions of collective identity in network-movements.
 
 ### Cite
 
@@ -1059,6 +1079,10 @@ Vila-Viñas, D., & Barandiaran, X. E. (Eds.) (2015). *Buen conocer / FLOK Societ
 - **Keywords:** Metodología, Diseño participativo, Cooperación, Diseño de políticas públicas, Investigación-acción participativa, FLOK, Conocimiento libre, Copyleft, Economía social del conocimiento común y abierto
 - **Landing page:** https://publications.barandiaran.net/p/2015-el-proceso-buen-conocer-flok-society/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-el-proceso-buen-conocer-flok-society.pdf)
+
+### Abstract
+
+El presente documento expone el proceso-red de investigación-acción Buen Conocer / FLOK Society, contrastando sus objetivos iniciales y diseño metodológico-político con un conjunto de indicadores de resultados finales. En particular, se destacan las innovaciones introducidas en cuanto al proceso de investigación abierta, en lo relativo a las licencias de sus productos pero también al carácter libre de sus infraestructuras técnicas, herramientas de investigación y métodos organizativos. Por otro lado, se incide en la combinación de distintos actores (expertos nacionales e internacionales, activistas sociales y representantes de instituciones públicas) dentro de una dinámica colaborativa de análisis crítico del capitalismo cognitivo, de integración de modelos alternativos sostenibles y de enunciación de recomendaciones de política pública en distintas áreas estratégicas para la transición hacia una economía social del conocimiento común y abierto.
 
 ### Cite
 
@@ -1222,6 +1246,10 @@ Egbert, M. D., & Barandiaran, X. E. (2014). Modeling habits as self-sustaining p
 - **Landing page:** https://publications.barandiaran.net/p/2014-norm-establishing-and-norm-following-in/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2014-norm-establishing-and-norm-following-in.pdf)
 
+### Abstract
+
+Living agency is subject to a normative dimension (good-bad, adaptive-maladaptive) that is absent from other types of interaction. We review current and historical attempts to naturalize normativity from an organism-centered perspective, identifying two central problems and their solution: (1) How to define the topology of the viability space so as to include a sense of gradation that permits reversible failure, and (2) how to relate both the processes that establish norms and those that result in norm-following behavior. We present a minimal metabolic system that is coupled to a gradient-climbing chemotactic mechanism. Studying the relationship between metabolic dynamics and environmental resource conditions, we identify an emergent viable region and a precarious region where the system tends to die unless environmental conditions change. We introduce the concept of normative field as the change of environmental conditions required to bring the system back to its viable region. Norm-following, or normative action, is defined as the course of behavior whose effect is positively correlated with the normative field. We close with a discussion of the limitations and extensions of our model and some final reflections on the nature of norms and teleology in agency.
+
 ### Cite
 
 Barandiaran, X. E., & Egbert, M. D. (2014). Norm-establishing and norm-following in autonomous agency. *Artificial Life*, *20*(1), 5-28. https://doi.org/10.1162/ARTL_a_00094
@@ -1239,6 +1267,10 @@ Barandiaran, X. E., & Egbert, M. D. (2014). Norm-establishing and norm-following
 - **Topics (assigned by the site; no author keywords):** Self-organization, Social movements
 - **Landing page:** https://publications.barandiaran.net/p/2013-quantifying-political-self-organization-in-social/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2013-quantifying-political-self-organization-in-social.pdf)
+
+### Abstract
+
+The objective of this work is to better analyse and understand social self-organization in the context of social media and political activism. More specifically, we centre our analysis in the presence of fractal scaling in the form of 1/f noise in different Twitter communication networks related to the Spanish 15M movement. We show how quantitative indexes of brown, white and pink noise correlate with qualitatively different forms of social coordination of protests: rigidly organized protests (brown noise), reactive-spontaneous protests (white noise) and complex genuinely self-organized protests (pink noise). In addition, pink noise processes present correlations that reach much further in time, maintaining a dynamical coherence that last several days, and also show a balance between mean distance and clustering coefficient within the interaction network.
 
 ### Cite
 
@@ -1314,6 +1346,10 @@ Buhrmann, T., Di Paolo, E. A., & Barandiaran, X. E. (2013). A dynamical systems 
 - **Topics (assigned by the site; no author keywords):** Informe, Diseño, Políticas
 - **Landing page:** https://publications.barandiaran.net/p/2013-informe-para-el-diseno-de-politicas/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2013-informe-para-el-diseno-de-politicas.pdf)
+
+### Abstract
+
+Se detalla a continuación un breve análisis de los requisitos, modelos y plataformas para publicaciones de revistas científicas o académicas de libre acceso (Open Access), los obstáculos principales para que una nueva revista de esta naturaleza se pueda abrir paso en el ecosistema internacional de publicaciones y algunas guías de cómo superar dicho obstáculos. En la segunda parte de este informe se describen una serie de lineamiento y se introducen una serie de herramientas para facilitar procesos de investigación académica colaborativa (desde la gestión bibliográfica hasta la escritura colaborativa, pasando por la liberación de datos estructurados y la gestión de proyectos).
 
 ### Cite
 
@@ -1458,6 +1494,10 @@ Santos, B. A., Barandiaran, X. E., & Husbands, P. (2011). Metastable dynamical r
 - **Topics (assigned by the site; no author keywords):** Neuroscience, Robotics
 - **Landing page:** https://publications.barandiaran.net/p/2011-neurodynamic-regimes-of-phase-relation-and/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2011-neurodynamic-regimes-of-phase-relation-and.pdf)
+
+### Abstract
+
+Both oscillatory phenomena and the dynamics of integration and segregation in the brain are fields of intense study in current computational neuroscience. It is often suggested that moments of phase-locking (as moments of integration) between functionally distinct neuronal groups represent meaningful functional brain states; and moments of phase-scattering (as moments of segregation) represent transitions between such states. The main evidences for such claim come from investigations on the well-known visual binding problem [1]. Despite the evidences supporting a functionally privileged status for phase locking integration (as a neural signature of cognitive brain activity) an adequate balance between integration and segregation has also been considered essential [2]. We explore how, rather than mere phaselocking, the global regime of phase relation might become necessary to generate functional behaviour, i.e. the whole phase dynamic which might include moments of integration (by phase-locking) and segregation (by phase scattering). Our proposal to investigate the whole phase relation dynamics is motivated by the phenomenon of relative coordination observed in the movements of fish fins described by von Holst [3] and latter developments of Haken and Kelso’s approach to coordination dynamics [4]. In dynamical system terms, by “relative coordination” von Holst means the situation when the phase relation among components is constantly moving in a transient dynamics where some regions of the phase space have low potential energy (moments of phase-locking) and others high potential energy (moments of phase-scattering). Using a genetic algorithm we optimized the parameter of two robotic models performing phototaxis. In one model the agent is controlled by the extended-HKB equation [4] (Fig. 1A, 1B) and in the other one by a network of five coupled Kuramoto oscillators [5] (Fig. 1C, 1D). Both types of controllers where chosen as paradigmatic of oscillatory modeling in computational neuroscience. Due to the simplicity of the model we were able to analyze the whole phase dynamic and found different dynamical regimes of phase relation (expressed in terms of phase density) and their behavioral correlates. Despite the strong simplifying assumptions involved, the theoretical results shown here suggest a “different/new” approach to analyze empirical data in neuroscience where regimes of phase relation might be as relevant as phase locking events for how brain-environment dynamics give rise to behaviour. We conclude with some expansions of phase density and phase coherence measurements for bigger oscillatory networks in sensorimotor systems.
 
 ### Cite
 
@@ -1681,6 +1721,10 @@ Barandiaran, X. E., & Moreno, A. (2008). On the nature of neural information: A 
 - **Landing page:** https://publications.barandiaran.net/p/2008-artificial-mental-life/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-artificial-mental-life.pdf)
 
+### Abstract
+
+Work in Artificial Life aimed at informing Artificial Intelligence (Steels & Brooks, 1994, Artificial Life route to Artificial Intelligence, Lawrence Erlbaum) has drawn inspiration from biology mainly at two levels: i) a bottom-up modelling approach conceiving cognition as the evolutionary complexification of adaptive behaviour, and ii) appeals to self-organization in the domain of behaviour and neural dynamics in analogy with self-organized chemical and biological processes. But little attention has been paid to the possibility of conceiving (and modelling) behaviour in terms of a self-maintaining organized unity in analogy with minimal forms of proto-cellular (or autopoietic) life. We propose that the behavioural counterpart of a network of self-sustaining chemical reactions should be a network of interactively maintained sensorimotor dissipative structures (habits) that emerge from the continuous reciprocal interaction between brain, body and world (and not, as in previous attempts, between molecular processes and neural processes, conceiving the nervous system as operationally closed—Varela, 1979, Principles of Biological Autonomy, Elsevier). Despite its popularity among pre-Darwinian biologists (such as Aristotle, Lamarck or Bichat), pragmatists and phenomenologists alike (Dewey, Merleau-Ponty) and among pre-computationalist psychologists (like James, Goldstein, Ivo Kohler or Piaget) the notion of habit has received little attention within Artificial Life. Habits posses key properties that make them extremely attractive for modelling the organization of behaviour: a) the structure of habits can be traced back to a fully operational-dynamicist framework, b) they do not presuppose a distinction or a causal priority between perception and action, c) habits are inherently situated or enactive structures cutting across brain, body and environment, d) habits are plastic and malleable, e) habits provide a concrete sense of self-maintenance (they are both cause and effect of their occurrence) potentially implying an intrinsic and a interactive teleology and f) habits can be nested or composed at different scales. This opens up the possibility for an operational notion of what might be called Mental Life (Barandiaran, 2007, The World, the Mind and the Body, p. 49, Imprint Academic) as the continued formation of a web of habits through sensorimotor interactions whose cohesive self-maintenance constitutes the identity of a cognitive (as opposed to barely biological) agent and the world it thereby co-defines. We use some recent evolutionary robotic models on preference and habit formation (Di Paolo & Iizuka, 2008, Biosystems, 91, p. 409) to illustrate and explore the theoretical and philosophical implications of taking sensorimotor habits as the building blocks of behavioural organization. This organization takes the form of an attractor landscape whose stability is homeodynamically maintained through sensorimotor coupling. Mental Life opens up a new object of modelling in its own right, closer to the Aristotelian notion of psyche (or even the Heideggerian notion of Dasein) than to the notion of information processing, adaptive problem solving or weak conceptions of autonomy in robotics. Artificial Mental Life involves a shift from building artificial systems that satisfy externally imposed norms (engineering or evolutionary) to systems capable of generating their own norms: those required to sustain their own behavioural organization. In turn, it can become a source of new research questions to investigate the dynamics of assimilation and accommodation into an existing organization, its shaping by social interactions and institutions, or mental disorders dealing with stability, stress, identity, etc.
+
 ### Cite
 
 Barandiaran, X. E., & Di Paolo, E. A. (2008). Artificial Mental Life. In *Artificial Life XI: Proceedings of the Eleventh International Conference on the Simulation and Synthesis of Living Systems* (pp. 747). MIT Press.
@@ -1718,6 +1762,10 @@ Barandiaran, X. E. (2008). *Report on Open Access and FLOK for a New Journal in 
 - **Topics (assigned by the site; no author keywords):** Autonomy, Cognition, Agency, Mental life
 - **Landing page:** https://publications.barandiaran.net/p/2008-mental-life-a-naturalized-approach-to/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2008-mental-life-a-naturalized-approach-to.pdf)
+
+### Abstract
+
+Recent advances in modelling complex adaptive systems through computer simulation have reconfigured the way in which mechanistic explanations can conceptualize the mind. The goal of the thesis is to make explicit the construction of a model for Minds as a complex generative organization. For doing so, and under the difficulties that current approaches find to specify cognitive systems as distinct from generic computational or dynamical ones, the construction of a model for minds departs from a minimalist, universal and naturalized conception of agency. Three conditions are state to provide a satisfactory account of agency: self-generated individuality, normativity and causal-asymmetry. A morphophylogenetic approach is proposed whereby increasingly complex models of agency are analysed. The morphophylogenetic reconstruction depart with the origins of life as the emergence of a self-encapsulated chemical network capable of actively producing itself. The autonomous organization of living organisms is shown to ground a naturalized conception of normative functionality, individuality and agency. Taking biological autonomy as a departure point the thesis covers the main organizational evolutionary transitions of agency that lead to Bilaterian organisms. A number of case studies (E. coli, A. digitale and C. elegans) are provided to illustrate different aspects of such transitions until adaptive behaviour (made possible by multicellular organisms endowed with a nervous systems and mechanically articulated bodies) is precisely defined and its modelling process made explicit. However, a number of problems are found for the project of grounding intentionality and mindfulness in biological (metabolic) normativity. An alternative research avenue is proposed in which it is the autonomy of behaviour (and not that of its underlying infrastructure) what serves to naturalize intentional agency. A conceptual model of Mental Life is proposed: the autonomous and normatively regulated organization of a web of sensorimotor neurodynamic structures, capable of generating a distinctive level of coherency and identity in continuous interaction with the world. An analysis of the evolution of brain, body and behaviour suggests that there is an evolutionary pathway towards more plastic, diverse and integrated agency leading to Mental Life. It is argued that current developmental cognitive neuroscience reveals the progressive organization of the brain through self-sustained behavioural interactions as opposed to the maturation of genetically pre-specified cognitive modules that would preclude the emergence of Mental Life. Large-scale models of neural dynamics are reviewed supporting the view of an integrated dissipative organization of neural activity and its self-regulatory capacity. Finally, it is shown how sensorimotor deprivation regimes may lead to a disintegration of behavioural organization revealing the deep entanglement between world and mind for the continued self-maintenance of the latter.
 
 ### Cite
 
@@ -1772,6 +1820,10 @@ Barandiaran, X. E., & Moreno, A. (2006). On What Makes Certain Dynamical Systems
 - **Keywords:** Transferencia genética horizontal, Autonomía, Metabolismo, Información, Comunicación, Software libre, Código abierto, Redes bacterianas, Algoritmos genéticos, Redes de innovación tecnológica
 - **Landing page:** https://publications.barandiaran.net/p/2006-autonomia-comunicacion-y-evolucion-en-redes/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2006-autonomia-comunicacion-y-evolucion-en-redes.pdf)
+
+### Abstract
+
+La estructura microcósmica del metabolismo y la comunicación en la biosfera (especialmente en relación a las redes bacterianas) ofrecen metáforas o herramientas conceptuales para entender los procesos autoorganizativos de las redes cooperativas en la tecnosfera. Partimos del análisis del origen y expresión mínima de la vida como fusión entre sistemas autónomos y estructuras formales (template). Esta fusión entre un sistema dinámico automantenido (autónomo) y estructuras moleculares recombinables da lugar al origen de la información en la naturaleza: la información genética. Si entendemos por comunicación la transmisión de información entre dos sistemas autónomos (capaces de interpretación), las redes bacterianas de transferencia genética horizontal constituyen el primer ejemplo de una red de comunicación global: un sistema de evolución abierta cooperativa responsable del mantenimiento de la mayor parte del ecosistema planetario y de la mayor red de innovación biotecnológica que conocemos. No es por tanto descabellado proyectar (de la biosfera a la tecnosfera) este marco teórico para reconceptualizar el desarrollo tecnológico humano y redescubrir la autonomía tecnológica, las comunidades de desarrollo de software libre y las redes electrónicas de intercambio de información como fundamentos de autoorganización social cooperativa.
 
 ### Cite
 
@@ -1851,6 +1903,10 @@ Moreno, A., & Barandiaran, X. E. (2004). A naturalized account of the inside-out
 - **Keywords:** Activismo digital y telemático, Ciberespacio, Guerrilla de la comunicación, Política, Nuevos movimientos sociales, Poder
 - **Landing page:** https://publications.barandiaran.net/p/2003-activismo-digital-y-telematico-poder-y/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2003-activismo-digital-y-telematico-poder-y.pdf)
+
+### Abstract
+
+La construcción tecnológica y la introducción en el imaginario colectivo del ciberespacio (definido por el flujo de información y códigos, la esfera pública, la sociedad del espectáculo y las tecnologías de la información) abre nuevos horizontes políticos a través del establecimiento de nuevas relaciones de poder en la esfera tecnológica y comunicativa. En este contexto el activismo digital y telemático ofrece una serie de herramientas, de espacios, de canales y experimentos en los que recobrar la subjetividad política a través de la creación e inteligencia colectiva y la redefinición constante de los códigos y prácticas discursivas, comunicativas y tecnológicas que definen nuestra realidad social.
 
 ### Cite
 

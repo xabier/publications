@@ -39,7 +39,7 @@
  "doi": "10.7551/978-0-262-31709-2-ch057",
  "url": "http://mitpress.mit.edu/sites/default/files/titles/content/ecal13/ch057.html",
  "language": "",
- "abstract": "",
+ "abstract": "The objective of this work is to better analyse and understand social self-organization in the context of social media and political activism. More specifically, we centre our analysis in the presence of fractal scaling in the form of 1/f noise in different Twitter communication networks related to the Spanish 15M movement. We show how quantitative indexes of brown, white and pink noise correlate with qualitatively different forms of social coordination of protests: rigidly organized protests (brown noise), reactive-spontaneous protests (white noise) and complex genuinely self-organized protests (pink noise). In addition, pink noise processes present correlations that reach much further in time, maintaining a dynamical coherence that last several days, and also show a balance between mean distance and clustering coefficient within the interaction network.",
  "keywords": [],
  "topics": [
   "Self-organization",
