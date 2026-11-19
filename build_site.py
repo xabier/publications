@@ -222,13 +222,13 @@ def entry_html(r, e):
          + (f' data-doi="{esc(citelib.norm_doi(r["DOI"]))}"' if r["DOI"] else "") + ">"]
     for old in e["old_slugs"]:
         L.append(f'        <span id="{esc(old)}" class="old-anchor"></span>')
+    if e["featured"]:   # framed card: label above the title (style in style.css)
+        L.append(f'        <p class="pub-hl-label">★ Highlighted · {esc(e["type_label"])}</p>')
     L.append(f'        <h3 class="pub-head"><a class="pub-title-link" href="p/{slug}/" '
              f'title="This publication’s page: abstract, files, talks, citation">{esc(e["title"])}</a></h3>')
     L.append(f'        <p class="pub-byline">{who}' + (f' · <span class="pub-venue">{details}</span>' if details else "")
              + f' <span class="pub-year">({esc(e["year"])})</span></p>')
-    acts = [f'<span class="pub-type">{esc(e["type_label"])}</span>']
-    if e["featured"]:
-        acts.append('<span class="pub-featured" title="Highlighted publication">★ Highlighted</span>')
+    acts = [] if e["featured"] else [f'<span class="pub-type">{esc(e["type_label"])}</span>']
     acts.append(f'<a class="pub-action pub-page-link" href="p/{slug}/">Details ›</a>')
     # Abstract and summary load on demand from p/{slug}/index.json (script.js); without
     # JS the panel links to the landing page, which carries the full text.
@@ -282,12 +282,19 @@ def main_html(entries, site):
     feats = [(e, r) for e, r in entries if e["featured"]]
     out = []
     if feats:
+        nf = len(feats)
+        cards = [card_html(r, e) for e, r in feats]
+        cards.append('<button type="button" class="feat-card feat-all" data-featured-filter aria-pressed="false">'
+                     f'<span class="feat-meta">All highlighted</span><span class="feat-title">Show all {nf} in the list</span>'
+                     '<span class="feat-extras">Filter the publication list ↓</span></button>')
         out.append('<section class="featured" aria-labelledby="featured-title">\n'
-                   '      <div class="featured-head"><h2 id="featured-title">★ Highlighted work</h2>'
-                   '<button type="button" class="featured-toggle" data-featured-filter aria-pressed="false">'
-                   f'Show only highlighted ({len(feats)})</button></div>\n'
-                   '      <div class="feat-grid">\n        '
-                   + "\n        ".join(card_html(r, e) for e, r in feats[:3]) + "\n      </div>\n    </section>")
+                   '      <div class="featured-head"><h2 id="featured-title">★ Highlighted work '
+                   f'<span class="feat-count">{nf}</span></h2>'
+                   '<div class="feat-nav" hidden><span class="feat-pos" aria-live="polite"></span>'
+                   '<button type="button" class="feat-prev" aria-label="Previous highlighted publications">‹</button>'
+                   '<button type="button" class="feat-next" aria-label="More highlighted publications">›</button></div></div>\n'
+                   '      <div class="feat-track" tabindex="0" role="region" aria-label="Highlighted publications (scroll sideways)">\n        '
+                   + "\n        ".join(cards) + "\n      </div>\n    </section>")
     # toolbar
     counts = {t: sum(1 for e, _ in entries if e["type"] == t) for t in TYPE_ORDER}
     topt = ['<option value="">All topics</option>']

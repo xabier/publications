@@ -177,6 +177,37 @@
   } catch (e) {}
   apply();
 
+  // ---- highlighted carousel: arrows, "1–3 of 6" counter ----
+  (function () {
+    var track = document.querySelector(".feat-track");
+    var nav = document.querySelector(".feat-nav");
+    if (!track || !nav) return;
+    var prev = nav.querySelector(".feat-prev"), next = nav.querySelector(".feat-next");
+    var pos = nav.querySelector(".feat-pos");
+    var cards = Array.prototype.slice.call(track.querySelectorAll(".feat-card:not(.feat-all)"));
+    function step() {
+      var c = track.querySelector(".feat-card");
+      var gap = parseFloat(getComputedStyle(track).columnGap) || 16;
+      return c ? c.getBoundingClientRect().width + gap : track.clientWidth;
+    }
+    function update() {
+      var s = step();
+      var first = Math.round(track.scrollLeft / s);
+      var shown = Math.max(1, Math.floor((track.clientWidth + 8) / s));
+      var last = Math.min(cards.length, first + shown);
+      pos.textContent = (first + 1 > cards.length ? cards.length : first + 1) +
+        (last > first + 1 ? "–" + last : "") + " of " + cards.length;
+      prev.disabled = track.scrollLeft <= 2;
+      next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+      nav.hidden = track.scrollWidth <= track.clientWidth + 2;
+    }
+    prev.addEventListener("click", function () { track.scrollBy({ left: -step() * Math.max(1, Math.floor(track.clientWidth / step())), behavior: "smooth" }); });
+    next.addEventListener("click", function () { track.scrollBy({ left: step() * Math.max(1, Math.floor(track.clientWidth / step())), behavior: "smooth" }); });
+    track.addEventListener("scroll", function () { window.requestAnimationFrame(update); });
+    window.addEventListener("resize", update);
+    update();
+  })();
+
   // ---- expandable panels (Abstract, Summary, Talks): one open per entry,
   //      shown full-width below the button row; abstract/summary load on demand ----
   items.forEach(function (item) {
