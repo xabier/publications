@@ -2,7 +2,8 @@
  "_about": "Hand-curated settings for build_site.py. Metadata comes from Zotero (data/zotero.json); everything here is what Zotero doesn't know.",
  "zotero_collection": "4TC5W55M",
  "exclude": {
-  "GVY8D4AE": "Preprint of Sensorimotor teleology, superseded by the published article TD3JANT8"
+  "GVY8D4AE": "Preprint of Sensorimotor teleology, superseded by the published article TD3JANT8",
+  "EET6PTMA": "Not mine: added to MY_PUBLICATIONS by mistake (Social and Enactive Perspectives on Pretending, 2019)"
  },
  "featured": [
   "TD3JANT8",
@@ -103,8 +104,7 @@
   "V6HMK33Q": "2003-activismo-digital-y-telematico-poder-y",
   "I7SGA7C4": "2002-adaptive-behaviour-autonomy-and-value-systems",
   "YYL5MQ94": "2017-virtual-actions-and-abstract-attitudes-chapter",
-  "R5WQRJST": "2026-incorporating-machine-others-an-enactive-exploration",
-  "EET6PTMA": "2019-social-and-enactive-perspectives-on-pretending"
+  "R5WQRJST": "2026-incorporating-machine-others-an-enactive-exploration"
  },
  "redirects": {
   "2025-sensorimotor-teleology-and-goal-directedness-an": "2026-sensorimotor-teleology-and-goal-directedness-an",

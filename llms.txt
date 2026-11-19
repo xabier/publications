@@ -1,6 +1,6 @@
 # Publications of Xabier E. Barandiaran
 
-> Complete, open-access list of 92 academic publications by Xabier E. Barandiaran:
+> Complete, open-access list of 91 academic publications by Xabier E. Barandiaran:
 > philosophy of cognitive science, enactivism, autonomy, agency, normativity,
 > artificial life, AI, technopolitics and digital democracy. Free content
 > (CC BY-SA 4.0 / GNU FDL 1.3); reuse encouraged. Last updated 2026-11-19.
@@ -12,7 +12,7 @@ How to read this site (for AI agents and crawlers):
   summary when available, talks, APA citation, BibTeX/RIS links) and a JSON record at
   `https://publications.barandiaran.net/p/{slug}/index.json`. The links below point to the Markdown twins.
 - All records with abstracts in one file: [llms-full.txt](https://publications.barandiaran.net/llms-full.txt)
-  (~226K characters), or the same split into parts small enough for a
+  (~225K characters), or the same split into parts small enough for a
   single fetch each: [part 1](https://publications.barandiaran.net/llms-full-1.txt) · [part 2](https://publications.barandiaran.net/llms-full-2.txt) · [part 3](https://publications.barandiaran.net/llms-full-3.txt).
 - Structured data: [publications.json](https://publications.barandiaran.net/publications.json),
   [CSL-JSON](https://publications.barandiaran.net/publications.csl.json), [BibTeX](https://publications.barandiaran.net/all.bib), [RIS](https://publications.barandiaran.net/all.ris).
@@ -59,7 +59,6 @@ How to read this site (for AI agents and crawlers):
 - [Towards modelling social habits: an organismically inspired evolutionary robotics approach](https://publications.barandiaran.net/p/2019-towards-modelling-social-habits-an-organismically/index.md): Manuel G. Bedia et al. (2019). Conference Paper, Proceedings of ALIFE 2019: The 2019 Conference on Artificial Life. Topics: Cognition, Cognitive science, Sensorimotor, Embodiment, Perception, Agency. [open PDF]
 - [Tecnopolítica, municipalismo y radicalización democrática.](https://publications.barandiaran.net/p/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica/index.md): Xabier E. Barandiaran (2019). Book Chapter, Ciudades Democráticas. La revuelta municipalista en el ciclo post-15M. Topics: Technopolitics, Tecnopolítica, Municipalismo, Radicalización. [open PDF]
 - [Decidim: political and technopolitical networks for participatory democracy. White Paper](https://publications.barandiaran.net/p/2019-decidim-political-and-technopolitical-networks-for/index.md): Xabier E. Barandiaran et al. (2019). Document. Topics: Embodiment, Complexity, Technopolitics, Participatory democracy, Decidim, Free software.
-- [Social and Enactive Perspectives on Pretending](https://publications.barandiaran.net/p/2019-social-and-enactive-perspectives-on-pretending/index.md): Zuzanna Rucińska (2019). Journal Article, AVANT. The Journal of the Philosophical-Interdisciplinary Vanguard. Keywords: Pretending, Pretense, Enactivism, Social cognition, Perception, Imagination, Scripts.
 - [Dalle reti sociali alle reti (tecno)politiche](https://publications.barandiaran.net/p/2018-dalle-reti-sociali-alle-reti-tecno/index.md): Antonio Calleja-López, Xabier E. Barandiaran, Arnau Monterde (2018). Book Chapter, Datacrazia. Politica, cultura algoritmica e conflitti al tempo dei big data. Topics: Dalle, Reti, Sociali. [open PDF]
 - [Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona](https://publications.barandiaran.net/p/2017-deliberative-platform-design-the-case-study/index.md): Pablo Aragón et al. (2017). Conference Paper, Social Informatics. Keywords: Human computer interfaces, Online deliberation, Civic participation, Technopolitics, Online discussions, Discussion threads. [open PDF]
 - [Funcionalidades y características de Decidim](https://publications.barandiaran.net/p/2017-funcionalidades-y-caracteristicas-de-decidim/index.md): Xabier E. Barandiaran, Carol Romero (2017). Report. Topics: Decidim, Funcionalidades, Características. [open PDF]

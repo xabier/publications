@@ -1,6 +1,6 @@
 # Publications of Xabier E. Barandiaran — full records
 
-> All 92 publications with metadata, abstracts, keywords and citations, newest first. Generated 2026-11-19 from https://publications.barandiaran.net/. Each record's landing page (with BibTeX) is linked under it. Free content (CC BY-SA 4.0 / GNU FDL 1.3).
+> All 91 publications with metadata, abstracts, keywords and citations, newest first. Generated 2026-11-19 from https://publications.barandiaran.net/. Each record's landing page (with BibTeX) is linked under it. Free content (CC BY-SA 4.0 / GNU FDL 1.3).
 
 ## Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions
 
@@ -795,22 +795,6 @@ Decidim [http://decidim.org], from the Catalan for "let’s decide" or “we dec
 ### Cite
 
 Barandiaran, X. E., Calleja-López, A., Monterde, A., & Romero, C. (2019). *Decidim: political and technopolitical networks for participatory democracy. White Paper*. Decidim.org (Ajuntament de Barcelona). https://docs.decidim.org/whitepaper/en/doc-info/
-
----
-
-## Social and Enactive Perspectives on Pretending
-
-- **Authors:** Zuzanna Rucińska
-- **Year:** 2019
-- **Type:** Journal Article
-- **Published in:** AVANT. The Journal of the Philosophical-Interdisciplinary Vanguard
-- **DOI:** [10.26913/avant.2019.03.15](https://doi.org/10.26913/avant.2019.03.15)
-- **Keywords:** Pretending, Pretense, Enactivism, Social cognition, Perception, Imagination, Scripts
-- **Landing page:** https://publications.barandiaran.net/p/2019-social-and-enactive-perspectives-on-pretending/
-
-### Cite
-
-Rucińska, Z. (2019). Social and Enactive Perspectives on Pretending. *AVANT. The Journal of the Philosophical-Interdisciplinary Vanguard*. https://doi.org/10.26913/avant.2019.03.15
 
 ---
 
