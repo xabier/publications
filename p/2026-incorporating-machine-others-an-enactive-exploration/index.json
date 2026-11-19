@@ -51,6 +51,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Cuffari, E. C., Pérez-Verdugo, M., & Barandiaran, X. E. (2026). Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2610.39869",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2026-incorporating-machine-others-an-enactive-exploration/",

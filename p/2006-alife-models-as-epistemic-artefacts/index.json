@@ -67,6 +67,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Barandiaran, X. E., & Moreno, A. (2006). ALife Models as Epistemic Artefacts. In Artificial Life X : Proceedings of the Tenth International Conference on the Simulation and Synthesis of Living Systems (pp. 513-519). The MIT Press (Bradford Books).",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2006-alife-models-as-epistemic-artefacts/",

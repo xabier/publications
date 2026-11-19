@@ -69,6 +69,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Egbert, M. D., & Barandiaran, X. E. (2011). Quantifying Normative Behaviour and Precariousness in Adaptive Agency. In Proceedings of the 11th European Conference on Artificial Life (pp. 210-218). MIT Press.",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2011-quantifying-normative-behaviour-and-precariousness-in/",

@@ -196,6 +196,36 @@ def override_abstract(key):
     return open(p, encoding="utf-8").read().strip() if os.path.exists(p) else ""
 
 
+def load_presentation(slug):
+    """data/presentations/{slug}.html: the author's presentation of a book (its blog post).
+    First line: <!-- source: URL | title: ... | date: YYYY-MM-DD | lang: en -->"""
+    p = os.path.join(DATA, "presentations", f"{slug}.html")
+    if not os.path.exists(p):
+        return None
+    s = open(p, encoding="utf-8").read().strip()
+    meta = {}
+    m = re.match(r"<!--(.*?)-->\s*", s, re.S)
+    if m:
+        for part in m.group(1).split(" | "):
+            k, _, v = part.partition(":")
+            meta[k.strip()] = v.strip()
+        s = s[m.end():]
+    return {"url": meta.get("source", ""), "title": meta.get("title", ""), "date": meta.get("date", ""),
+            "language": meta.get("lang", ""), "html": s.strip()}
+
+
+_REVIEWS = None
+
+
+def reviews_of(key):
+    """Published reviews of a book (data/reviews.json, written by sync_zotero.py)."""
+    global _REVIEWS
+    if _REVIEWS is None:
+        p = os.path.join(DATA, "reviews.json")
+        _REVIEWS = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    return _REVIEWS.get(key, [])
+
+
 def topic_id(label):
     return re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
 
@@ -454,6 +484,8 @@ def main():
             "abstract_html": "",
             "summary_html": open(sp, encoding="utf-8").read().strip() if os.path.exists(sp) else "",
             "talks": talks.get(k, []),
+            "presentation": load_presentation(slug),
+            "reviews": reviews_of(k),
             "links": links,
             "is_preprint_pdf": r["Item Type"] == "preprint",
             "coins": citelib.build_coins(crow, slug),
@@ -519,7 +551,8 @@ def main():
     # script.js the first time someone uses the search box
     six = {}
     for e, r in entries:
-        t = " ".join([e["abstract"], re.sub(r"<[^>]+>", " ", e["summary_html"])])
+        t = " ".join([e["abstract"], re.sub(r"<[^>]+>", " ", e["summary_html"]),
+                      re.sub(r"<[^>]+>", " ", (e["presentation"] or {}).get("html", ""))])
         t = re.sub(r"\s+", " ", html.unescape(t)).strip().lower()
         if t:
             six[e["slug"]] = t

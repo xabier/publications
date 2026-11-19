@@ -2,6 +2,154 @@
 
 > Newest first. Generated 2026-11-19. Index of all publications: https://publications.barandiaran.net/llms.txt. This is the last part.
 
+## Behavioral Metabolution: The Adaptive and Evolutionary Potential of Metabolism-Based Chemotaxis
+
+- **Authors:** Matthew D. Egbert, Xabier E. Barandiaran, Ezequiel A. Di Paolo
+- **Year:** 2012
+- **Type:** Journal Article
+- **Published in:** Artificial Life, 18(1), 1-25
+- **DOI:** [10.1162/artl_a_00047](https://doi.org/10.1162/artl_a_00047)
+- **Keywords:** Metabolism, Adaptive behavior, Autopoiesis, Chemotaxis
+- **Landing page:** https://publications.barandiaran.net/p/2012-behavioral-metabolution-the-adaptive-and-evolutionary/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2012-behavioral-metabolution-the-adaptive-and-evolutionary.pdf)
+
+### Abstract
+
+We use a minimal model of metabolism-based chemotaxis to show how a coupling between metabolism and behavior can affect evolutionary dynamics in a process we refer to as behavioral metabolution. This mutual influence can function as an in-the-moment, intrinsic evaluation of the adaptive value of a novel situation, such as an encounter with a compound that activates new metabolic pathways. Our model demonstrates how changes to metabolic pathways can lead to improvement of behavioral strategies, and conversely, how behavior can contribute to the exploration and fixation of new metabolic pathways. These examples indicate the potentially important role that the interplay between behavior and metabolism could have played in shaping adaptive evolution in early life and protolife. We argue that the processes illustrated by these models can be interpreted as an unorthodox instantiation of the principles of evolution by random variation and selective retention. We then discuss how the interaction between metabolism and behavior can facilitate evolution through (i) increasing exposure to environmental variation, (ii) making more likely the fixation of some beneficial metabolic pathways, (iii) providing a mechanism for in-the-moment adaptation to changes in the environment and to changes in the organization of the organism itself, and (iv) generating conditions that are conducive to speciation.
+
+### Cite
+
+Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2012). Behavioral Metabolution: The Adaptive and Evolutionary Potential of Metabolism-Based Chemotaxis. *Artificial Life*, *18*(1), 1-25. https://doi.org/10.1162/artl_a_00047
+
+---
+
+## Synchrony and phase relation dynamics underlying sensorimotor coordination
+
+- **Authors:** Bruno A. Santos, Xabier E. Barandiaran, Philip Husbands
+- **Year:** 2012
+- **Type:** Journal Article
+- **Published in:** Adaptive Behavior, 321-336
+- **DOI:** [10.1177/1059712312451859](https://doi.org/10.1177/1059712312451859)
+- **Keywords:** Neural synchrony, Phase-coupled oscillators, Sensorimotor coordination
+- **Landing page:** https://publications.barandiaran.net/p/2012-synchrony-and-phase-relation-dynamics-underlying/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2012-synchrony-and-phase-relation-dynamics-underlying.pdf)
+
+### Abstract
+
+Synchronous oscillations have become a widespread hypothetical “mechanism” to explain how brain dynamics give rise to neural functions. By focusing on synchrony one leaves the phase relations during moments of desynchronous oscillations either without a clear functional role or with a secondary role such as a transition between functionally “relevant” synchronized states. In this work, rather than studying synchrony we focus on desynchronous oscillations and investigate their functional roles in the context of a sensorimotor coordination task. In particular, we address the questions: a) how does the informational content of the sensorimotor activity present in a complete dynamical description of phase relations change as such a description is reduced to the dynamics of synchronous oscillations? and b) to what extent are desynchronous oscillations as causally relevant as synchronous ones to the generation of functional sensorimotor coordination? These questions are addressed with a model of a simulated agent performing a functional sensorimotor coordination task controlled by an oscillatory network. The results suggest that: i) desynchronized phase relations carry as much information about sensorimotor activity as synchronized phase relations; and ii) phase relations between oscillators with near-zero frequency difference carry a relatively higher causal relevance than the rest of the phase relations to the sensorimotor coordination; however, overall a privileged functional causal contribution can not be attributed to either synchronous or desynchronous oscillations.
+
+### Cite
+
+Santos, B. A., Barandiaran, X. E., & Husbands, P. (2012). Synchrony and phase relation dynamics underlying sensorimotor coordination. *Adaptive Behavior*, 321-336. https://doi.org/10.1177/1059712312451859
+
+---
+
+## Sensorimotor coordination and metastability in a situated HKB model
+
+- **Authors:** Bruno Santos, Xabier E. Barandiaran, Philip Husbands, Miguel Aguilera, Manuel Bedia
+- **Year:** 2012
+- **Type:** Journal Article
+- **Published in:** Connection Science, 24(4), 143-161
+- **DOI:** [10.1080/09540091.2013.770821](https://doi.org/10.1080/09540091.2013.770821)
+- **Keywords:** Sensorimotor coordination, Oscillatory dynamics, Metastability, Coordination dynamics
+- **Landing page:** https://publications.barandiaran.net/p/2012-sensorimotor-coordination-and-metastability-in-a/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2012-sensorimotor-coordination-and-metastability-in-a.pdf)
+
+### Abstract
+
+Oscillatory phenomena are ubiquitous in nature and have become particularly relevant for the study of brain and behaviour. One of the simplest, yet explanatorily powerful, models of oscillatory Coordination Dynamics is the Haken–Kelso–Bunz (HKB) model. The metastable regime described by the HKB equation has been hypothesised to be the signature of brain oscillatory dynamics underlying sensorimotor coordination. Despite evidence supporting such a hypothesis, to our knowledge, there are still very few models (if any) where the HKB equation generates spatially situated behaviour and, at the same time, has its dynamics modulated by the behaviour it generates (by means of the sensory feedback resulting from body movement). This work presents a computational model where the HKB equation controls an agent performing a simple gradient climbing task and shows (i) how different metastable dynamical patterns in the HKB equation are generated and sustained by the continuous interaction between the agent and its environment; and (ii) how the emergence of functional metastable patterns in the HKB equation – i.e. patterns that generate gradient climbing behaviour – depends not only on the structure of the agent's sensory input but also on the coordinated coupling of the agent's motor–sensory dynamics. This work contributes to Kelso's theoretical framework and also to the understanding of neural oscillations and sensorimotor coordination.
+
+### Cite
+
+Santos, B., Barandiaran, X. E., Husbands, P., Aguilera, M., & Bedia, M. (2012). Sensorimotor coordination and metastability in a situated HKB model. *Connection Science*, *24*(4), 143-161. https://doi.org/10.1080/09540091.2013.770821
+
+---
+
+## The impact of the paradigm of complexity on the foundational frameworks of biology and cognitive science
+
+- **Authors:** Alvaro Moreno, K. Ruiz-Mirazo, Xabier E. Barandiaran
+- **Year:** 2011
+- **Type:** Book Chapter
+- **Published in:** Handbook of the Philosophy of Science, Philosophy of Complex Systems, 311-333
+- **Publisher:** Elsevier
+- **Topics (assigned by the site; no author keywords):** Cognition, Cognitive science, Dynamical systems, Complexity, Individuality
+- **Landing page:** https://publications.barandiaran.net/p/2011-the-impact-of-the-paradigm-of/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2011-the-impact-of-the-paradigm-of.pdf)
+
+### Abstract
+
+The domain of nonlinear dynamical systems and its mathematical underpinnings has been developing exponentially for a century, the last 35 years seeing an outpouring of new ideas and applications and a concomitant confluence with ideas of complex systems and their applications from irreversible thermodynamics. A few examples are in meteorology, ecological dynamics, andásocial and economic dynamics. These new ideas have profound implications for our understanding and practice in domains involving complexity, predictability and determinism, equilibrium, control, planning, individuality, responsibility and so on. Our intention is to draw together in this volume, we believe for the first time, a comprehensive picture of the manifold philosophically interesting impacts of recent developments in understanding nonlinear systems and the unique aspects of their complexity. The book will focus specifically on the philosophical concepts, principles, judgments and problems distinctly raised by work in the domain of complex nonlinear dynamical systems, especially in recent years. -Comprehensive coverage of all main theories in the philosophy of Complex Systems -Clearly written expositions of fundamental ideas and concepts -Definitive discussions by leading researchers in the field -Summaries of leading-edge research in related fields are also included
+
+### Cite
+
+Moreno, A., Ruiz-Mirazo, K., & Barandiaran, X. E. (2011). The impact of the paradigm of complexity on the foundational frameworks of biology and cognitive science. In C. A. Hooker, D. V. Gabbay, P. Thagard, & J. Woods (Eds.), *Handbook of the Philosophy of Science* (pp. 311-333). Elsevier.
+
+---
+
+## Metastable dynamical regimes in an oscillatory network modulated by an agent's sensorimotor loop
+
+- **Authors:** B. A Santos, Xabier E. Barandiaran, P. Husbands
+- **Year:** 2011
+- **Type:** Conference Paper
+- **Published in:** 2011 IEEE Symposium on Artificial Life (ALIFE), 124-131
+- **Publisher:** IEEE
+- **DOI:** [10.1109/ALIFE.2011.5954659](https://doi.org/10.1109/ALIFE.2011.5954659)
+- **Topics (assigned by the site; no author keywords):** Cognition, Sensorimotor, Agency, Neuroscience, Robotics, Coordination dynamics
+- **Landing page:** https://publications.barandiaran.net/p/2011-metastable-dynamical-regimes-in-an-oscillatory/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2011-metastable-dynamical-regimes-in-an-oscillatory.pdf)
+
+### Abstract
+
+The last two decades have witnessed an increasing focus on oscillatory brain dynamics as a means of understanding a variety of cognitive phenomena. Most theoretical and mathematical approaches in this area have mainly worked under two assumptions: a) that the most significant aspect of oscillatory brain dynamics is synchronization; and, b) that most part of functional brain dynamics can be understood without incorporating the sensorimotor loop into the picture. Although significant progress has been achieved with these assumptions, we believe they might limit future development of dynamical approaches to brain functioning and cognitive behaviour. Looking at the whole picture of brain dynamics, rather than only moments of synchronization, and analysing it inside the sensorimotor loop can provide new insights on how the brain operates. In this paper we present a robotic agent capable of performing phototaxis controlled by a Kuramoto-model based oscillatory neural network. The network parameters were optimized using a genetic algorithm. The resulting brain and behavioural dynamics are analysed within Kelso's Coordination dynamic framework. We found that: a) during a whole behavioural episode of phototaxis the robot's brain undergoes different metastable dynamical regimes of phase-lock and phase-scattering, represented by the relative phase and phase coherence among oscillators; b) even for a simple task, metastable coordination patterns and functional behaviour emerges without the need for a specific synchronization signature; and, c) sensorimotor loop dynamics plays a critical role generating and sustaining functional metastable regimes of brain activity by modulating the network's control parameter.
+
+### Cite
+
+Santos, B. A., Barandiaran, X. E., & Husbands, P. (2011). Metastable dynamical regimes in an oscillatory network modulated by an agent's sensorimotor loop. In *2011 IEEE Symposium on Artificial Life (ALIFE)* (pp. 124-131). IEEE. https://doi.org/10.1109/ALIFE.2011.5954659
+
+---
+
+## Neurodynamic regimes of phase relation and behavior in robotic models
+
+- **Authors:** Bruno Santos, Xabier E. Barandiaran, Phil Husbands
+- **Year:** 2011
+- **Type:** Journal Article
+- **Published in:** BMC Neuroscience, 12(Suppl 1), P155
+- **URL:** http://www.biomedcentral.com/1471-2202/12/S1/P155
+- **Topics (assigned by the site; no author keywords):** Neuroscience, Robotics
+- **Landing page:** https://publications.barandiaran.net/p/2011-neurodynamic-regimes-of-phase-relation-and/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2011-neurodynamic-regimes-of-phase-relation-and.pdf)
+
+### Abstract
+
+Both oscillatory phenomena and the dynamics of integration and segregation in the brain are fields of intense study in current computational neuroscience. It is often suggested that moments of phase-locking (as moments of integration) between functionally distinct neuronal groups represent meaningful functional brain states; and moments of phase-scattering (as moments of segregation) represent transitions between such states. The main evidences for such claim come from investigations on the well-known visual binding problem [1]. Despite the evidences supporting a functionally privileged status for phase locking integration (as a neural signature of cognitive brain activity) an adequate balance between integration and segregation has also been considered essential [2]. We explore how, rather than mere phaselocking, the global regime of phase relation might become necessary to generate functional behaviour, i.e. the whole phase dynamic which might include moments of integration (by phase-locking) and segregation (by phase scattering). Our proposal to investigate the whole phase relation dynamics is motivated by the phenomenon of relative coordination observed in the movements of fish fins described by von Holst [3] and latter developments of Haken and Kelso’s approach to coordination dynamics [4]. In dynamical system terms, by “relative coordination” von Holst means the situation when the phase relation among components is constantly moving in a transient dynamics where some regions of the phase space have low potential energy (moments of phase-locking) and others high potential energy (moments of phase-scattering). Using a genetic algorithm we optimized the parameter of two robotic models performing phototaxis. In one model the agent is controlled by the extended-HKB equation [4] (Fig. 1A, 1B) and in the other one by a network of five coupled Kuramoto oscillators [5] (Fig. 1C, 1D). Both types of controllers where chosen as paradigmatic of oscillatory modeling in computational neuroscience. Due to the simplicity of the model we were able to analyze the whole phase dynamic and found different dynamical regimes of phase relation (expressed in terms of phase density) and their behavioral correlates. Despite the strong simplifying assumptions involved, the theoretical results shown here suggest a “different/new” approach to analyze empirical data in neuroscience where regimes of phase relation might be as relevant as phase locking events for how brain-environment dynamics give rise to behaviour. We conclude with some expansions of phase density and phase coherence measurements for bigger oscillatory networks in sensorimotor systems.
+
+### Cite
+
+Santos, B., Barandiaran, X. E., & Husbands, P. (2011). Neurodynamic regimes of phase relation and behavior in robotic models. *BMC Neuroscience*, *12*(Suppl 1), P155. http://www.biomedcentral.com/1471-2202/12/S1/P155
+
+---
+
+## Quantifying Normative Behaviour and Precariousness in Adaptive Agency
+
+- **Authors:** Matthew D. Egbert, Xabier E. Barandiaran
+- **Year:** 2011
+- **Type:** Conference Paper
+- **Published in:** Proceedings of the 11th European Conference on Artificial Life, 210-218
+- **Publisher:** MIT Press
+- **Topics (assigned by the site; no author keywords):** Autonomy, Metabolism, Agency, Normativity, Viability
+- **Landing page:** https://publications.barandiaran.net/p/2011-quantifying-normative-behaviour-and-precariousness-in/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2011-quantifying-normative-behaviour-and-precariousness-in.pdf)
+
+### Abstract
+
+An essential feature of autonomous adaptive agency is that a system behaves according to an intrinsic norm. In this paper, we illustrate and clarify this notion of “behavior according to an intrinsic norm” with a minimalistic model of agency. We present a minimal metabolic system whose auto-catalytic dynamics define a viability region for different concentrations of available resource or ‘food’ molecules. We initially consider the availability of food as a control parameter for metabolic dynamics. A bifurcation diagram shows that for fixed values of available food, there exists a viability region. This region has an non-zero stable equilibrium and a lower boundary that takes the form of an unstable equilibrium—below which, the tendency of the system is towards “death”, a stable equilibrium with a zero concentration of metabolites. We define the viability region as that in which the system tends toward the “living” stable-equilibrium. Outside of this region, in the precarious region, the system may live for some time but will eventually die if the food concentration does not change. With a precise definition of system-determined death, living, precarious and viable regions we move on to reconsider the available concentration of resources ([F]), not as a free parameter of the system but as modulated by organismic behaviour. By coupling the metabolism to a behavioural mechanism, we simulate a stochastic, up-resource gradient climbing behaviour. As a result, the effect of behaviour on the viability space can be mapped and quantified. This lets us move closer to defining adaptive action more precisely as that course of behaviour whose effect is in accordance with an intrinsic normative field.
+
+### Cite
+
+Egbert, M. D., & Barandiaran, X. E. (2011). Quantifying Normative Behaviour and Precariousness in Adaptive Agency. In *Proceedings of the 11th European Conference on Artificial Life* (pp. 210-218). MIT Press.
+
+---
+
 ## A Minimal Model of Metabolism-Based Chemotaxis
 
 - **Authors:** Matthew D. Egbert, Xabier E. Barandiaran, Ezequiel A. Di Paolo

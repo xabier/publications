@@ -45,6 +45,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Egbert, M. D., & Barandiaran, X. E. (2022). Using enactive robotics to think outside of the problem-solving box: How sensorimotor contingencies constrain the forms of emergent autononomous habits. Frontiers in Neurorobotics, 16, 1-23. https://doi.org/https://doi.org/10.3389/fnbot.2022.847054",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2022-using-enactive-robotics-to-think-outside/",

@@ -47,6 +47,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2012). Behavioral Metabolution: The Adaptive and Evolutionary Potential of Metabolism-Based Chemotaxis. Artificial Life, 18(1), 1-25. https://doi.org/10.1162/artl_a_00047",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2012-behavioral-metabolution-the-adaptive-and-evolutionary/",

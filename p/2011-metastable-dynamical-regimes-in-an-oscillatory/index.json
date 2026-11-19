@@ -49,6 +49,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Santos, B. A., Barandiaran, X. E., & Husbands, P. (2011). Metastable dynamical regimes in an oscillatory network modulated by an agent's sensorimotor loop. In 2011 IEEE Symposium on Artificial Life (ALIFE) (pp. 124-131). IEEE. https://doi.org/10.1109/ALIFE.2011.5954659",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2011-metastable-dynamical-regimes-in-an-oscillatory/",

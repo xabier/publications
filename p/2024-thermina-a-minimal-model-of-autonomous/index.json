@@ -42,6 +42,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Aguilera, M., & Barandiaran, X. E. (2024). Thermina: A minimal model of autonomous agency from the lens of stochastic thermodynamics. In ALIFE 2024: Proceedings of the 2024 Artificial Life Conference. MIT Press. https://doi.org/10.1162/isal_a_00826",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2024-thermina-a-minimal-model-of-autonomous/",

@@ -42,6 +42,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Barandiaran, X. E., & Romero, C. (2017). Funcionalidades y características de Decidim (Decidim Documentation). Decidim.org (Ajuntament de Barcelona). https://decidim.org/pdf/features-roadmap-es.pdf",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2017-funcionalidades-y-caracteristicas-de-decidim/",

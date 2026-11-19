@@ -49,6 +49,98 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": {
+  "url": "https://xabier.barandiaran.net/2020/06/24/sensorimotor-life-an-enactive-proposal-the-book/",
+  "title": "Sensorimotor Life. An Enactive Proposal (the Book)",
+  "date": "2020-06-24",
+  "language": "en"
+ },
+ "reviews": [
+  {
+   "key": "L5JWFEUJ",
+   "authors": [
+    {
+     "family": "Baggs",
+     "given": "E."
+    }
+   ],
+   "title": "A psychology of the in between?",
+   "year": "2018",
+   "date": "2018-07-15",
+   "journal": "Constructivist Foundations",
+   "volume": "13",
+   "issue": "3",
+   "pages": "395-397",
+   "doi": "",
+   "url": "http://constructivist.info/13/3/395",
+   "language": "eng",
+   "citation_apa": "Baggs, E. (2018). A psychology of the in between? Constructivist Foundations, 13(3), 395–397.",
+   "link": "http://constructivist.info/13/3/395"
+  },
+  {
+   "key": "HXTI3RTI",
+   "authors": [
+    {
+     "family": "Witherington",
+     "given": "David C."
+    }
+   ],
+   "title": "Embracing Agency in All of Its Explanatory Complexity",
+   "year": "2019",
+   "date": "2019",
+   "journal": "Human Development",
+   "volume": "62",
+   "issue": "3",
+   "pages": "165-170",
+   "doi": "10.1159/000496138",
+   "url": "https://www.karger.com/Article/FullText/496138",
+   "language": "english",
+   "citation_apa": "Witherington, D. C. (2019). Embracing Agency in All of Its Explanatory Complexity. Human Development, 62(3), 165–170.",
+   "link": "https://doi.org/10.1159/000496138"
+  },
+  {
+   "key": "6CARQSMR",
+   "authors": [
+    {
+     "family": "Høffding",
+     "given": "Simon"
+    }
+   ],
+   "title": "Review of Dan Hutto and Erik Myin, Evolving Enactivism (2017, MIT press); Shaun Gallagher, Enactivist Interventions (2017, Oxford University Press); Ezequiel Di Paolo, Thomas Buhrmann, and Xabier E. Barandiaran, Sensorimotor Life (2017, Oxford University Press)",
+   "year": "2019",
+   "date": "2019-07",
+   "journal": "Philosophy",
+   "volume": "94",
+   "issue": "3",
+   "pages": "492-499",
+   "doi": "10.1017/S0031819119000044",
+   "url": "https://www.cambridge.org/core/journals/philosophy/article/review-of-dan-hutto-and-erik-myin-evolving-enactivism-2017-mit-press-shaun-gallagher-enactivist-interventions-2017-oxford-university-press-ezequiel-di-paolo-thomas-buhrmann-and-xabier-e-barandiaran-sensorimotor-life-2017-oxford-university-press/E011D5DE36AEB3266832CD6A92A0CDED",
+   "language": "en",
+   "citation_apa": "Høffding, S. (2019). Review of Dan Hutto and Erik Myin, Evolving Enactivism (2017, MIT press); Shaun Gallagher, Enactivist Interventions (2017, Oxford University Press); Ezequiel Di Paolo, Thomas Buhrmann, and Xabier E. Barandiaran, Sensorimotor Life (2017, Oxford University Press). Philosophy, 94(3), 492–499.",
+   "link": "https://doi.org/10.1017/S0031819119000044"
+  },
+  {
+   "key": "5GJAKNG7",
+   "authors": [
+    {
+     "family": "Ramírez-Vizcaya",
+     "given": "Susana"
+    }
+   ],
+   "title": "A world-involving theory of agency: review of Sensorimotor Life: An Enactive Proposal by Ezequiel Di Paolo, Thomas Buhrmann, and Xabier Barandiaran. Oxford University Press, Oxford, 2017",
+   "year": "2020",
+   "date": "2020-12-15",
+   "journal": "Adaptive Behavior",
+   "volume": "",
+   "issue": "",
+   "pages": "1059712320976676",
+   "doi": "10.1177/1059712320976676",
+   "url": "https://doi.org/10.1177/1059712320976676",
+   "language": "en",
+   "citation_apa": "Ramírez-Vizcaya, S. (2020). A world-involving theory of agency: review of Sensorimotor Life: An Enactive Proposal by Ezequiel Di Paolo, Thomas Buhrmann, and Xabier Barandiaran. Oxford University Press, Oxford, 2017. Adaptive Behavior, 1059712320976676.",
+   "link": "https://doi.org/10.1177/1059712320976676"
+  }
+ ],
  "citation_apa": "Di Paolo, E. A., Buhrmann, T., & Barandiaran, X. E. (2017). Sensorimotor Life: an enactive proposal. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780198786849.001.0001",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2017-sensorimotor-life-an-enactive-proposal/",
@@ -58,5 +150,6 @@
   "bibtex": "https://publications.barandiaran.net/citations/2017-sensorimotor-life-an-enactive-proposal.bib",
   "ris": "https://publications.barandiaran.net/citations/2017-sensorimotor-life-an-enactive-proposal.ris",
   "publisher": "https://doi.org/10.1093/acprof:oso/9780198786849.001.0001"
- }
+ },
+ "presentation_html": "<p>It has been some time now since we published this book. At the time I was too busy working at Barcelona City Council and could not publish a post on this blog. It is now time to do so.</p>\n<p>Chapters 5 and 6 of the book are based on my <a href=\"https://publications.barandiaran.net/p/2008-mental-life-a-naturalized-approach-to/\">PhD thesis</a> and I am proud to see it published within the more elaborate framework of this book.</p>"
 }

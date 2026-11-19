@@ -53,6 +53,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Aguilera, M., Barandiaran, X. E., Bedia, M. G., & Seron, F. (2015). Self-Organized Criticality, Plasticity and Sensorimotor Coupling. Explorations with a Neurorobotic Model in a Behavioural Preference Task. PLOS ONE, 10(2), e0117465. https://doi.org/10.1371/journal.pone.0117465",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2015-self-organized-criticality-plasticity-and-sensorimotor/",

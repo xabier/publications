@@ -50,6 +50,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Aguilera, M., Bedia, M. G., & Barandiaran, X. E. (2016). Extended Neural Metastability in an Embodied Model of Sensorimotor Coupling. Frontiers in Systems Neuroscience, 10. https://doi.org/10.3389/fnsys.2016.00076",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2016-extended-neural-metastability-in-an-embodied/",

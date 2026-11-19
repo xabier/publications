@@ -661,3 +661,13 @@ a.res:hover .res-name{ color: var(--accent); }
   .pub-years .pub-item[data-cover]{ grid-template-columns: 48px minmax(0, 1fr); column-gap: .8em; }
   .pub-thumb img{ width: 48px; }
 }
+
+/* ---- landing pages: author's presentation of a book, published reviews */
+.pub-about .about-source{ font-size: .875rem; color: var(--text-light); font-style: italic; margin-top: -.25em; }
+.pub-about h3{ font-size: 1.0625rem; color: var(--text); margin: 1.5em 0 .4em; }
+.pub-about ul, .pub-about ol{ padding-left: 1.3em; }
+.pub-about li{ margin: .3em 0; }
+.pub-about blockquote{ margin: 1em 0; padding: .2em 0 .2em 1em; border-left: 3px solid var(--border, #ddd); color: var(--text-light); }
+.review-list{ padding-left: 1.1em; margin: 0; }
+.review-list li{ margin: .55em 0; line-height: 1.5; }
+.review-list a{ word-break: break-all; font-size: .875rem; }

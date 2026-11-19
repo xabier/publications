@@ -46,6 +46,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2010). Behavioral Metabolution: Metabolism based behavior enables new forms of adaptation and evolution. In Artificial Life XII: Proceedings of the Twelfth International Conference on the Simulation and Synthesis of Living Systems.",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2010-behavioral-metabolution-metabolism-based-behavior-enables/",

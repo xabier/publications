@@ -1,6 +1,6 @@
 # Publications of Xabier E. Barandiaran — full records
 
-> All 91 publications with metadata, abstracts, keywords and citations, newest first. Generated 2026-11-19 from https://publications.barandiaran.net/. Each record's landing page (with BibTeX) is linked under it. Free content (CC BY-SA 4.0 / GNU FDL 1.3).
+> All 92 publications with metadata, abstracts, keywords and citations, newest first. Generated 2026-11-19 from https://publications.barandiaran.net/. Each record's landing page (with BibTeX) is linked under it. Free content (CC BY-SA 4.0 / GNU FDL 1.3).
 
 ## Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions
 
@@ -161,6 +161,64 @@ Prokop, M., & Barandiaran, X. E. (2026). Sensorimotor Norms and Social Norms: A 
 - **Highlighted:** yes (one of the author’s featured publications)
 - **Landing page:** https://publications.barandiaran.net/p/2026-outonomy-fleshing-out-the-concept-of/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2026-outonomy-fleshing-out-the-concept-of.pdf)
+
+### Abstract
+
+This volume, edited by Xabier E. Barandiaran and Arantza Etxeberria, is the integrated result of the research project Outonomy. It gathers a cross-disciplinary exploration of autonomy that moves beyond the classic, self-sufficient, abstract, rational and detached model of the individual inherited from modernity. Instead, it develops the concept of outonomy to capture how autonomy is constituted through relations: with environments, other agents, technologies, institutions, and social-ecological systems. The opening chapter outlines four key properties that articulate this shift (interactivity, collectivity, extensionality and environmentality) along two fundamental dimensions (integration and sustainability), reframing autonomy as something that emerges across scales of interaction and dependence rather than something sealed within an isolated individual. The volume is organized into four parts: Theoretical Insights (the conceptual stakes of outonomy, control and organization in biological systems); The Fabric of Life (environments and asymmetries, the origins of life, reproduction, menstrual health); The Psychic Self and Its Environment (psychiatry, salutogenesis, pain); and Technology, Ecology & Politics (technocomplexity, the limits of autonomy in social-ecological systems, subjects-in-common, mindshaping and adaptive preferences).
+
+### About the book
+
+*From the author’s blog: [Outonomy book is out!](https://xabier.barandiaran.net/2025/12/05/outonomy-book-is-out/) (5 December 2025)*
+
+I am very happy to announce the publication of *[Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual](https://link.springer.com/book/10.1007/978-3-032-05501-9)*, edited by [Arantza Etxeberria](https://www.ias-research.net/people/arantza_etxeberria/) and me. This book is the unified and integrated result of the research project of the same title led by myself and Leonardo Bich that finished over a year ago. The book gathers a rich, cross-disciplinary exploration of autonomy that moves beyond the classic, self-sufficient, abstract, rational and detached model of the individual we inherited from modernity. Instead, it develops the concept of **[outonomy](https://publications.barandiaran.net/p/2026-outonomy-the-very-idea/)** to capture how autonomy is **constituted through relations**: with environments, other agents, technologies, institutions, and social-ecological systems.
+
+#### Why “Outonomy”?
+
+Autonomy has long been central to modern thought, ethics, and the life sciences. But many contemporary debates across philosophy of biology, cognitive science, medicine, technology studies, and political theory show that the boundaries and concerns of the individual move far beyond itself. The outonomy framework responds to this situation by offering a more interactional and environmentally situated account of self-governance and normativity.
+
+In the opening chapter, Barandiaran and Etxeberria outline 4 key properties that help articulate this shift:
+
+- Interactivity
+
+- Collectivity
+
+- Extensionality
+
+- Environmentality
+
+Along two fundamental dimensions:
+
+- Integration
+
+- Sustainability
+
+Together, these ideas reframe autonomy as something that emerges across scales of interaction and dependence, rather than something sealed within an isolated individual.
+
+#### A structured journey across life, mind, technology, and politics
+
+The volume is organized into four parts that build a coherent arc while engaging multiple domains:
+
+**Part I: Theoretical Insights** — Foundational chapters clarify the conceptual stakes of outonomy and rethink control and organization in biological systems.
+
+**Part II: The Fabric of Life** — Chapters address environments and asymmetries, the origins of life, reproduction, and a compelling application to menstrual health.
+
+**Part III: The Psychic Self and Its Environment** — Here the outonomy perspective extends into psychiatry, salutogenesis, and pain, emphasizing embodied and relational normativity.
+
+**Part IV: Technology, Ecology & Politics** — These chapters explore technocomplexity, the limits of autonomy in social-ecological systems, subjects-in-common, and mindshaping in relation to adaptive preferences.
+
+#### Co-authored chapters
+
+I have co-edited the book, and co-authored three chapters:
+
+- Barandiaran, X. E., & Etxeberria, A. (2026). Outonomy, the Very Idea. In X. E. Barandiaran & A. Etxeberria (Eds.), *Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual* (pp. 3–12). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_1 Here we introduce the concept of Outonomy as an attempt to overcome some of the limitations of the concept of autonomy as inherited from modernity.
+
+- Cabello, V., Merlo, A., Mancilla, M., Siqueiros, J. M., & Barandiaran, X. E. (2026). Autonomy and Its Limits in Social-Ecological Systems. In X. E. Barandiaran & A. Etxeberria (Eds.), *Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual* (pp. 121–130). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_12 In this chapter, we approach the notion of autonomy at its largest planetary scale. Social-ecological systems are in need of a deep exercise of autonomy as self-limitation and care if we are to avoid the increasing destruction of living diversity and flourishing life on earth.
+
+- Calleja-López, A., Pérez-Verdugo, M., & Barandiaran, X. E. (2026). Autonomy and Technology: From Instrumentalism to Technocomplexity. In X. E. Barandiaran & A. Etxeberria (Eds.), *Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual* (pp. 111–120). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_11 This chapter captures the dialectical moments that tie autonomy and technology, from the naïve, yet widespread, instrumental use to the techno-complex participatory constitution of our extended life, passing through the persistent thread of an increasingly autonomous techno-economic system that subsumes and alienates human autonomy.
+
+#### A collaborative research effort
+
+The book emerges from sustained work within the Outonomy research network and related projects, with authors actively reviewing and strengthening each other’s contributions. It also benefits from external reviewers who helped refine the final manuscript.
 
 ### Cite
 
@@ -472,6 +530,41 @@ Merlo, A., & Barandiaran, X. E. (2024). Beyond fatalism: Gaia, entropy, and the 
 - **Landing page:** https://publications.barandiaran.net/p/2024-decidim-a-technopolitical-network-for-participatory/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2024-decidim-a-technopolitical-network-for-participatory.pdf)
 
+### Abstract
+
+This book presents Decidim, the free software platform and community for participatory democracy, and the philosophy, practice and autonomy of a collective platform in the age of digital intelligence. Chapter 1 summarizes the nature of the project, its impact, its history and why it was born in the context of cognitive capitalism and the decline of neoliberal "democracies" on the one hand, and the dawn of digital commons and radical democracy on the other. Chapter 2, the most theoretical, reviews contemporary social and democratic theory to explain the radically democratic vision that Decidim aims to achieve. Chapter 3 covers perhaps the most original aspect of the project, its technopolitical crafting: how technical details are assembled to produce specific political effects, and how the community recursively embodies those technical and political mechanisms in its own constitution. Chapter 4 gives a technical description of the infrastructure: the software, the community and the legal framework. Chapter 5, the most philosophical and speculative, recapitulates the book, projects past, present and future challenges and offers a reading of what Decidim is and could be. The book draws on the IAS-Research group's study of the autonomy of the living, transposed to the autonomy of sociotechnical hybrids. It is published open access under a Creative Commons BY-SA licence.
+
+### About the book
+
+*From the author’s blog: [Decidim Book is out!](https://xabier.barandiaran.net/2024/02/01/decidim-book-is-out/) (1 February 2024)*
+
+It has taken **almost 6 years** since we started writing what, at the time, we called *Decidim’s White Paper*. Some drafts of the early book have been circulating ever since, but we never completed the story. We were very busy doing [Decidim](https://decidim.org). Years passed, the project settled, and we took the time (thanks Antonio for offering us the great opportunity to push the book forward in Arantzazu!) **to finally write it**.
+
+The **table of contents of the book** makes for a good summary:
+
+- Decidim: A Brief Overview Here we summarize the nature of the project, its current impact, its history and why the project was born in the context of cognitive capitalism and the decline of neoliberal “democracies” on the one hand, and the dawn of digital commons and radical democracy on the other.
+
+- The Political Plane: Decidim and the Vision of a Radically Democratic Society This part is the most theoretical, we review contemporary social and democratic theory to explain the type of democratic vision that Decidim is aimed to achieve.
+
+- The Technopolitical Plane: Decidim as a Democratic Software Paradigm This chapter covers perhaps the most original aspect of the project, its careful technopolitical crafting, the way in which technical details are assembled to produce specific types of political effects and how the community embodies recursively those technical and political mechanism on its own constitution.
+
+- The Technical Plane: The Fabric of an Infrastructure As the title anticipates, this is the most technical description of how the software, the community and the legal framework of Decidim fit together.
+
+- A Technopolitical Network for Participatory Democracy: The Future of a Collective Platform This is perhaps the most philosophical and speculative of all chapters. Recapitulating the content of the entire book, we project past, present and future challenges and provide a reading of what Decidim *is* and *could* be.
+
+As an academic publication the book owes much to the work of [IAS-Research](https://ias-research.net) Group, and its decades of study of the *autonomy of the living*, now transposed to the autonomy of sociotechnical hybrids like this project: the democratic autonomous assemblage of the organic and the inorganic. The project [Outonomy](https://outonomy.net) partially financed the publication with [Open Access CreativeCommons By-SA licence](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
+
+I leave you with two quotes of the conclusions (chapter 5):
+
+> At the beginning of this book, we made clear that a project like Decidim might be necessary, but is certainly not sufficient for advancing democracy. There is no future for Decidim or for democracy without a deep transformation of the material living conditions, the social (and global) inequalities and the myriad of oppressive structures that are reproduced every day. Decidim should leave no room for techno-solutionism (the idea that social or political problems have technological solutions). It should equally debunk techno-fatalism. It already has. Decidim is an example of how it is possible to create and deploy a large-scale, radically transformative software project out of the platform capitalist model. An important challenge to any radical democratization process (particularly when addressing struggles) is the problem of coordination of collective action. This is where Decidim should be ready to become a valuable infrastructure, which may then contribute to address the challenges of complexity and conflictuality of society. (p. 124-5)
+
+> As a coagulation of hundreds of Metadecidim debates, the movement recursivity includes this very text; and so recrafts thinking, action, and, crucially, the frequently forgotten (re)production. We began suggesting that this book aims to think through Decidim after we did take part in it. Actually, we were thinking through Decidim as we were doing it, and Decidim keeps making and thinking itself today. With this book we came to recapitulate and throw out several lines of flight that show how Decidim has aimed to retie technology, politics, economics, ecology and beyond, and that flight has the form of a living animal: it is the flight of a cyborg owl. The cyborg owl can be taken as an imaginary ode to our animal and our technical, increasingly post-natural and allegedly post-humanist condition. Yet this owl is not the symbol of a Hegelian self-reflective movement that satisfies itself in contemplation, but the owl that flies in the evening to bring, back to the nest, the provision to sustain a new day. It is reflective action and active reflection aimed at producing and reproducing flourishing forms of life. (p.130-1)
+
+### Reviews
+
+- Peiruza Parga, J. (2024). Reseña de "Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence". Argumentos de Razón Técnica, 249–274.
+- Navarro, F. S. (2025). Xabier Barandiaran, Antonio Calleja-López, Arnau Monterde, and Carol Romero, Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence. International Journal of Communication, 19, 4. https://ijoc.org/index.php/ijoc/article/view/25463
+
 ### Cite
 
 Barandiaran, X. E., Calleja-López, A., Monterde, A., & Romero, C. (2024). *Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence*. Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-50784-7
@@ -705,6 +798,22 @@ Barandiaran, X. E., Calleja-López, A., Monterde, A., & Romero, C. (2019). *Deci
 
 ---
 
+## Social and Enactive Perspectives on Pretending
+
+- **Authors:** Zuzanna Rucińska
+- **Year:** 2019
+- **Type:** Journal Article
+- **Published in:** AVANT. The Journal of the Philosophical-Interdisciplinary Vanguard
+- **DOI:** [10.26913/avant.2019.03.15](https://doi.org/10.26913/avant.2019.03.15)
+- **Keywords:** Pretending, Pretense, Enactivism, Social cognition, Perception, Imagination, Scripts
+- **Landing page:** https://publications.barandiaran.net/p/2019-social-and-enactive-perspectives-on-pretending/
+
+### Cite
+
+Rucińska, Z. (2019). Social and Enactive Perspectives on Pretending. *AVANT. The Journal of the Philosophical-Interdisciplinary Vanguard*. https://doi.org/10.26913/avant.2019.03.15
+
+---
+
 ## Dalle reti sociali alle reti (tecno)politiche
 
 - **Authors:** Antonio Calleja-López, Xabier E. Barandiaran, Arnau Monterde
@@ -825,6 +934,21 @@ Barandiaran, X. E. (2017). Autonomy and Enactivism: Towards a Theory of Sensorim
 ### Abstract
 
 How accurate is the picture of the human mind that has emerged from studies in neuroscience, psychology, and cognitive science? Anybody with an interest in how minds work - how we learn about the world and how we remember people and events - may feel dissatisfied with the answers contemporary science has to offer. Sensorimotor Life draws on current theoretical developments in the enactive approach to life and mind. It examines and expands the premises of the sciences of the human mind, while developing an alternative picture closer to people's daily experiences. Enactive ideas are applied and extended, providing a theoretically rich, naturalistic account of meaning and agency. The book includes a dynamical systems description of different types of sensorimotor regularities or sensorimotor contingencies; a dynamical interpretation of Piaget's theory of equilibration to ground the concept of sensorimotor mastery; and a theory of agency as organized networks of sensorimotor schemes, as well as its implicatons for embodied subjectivity. Written for students and researchers of cognitive science, the authors offer a fuller view of the mind, a view better attuned to the experiences of people who live, work, love, struggle, and age, thrown into a world of meaningful relations they help create. Additionally, the book is of interest to neuroscientists, psychiatrists, and philosophers of science.
+
+### About the book
+
+*From the author’s blog: [Sensorimotor Life. An Enactive Proposal (the Book)](https://xabier.barandiaran.net/2020/06/24/sensorimotor-life-an-enactive-proposal-the-book/) (24 June 2020)*
+
+It has been some time now since we published this book. At the time I was too busy working at Barcelona City Council and could not publish a post on this blog. It is now time to do so.
+
+Chapters 5 and 6 of the book are based on my [PhD thesis](https://publications.barandiaran.net/p/2008-mental-life-a-naturalized-approach-to/) and I am proud to see it published within the more elaborate framework of this book.
+
+### Reviews
+
+- Baggs, E. (2018). A psychology of the in between? Constructivist Foundations, 13(3), 395–397. http://constructivist.info/13/3/395
+- Witherington, D. C. (2019). Embracing Agency in All of Its Explanatory Complexity. Human Development, 62(3), 165–170. https://doi.org/10.1159/000496138
+- Høffding, S. (2019). Review of Dan Hutto and Erik Myin, Evolving Enactivism (2017, MIT press); Shaun Gallagher, Enactivist Interventions (2017, Oxford University Press); Ezequiel Di Paolo, Thomas Buhrmann, and Xabier E. Barandiaran, Sensorimotor Life (2017, Oxford University Press). Philosophy, 94(3), 492–499. https://doi.org/10.1017/S0031819119000044
+- Ramírez-Vizcaya, S. (2020). A world-involving theory of agency: review of Sensorimotor Life: An Enactive Proposal by Ezequiel Di Paolo, Thomas Buhrmann, and Xabier Barandiaran. Oxford University Press, Oxford, 2017. Adaptive Behavior, 1059712320976676. https://doi.org/10.1177/1059712320976676
 
 ### Cite
 
@@ -1064,6 +1188,24 @@ Barandiaran, X. E., & Aguilera, M. (2015). Neurociencia y tecnopolítica: hacia 
 - **Topics (assigned by the site; no author keywords):** Free software, Commons
 - **Landing page:** https://publications.barandiaran.net/p/2015-buen-conocer-flok-society-modelos-sostenibles/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2015-buen-conocer-flok-society-modelos-sostenibles.pdf)
+
+### Abstract
+
+Libro que recoge gran parte de los resultados del proyecto Buen Conocer / FLOK Society en Ecuador. Reúne unas 800 páginas, agrupadas en 12 documentos de políticas públicas y diseño de modelos sostenibles de producción y consumo, orientados a construir alternativas viables y democráticas fuera del modelo del capitalismo cognitivo y del formato de la propiedad intelectual, y a explorar la potencia del conocimiento libre, común y abierto como verdadero motor de una economía social. Es el resultado de la colaboración de cientos de personas. Publicado con copyleft, con capítulos descargables por separado y en varios formatos abiertos (HTML, PDF, ePub, ODT).
+
+### About the book
+
+*From the author’s blog: [Libro “Buen Conocer / FLOK Society”](https://xabier.barandiaran.net/2015/06/16/libro-buen-conocer-flok-society/) (16 June 2015)*
+
+Hoy mismo se presenta (por fin!) el libro que recoge gran parte de los resultados del proyecto [Buen Conocer / FLOK Society](http://floksociety.org) en el que he estado involucrado desde sus orígenes, hace ahora dos años. El equipo de [aLabs](http://alabs.org) ha realizado un excelente trabajo con [la página web del libro](http://book.floksociety.org/ec/). Como asesor de la edición digital me siento, por primera vez, ante una web que hace justicia al contenido y a la forma en que un libro debe insertarse en el ciberespacio: con copyleft, con una estructura clara, con la posibilidad de descargar los capítulos por separado, con varios formatos abiertos disponibles (html, PDF, ePub, ODT), con metadatos que permiten automáticamente clasificar los contenidos en gestores bibliográficos y facilitar la busqueda, y, no menos importante, con una estética funcional, clara y atractiva.
+
+Pero lo que realmente merece la atención es el contenido del libro. Son un total de unas 800 páginas (dependiendo de la edición), agrupadas en 12 documentos de políticas públicas y diseño de modelos sostenibles de producción y consumo orientados a construir alternativas viables y democráticas fuera del modelo del capitalismo cognitivo, fuera del formato de la propiedad intelectual, orientados siempre hacia la exploración de la potencia del conocimiento libre, común y abierto, como verdadero motor de una economía social. Todo un reto que ha requerido la colaboración de cientos de personas.
+
+Entre otras funciones de edición he tenido el honor de ser coautor (junto a [David Vila-Viñas](http://davidvilavinas.net/)) de dos capítulos del libro (además de la introducción):
+
+- Barandiaran, X. E., Araya, D., & Vila-Viñas, D. (2015). [Ciencia: Investigación colaborativa, participativa y abierta](https://publications.barandiaran.net/p/2015-ciencia-investigacion-colaborativa-participativa-y-abierta/). En D. Vila-Viñas & X. E. Barandiaran (Eds.), *Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador* (pp. 181–268). Quito, Ecuador: IAEN-CIESPAL.
+
+- Barandiaran, X. E., Vila-Viñas, D., & Vázquez, D. (2015). [El proceso Buen Conocer / FLOK Society](https://publications.barandiaran.net/p/2015-el-proceso-buen-conocer-flok-society/). En D. Vila-Viñas & X. E. Barandiaran (Eds.), *Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador* (pp. 35–88). Quito, Ecuador: IAEN-CIESPAL.
 
 ### Cite
 

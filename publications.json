@@ -6,7 +6,7 @@
   "https://creativecommons.org/licenses/by-sa/4.0/",
   "https://www.gnu.org/licenses/fdl-1.3.html"
  ],
- "count": 91,
+ "count": 92,
  "items": [
   {
    "slug": "2026-incorporating-machine-others-an-enactive-exploration",
@@ -61,6 +61,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Cuffari, E. C., Pérez-Verdugo, M., & Barandiaran, X. E. (2026). Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2610.39869",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2026-incorporating-machine-others-an-enactive-exploration/",
@@ -126,6 +128,8 @@
     }
    ],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Rama, T. (2026). Sensorimotor teleology and goal-directedness. An organismic framework for normative behaviour. Phenomenology and the Cognitive Sciences. https://doi.org/10.1007/s11097-026-10199-3",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2026-sensorimotor-teleology-and-goal-directedness-an/",
@@ -180,6 +184,8 @@
    "featured": true,
    "talks": [],
    "has_summary": true,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2026). Organizational Accounts of Malfunction: The Dual-Order Approach and the Normative Field Alternative. Biological Theory, 21(1), 51-69. https://doi.org/10.1007/s13752-025-00500-z",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2026-organizational-accounts-of-malfunction-the-dual/",
@@ -243,6 +249,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Prokop, M., & Barandiaran, X. E. (2026). Sensorimotor Norms and Social Norms: A Pluralistic Proposal. Review of Philosophy and Psychology. https://doi.org/10.1007/s13164-026-00805-3",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2026-sensorimotor-norms-and-social-norms-a/",
@@ -287,7 +295,7 @@
    "doi": "10.1007/978-3-032-05501-9",
    "url": "https://link.springer.com/10.1007/978-3-032-05501-9",
    "language": "en",
-   "abstract": "",
+   "abstract": "This volume, edited by Xabier E. Barandiaran and Arantza Etxeberria, is the integrated result of the research project Outonomy. It gathers a cross-disciplinary exploration of autonomy that moves beyond the classic, self-sufficient, abstract, rational and detached model of the individual inherited from modernity. Instead, it develops the concept of outonomy to capture how autonomy is constituted through relations: with environments, other agents, technologies, institutions, and social-ecological systems. The opening chapter outlines four key properties that articulate this shift (interactivity, collectivity, extensionality and environmentality) along two fundamental dimensions (integration and sustainability), reframing autonomy as something that emerges across scales of interaction and dependence rather than something sealed within an isolated individual. The volume is organized into four parts: Theoretical Insights (the conceptual stakes of outonomy, control and organization in biological systems); The Fabric of Life (environments and asymmetries, the origins of life, reproduction, menstrual health); The Psychic Self and Its Environment (psychiatry, salutogenesis, pain); and Technology, Ecology & Politics (technocomplexity, the limits of autonomy in social-ecological systems, subjects-in-common, mindshaping and adaptive preferences).",
    "keywords": [
     "Outonomy",
     "Autonomy",
@@ -301,6 +309,13 @@
    "featured": true,
    "talks": [],
    "has_summary": false,
+   "presentation": {
+    "url": "https://xabier.barandiaran.net/2025/12/05/outonomy-book-is-out/",
+    "title": "Outonomy book is out!",
+    "date": "2025-12-05",
+    "language": "en"
+   },
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Etxeberria, A. (Eds.) (2026). Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual. Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2026-outonomy-fleshing-out-the-concept-of/",
@@ -370,6 +385,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Etxeberria, A. (2026). Outonomy, the Very Idea. In X. E. Barandiaran, & A. Etxeberria (Eds.), Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual (pp. 3-12). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_1",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2026-outonomy-the-very-idea/",
@@ -447,6 +464,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Cabello, V., Merlo, A., Mancilla, M., Siqueiros, J. M., & Barandiaran, X. E. (2026). Autonomy and Its Limits in Social-Ecological Systems. In X. E. Barandiaran, & A. Etxeberria (Eds.), Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual (pp. 121-130). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_12",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2026-autonomy-and-its-limits-in-social/",
@@ -516,6 +535,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Calleja-López, A., Pérez-Verdugo, M., & Barandiaran, X. E. (2026). Autonomy and Technology: From Instrumentalism to Technocomplexity. In X. E. Barandiaran, & A. Etxeberria (Eds.), Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual (pp. 111-120). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_11",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2026-autonomy-and-technology-from-instrumentalism-to/",
@@ -591,6 +612,8 @@
    "featured": true,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Cabello, V., Barandiaran, X., Gonzalez-Mon, B., Zaragoza, J. M., Siqueiros, J. M., & Brugnach, M. (2026). Socialecological affective arrangements: mapping with a small sea of many seas [Preprint]. https://philsci-archive.pitt.edu/id/eprint/31699/",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2026-socialecological-affective-arrangements-mapping-with-a/",
@@ -649,6 +672,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Pérez-Verdugo, M., & Barandiaran, X. E. (2025). The Equilibration of Technical Objects: Uncovering Normative Layers of Sensorimotor Engagement. Topoi. https://doi.org/10.1007/s11245-025-10259-4",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2025-the-equilibration-of-technical-objects-uncovering/",
@@ -723,6 +748,8 @@
     }
    ],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Almendros, L. S. (2025). Transforming agency: On the mode of existence of large language models. Phenomenology and the Cognitive Sciences. https://doi.org/10.1007/s11097-025-10094-3",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2025-transforming-agency-on-the-mode-of/",
@@ -786,6 +813,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "de la Torre, P. G., Pérez-Verdugo, M., & Barandiaran, X. E. (2025). Attention is all they need: cognitive science and the (techno)political economy of attention in humans and machines. AI & SOCIETY. https://doi.org/10.1007/s00146-025-02400-z",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2025-attention-is-all-they-need-cognitive/",
@@ -855,6 +884,8 @@
     }
    ],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Pérez-Verdugo, M. (2025). Generative midtended cognition and Artificial Intelligence: thinging with thinging things. Synthese, 205(4), 1-24. https://doi.org/10.1007/s11229-025-04961-4",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2025-generative-midtended-cognition-and-artificial-intelligence/",
@@ -912,6 +943,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "García, E., & Barandiaran, X. E. (2025). Varieties of normativity and mental health: an enactive approach. Synthese, 205(2), 1-29. https://doi.org/10.1007/s11229-024-04854-y",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2025-varieties-of-normativity-and-mental-health/",
@@ -975,6 +1008,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Rama, T. (2025). The Organismic Turn. Teleosemantics after 4E. In M. Heras-Escribano (Ed.), Analytic Philosophy and 4E Cognition (pp. 143-159). Routledge. https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003649359-13/organismic-turn-teleosemantics-4e-xabier-barandiaran-tiago-rama",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2025-the-organismic-turn-teleosemantics-after-4e/",
@@ -1031,6 +1066,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2025). Emergence and Autonomous Agency. RIEV, Revista Internacional de Estudios Vascos, 70(2). https://doi.org/10.61879/riev702zkia202511",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2025-emergence-and-autonomous-agency/",
@@ -1087,6 +1124,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Aguilera, M., & Barandiaran, X. E. (2024). Thermina: A minimal model of autonomous agency from the lens of stochastic thermodynamics. In ALIFE 2024: Proceedings of the 2024 Artificial Life Conference. MIT Press. https://doi.org/10.1162/isal_a_00826",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2024-thermina-a-minimal-model-of-autonomous/",
@@ -1145,6 +1184,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Merlo, A., & Barandiaran, X. E. (2024). Beyond fatalism: Gaia, entropy, and the autonomy of anthropogenic life on Earth. Ethics in Science and Environmental Politics, 24, 61-75. https://doi.org/10.3354/esep00213",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2024-beyond-fatalism-gaia-entropy-and-the/",
@@ -1197,7 +1238,7 @@
    "doi": "10.1007/978-3-031-50784-7",
    "url": "https://link.springer.com/10.1007/978-3-031-50784-7",
    "language": "en",
-   "abstract": "",
+   "abstract": "This book presents Decidim, the free software platform and community for participatory democracy, and the philosophy, practice and autonomy of a collective platform in the age of digital intelligence. Chapter 1 summarizes the nature of the project, its impact, its history and why it was born in the context of cognitive capitalism and the decline of neoliberal \"democracies\" on the one hand, and the dawn of digital commons and radical democracy on the other. Chapter 2, the most theoretical, reviews contemporary social and democratic theory to explain the radically democratic vision that Decidim aims to achieve. Chapter 3 covers perhaps the most original aspect of the project, its technopolitical crafting: how technical details are assembled to produce specific political effects, and how the community recursively embodies those technical and political mechanisms in its own constitution. Chapter 4 gives a technical description of the infrastructure: the software, the community and the legal framework. Chapter 5, the most philosophical and speculative, recapitulates the book, projects past, present and future challenges and offers a reading of what Decidim is and could be. The book draws on the IAS-Research group's study of the autonomy of the living, transposed to the autonomy of sociotechnical hybrids. It is published open access under a Creative Commons BY-SA licence.",
    "keywords": [
     "Collective intelligence",
     "Decidim",
@@ -1218,6 +1259,56 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": {
+    "url": "https://xabier.barandiaran.net/2024/02/01/decidim-book-is-out/",
+    "title": "Decidim Book is out!",
+    "date": "2024-02-01",
+    "language": "en"
+   },
+   "reviews": [
+    {
+     "key": "NMRQMGGH",
+     "authors": [
+      {
+       "family": "Peiruza Parga",
+       "given": "Joel"
+      }
+     ],
+     "title": "Reseña de \"Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence\"",
+     "year": "2024",
+     "date": "2024",
+     "journal": "Argumentos de Razón Técnica",
+     "volume": "",
+     "issue": "27",
+     "pages": "249-274",
+     "doi": "",
+     "url": "",
+     "language": "",
+     "citation_apa": "Peiruza Parga, J. (2024). Reseña de \"Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence\". Argumentos de Razón Técnica, 249–274.",
+     "link": ""
+    },
+    {
+     "key": "MCZ85NSA",
+     "authors": [
+      {
+       "family": "Navarro",
+       "given": "Fátima Solera"
+      }
+     ],
+     "title": "Xabier Barandiaran, Antonio Calleja-López, Arnau Monterde, and Carol Romero, Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence",
+     "year": "2025",
+     "date": "2025-07-10",
+     "journal": "International Journal of Communication",
+     "volume": "19",
+     "issue": "0",
+     "pages": "4",
+     "doi": "",
+     "url": "https://ijoc.org/index.php/ijoc/article/view/25463",
+     "language": "en",
+     "citation_apa": "Navarro, F. S. (2025). Xabier Barandiaran, Antonio Calleja-López, Arnau Monterde, and Carol Romero, Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence. International Journal of Communication, 19, 4.",
+     "link": "https://ijoc.org/index.php/ijoc/article/view/25463"
+    }
+   ],
    "citation_apa": "Barandiaran, X. E., Calleja-López, A., Monterde, A., & Romero, C. (2024). Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence. Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-50784-7",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2024-decidim-a-technopolitical-network-for-participatory/",
@@ -1276,6 +1367,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Pérez-Verdugo, M., & Barandiaran, X. E. (2023). Personal Autonomy and (Digital) Technology: An Enactive Sensorimotor Framework. Philosophy & Technology, 36(4), 84. https://doi.org/10.1007/s13347-023-00683-y",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2023-personal-autonomy-and-digital-technology-an/",
@@ -1330,6 +1423,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2023). Cómo usar Decidim. Guía para administraciones públicas y grandes organizaciones. Decidim.org. https://xabier.barandiaran.net/?p=2843",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2023-como-usar-decidim-guia-para-administraciones/",
@@ -1395,6 +1490,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Santos, B. A., Gomes, R. M., Barandiaran, X. E., & Husbands, P. (2022). Active Role of Self-Sustained Neural Activity on Sensory Input Processing: A Minimal Theoretical Model. Neural Computation, 34(3), 686-715. https://doi.org/10.1162/neco_a_01471",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2022-active-role-of-self-sustained-neural/",
@@ -1453,6 +1550,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Egbert, M. D., & Barandiaran, X. E. (2022). Using enactive robotics to think outside of the problem-solving box: How sensorimotor contingencies constrain the forms of emergent autononomous habits. Frontiers in Neurorobotics, 16, 1-23. https://doi.org/https://doi.org/10.3389/fnbot.2022.847054",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2022-using-enactive-robotics-to-think-outside/",
@@ -1515,6 +1614,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Vakhrameev, D., Aguilera, M., Barandiaran, X. E., & Bedia, M. (2020). Measuring Autonomy for Life-Like AI. In The 2020 Conference on Artificial Life (pp. 589-591). MIT Press. https://doi.org/10.1162/isal_a_00308",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2020-measuring-autonomy-for-life-like-ai/",
@@ -1577,6 +1678,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., Calleja-López, A., & Cozzo, E. (2020). Defining Collective Identities in Technopolitical Interaction Networks. Frontiers in Psychology, 11. https://doi.org/10.3389/fpsyg.2020.01549",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2020-defining-collective-identities-in-technopolitical-interaction/",
@@ -1631,6 +1734,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2020). Autonomía tecnopolítica Qué significa y porqué Decidim es un buen ejemplo. In Decidim (Ed.), DecidimFest20: Democracia y tecnología en tiempos de emergencia. Ajuntament de Barcelona. https://xabier.barandiaran.net/wp-content/uploads/2025/10/barandiaran.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2020-autonomia-tecnopolitica-que-significa-y-porque/",
@@ -1682,6 +1787,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2019). Artificial Democratic Life. Re-engineering the autonomy of the social, a research program. In The 2019 Conference on Artificial Life (pp. 11-12). https://doi.org/10.1162/isal_a_00131",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2019-artificial-democratic-life-re-engineering-the/",
@@ -1769,6 +1876,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Bedia, M. G., Heras-Escribano, M., Cajal, D., Aguilera, M., & Barandiaran, X. E. (2019). Towards modelling social habits: an organismically inspired evolutionary robotics approach. In Proceedings of ALIFE 2019: The 2019 Conference on Artificial Life (pp. 341-348). MIT Press. https://doi.org/10.1162/isal_a_00185",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2019-towards-modelling-social-habits-an-organismically/",
@@ -1834,6 +1943,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2019). Tecnopolítica, municipalismo y radicalización democrática. In L. Roth, A. Monterde, & A. Calleja-López (Eds.), Ciudades Democráticas. La revuelta municipalista en el ciclo post-15M (pp. 173-207). Icaria. http://ciudadesdemocraticas.tecnopolitica.net/capitulos/capitulo6.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica/",
@@ -1900,6 +2011,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., Calleja-López, A., Monterde, A., & Romero, C. (2019). Decidim: political and technopolitical networks for participatory democracy. White Paper. Decidim.org (Ajuntament de Barcelona). https://docs.decidim.org/whitepaper/en/doc-info/",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2019-decidim-political-and-technopolitical-networks-for/",
@@ -1908,6 +2021,62 @@
     "bibtex": "https://publications.barandiaran.net/citations/2019-decidim-political-and-technopolitical-networks-for.bib",
     "ris": "https://publications.barandiaran.net/citations/2019-decidim-political-and-technopolitical-networks-for.ris",
     "publisher": "https://docs.decidim.org/whitepaper/en/doc-info/"
+   }
+  },
+  {
+   "slug": "2019-social-and-enactive-perspectives-on-pretending",
+   "id": "https://publications.barandiaran.net/p/2019-social-and-enactive-perspectives-on-pretending/",
+   "type": "journalArticle",
+   "type_label": "Journal Article",
+   "title": "Social and Enactive Perspectives on Pretending",
+   "authors": [
+    {
+     "family": "Rucińska",
+     "given": "Zuzanna"
+    }
+   ],
+   "author_string": "Rucińska, Zuzanna",
+   "editors": [],
+   "year": "2019",
+   "date": "2019",
+   "venue": "AVANT. The Journal of the Philosophical-Interdisciplinary Vanguard",
+   "series": "",
+   "volume": "",
+   "issue": "",
+   "pages": "",
+   "publisher": "",
+   "place": "",
+   "note": "",
+   "isbn": "",
+   "issn": "20826710",
+   "doi": "10.26913/avant.2019.03.15",
+   "url": "http://avant.edu.pl/en/2019-03-15",
+   "language": "",
+   "abstract": "",
+   "keywords": [
+    "Pretending",
+    "Pretense",
+    "Enactivism",
+    "Social cognition",
+    "Perception",
+    "Imagination",
+    "Scripts"
+   ],
+   "topics": [],
+   "keywords_note": "",
+   "featured": false,
+   "talks": [],
+   "has_summary": false,
+   "presentation": null,
+   "reviews": [],
+   "citation_apa": "Rucińska, Z. (2019). Social and Enactive Perspectives on Pretending. AVANT. The Journal of the Philosophical-Interdisciplinary Vanguard. https://doi.org/10.26913/avant.2019.03.15",
+   "links": {
+    "landing": "https://publications.barandiaran.net/p/2019-social-and-enactive-perspectives-on-pretending/",
+    "markdown": "https://publications.barandiaran.net/p/2019-social-and-enactive-perspectives-on-pretending/index.md",
+    "json": "https://publications.barandiaran.net/p/2019-social-and-enactive-perspectives-on-pretending/index.json",
+    "bibtex": "https://publications.barandiaran.net/citations/2019-social-and-enactive-perspectives-on-pretending.bib",
+    "ris": "https://publications.barandiaran.net/citations/2019-social-and-enactive-perspectives-on-pretending.ris",
+    "publisher": "http://avant.edu.pl/en/2019-03-15"
    }
   },
   {
@@ -1963,6 +2132,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Calleja-López, A., Barandiaran, X. E., & Monterde, A. (2018). Dalle reti sociali alle reti (tecno)politiche. In D. Gambetta (Ed.), Datacrazia. Politica, cultura algoritmica e conflitti al tempo dei big data (pp. 350-361). D Editore.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2018-dalle-reti-sociali-alle-reti-tecno/",
@@ -2040,6 +2211,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Aragón, P., Kaltenbrunner, A., Calleja-López, A., Pereira, A., Monterde, A., Barandiaran, X. E., & Gómez, V. (2017). Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona. In Social Informatics (pp. 277-287). Springer, Cham. https://doi.org/10.1007/978-3-319-67256-4_22",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-deliberative-platform-design-the-case-study/",
@@ -2095,6 +2268,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Romero, C. (2017). Funcionalidades y características de Decidim (Decidim Documentation). Decidim.org (Ajuntament de Barcelona). https://decidim.org/pdf/features-roadmap-es.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-funcionalidades-y-caracteristicas-de-decidim/",
@@ -2150,6 +2325,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Romero, C. (2017). Decidim's functionalities and features. Roadmap 2017-2018 (Decidim Documentation). Decidim.org (Ajuntament de Barcelona). https://decidim.org/pdf/features-roadmap-en.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-decidim-s-functionalities-and-features-roadmap/",
@@ -2206,6 +2383,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2017). Autonomy and Enactivism: Towards a Theory of Sensorimotor Autonomous Agency. Topoi, 36(3), 409-430. https://doi.org/10.1007/s11245-016-9365-4",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-autonomy-and-enactivism-towards-a-theory/",
@@ -2268,6 +2447,98 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": {
+    "url": "https://xabier.barandiaran.net/2020/06/24/sensorimotor-life-an-enactive-proposal-the-book/",
+    "title": "Sensorimotor Life. An Enactive Proposal (the Book)",
+    "date": "2020-06-24",
+    "language": "en"
+   },
+   "reviews": [
+    {
+     "key": "L5JWFEUJ",
+     "authors": [
+      {
+       "family": "Baggs",
+       "given": "E."
+      }
+     ],
+     "title": "A psychology of the in between?",
+     "year": "2018",
+     "date": "2018-07-15",
+     "journal": "Constructivist Foundations",
+     "volume": "13",
+     "issue": "3",
+     "pages": "395-397",
+     "doi": "",
+     "url": "http://constructivist.info/13/3/395",
+     "language": "eng",
+     "citation_apa": "Baggs, E. (2018). A psychology of the in between? Constructivist Foundations, 13(3), 395–397.",
+     "link": "http://constructivist.info/13/3/395"
+    },
+    {
+     "key": "HXTI3RTI",
+     "authors": [
+      {
+       "family": "Witherington",
+       "given": "David C."
+      }
+     ],
+     "title": "Embracing Agency in All of Its Explanatory Complexity",
+     "year": "2019",
+     "date": "2019",
+     "journal": "Human Development",
+     "volume": "62",
+     "issue": "3",
+     "pages": "165-170",
+     "doi": "10.1159/000496138",
+     "url": "https://www.karger.com/Article/FullText/496138",
+     "language": "english",
+     "citation_apa": "Witherington, D. C. (2019). Embracing Agency in All of Its Explanatory Complexity. Human Development, 62(3), 165–170.",
+     "link": "https://doi.org/10.1159/000496138"
+    },
+    {
+     "key": "6CARQSMR",
+     "authors": [
+      {
+       "family": "Høffding",
+       "given": "Simon"
+      }
+     ],
+     "title": "Review of Dan Hutto and Erik Myin, Evolving Enactivism (2017, MIT press); Shaun Gallagher, Enactivist Interventions (2017, Oxford University Press); Ezequiel Di Paolo, Thomas Buhrmann, and Xabier E. Barandiaran, Sensorimotor Life (2017, Oxford University Press)",
+     "year": "2019",
+     "date": "2019-07",
+     "journal": "Philosophy",
+     "volume": "94",
+     "issue": "3",
+     "pages": "492-499",
+     "doi": "10.1017/S0031819119000044",
+     "url": "https://www.cambridge.org/core/journals/philosophy/article/review-of-dan-hutto-and-erik-myin-evolving-enactivism-2017-mit-press-shaun-gallagher-enactivist-interventions-2017-oxford-university-press-ezequiel-di-paolo-thomas-buhrmann-and-xabier-e-barandiaran-sensorimotor-life-2017-oxford-university-press/E011D5DE36AEB3266832CD6A92A0CDED",
+     "language": "en",
+     "citation_apa": "Høffding, S. (2019). Review of Dan Hutto and Erik Myin, Evolving Enactivism (2017, MIT press); Shaun Gallagher, Enactivist Interventions (2017, Oxford University Press); Ezequiel Di Paolo, Thomas Buhrmann, and Xabier E. Barandiaran, Sensorimotor Life (2017, Oxford University Press). Philosophy, 94(3), 492–499.",
+     "link": "https://doi.org/10.1017/S0031819119000044"
+    },
+    {
+     "key": "5GJAKNG7",
+     "authors": [
+      {
+       "family": "Ramírez-Vizcaya",
+       "given": "Susana"
+      }
+     ],
+     "title": "A world-involving theory of agency: review of Sensorimotor Life: An Enactive Proposal by Ezequiel Di Paolo, Thomas Buhrmann, and Xabier Barandiaran. Oxford University Press, Oxford, 2017",
+     "year": "2020",
+     "date": "2020-12-15",
+     "journal": "Adaptive Behavior",
+     "volume": "",
+     "issue": "",
+     "pages": "1059712320976676",
+     "doi": "10.1177/1059712320976676",
+     "url": "https://doi.org/10.1177/1059712320976676",
+     "language": "en",
+     "citation_apa": "Ramírez-Vizcaya, S. (2020). A world-involving theory of agency: review of Sensorimotor Life: An Enactive Proposal by Ezequiel Di Paolo, Thomas Buhrmann, and Xabier Barandiaran. Oxford University Press, Oxford, 2017. Adaptive Behavior, 1059712320976676.",
+     "link": "https://doi.org/10.1177/1059712320976676"
+    }
+   ],
    "citation_apa": "Di Paolo, E. A., Buhrmann, T., & Barandiaran, X. E. (2017). Sensorimotor Life: an enactive proposal. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780198786849.001.0001",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-sensorimotor-life-an-enactive-proposal/",
@@ -2330,6 +2601,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Di Paolo, E. A., Buhrmann, T., & Barandiaran, X. E. (2017). Sensorimotor Agency. In Sensorimotor Life: An enactive proposal (pp. 141-181). Oxford University Press. https://doi.org/10.1093/acprof:oso/9780198786849.001.0001",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-sensorimotor-agency/",
@@ -2392,6 +2665,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Di Paolo, E. A., Buhrmann, T., & Barandiaran, X. E. (2017). Virtual actions and abstract attitudes (Chapter 7). In Sensorimotor Life: an enactive proposal. Oxford University Press. https://doi.org/10.1093/acprof:oso/9780198786849.001.0001",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-virtual-actions-and-abstract-attitudes-chapter/",
@@ -2467,6 +2742,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., Calleja, A., Monterde, A., Aragón, P., Linares, J., Romero, C., & Pereira, A. (2017). Decidim: redes políticas y tecnopolíticas para la democracia participativa. Recerca. Revista de pensament i anàlisi, 21, 137-150. https://doi.org/10.6035/Recerca.2017.21.8",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-decidim-redes-politicas-y-tecnopoliticas-para/",
@@ -2554,6 +2831,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Ruiz, J., Barandiaran, X. E., Boada Pla, M., Bastida Vila, A., de Treball, À., Bretschneider, E., Collazos, J. C., Bain, M., Marpons Ucero, G., & Domènech Bas, J. (2017). Guia sobre sobirania tecnològica a l'Ajuntament de Barcelona. Ajuntament de Barcelona. https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/106302/1/guia_sobre_sobirania_tecnologica.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-guia-sobre-sobirania-tecnologica-a-l/",
@@ -2641,6 +2920,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Ruiz, J., Barandiaran, X. E., Boada Pla, M., Bastida Vila, A., de Treball, À., Bretschneider, E., Collazos, J. C., Bain, M., Marpons Ucero, G., & Domènech Bas, J. (2017). Guia de compra pública de TIC de l'Ajuntament de Barcelona. Ajuntament de Barcelona. https://bcnroc.ajuntament.barcelona.cat/jspui/bitstream/11703/106505/1/guia_compra_publica_tic.pdf.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-guia-de-compra-publica-de-tic/",
@@ -2700,6 +2981,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Calleja-Lopez, A., Monterde, A., & Barandiaran, X. (2017). Framework for democratic governance of distributed architectures: DEcentralised Citizens Owned Data Ecosystem (Deliverable for DECODE DEcentralised Citizens Owned Data Ecosystem, H2020–ICT-2016-1, EU Funded Project no. 732546, D 2.3). DECODE. https://openaccess.uoc.edu/handle/10609/100368",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2017-framework-for-democratic-governance-of-distributed/",
@@ -2766,6 +3049,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., Pereira, A., Monterde, A., & Calleja-López, A. (2016). Plan de desarrollo Decidim Barcelona. Ajuntament de Barcelona City Council. https://decidim-barcelona.s3.amazonaws.com/uploads/decidim/attachment/file/54/Plan_desarrollo_decidim.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2016-plan-de-desarrollo-decidim-barcelona/",
@@ -2829,6 +3114,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Aguilera, M., Bedia, M. G., & Barandiaran, X. E. (2016). Extended Neural Metastability in an Embodied Model of Sensorimotor Coupling. Frontiers in Systems Neuroscience, 10. https://doi.org/10.3389/fnsys.2016.00076",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2016-extended-neural-metastability-in-an-embodied/",
@@ -2900,6 +3187,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Monterde, A., Calleja-López, A., Aguilera, M., Barandiaran, X. E., & Postill, J. (2015). Multitudinous identities: a qualitative and network analysis of the 15M collective identity. Information, Communication & Society, 18(8), 930-950. https://doi.org/10.1080/1369118X.2015.1043315",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2015-multitudinous-identities-a-qualitative-and-network/",
@@ -2966,6 +3255,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Aguilera, M., Barandiaran, X. E., Bedia, M. G., & Seron, F. (2015). Self-Organized Criticality, Plasticity and Sensorimotor Coupling. Explorations with a Neurorobotic Model in a Behavioural Preference Task. PLOS ONE, 10(2), e0117465. https://doi.org/10.1371/journal.pone.0117465",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2015-self-organized-criticality-plasticity-and-sensorimotor/",
@@ -3025,6 +3316,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Aguilera, M. (2015). Neurociencia y tecnopolítica: hacia un marco analógico para comprender la mente colectiva del 15M. In J. Toret (Ed.), Tecnopolítica y 15M. La potencia de las multitudes conectadas (pp. 163-211). Editorial UOC.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2015-neurociencia-y-tecnopolitica-hacia-un-marco/",
@@ -3068,7 +3361,7 @@
    "doi": "",
    "url": "http://book.floksociety.org/ec/",
    "language": "",
-   "abstract": "",
+   "abstract": "Libro que recoge gran parte de los resultados del proyecto Buen Conocer / FLOK Society en Ecuador. Reúne unas 800 páginas, agrupadas en 12 documentos de políticas públicas y diseño de modelos sostenibles de producción y consumo, orientados a construir alternativas viables y democráticas fuera del modelo del capitalismo cognitivo y del formato de la propiedad intelectual, y a explorar la potencia del conocimiento libre, común y abierto como verdadero motor de una economía social. Es el resultado de la colaboración de cientos de personas. Publicado con copyleft, con capítulos descargables por separado y en varios formatos abiertos (HTML, PDF, ePub, ODT).",
    "keywords": [],
    "topics": [
     "Free software",
@@ -3078,6 +3371,13 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": {
+    "url": "https://xabier.barandiaran.net/2015/06/16/libro-buen-conocer-flok-society/",
+    "title": "Libro “Buen Conocer / FLOK Society”",
+    "date": "2015-06-16",
+    "language": "es"
+   },
+   "reviews": [],
    "citation_apa": "Vila-Viñas, D., & Barandiaran, X. E. (Eds.) (2015). Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador. IAEN-CIESPAL. http://book.floksociety.org/ec/",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2015-buen-conocer-flok-society-modelos-sostenibles/",
@@ -3152,6 +3452,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., Vila-Viñas, D., & Vázquez, D. (2015). El proceso Buen Conocer / FLOK Society. In D. Vila-Viñas, & X. E. Barandiaran (Eds.), Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador (pp. 35-88). IAEN-CIESPAL.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2015-el-proceso-buen-conocer-flok-society/",
@@ -3227,6 +3529,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., Araya, D., & Vila-Viñas, D. (2015). Ciencia: Investigación colaborativa, participativa y abierta. In D. Vila-Viñas, & X. E. Barandiaran (Eds.), Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador (pp. 181-268). IAEN-CIESPAL. http://book.floksociety.org/ec/1/1-2-ciencia-investigacion-colaborativa-participativa-y-abierta/",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2015-ciencia-investigacion-colaborativa-participativa-y-abierta/",
@@ -3282,6 +3586,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Vila-Viñas, D. (2015). The FLOK doctrine. Journal of Peer Production, 7. http://peerproduction.net/issues/issue-7-policies-for-the-commons/the-flok-doctrine/",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2015-the-flok-doctrine/",
@@ -3346,6 +3652,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Aguilera, M., Bedia, M. G., Seron, F., & Barandiaran, X. E. (2014). Intermittent Animal Behavior: The Adjustment-Deployment Dilemma. Artificial Life, 20, 319-337. https://doi.org/10.1162/ARTL_a_00133",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2014-intermittent-animal-behavior-the-adjustment-deployment/",
@@ -3400,6 +3708,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2014). Enactivism without Autonomy? What went wrong at the roots of enactivism and how we should recover the autonomous foundations of sensorimotor agency. In 40th Annual Convention of the Society for the Study of Artificial Intelligence and the Simulation of Behaviour (pp. 640-642). Curran Associates, Inc. http://doc.gold.ac.uk/aisb50/AISB50-S25/AISB50-S25-Barandiaran-extabs.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2014-enactivism-without-autonomy-what-went-wrong/",
@@ -3457,6 +3767,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Di Paolo, E. A. (2014). A genealogical map of the concept of habit. Frontiers in Human Neuroscience, 8, 522. https://doi.org/10.3389/fnhum.2014.00522",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2014-a-genealogical-map-of-the-concept/",
@@ -3521,6 +3833,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Di Paolo, E. A., Barandiaran, X. E., Beaton, M., & Buhrmann, T. (2014). Learning to perceive in the sensorimotor approach: Piaget’s theory of equilibration interpreted dynamically. Frontiers in Human Neuroscience, 8, 551. https://doi.org/10.3389/fnhum.2014.00551",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2014-learning-to-perceive-in-the-sensorimotor/",
@@ -3578,6 +3892,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Egbert, M. D., & Barandiaran, X. E. (2014). Modeling habits as self-sustaining patterns of sensorimotor behavior. Frontiers in Human Neuroscience, 8, 590. https://doi.org/10.3389/fnhum.2014.00590",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2014-modeling-habits-as-self-sustaining-patterns/",
@@ -3636,6 +3952,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Egbert, M. D. (2014). Norm-establishing and norm-following in autonomous agency. Artificial Life, 20(1), 5-28. https://doi.org/10.1162/ARTL_a_00094",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2014-norm-establishing-and-norm-following-in/",
@@ -3698,6 +4016,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Aguilera, M., Morer, I., Barandiaran, X. E., & Bedia, M. (2013). Quantifying Political Self-Organization in Social Media. Fractal patterns in the Spanish 15M movement on Twitter. In P. Lio, O. Miglino, G. Nicosia, S. Nolfi & M. Pavone (Eds.), Advances in Artificial Life: ECAL 2013 (pp. 395-402). MIT Press. https://doi.org/10.7551/978-0-262-31709-2-ch057",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2013-quantifying-political-self-organization-in-social/",
@@ -3764,6 +4084,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Vázquez, D. (2013). Sumak Yachay - Devenir Sociedad del Conocimiento Común y Abierto -Designing the FLOK Society (v.1.5.2). IAEN (Instituto de Altos Estudios Nacionales).",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2013-sumak-yachay-devenir-sociedad-del-conocimiento/",
@@ -3825,6 +4147,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., Beaton, M. J., Buhrmann, T., & Di Paolo, E. A. (2013). eSMCs and Embodied Cognition (Deliverable for EU project \"Extending Sensorimotor Contingencies to Cognition\" FP7-ICT-2009-6 Grant Agreement No. 270212, D1.2). UPV/EHU, University of the Basque Country. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.698.3252&rep=rep1&type=pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2013-esmcs-and-embodied-cognition/",
@@ -3886,6 +4210,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Buhrmann, T., Di Paolo, E. A., & Barandiaran, X. E. (2013). A dynamical systems account of sensorimotor contingencies. Frontiers in Cognition, 4, 285. https://doi.org/10.3389/fpsyg.2013.00285",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2013-a-dynamical-systems-account-of-sensorimotor/",
@@ -3937,6 +4263,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2013). Informe para el diseño de políticas e infra- estructura para publicaciones académicas y colaboración científica. IAEN (Instituto de Altos Estudios Nacionales). http://xabierbarandiaran.files.wordpress.com/2014/07/barandiaran_-_2013_-_informe_politicas_e_infraestructura_ciencia_abierta_y_colaborativa_-_iaen-flok.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2013-informe-para-el-diseno-de-politicas/",
@@ -4004,6 +4332,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Aguilera, M., Bedia, M. G., Santos, B. A., & Barandiaran, X. E. (2013). The situated HKB model: how sensorimotor spatial coupling can alter oscillatory brain dynamics. Frontiers in Computational Neuroscience, 7. https://doi.org/10.3389/fncom.2013.00117",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2013-the-situated-hkb-model-how-sensorimotor/",
@@ -4064,6 +4394,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2012). Behavioral Metabolution: The Adaptive and Evolutionary Potential of Metabolism-Based Chemotaxis. Artificial Life, 18(1), 1-25. https://doi.org/10.1162/artl_a_00047",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2012-behavioral-metabolution-the-adaptive-and-evolutionary/",
@@ -4123,6 +4455,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Santos, B. A., Barandiaran, X. E., & Husbands, P. (2012). Synchrony and phase relation dynamics underlying sensorimotor coordination. Adaptive Behavior, 321-336. https://doi.org/10.1177/1059712312451859",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2012-synchrony-and-phase-relation-dynamics-underlying/",
@@ -4191,6 +4525,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Santos, B., Barandiaran, X. E., Husbands, P., Aguilera, M., & Bedia, M. (2012). Sensorimotor coordination and metastability in a situated HKB model. Connection Science, 24(4), 143-161. https://doi.org/10.1080/09540091.2013.770821",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2012-sensorimotor-coordination-and-metastability-in-a/",
@@ -4269,6 +4605,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Moreno, A., Ruiz-Mirazo, K., & Barandiaran, X. E. (2011). The impact of the paradigm of complexity on the foundational frameworks of biology and cognitive science. In C. A. Hooker, D. V. Gabbay, P. Thagard, & J. Woods (Eds.), Handbook of the Philosophy of Science (pp. 311-333). Elsevier.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2011-the-impact-of-the-paradigm-of/",
@@ -4330,6 +4668,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Santos, B. A., Barandiaran, X. E., & Husbands, P. (2011). Metastable dynamical regimes in an oscillatory network modulated by an agent's sensorimotor loop. In 2011 IEEE Symposium on Artificial Life (ALIFE) (pp. 124-131). IEEE. https://doi.org/10.1109/ALIFE.2011.5954659",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2011-metastable-dynamical-regimes-in-an-oscillatory/",
@@ -4388,6 +4728,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Santos, B., Barandiaran, X. E., & Husbands, P. (2011). Neurodynamic regimes of phase relation and behavior in robotic models. BMC Neuroscience, 12(Suppl 1), P155. http://www.biomedcentral.com/1471-2202/12/S1/P155",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2011-neurodynamic-regimes-of-phase-relation-and/",
@@ -4470,6 +4812,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Egbert, M. D., & Barandiaran, X. E. (2011). Quantifying Normative Behaviour and Precariousness in Adaptive Agency. In Proceedings of the 11th European Conference on Artificial Life (pp. 210-218). MIT Press.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2011-quantifying-normative-behaviour-and-precariousness-in/",
@@ -4529,6 +4873,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2010). A Minimal Model of Metabolism-Based Chemotaxis. PLoS Comput Biol, 6(12), e1001004. https://doi.org/10.1371/journal.pcbi.1001004",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2010-a-minimal-model-of-metabolism-based/",
@@ -4583,6 +4929,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Di Paolo, E. A. (2010). Homeostatic Plasticity in Robots: from development to operant conditioning to habit formation. In Proceedings of CogSys2010. http://cogsys2010.ethz.ch/proceedings.html",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2010-homeostatic-plasticity-in-robots-from-development/",
@@ -4641,6 +4989,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2010). Behavioral Metabolution: Metabolism based behavior enables new forms of adaptation and evolution. In Artificial Life XII: Proceedings of the Twelfth International Conference on the Simulation and Synthesis of Living Systems.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2010-behavioral-metabolution-metabolism-based-behavior-enables/",
@@ -4702,6 +5052,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., Di Paolo, E., & Rohde, M. (2009). Defining Agency: Individuality, Normativity, Asymmetry, and Spatio-temporality in Action. Adaptive Behavior, 17(5), 367-386. https://doi.org/10.1177/1059712309343819",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2009-defining-agency-individuality-normativity-asymmetry-and/",
@@ -4757,6 +5109,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Chemero, A. (2009). Animats in the Modeling Ecosystem. Adaptive Behavior, 17(4), 287-292. https://doi.org/10.1177/1059712309340847",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2009-animats-in-the-modeling-ecosystem/",
@@ -4816,6 +5170,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Egbert, M. D., Di Paolo, E. A., & Barandiaran, X. E. (2009). Chemo-ethology of an adaptive protocell: Sensor-less sensitivity to implicit viability conditions. In Proceedings of the Ninth European Conference on Artificial Life (pp. 242-249). Springer Verlag.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2009-chemo-ethology-of-an-adaptive-protocell/",
@@ -4873,6 +5229,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Moreno, A. (2008). Adaptivity: From Metabolism to Behavior. Adaptive Behavior, 16(5), 325-344. https://doi.org/10.1177/1059712308093868",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2008-adaptivity-from-metabolism-to-behavior/",
@@ -4927,6 +5285,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Ruiz-Mirazo, K. (2008). Modelling autonomy: Simulating the essence of life and cognition. Biosystems, 91(2), 295-304. https://doi.org/10.1016/j.biosystems.2007.07.001",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2008-modelling-autonomy-simulating-the-essence-of/",
@@ -4985,6 +5345,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Moreno, A. (2008). On the nature of neural information: A critique of the received view 50 years later. Neurocomputing, 71(4-6), 681-692. https://doi.org/10.1016/j.neucom.2007.09.014",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2008-on-the-nature-of-neural-information/",
@@ -5058,6 +5420,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Di Paolo, E. A. (2008). Artificial Mental Life. In Artificial Life XI: Proceedings of the Eleventh International Conference on the Simulation and Synthesis of Living Systems (pp. 747). MIT Press.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2008-artificial-mental-life/",
@@ -5109,6 +5473,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2008). Report on Open Access and FLOK for a New Journal in Cognitive Science. ASLab (Autonomous Systems Lab), Universidad Politécnica de Madrid. https://xabierbarandiaran.files.wordpress.com/2014/07/barandiaran_-_2008_-_oa_and_flok_for_journal_in_cogsci_-_aslab_report.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2008-report-on-open-access-and-flok/",
@@ -5161,6 +5527,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2008). Mental Life: a naturalized approach to the autonomy of cognitive agents [PhD Thesis, University of the Basque Country (UPV-EHU)]. https://xabier.barandiaran.net/phdthesis/",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2008-mental-life-a-naturalized-approach-to/",
@@ -5228,6 +5596,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2007). Mental Life: conceptual models and synthetic methodologies for a post-cognitivist psychology. In B. Wallace, A. Ross, J. Davies, & T. Anderson (Eds.), The World, the Mind and the Body: Psychology after cognitivism (pp. 49-90). Imprint Academic.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2007-mental-life-conceptual-models-and-synthetic/",
@@ -5284,6 +5654,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Moreno, A. (2006). On What Makes Certain Dynamical Systems Cognitive: A Minimally Cognitive Organization Program. Adaptive Behavior, 14(2), 171-185. https://doi.org/10.1177/105971230601400208",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2006-on-what-makes-certain-dynamical-systems/",
@@ -5346,6 +5718,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Guiu, L. (2006). Autonomía, Comunicación y Evolución en redes bacterianas y tecnológicas. biTARTE, (38), 35-60.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2006-autonomia-comunicacion-y-evolucion-en-redes/",
@@ -5425,6 +5799,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E., & Moreno, A. (2006). ALife Models as Epistemic Artefacts. In Artificial Life X : Proceedings of the Tenth International Conference on the Simulation and Synthesis of Living Systems (pp. 513-519). The MIT Press (Bradford Books).",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2006-alife-models-as-epistemic-artefacts/",
@@ -5499,6 +5875,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2004). Behavioral Adaptive Autonomy. A milestone on the Alife route to AI? In Artificial life IX: proceedings of the Ninth International Conference on the Simulation and Synthesis of Artificial Life (pp. 514-521). MIT Press.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2004-behavioral-adaptive-autonomy-a-milestone-on/",
@@ -5554,6 +5932,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Moreno, A., & Barandiaran, X. E. (2004). A naturalized account of the inside-outside dichotomy. PHILOSOPHICA, 73, 11-26. https://www.philosophica.ugent.be/wp-content/uploads/fulltexts/73-2.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2004-a-naturalized-account-of-the-inside/",
@@ -5608,6 +5988,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2003). Activismo digital y telemático. Poder y contrapoder en el ciberespacio. http://201.147.150.252:8080/jspui/handle/123456789/1837",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2003-activismo-digital-y-telematico-poder-y/",
@@ -5658,6 +6040,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. (2003). Hacklabs. Ensamblaje colectivo de la tecnopolítica como realidad social.",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2003-hacklabs-ensamblaje-colectivo-de-la-tecnopolitica/",
@@ -5713,6 +6097,8 @@
    "featured": false,
    "talks": [],
    "has_summary": false,
+   "presentation": null,
+   "reviews": [],
    "citation_apa": "Barandiaran, X. E. (2002). Adaptive Behaviour, Autonomy and Value systems. Normative function in dynamical adaptive systems [MSc Thesis, University of Sussex]. https://xabierbarandiaran.files.wordpress.com/2022/06/barandiaran_-_2002_adaptive_behavior_autonomy_and_value_systems_-_msc_thesis.pdf",
    "links": {
     "landing": "https://publications.barandiaran.net/p/2002-adaptive-behaviour-autonomy-and-value-systems/",

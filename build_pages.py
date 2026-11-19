@@ -242,6 +242,10 @@ def build_record(e, rec, node):
                    "meta": t.get("meta") or " · ".join(x for x in (t.get("date"), t.get("host"), t.get("lang")) if x)}
                   for t in e["talks"]],
         "has_summary": bool(e["summary_html"]),
+        "presentation": ({k: v for k, v in e["presentation"].items() if k != "html"}
+                         if e.get("presentation") else None),
+        "reviews": [dict(v, citation_apa=review_apa(v), link=review_link(v)) for v in e.get("reviews", [])],
+        "_presentation_html": (e.get("presentation") or {}).get("html", ""),
         "citation_apa": cit_plain,
         "links": links,
         "_citation_html": e["citation_html"],
@@ -335,6 +339,12 @@ def jsonld(r):
         node["isAccessibleForFree"] = True
     if cover_path(r["slug"]):
         node["image"] = f"{BASE}/{cover_path(r['slug'])}"
+    if r["reviews"]:
+        node["review"] = [{"@type": "Review", "name": v["title"], "datePublished": v["date"] or v["year"],
+                           "author": [{"@type": "Person", "name": person_name(a)} for a in v["authors"]],
+                           **({"url": v["link"]} if v["link"] else {}),
+                           **({"publisher": {"@type": "Periodical", "name": v["journal"]}} if v["journal"] else {})}
+                          for v in r["reviews"]]
     if r["talks"]:
         node["subjectOf"] = [{"@type": "VideoObject", "name": t["title"], "url": t["url"]}
                              for t in r["talks"]]
@@ -448,6 +458,67 @@ def fsize(path):
     return f"{n / 1048576:.1f} MB" if n >= 1048576 else f"{max(1, n // 1024)} KB"
 
 
+MONTHS = ["January", "February", "March", "April", "May", "June", "July",
+          "August", "September", "October", "November", "December"]
+
+
+def human_date(iso):
+    p = (iso or "").split("-")
+    try:
+        if len(p) == 3:
+            return f"{int(p[2])} {MONTHS[int(p[1]) - 1]} {p[0]}"
+        if len(p) == 2:
+            return f"{MONTHS[int(p[1]) - 1]} {p[0]}"
+    except (ValueError, IndexError):
+        pass
+    return iso or ""
+
+
+def review_link(v):
+    return f"https://doi.org/{v['doi']}" if v.get("doi") else v.get("url", "")
+
+
+def _initials(given):
+    return " ".join(w[0] + "." for w in re.split(r"[\s.]+", given) if w and w[0].isalpha())
+
+
+def review_apa(v, rich=False):
+    """APA reference of a published review; rich=True gives HTML (italic journal and volume)."""
+    names = [f"{a['family']}, {_initials(a['given'])}" if "family" in a else a["literal"]
+             for a in v["authors"]]
+    who = (", ".join(names[:-1]) + ", & " + names[-1]) if len(names) > 1 else (names[0] if names else "")
+    e = esc if rich else (lambda x: x)
+    it = (lambda x: f"<em>{esc(x)}</em>") if rich else (lambda x: x)
+    title = v["title"].strip()
+    s = f"{e(who)} ({v['year'] or 'n.d.'}). {e(title)}" + ("" if title[-1:] in ".?!" else ".")
+    if v["journal"]:
+        s += " " + it(v["journal"])
+        if v["volume"]:
+            s += ", " + it(v["volume"])
+            if v["issue"] and v["issue"] != "0":
+                s += f"({e(v['issue'])})"
+        if v["pages"]:
+            s += f", {e(v['pages'].replace('-', '–'))}"
+        s += "."
+    return s
+
+
+def link_internal(fragment, doimap):
+    """Links to https://doi.org/X of a publication on this site go to its landing page
+    instead (unless the link text is the DOI URL itself)."""
+    def sub(m):
+        href, text = m.group(1), m.group(2)
+        d = norm_doi(href)
+        if d != href.lower() and d in doimap and strip_tags(text).strip() != href:
+            return f'<a href="../{doimap[d]}/">{text}</a>'
+        return m.group(0)
+    return re.sub(r'<a href="([^"]+)">(.*?)</a>', sub, fragment, flags=re.S)
+
+
+def absolute_links(fragment):
+    return fragment.replace('href="../', f'href="{BASE}/p/')
+
+
 def resource_index(r):
     """The 'Available' block at the top of a landing page: one tile per thing a
     reader can open (full texts, audio, talks, summary, citation, publisher),
@@ -477,6 +548,12 @@ def resource_index(r):
         tiles.append(("Watch", "Talk" if n == 1 else f"{n} talks", "Video recordings", "#talks", False))
     if r["_summary_html"]:
         tiles.append(("Summary", "Extended summary", "Key ideas with quotes", "#summary", False))
+    if r["_presentation_html"]:
+        tiles.append(("About", "About the book" if r["type"] == "book" else "Presentation",
+                      "The author’s presentation", "#about", False))
+    if r["reviews"]:
+        n = len(r["reviews"])
+        tiles.append(("Reviews", "1 review" if n == 1 else f"{n} reviews", "Published in journals", "#reviews", False))
     tiles.append(("Cite", "Cite", "APA · BibTeX · RIS", "#cite", False))
     if r["url"]:
         host = re.sub(r"^https?://(www\.)?", "", r["url"]).split("/")[0]
@@ -502,8 +579,12 @@ def resource_index(r):
         toc.append(("abstract", "Abstract"))
     if r["keywords"] or r["topics"]:
         toc.append(("keywords", "Keywords" if r["keywords"] else "Topics"))
+    if r["_presentation_html"]:
+        toc.append(("about", "About the book" if r["type"] == "book" else "Presentation"))
     if r["_summary_html"]:
         toc.append(("summary", "Extended summary"))
+    if r["reviews"]:
+        toc.append(("reviews", "Reviews"))
     if r["talks"]:
         toc.append(("talks", "Talks"))
     toc += [("cite", "Cite"), ("details", "Publication details")]
@@ -551,11 +632,31 @@ def render_page(r, newer, older, bibtex):
         sections.append(f'<section id="keywords" class="pub-section">\n<h2>{head}</h2>\n'
                         f'<p class="pub-keywords">{kws}</p>\n'
                         + (f'<p class="kw-note">{esc(note)}</p>\n' if note else "") + '</section>')
+    if r["_presentation_html"]:
+        p = r["presentation"]
+        src = ""
+        if p.get("url"):
+            src = (f'<p class="about-source">From the author’s blog: <a href="{esc(p["url"])}">'
+                   f'{esc(p["title"] or "blog post")}</a>'
+                   + (f' ({human_date(p["date"])})' if p.get("date") else "") + '</p>\n')
+        lang = p.get("language", "")
+        body = (f'<div class="about-body" lang="{esc(lang)}">\n{r["_presentation_html"]}\n</div>'
+                if lang and lang != (r["language"] or "en") else r["_presentation_html"])
+        sections.append(f'<section id="about" class="pub-section pub-about">\n'
+                        f'<h2>{"About the book" if r["type"] == "book" else "Presentation"}</h2>\n{src}{body}\n</section>')
     if r["_summary_html"]:
         s = re.sub(r"<h4", "<h3", r["_summary_html"])
         s = s.replace("</h4>", "</h3>")
         sections.append(f'<section id="summary" class="pub-section pub-summary">\n'
                         f'<h2>Extended summary</h2>\n{s}\n</section>')
+    if r["reviews"]:
+        items = "\n".join(
+            f'<li>{review_apa(v, rich=True)}'
+            + (f' <a href="{esc(v["link"])}" target="_blank" rel="noopener">'
+               f'{esc(v["link"].replace("https://", ""))}</a>' if v["link"] else "")
+            + "</li>" for v in r["reviews"])
+        sections.append(f'<section id="reviews" class="pub-section">\n<h2>Reviews</h2>\n'
+                        f'<ul class="review-list">\n{items}\n</ul>\n</section>')
     if r["talks"]:
         items = "\n".join(
             f'<li><a href="{esc(t["url"])}" target="_blank" rel="noopener">{esc(t["title"])}</a>'
@@ -721,6 +822,18 @@ def render_md(r, bibtex=None, full=True, heading="#"):
         L += [f"{sub} Abstract", "", r["abstract"], ""]
     if full and r["_summary_html"]:
         L += [f"{sub} Extended summary", "", html_to_md(r["_summary_html"]).replace("\n### ", f"\n{sub}# "), ""]
+    if full and r["_presentation_html"]:
+        p = r["presentation"]
+        L += [f"{sub} {'About the book' if r['type'] == 'book' else 'Presentation'}", ""]
+        if p.get("url"):
+            L += [f"*From the author’s blog: [{p['title'] or 'blog post'}]({p['url']})"
+                  + (f" ({human_date(p['date'])})" if p.get("date") else "") + "*", ""]
+        md = html_to_md(absolute_links(r["_presentation_html"]).replace("<br>", " — "))
+        L += [md.replace("\n### ", f"\n{sub}# "), ""]
+    if r["reviews"]:
+        L += [f"{sub} Reviews", ""]
+        L += [f"- {review_apa(v)}" + (f" {v['link']}" if v["link"] else "") for v in r["reviews"]]
+        L.append("")
     if r["talks"]:
         L += [f"{sub} Talks and video", ""]
         L += [f"- [{t['title']}]({t['url']})" + (f" — {t['meta']}" if t["meta"] else "")
@@ -774,6 +887,10 @@ How to read this site (for AI agents and crawlers):
             extra.append("open PDF")
         if r["has_summary"]:
             extra.append("extended summary")
+        if r["_presentation_html"]:
+            extra.append("author’s presentation")
+        if r["reviews"]:
+            extra.append(f"{len(r['reviews'])} review" + ("s" if len(r["reviews"]) > 1 else ""))
         if r["talks"]:
             extra.append("talks")
         L.append(f"- [{r['title']}]({r['links']['markdown']}): "
@@ -791,6 +908,8 @@ How to read this site (for AI agents and crawlers):
 
 def short_authors(r):
     a = r["authors"]
+    if not a and r["editors"]:
+        return ", ".join(person_name(x) for x in r["editors"]) + (" (eds.)" if len(r["editors"]) > 1 else " (ed.)")
     if not a:
         return r["author_string"]
     names = [person_name(x) for x in a]
@@ -963,6 +1082,10 @@ def run(entries):
     chron = sorted(records, key=lambda r: (-int(r["year"]) if r["year"].isdigit() else 0, r["_order_dom"]))
     for i, r in enumerate(chron):
         r["_order"] = i
+    doimap = {norm_doi(r["doi"]): r["slug"] for r in records if r["doi"]}
+    for r in records:
+        if r["_presentation_html"]:
+            r["_presentation_html"] = link_internal(r["_presentation_html"], doimap)
 
     # ---- landing pages
     live = set()
@@ -980,6 +1103,8 @@ def run(entries):
         rec = public(r)
         if r["_summary_html"]:
             rec["summary_html"] = r["_summary_html"]  # loaded on demand by the homepage
+        if r["_presentation_html"]:
+            rec["presentation_html"] = absolute_links(r["_presentation_html"])
         write(os.path.join(d, "index.json"), json.dumps(rec, ensure_ascii=False, indent=1) + "\n")
         live.add(r["slug"])
     # renamed publications: keep their old landing-page URL working

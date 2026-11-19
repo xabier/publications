@@ -46,6 +46,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Calleja-Lopez, A., Monterde, A., & Barandiaran, X. (2017). Framework for democratic governance of distributed architectures: DEcentralised Citizens Owned Data Ecosystem (Deliverable for DECODE DEcentralised Citizens Owned Data Ecosystem, H2020–ICT-2016-1, EU Funded Project no. 732546, D 2.3). DECODE. https://openaccess.uoc.edu/handle/10609/100368",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2017-framework-for-democratic-governance-of-distributed/",

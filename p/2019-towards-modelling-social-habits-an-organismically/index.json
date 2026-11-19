@@ -74,6 +74,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Bedia, M. G., Heras-Escribano, M., Cajal, D., Aguilera, M., & Barandiaran, X. E. (2019). Towards modelling social habits: an organismically inspired evolutionary robotics approach. In Proceedings of ALIFE 2019: The 2019 Conference on Artificial Life (pp. 341-348). MIT Press. https://doi.org/10.1162/isal_a_00185",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2019-towards-modelling-social-habits-an-organismically/",

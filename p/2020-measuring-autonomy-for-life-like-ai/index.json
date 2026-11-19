@@ -49,6 +49,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Vakhrameev, D., Aguilera, M., Barandiaran, X. E., & Bedia, M. (2020). Measuring Autonomy for Life-Like AI. In The 2020 Conference on Artificial Life (pp. 589-591). MIT Press. https://doi.org/10.1162/isal_a_00308",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2020-measuring-autonomy-for-life-like-ai/",

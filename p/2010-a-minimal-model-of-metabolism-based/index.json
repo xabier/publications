@@ -47,6 +47,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2010). A Minimal Model of Metabolism-Based Chemotaxis. PLoS Comput Biol, 6(12), e1001004. https://doi.org/10.1371/journal.pcbi.1001004",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2010-a-minimal-model-of-metabolism-based/",

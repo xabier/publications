@@ -49,6 +49,42 @@ def split_date(raw):
     return "-".join(parts), (orig or sql)
 
 
+def dump_reviews(c, settings, deleted):
+    """data/reviews.json: published reviews of the books, read from the Zotero items
+    listed in site.json "reviews" ({book key: [review keys]})."""
+    out = {}
+    for book, keys in settings.get("reviews", {}).items():
+        found = []
+        for rk in keys:
+            row = c.execute("select itemID from items where key=?", (rk,)).fetchone()
+            if not row or row[0] in deleted:
+                print(f"  review {rk} not found in Zotero")
+                continue
+            iid = row[0]
+            f = dict(c.execute(
+                "select fi.fieldName, v.value from itemData d join fields fi using(fieldID) "
+                "join itemDataValues v using(valueID) where d.itemID=?", (iid,)).fetchall())
+            authors = []
+            for last, first, mode in c.execute(
+                    "select cr.lastName, cr.firstName, cr.fieldMode from itemCreators ic "
+                    "join creators cr using(creatorID) join creatorTypes ct using(creatorTypeID) "
+                    "where ic.itemID=? and ct.creatorType='author' order by ic.orderIndex", (iid,)):
+                authors.append({"literal": last} if mode == 1 or not first else {"family": last, "given": first})
+            date, _ = split_date(f.get("date"))
+            found.append({"key": rk, "authors": authors, "title": f.get("title", "").strip(),
+                          "year": date[:4], "date": date,
+                          "journal": f.get("publicationTitle", ""), "volume": f.get("volume", ""),
+                          "issue": f.get("issue", ""), "pages": f.get("pages", ""),
+                          "doi": f.get("DOI", ""), "url": f.get("url", ""),
+                          "language": f.get("language", "")})
+        found.sort(key=lambda v: v["date"])
+        out[book] = found
+    os.makedirs(DATA, exist_ok=True)
+    json.dump(out, open(os.path.join(DATA, "reviews.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+    print(f"Book reviews: {sum(len(v) for v in out.values())} → data/reviews.json")
+
+
 def main():
     settings = load_settings()
     coll_key = settings.get("zotero_collection", "4TC5W55M")
@@ -153,6 +189,7 @@ def main():
                 "pdf_attachments": atts,
             }
             out.append(rec)
+        dump_reviews(c, settings, deleted)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 

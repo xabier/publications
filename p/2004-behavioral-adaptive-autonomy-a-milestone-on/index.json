@@ -62,6 +62,8 @@
  "featured": false,
  "talks": [],
  "has_summary": false,
+ "presentation": null,
+ "reviews": [],
  "citation_apa": "Barandiaran, X. E. (2004). Behavioral Adaptive Autonomy. A milestone on the Alife route to AI? In Artificial life IX: proceedings of the Ninth International Conference on the Simulation and Synthesis of Artificial Life (pp. 514-521). MIT Press.",
  "links": {
   "landing": "https://publications.barandiaran.net/p/2004-behavioral-adaptive-autonomy-a-milestone-on/",

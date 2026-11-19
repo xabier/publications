@@ -162,6 +162,64 @@ Prokop, M., & Barandiaran, X. E. (2026). Sensorimotor Norms and Social Norms: A 
 - **Landing page:** https://publications.barandiaran.net/p/2026-outonomy-fleshing-out-the-concept-of/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2026-outonomy-fleshing-out-the-concept-of.pdf)
 
+### Abstract
+
+This volume, edited by Xabier E. Barandiaran and Arantza Etxeberria, is the integrated result of the research project Outonomy. It gathers a cross-disciplinary exploration of autonomy that moves beyond the classic, self-sufficient, abstract, rational and detached model of the individual inherited from modernity. Instead, it develops the concept of outonomy to capture how autonomy is constituted through relations: with environments, other agents, technologies, institutions, and social-ecological systems. The opening chapter outlines four key properties that articulate this shift (interactivity, collectivity, extensionality and environmentality) along two fundamental dimensions (integration and sustainability), reframing autonomy as something that emerges across scales of interaction and dependence rather than something sealed within an isolated individual. The volume is organized into four parts: Theoretical Insights (the conceptual stakes of outonomy, control and organization in biological systems); The Fabric of Life (environments and asymmetries, the origins of life, reproduction, menstrual health); The Psychic Self and Its Environment (psychiatry, salutogenesis, pain); and Technology, Ecology & Politics (technocomplexity, the limits of autonomy in social-ecological systems, subjects-in-common, mindshaping and adaptive preferences).
+
+### About the book
+
+*From the author’s blog: [Outonomy book is out!](https://xabier.barandiaran.net/2025/12/05/outonomy-book-is-out/) (5 December 2025)*
+
+I am very happy to announce the publication of *[Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual](https://link.springer.com/book/10.1007/978-3-032-05501-9)*, edited by [Arantza Etxeberria](https://www.ias-research.net/people/arantza_etxeberria/) and me. This book is the unified and integrated result of the research project of the same title led by myself and Leonardo Bich that finished over a year ago. The book gathers a rich, cross-disciplinary exploration of autonomy that moves beyond the classic, self-sufficient, abstract, rational and detached model of the individual we inherited from modernity. Instead, it develops the concept of **[outonomy](https://publications.barandiaran.net/p/2026-outonomy-the-very-idea/)** to capture how autonomy is **constituted through relations**: with environments, other agents, technologies, institutions, and social-ecological systems.
+
+#### Why “Outonomy”?
+
+Autonomy has long been central to modern thought, ethics, and the life sciences. But many contemporary debates across philosophy of biology, cognitive science, medicine, technology studies, and political theory show that the boundaries and concerns of the individual move far beyond itself. The outonomy framework responds to this situation by offering a more interactional and environmentally situated account of self-governance and normativity.
+
+In the opening chapter, Barandiaran and Etxeberria outline 4 key properties that help articulate this shift:
+
+- Interactivity
+
+- Collectivity
+
+- Extensionality
+
+- Environmentality
+
+Along two fundamental dimensions:
+
+- Integration
+
+- Sustainability
+
+Together, these ideas reframe autonomy as something that emerges across scales of interaction and dependence, rather than something sealed within an isolated individual.
+
+#### A structured journey across life, mind, technology, and politics
+
+The volume is organized into four parts that build a coherent arc while engaging multiple domains:
+
+**Part I: Theoretical Insights** — Foundational chapters clarify the conceptual stakes of outonomy and rethink control and organization in biological systems.
+
+**Part II: The Fabric of Life** — Chapters address environments and asymmetries, the origins of life, reproduction, and a compelling application to menstrual health.
+
+**Part III: The Psychic Self and Its Environment** — Here the outonomy perspective extends into psychiatry, salutogenesis, and pain, emphasizing embodied and relational normativity.
+
+**Part IV: Technology, Ecology & Politics** — These chapters explore technocomplexity, the limits of autonomy in social-ecological systems, subjects-in-common, and mindshaping in relation to adaptive preferences.
+
+#### Co-authored chapters
+
+I have co-edited the book, and co-authored three chapters:
+
+- Barandiaran, X. E., & Etxeberria, A. (2026). Outonomy, the Very Idea. In X. E. Barandiaran & A. Etxeberria (Eds.), *Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual* (pp. 3–12). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_1 Here we introduce the concept of Outonomy as an attempt to overcome some of the limitations of the concept of autonomy as inherited from modernity.
+
+- Cabello, V., Merlo, A., Mancilla, M., Siqueiros, J. M., & Barandiaran, X. E. (2026). Autonomy and Its Limits in Social-Ecological Systems. In X. E. Barandiaran & A. Etxeberria (Eds.), *Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual* (pp. 121–130). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_12 In this chapter, we approach the notion of autonomy at its largest planetary scale. Social-ecological systems are in need of a deep exercise of autonomy as self-limitation and care if we are to avoid the increasing destruction of living diversity and flourishing life on earth.
+
+- Calleja-López, A., Pérez-Verdugo, M., & Barandiaran, X. E. (2026). Autonomy and Technology: From Instrumentalism to Technocomplexity. In X. E. Barandiaran & A. Etxeberria (Eds.), *Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual* (pp. 111–120). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9_11 This chapter captures the dialectical moments that tie autonomy and technology, from the naïve, yet widespread, instrumental use to the techno-complex participatory constitution of our extended life, passing through the persistent thread of an increasingly autonomous techno-economic system that subsumes and alienates human autonomy.
+
+#### A collaborative research effort
+
+The book emerges from sustained work within the Outonomy research network and related projects, with authors actively reviewing and strengthening each other’s contributions. It also benefits from external reviewers who helped refine the final manuscript.
+
 ### Cite
 
 Barandiaran, X. E., & Etxeberria, A. (Eds.) (2026). *Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual*. Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-05501-9
@@ -472,6 +530,41 @@ Merlo, A., & Barandiaran, X. E. (2024). Beyond fatalism: Gaia, entropy, and the 
 - **Landing page:** https://publications.barandiaran.net/p/2024-decidim-a-technopolitical-network-for-participatory/
 - **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2024-decidim-a-technopolitical-network-for-participatory.pdf)
 
+### Abstract
+
+This book presents Decidim, the free software platform and community for participatory democracy, and the philosophy, practice and autonomy of a collective platform in the age of digital intelligence. Chapter 1 summarizes the nature of the project, its impact, its history and why it was born in the context of cognitive capitalism and the decline of neoliberal "democracies" on the one hand, and the dawn of digital commons and radical democracy on the other. Chapter 2, the most theoretical, reviews contemporary social and democratic theory to explain the radically democratic vision that Decidim aims to achieve. Chapter 3 covers perhaps the most original aspect of the project, its technopolitical crafting: how technical details are assembled to produce specific political effects, and how the community recursively embodies those technical and political mechanisms in its own constitution. Chapter 4 gives a technical description of the infrastructure: the software, the community and the legal framework. Chapter 5, the most philosophical and speculative, recapitulates the book, projects past, present and future challenges and offers a reading of what Decidim is and could be. The book draws on the IAS-Research group's study of the autonomy of the living, transposed to the autonomy of sociotechnical hybrids. It is published open access under a Creative Commons BY-SA licence.
+
+### About the book
+
+*From the author’s blog: [Decidim Book is out!](https://xabier.barandiaran.net/2024/02/01/decidim-book-is-out/) (1 February 2024)*
+
+It has taken **almost 6 years** since we started writing what, at the time, we called *Decidim’s White Paper*. Some drafts of the early book have been circulating ever since, but we never completed the story. We were very busy doing [Decidim](https://decidim.org). Years passed, the project settled, and we took the time (thanks Antonio for offering us the great opportunity to push the book forward in Arantzazu!) **to finally write it**.
+
+The **table of contents of the book** makes for a good summary:
+
+- Decidim: A Brief Overview Here we summarize the nature of the project, its current impact, its history and why the project was born in the context of cognitive capitalism and the decline of neoliberal “democracies” on the one hand, and the dawn of digital commons and radical democracy on the other.
+
+- The Political Plane: Decidim and the Vision of a Radically Democratic Society This part is the most theoretical, we review contemporary social and democratic theory to explain the type of democratic vision that Decidim is aimed to achieve.
+
+- The Technopolitical Plane: Decidim as a Democratic Software Paradigm This chapter covers perhaps the most original aspect of the project, its careful technopolitical crafting, the way in which technical details are assembled to produce specific types of political effects and how the community embodies recursively those technical and political mechanism on its own constitution.
+
+- The Technical Plane: The Fabric of an Infrastructure As the title anticipates, this is the most technical description of how the software, the community and the legal framework of Decidim fit together.
+
+- A Technopolitical Network for Participatory Democracy: The Future of a Collective Platform This is perhaps the most philosophical and speculative of all chapters. Recapitulating the content of the entire book, we project past, present and future challenges and provide a reading of what Decidim *is* and *could* be.
+
+As an academic publication the book owes much to the work of [IAS-Research](https://ias-research.net) Group, and its decades of study of the *autonomy of the living*, now transposed to the autonomy of sociotechnical hybrids like this project: the democratic autonomous assemblage of the organic and the inorganic. The project [Outonomy](https://outonomy.net) partially financed the publication with [Open Access CreativeCommons By-SA licence](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en).
+
+I leave you with two quotes of the conclusions (chapter 5):
+
+> At the beginning of this book, we made clear that a project like Decidim might be necessary, but is certainly not sufficient for advancing democracy. There is no future for Decidim or for democracy without a deep transformation of the material living conditions, the social (and global) inequalities and the myriad of oppressive structures that are reproduced every day. Decidim should leave no room for techno-solutionism (the idea that social or political problems have technological solutions). It should equally debunk techno-fatalism. It already has. Decidim is an example of how it is possible to create and deploy a large-scale, radically transformative software project out of the platform capitalist model. An important challenge to any radical democratization process (particularly when addressing struggles) is the problem of coordination of collective action. This is where Decidim should be ready to become a valuable infrastructure, which may then contribute to address the challenges of complexity and conflictuality of society. (p. 124-5)
+
+> As a coagulation of hundreds of Metadecidim debates, the movement recursivity includes this very text; and so recrafts thinking, action, and, crucially, the frequently forgotten (re)production. We began suggesting that this book aims to think through Decidim after we did take part in it. Actually, we were thinking through Decidim as we were doing it, and Decidim keeps making and thinking itself today. With this book we came to recapitulate and throw out several lines of flight that show how Decidim has aimed to retie technology, politics, economics, ecology and beyond, and that flight has the form of a living animal: it is the flight of a cyborg owl. The cyborg owl can be taken as an imaginary ode to our animal and our technical, increasingly post-natural and allegedly post-humanist condition. Yet this owl is not the symbol of a Hegelian self-reflective movement that satisfies itself in contemplation, but the owl that flies in the evening to bring, back to the nest, the provision to sustain a new day. It is reflective action and active reflection aimed at producing and reproducing flourishing forms of life. (p.130-1)
+
+### Reviews
+
+- Peiruza Parga, J. (2024). Reseña de "Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence". Argumentos de Razón Técnica, 249–274.
+- Navarro, F. S. (2025). Xabier Barandiaran, Antonio Calleja-López, Arnau Monterde, and Carol Romero, Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence. International Journal of Communication, 19, 4. https://ijoc.org/index.php/ijoc/article/view/25463
+
 ### Cite
 
 Barandiaran, X. E., Calleja-López, A., Monterde, A., & Romero, C. (2024). *Decidim, a Technopolitical Network for Participatory Democracy: Philosophy, Practice and Autonomy of a Collective Platform in the Age of Digital Intelligence*. Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-50784-7
@@ -642,129 +735,5 @@ By Artificial Democratic Life we mean the design and deployment of artificial (d
 ### Cite
 
 Barandiaran, X. E. (2019). Artificial Democratic Life. Re-engineering the autonomy of the social, a research program. In *The 2019 Conference on Artificial Life* (pp. 11-12). https://doi.org/10.1162/isal_a_00131
-
----
-
-## Towards modelling social habits: an organismically inspired evolutionary robotics approach
-
-- **Authors:** Manuel G. Bedia, Manuel Heras-Escribano, Diego Cajal, Miguel Aguilera, Xabier E. Barandiaran
-- **Year:** 2019
-- **Type:** Conference Paper
-- **Published in:** Proceedings of ALIFE 2019: The 2019 Conference on Artificial Life, 341-348
-- **Publisher:** MIT Press
-- **DOI:** [10.1162/isal_a_00185](https://doi.org/10.1162/isal_a_00185)
-- **Topics (assigned by the site; no author keywords):** Cognition, Cognitive science, Sensorimotor, Embodiment, Perception, Agency
-- **Landing page:** https://publications.barandiaran.net/p/2019-towards-modelling-social-habits-an-organismically/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2019-towards-modelling-social-habits-an-organismically.pdf)
-
-### Abstract
-
-Abstract. There has been a revival of the notion of habit in the embodied and situated cognitive sciences. A habit can be understood as ‘a self-sustaining pattern of sensorimotor coordination that is formed when the stability of a particular mode of sensorimotor engagement is dynamically coupled with the stability of the mechanisms generating it’ (Barandiaran, 2008, p. 281). This view has inspired models of biologically-inspired homeostatic agents capable of establishing their own habits (Di Paolo and Iizuka, 2008). Despite recent achievements in this field, there is little written about how social habits can be established from this modelling perspective. We hypothesize that, when the stability of internal behavioural mechanisms is coupled to the stability of a behaviour and other agents are present during this behaviour, a social interdependence of behaviour takes place: a social habit is established. We provide evidence for our hypothesis with an evolutionary robotics simulation model of homeostatic plasticity in a phototactic behaviour. Agents evolved to couple internal homeostasis to behavioural fitness display social interdependencies in their behaviour. The social habit of these agents was not interrupted when blindness to phototactic stimuli was introduced as long as social perception remained active. This did not happen when internal homeostasis was not coupled to the fitness of the agent. The results allow us to propose a possible conjecture about the character of social habits and to offer a potential theoretical framework to understand how habits develop from neurodynamics to the level of social interaction.
-
-### Cite
-
-Bedia, M. G., Heras-Escribano, M., Cajal, D., Aguilera, M., & Barandiaran, X. E. (2019). Towards modelling social habits: an organismically inspired evolutionary robotics approach. In *Proceedings of ALIFE 2019: The 2019 Conference on Artificial Life* (pp. 341-348). MIT Press. https://doi.org/10.1162/isal_a_00185
-
----
-
-## Tecnopolítica, municipalismo y radicalización democrática.
-
-- **Authors:** Xabier E. Barandiaran
-- **Year:** 2019
-- **Type:** Book Chapter
-- **Published in:** Ciudades Democráticas. La revuelta municipalista en el ciclo post-15M, 173-207
-- **Publisher:** Icaria, Barcelona
-- **URL:** http://ciudadesdemocraticas.tecnopolitica.net/capitulos/capitulo6.pdf
-- **Topics (assigned by the site; no author keywords):** Technopolitics, Tecnopolítica, Municipalismo, Radicalización
-- **Landing page:** https://publications.barandiaran.net/p/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2019-tecnopolitica-municipalismo-y-radicalizacion-democratica.pdf)
-
-### Cite
-
-Barandiaran, X. E. (2019). Tecnopolítica, municipalismo y radicalización democrática. In L. Roth, A. Monterde, & A. Calleja-López (Eds.), *Ciudades Democráticas. La revuelta municipalista en el ciclo post-15M* (pp. 173-207). Icaria. http://ciudadesdemocraticas.tecnopolitica.net/capitulos/capitulo6.pdf
-
----
-
-## Decidim: political and technopolitical networks for participatory democracy. White Paper
-
-- **Authors:** Xabier E. Barandiaran, Antonio Calleja-López, Arnau Monterde, Carol Romero
-- **Year:** 2019
-- **Type:** Document
-- **Publisher:** Decidim.org (Ajuntament de Barcelona)
-- **URL:** https://docs.decidim.org/whitepaper/en/doc-info/
-- **Topics (assigned by the site; no author keywords):** Embodiment, Complexity, Technopolitics, Participatory democracy, Decidim, Free software
-- **Landing page:** https://publications.barandiaran.net/p/2019-decidim-political-and-technopolitical-networks-for/
-
-### Abstract
-
-Decidim [http://decidim.org], from the Catalan for "let’s decide" or “we decide”, is a digital infrastructure for participatory democracy, built entirely and collaboratively as free software. More specifically, Decidim is a web environment (a framework) produced in Ruby on Rails (a programming language) that allows anybody to create and configure a website platform, to be used in the form of a political network for democratic participation. The platform allows any organization (local city council, association, university, NGO, neighbourhood or cooperative) to create mass processes for strategic planning, participatory budgeting, collaborative design for regulations, urban spaces and election processes. It also makes possible to connect traditional in-person democratic meetings (assemblies, council meetings, etc.) with the digital world: sending meeting invites, managing registrations, streaming content, facilitating the publication of meeting minutes, etc. In addition, Decidim enables the structuring of government bodies or assemblies (councils, boards, working groups), the convening of consultations, referendums or channelling citizen or member initiatives to trigger different decision making processes. However, the Decidim project is much more than its technological features. Decidim is in itself a sort of crossroad of the various dimensions of networked democracy and society, a detailed practical map of their complexities and conflicts. We distinguish three general planes or dimensions of the project: the political (focused on the democratic model that Decidim promotes and its impact on public policies and organizations), the technopolitical (focused on how the platform is designed, the mechanisms it embodies, and the way in which it is democratically designed), and the technical (focused on the conditions of production, operation and success of the project: the factory, collaborative mechanisms, licenses, etc.).
-
-### Cite
-
-Barandiaran, X. E., Calleja-López, A., Monterde, A., & Romero, C. (2019). *Decidim: political and technopolitical networks for participatory democracy. White Paper*. Decidim.org (Ajuntament de Barcelona). https://docs.decidim.org/whitepaper/en/doc-info/
-
----
-
-## Dalle reti sociali alle reti (tecno)politiche
-
-- **Authors:** Antonio Calleja-López, Xabier E. Barandiaran, Arnau Monterde
-- **Year:** 2018
-- **Type:** Book Chapter
-- **Published in:** Datacrazia. Politica, cultura algoritmica e conflitti al tempo dei big data, 350-361
-- **Publisher:** D Editore, Ladispoli (Roma)
-- **Topics (assigned by the site; no author keywords):** Dalle, Reti, Sociali
-- **Landing page:** https://publications.barandiaran.net/p/2018-dalle-reti-sociali-alle-reti-tecno/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2018-dalle-reti-sociali-alle-reti-tecno.pdf)
-
-### Abstract
-
-La diffusione sempre più pervasiva delle tecnologie digitali e l'aumento esponenziale delle capacità di calcolo stanno radicalmente trasformando la società, dalla politica alla ricerca scientifica, dai rapporti sociali alle forme di lavoro, in modo tutt'altro che trasparente. Pochissimi gruppi privati hanno la possibilità di determinare processi su scala globale, traendo enormi profitti dalle informazioni che ognuno di noi produce ogni giorno. Gli algoritmi, spesso descritti come strumenti neutrali e oggettivi, giudicano medici, ristoranti, insegnanti e studenti, concedono o negano prestiti, valutano lavoratori, influenzano gli elettori, monitorano la nostra salute. Datacrazia indaga, con spirito multidisciplinare e critico, i rischi e le potenzialità delle nuove tecnologie, provando a immaginare un futuro all'altezza delle nostre aspettative.
-
-### Cite
-
-Calleja-López, A., Barandiaran, X. E., & Monterde, A. (2018). Dalle reti sociali alle reti (tecno)politiche. In D. Gambetta (Ed.), *Datacrazia. Politica, cultura algoritmica e conflitti al tempo dei big data* (pp. 350-361). D Editore.
-
----
-
-## Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona
-
-- **Authors:** Pablo Aragón, Andreas Kaltenbrunner, Antonio Calleja-López, Andrés Pereira, Arnau Monterde, Xabier E. Barandiaran, Vicenç Gómez
-- **Year:** 2017
-- **Type:** Conference Paper
-- **Published in:** Social Informatics, 277-287
-- **Publisher:** Springer, Cham
-- **DOI:** [10.1007/978-3-319-67256-4_22](https://doi.org/10.1007/978-3-319-67256-4_22)
-- **Keywords:** Human computer interfaces, Online deliberation, Civic participation, Technopolitics, Online discussions, Discussion threads
-- **Landing page:** https://publications.barandiaran.net/p/2017-deliberative-platform-design-the-case-study/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-deliberative-platform-design-the-case-study.pdf)
-
-### Abstract
-
-With the irruption of ICTs and the crisis of political representation, many online platforms have been developed with the aim of improving participatory democratic processes. However, regarding platforms for online petitioning, previous research has not found examples of how to effectively introduce discussions, a crucial feature to promote deliberation. In this study we focus on the case of Decidim Barcelona, the online participatory-democracy platform launched by the City Council of Barcelona in which proposals can be discussed with an interface that combines threaded discussions and comment alignment with the proposal. This innovative approach allows to examine whether neutral, positive or negative comments are more likely to generate discussion cascades. The results reveal that, with this interface, comments marked as negatively aligned with the proposal were more likely to engage users in online discussions and, therefore, helped to promote deliberative decision making.
-
-### Cite
-
-Aragón, P., Kaltenbrunner, A., Calleja-López, A., Pereira, A., Monterde, A., Barandiaran, X. E., & Gómez, V. (2017). Deliberative Platform Design: The Case Study of the Online Discussions in Decidim Barcelona. In *Social Informatics* (pp. 277-287). Springer, Cham. https://doi.org/10.1007/978-3-319-67256-4_22
-
----
-
-## Funcionalidades y características de Decidim
-
-- **Authors:** Xabier E. Barandiaran, Carol Romero
-- **Year:** 2017
-- **Type:** Report
-- **Publisher:** Decidim.org (Ajuntament de Barcelona)
-- **URL:** https://decidim.org/pdf/features-roadmap-es.pdf
-- **Topics (assigned by the site; no author keywords):** Decidim, Funcionalidades, Características
-- **Landing page:** https://publications.barandiaran.net/p/2017-funcionalidades-y-caracteristicas-de-decidim/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-funcionalidades-y-caracteristicas-de-decidim.pdf)
-
-### Abstract
-
-Decidim [https://decidim.org] es una infraestructura digital para la democracia participativa basada en software libre (Ruby on Rails), que facilita la creación de portales de participación ciudadana. Las personas usuarias de la plataforma (participantes) interactúan a través de los mecanismos de participación llamados componentes que ofrecen funcionalidades específicas para diferentes espacios de participación. Es decir, los espacios de participación como las Iniciativas, las Asambleas, los Procesos o las Consultas disponen de componentes que se combinan como mecanismos de participación. Entre los componentes más destacados están los encuentros presenciales, las encuestas, las propuestas, las votaciones, el seguimiento de resultados y los comentarios. Por ejemplo, un proceso de participación específico como la elaboración de presupuestos participativos, puede combinar, en sus diferentes fases, varios componentes para: convocar y registrar los resultados de encuentros presenciales con la ciudadanía, realizar una encuesta, hacer propuestas,y en las fases finales del proceso, hacer una votación para decidir sobre los proyectos con un sistema de gasto del presupuesto (siempre después de un periodo de comentarios y debates), realizar una encuesta de evaluación y, finalmente, un seguimiento de la ejecución de los proyectos escogidos.
-
-### Cite
-
-Barandiaran, X. E., & Romero, C. (2017). *Funcionalidades y características de Decidim* (Decidim Documentation). Decidim.org (Ajuntament de Barcelona). https://decidim.org/pdf/features-roadmap-es.pdf
 
 ---
