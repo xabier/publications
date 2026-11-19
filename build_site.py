@@ -212,14 +212,26 @@ def byline_parts(r, slug):
     return who, details
 
 
+def cover_of(slug):
+    for ext in ("jpg", "png", "webp"):
+        if os.path.exists(os.path.join(ROOT, "covers", f"{slug}.{ext}")):
+            return f"covers/{slug}.{ext}"
+    return ""
+
+
 def entry_html(r, e):
     slug = e["slug"]
+    cover = cover_of(slug)
     who, details = byline_parts(r, slug)
     L = [f'<li class="pub-item" id="{esc(slug)}" data-type="{esc(r["Item Type"])}" data-year="{esc(e["year"])}"'
          f' data-kw="{esc(" ".join(k.lower() for k in e["keywords"] or e["topics"]))}"'
          + (' data-featured="true"' if e["featured"] else "")
          + (f' data-topics="{esc(" ".join(e["topic_ids"]))}"' if e["topic_ids"] else "")
-         + (f' data-doi="{esc(citelib.norm_doi(r["DOI"]))}"' if r["DOI"] else "") + ">"]
+         + (f' data-doi="{esc(citelib.norm_doi(r["DOI"]))}"' if r["DOI"] else "")
+         + (' data-cover="true"' if cover else "") + ">"]
+    if cover:   # small cover thumbnail (decorative: the title next to it is the link)
+        L.append(f'        <a class="pub-thumb" href="p/{slug}/" tabindex="-1" aria-hidden="true">'
+                 f'<img src="{cover}" alt="" width="64" loading="lazy"></a>')
     for old in e["old_slugs"]:
         L.append(f'        <span id="{esc(old)}" class="old-anchor"></span>')
     if e["featured"]:   # framed card: label above the title (style in style.css)
@@ -268,7 +280,9 @@ def card_html(r, e):
     if e["talks"]:
         bits.append("1 talk" if len(e["talks"]) == 1 else f"{len(e['talks'])} talks")
     venue = r["Publication Title"] or r["Publisher"]
-    return (f'<a class="feat-card" href="p/{e["slug"]}/">'
+    cover = cover_of(e["slug"])
+    img = f'<img class="feat-cover" src="{cover}" alt="" width="54" loading="lazy">' if cover else ""
+    return (f'<a class="feat-card{" has-cover" if cover else ""}" href="p/{e["slug"]}/">{img}'
             f'<span class="feat-meta">{esc(e["type_label"])} · {esc(e["year"])}</span>'
             f'<span class="feat-title">{esc(e["title"])}</span>'
             + (f'<span class="feat-venue">{esc(venue)}</span>' if venue else "")

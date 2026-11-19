@@ -634,3 +634,30 @@ a.res:hover .res-name{ color: var(--accent); }
   .pub-years .pub-item[data-featured="true"]{ padding: .8em .75em .9em; margin-left: -.5em; margin-right: -.5em; }
 }
 .pub-years .pub-item[data-featured="true"]{ margin-right: 0; }
+
+/* landing page: book cover beside the title block */
+.pub-hero.has-cover{ display: flex; gap: 1.75em; align-items: flex-start; }
+.pub-cover-link{ flex: 0 0 auto; border-bottom: none; }
+.pub-cover{ display: block; width: 180px; height: auto; border-radius: 3px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.16), 0 1px 3px rgba(0,0,0,.12); }
+.pub-cover-link:hover .pub-cover{ box-shadow: 0 8px 22px rgba(128,0,0,.25), 0 1px 3px rgba(0,0,0,.12); }
+.pub-hero-text{ min-width: 0; flex: 1; }
+@media (max-width: 600px){
+  .pub-hero.has-cover{ gap: 1em; }
+  .pub-cover{ width: 110px; }
+}
+
+/* book covers on the homepage (2026-11-19) */
+.pub-years .pub-item[data-cover]{ display: grid; grid-template-columns: 64px minmax(0, 1fr); column-gap: 1.1em; }
+.pub-years .pub-item[data-cover] > *{ grid-column: 2; }
+.pub-years .pub-item[data-cover] > .pub-thumb{ grid-column: 1; grid-row: 1 / span 8; align-self: start; border-bottom: none; }
+.pub-thumb img{ display: block; width: 64px; height: auto; border-radius: 2px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.16), 0 1px 2px rgba(0,0,0,.12); transition: transform .15s; }
+.pub-thumb:hover img{ transform: translateY(-2px); }
+.feat-card.has-cover{ position: relative; padding-right: 5.2em; }
+.feat-cover{ position: absolute; top: 1.1em; right: 1.1em; width: 54px; height: auto; border-radius: 2px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.16); }
+@media (max-width: 600px){
+  .pub-years .pub-item[data-cover]{ grid-template-columns: 48px minmax(0, 1fr); column-gap: .8em; }
+  .pub-thumb img{ width: 48px; }
+}

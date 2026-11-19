@@ -2,6 +2,27 @@
 
 > Newest first. Generated 2026-11-19. Index of all publications: https://publications.barandiaran.net/llms.txt. Next: https://publications.barandiaran.net/llms-full-3.txt.
 
+## Decidim's functionalities and features. Roadmap 2017-2018
+
+- **Authors:** Xabier E. Barandiaran, Carol Romero
+- **Year:** 2017
+- **Type:** Report
+- **Publisher:** Decidim.org (Ajuntament de Barcelona)
+- **URL:** https://decidim.org/pdf/features-roadmap-en.pdf
+- **Topics (assigned by the site; no author keywords):** Decidim, Functionalities, Roadmap
+- **Landing page:** https://publications.barandiaran.net/p/2017-decidim-s-functionalities-and-features-roadmap/
+- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2017-decidim-s-functionalities-and-features-roadmap.pdf)
+
+### Abstract
+
+Decidim [https://decidim.org] is a digital infrastructure for participatory democracy written on free software (Ruby on Rails), which enables the creation of citizen participation portals. Users of the platform (participants) interact through participatory mechanisms known as components which provide specific functions for the various participatory spaces. In other words, participatory spaces such as Initiatives, Assemblies, Processes and Consultations have components at their disposal which work together as participatory mechanisms. The more notable components include in-person meetings, surveys, proposals, votes, results monitoring and comments. For example, the various stages of a specific participatory process, such as the preparation of participatory budgets, can incorporate various components to: convene and capture the results of in-person meetings with citizens, conduct a survey, make proposals and, during the final stages of the process, hold a vote to decide on the projects with a budget expenditure system (always after a period for commentary and debate), conduct an assessment survey and, finally, monitor the implementation of the projects selected.
+
+### Cite
+
+Barandiaran, X. E., & Romero, C. (2017). *Decidim's functionalities and features. Roadmap 2017-2018* (Decidim Documentation). Decidim.org (Ajuntament de Barcelona). https://decidim.org/pdf/features-roadmap-en.pdf
+
+---
+
 ## Autonomy and Enactivism: Towards a Theory of Sensorimotor Autonomous Agency
 
 - **Authors:** Xabier E. Barandiaran
@@ -268,6 +289,7 @@ Barandiaran, X. E., & Aguilera, M. (2015). Neurociencia y tecnopolítica: hacia 
 
 ## Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador
 
+- **Editors:** David Vila-Viñas, Xabier E. Barandiaran
 - **Year:** 2015
 - **Type:** Book
 - **Publisher:** IAEN-CIESPAL, Quito, Ecuador
@@ -736,42 +758,5 @@ An essential feature of autonomous adaptive agency is that a system behaves acco
 ### Cite
 
 Egbert, M. D., & Barandiaran, X. E. (2011). Quantifying Normative Behaviour and Precariousness in Adaptive Agency. In *Proceedings of the 11th European Conference on Artificial Life* (pp. 210-218). MIT Press.
-
----
-
-## A Minimal Model of Metabolism-Based Chemotaxis
-
-- **Authors:** Matthew D. Egbert, Xabier E. Barandiaran, Ezequiel A. Di Paolo
-- **Year:** 2010
-- **Type:** Journal Article
-- **Published in:** PLoS Comput Biol, 6(12), e1001004
-- **DOI:** [10.1371/journal.pcbi.1001004](https://doi.org/10.1371/journal.pcbi.1001004)
-- **Topics (assigned by the site; no author keywords):** Metabolism, Minimal, Model, Metabolism-Based
-- **Landing page:** https://publications.barandiaran.net/p/2010-a-minimal-model-of-metabolism-based/
-- **Open full text:** [PDF](https://publications.barandiaran.net/pdfs/2010-a-minimal-model-of-metabolism-based.pdf)
-
-### Abstract
-
-Traditionally, bacterial chemotaxis has been treated as metabolism-independent. Under this assumption, dedicated chemotaxis signalling pathways operate independently of metabolic processes. There is however, in various strains of bacteria, growing evidence of metabolism-dependent chemotaxis where metabolism modulates behavior. In this vein, we present the first model of metabolism-based chemotaxis that accomplishes chemotaxis without transmembrane receptors or signal transduction proteins, through the direct modulation of flagellar rotation by metabolite concentrations. The minimal model recreates chemotactic patterns found in bacteria, including: 1) chemotaxis towards metabolic resources and 2) away from metabolic inhibitors, 3) inhibition of chemotaxis in the presence of abundant resources, 4) cessation of chemotaxis to a resource due to inhibition of the metabolism of that resource, 5) sensitivity to metabolic and behavioral history and 6) integration of simultaneous complex environmental “stimuli”. The model demonstrates the substantial adaptability provided by the simple metabolism-based mechanism in the form of an ongoing, contextualized and integrative evaluation of the environment. Fumarate is identified as possibly playing a role in metabolism-based chemotaxis in bacteria, and some consequences of relaxing the metabolism-independent assumption are considered, causing us to reconsider the categorization of environmental compounds into “attractants” or “repellents” based solely on their binding properties.
-
-### Cite
-
-Egbert, M. D., Barandiaran, X. E., & Di Paolo, E. A. (2010). A Minimal Model of Metabolism-Based Chemotaxis. *PLoS Comput Biol*, *6*(12), e1001004. https://doi.org/10.1371/journal.pcbi.1001004
-
----
-
-## Homeostatic Plasticity in Robots: from development to operant conditioning to habit formation
-
-- **Authors:** Xabier E. Barandiaran, Ezequiel A. Di Paolo
-- **Year:** 2010
-- **Type:** Conference Paper
-- **Published in:** Proceedings of CogSys2010
-- **URL:** http://cogsys2010.ethz.ch/proceedings.html
-- **Topics (assigned by the site; no author keywords):** Habits, Robotics
-- **Landing page:** https://publications.barandiaran.net/p/2010-homeostatic-plasticity-in-robots-from-development/
-
-### Cite
-
-Barandiaran, X. E., & Di Paolo, E. A. (2010). Homeostatic Plasticity in Robots: from development to operant conditioning to habit formation. In *Proceedings of CogSys2010*. http://cogsys2010.ethz.ch/proceedings.html
 
 ---

@@ -1,5 +1,6 @@
 # Buen conocer / FLOK Society: modelos sostenibles y políticas públicas para una economía social del conocimiento común y abierto en Ecuador
 
+- **Editors:** David Vila-Viñas, Xabier E. Barandiaran
 - **Year:** 2015
 - **Type:** Book
 - **Publisher:** IAEN-CIESPAL, Quito, Ecuador

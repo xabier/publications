@@ -1,5 +1,6 @@
 # Outonomy: Fleshing out the Concept of Autonomy Beyond the Individual
 
+- **Editors:** Xabier E. Barandiaran, Arantza Etxeberria
 - **Year:** 2026
 - **Type:** Book
 - **Publisher:** Springer Nature Switzerland, Cham

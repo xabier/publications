@@ -333,6 +333,8 @@ def jsonld(r):
         node["associatedMedia"] = media
     if "pdf" in r["links"]:
         node["isAccessibleForFree"] = True
+    if cover_path(r["slug"]):
+        node["image"] = f"{BASE}/{cover_path(r['slug'])}"
     if r["talks"]:
         node["subjectOf"] = [{"@type": "VideoObject", "name": t["title"], "url": t["url"]}
                              for t in r["talks"]]
@@ -511,8 +513,23 @@ def resource_index(r):
             + " · ".join(f'<a href="#{a}">{b}</a>' for a, b in toc) + "</p>\n      </nav>")
 
 
+def cover_path(slug):
+    """covers/{slug}.jpg (or .png / .webp) if the publication has a cover image."""
+    for ext in ("jpg", "png", "webp"):
+        if os.path.exists(os.path.join(ROOT, "covers", f"{slug}.{ext}")):
+            return f"covers/{slug}.{ext}"
+    return ""
+
+
 def render_page(r, newer, older, bibtex):
     slug = r["slug"]
+    cover = cover_path(slug)
+    cover_img = ""
+    if cover:
+        href = "../../" + r["_local"]["pdf"] if "pdf" in r["_local"] else "../../" + cover
+        cover_img = (f'<a class="pub-cover-link" href="{esc(href)}" target="_blank" rel="noopener">'
+                     f'<img class="pub-cover" src="../../{cover}" alt="Cover of {esc(r["title"])}" '
+                     'width="180" loading="eager"></a>')
     title = esc(r["title"])
     desc = esc(shorten(r["abstract"] or r["citation_apa"], 300))
     meta = [f'<span class="pub-type">{esc(r["type_label"])}</span>',
@@ -576,6 +593,8 @@ def render_page(r, newer, older, bibtex):
         pager.append(f'<a class="pager-older" href="../{esc(older["slug"])}/" rel="next">'
                      f'<span>Older →</span> {esc(older["title"])}</a>')
     by = esc(", ".join(person_name(a) for a in r["authors"]))
+    if not by and r["editors"]:   # edited volume: show the editors
+        by = esc(", ".join(person_name(a) for a in r["editors"])) + (" (eds.)" if len(r["editors"]) > 1 else " (ed.)")
     lic = " and ".join(f'<a rel="license" href="{u}">{n}</a>' for n, u in LICENSES)
     ld = json.dumps(jsonld(r), ensure_ascii=False, indent=1).replace("</", "<\\/")
 
@@ -600,6 +619,7 @@ def render_page(r, newer, older, bibtex):
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{r['id']}">
+{f'<meta property="og:image" content="{BASE}/{cover}">' if cover else ''}
 <meta name="twitter:card" content="summary">
 {highwire(r)}
 <script type="application/ld+json">
@@ -623,12 +643,17 @@ def render_page(r, newer, older, bibtex):
 
   <main id="content">
     <article class="pub-page pub-item" id="{esc(slug)}"{f' data-doi="{esc(norm_doi(r["doi"]))}"' if r["doi"] else ""}>
+      <div class="pub-hero{' has-cover' if cover else ''}">
+        {cover_img}
+        <div class="pub-hero-text">
       <div class="pub-meta">
         {' '.join(meta)}
       </div>
       <h1 class="pub-page-title">{title}</h1>
       <p class="pub-authors">{by}{f' ({esc(r["year"])})' if r["year"] else ""}</p>
       {f'<p class="pub-venue">{venue_line(r)}</p>' if venue_line(r) else ''}
+        </div>
+      </div>
       {resource_index(r)}
 {chr(10).join(sections)}
       {coins_span(slug)}
@@ -657,6 +682,8 @@ def render_md(r, bibtex=None, full=True, heading="#"):
     L = [f"{heading} {r['title']}", ""]
     if r["authors"]:
         L.append(f"- **Authors:** {', '.join(person_name(a) for a in r['authors'])}")
+    elif r["editors"]:
+        L.append(f"- **Editors:** {', '.join(person_name(a) for a in r['editors'])}")
     L.append(f"- **Year:** {r['year']}")
     L.append(f"- **Type:** {r['type_label']}")
     if r["venue"]:

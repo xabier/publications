@@ -11,3 +11,4 @@ private/
 
 # Python caches
 __pycache__/
+_to_delete/
